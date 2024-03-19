@@ -1,0 +1,86 @@
+head {
+    overflow-x: hidden;
+    width: 100%;
+    height: 10vh;
+    background-repeat: no-repeat;
+    padding: none;
+    top: 8vh;
+    left: 0;
+}
+
+body {
+    color: #f3f3f3;
+    background-color: #333333;
+    font-family: 'Didact Gothic';
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 10%;
+    background-image: url(https://lh5.googleusercontent.com/hqDM4C6twxbILkfn_zGiO_e4v-MVLsCZ112oG_9WO2zNxRvofUokDF4GST-oTh_Y2dCfsnUUPjYKNAwgHzcpz5M=w16383);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.risebackground {
+    background-image: url(https://lh5.googleusercontent.com/hqDM4C6twxbILkfn_zGiO_e4v-MVLsCZ112oG_9WO2zNxRvofUokDF4GST-oTh_Y2dCfsnUUPjYKNAwgHzcpz5M=w16383);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+
+h1 {
+    font-size: 5em;
+    padding-top: 25vh;
+}
+
+.homeicon {
+    height: 8vh;
+    width: 8vw;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+h2 {
+    padding-top: 25vh;
+}
+
+.navbartop {
+    font-size: 1.3rem;
+    height: 8vh;
+    width: 90vw;
+    background-color: transparent;
+    color: #ffffff;
+    overflow: none;
+    position: fixed;
+    top: 0;
+    left: 8vw;
+    text-align: right;
+}
+
+.navbarside {
+    font-size: 1.3rem;
+    height: 100vh;
+    width: 8vw;
+    background-color: transparent;
+    color: #ececec;
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    overflow: show;
+}
+
+.content {
+    margin: 10%;
+    display: block;
+}
+
+
+
+.IndexImg {
+    width: 25vw;
+    min-width: 200px;
+    height: 20vw;
+    min-height: 200px;
+    margin: 5%;
+}
