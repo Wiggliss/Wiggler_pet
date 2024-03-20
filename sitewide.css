@@ -1,0 +1,205 @@
+/*header do not edit*/
+
+head {
+    overflow-x: hidden;
+    width: 100%;
+    height: 10vh;
+    background-repeat: no-repeat;
+    padding: none;
+    top: 8vh;
+    left: 0;
+}
+
+/*side-wite body; can use to change all bg images at once if desired/none displayed yet*/
+body {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    color: #f3f3f3;
+    background-color: #333333;
+    font-family: 'Didact Gothic';
+    font-size: 1.3vh;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/*label everything content*/
+.content {
+    margin: 10%;
+}
+
+
+
+/* collapsible suite for header */
+summary::-webkit-details-marker {
+    display: none
+}
+
+details summary {
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    display: none;
+}
+
+.collapsible {
+    text-decoration: underline;
+    font-size: 14pt;
+    text-align: left;
+    width: 10vw;
+    color: #f3f3f3;
+    ;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    height: 100vh;
+
+}
+
+.collapsible::before {
+    content: ' ';
+}
+
+.toggle:checked+.collapsible+.collapsible-contentBuilds {
+    max-height: 100vh;
+    margin: auto;
+    max-width: 100%;
+
+}
+
+.toggle:checked+.collapsible+.collapsible-contentWeaps {
+    max-height: 100vh;
+    margin: auto;
+    max-width: 100%;
+
+
+}
+
+.collapsible-contentWeaps {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    background-color: orange;
+
+}
+
+.collapsible-contentBuilds {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    background-color: rgb(66, 79, 82);
+    width: 10vw;
+}
+
+/*----------------end of collapsible suite---------------*
+
+
+/* navbar top with builds and guides dropdown */
+.navbartop {
+    font-size: 1.3rem;
+    height: 8vh;
+    width: 91vw;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 8vw;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    place-items: center;
+}
+
+.navbartop>* {
+    grid-column: 1 / 5;
+    grid-row: 1 / 1;
+}
+
+.WeaponGuides {
+    text-align: center;
+    background-color: rgb(116, 108, 7);
+    width: 10vw;
+    height: 8vh;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-image: url(data:image/jpeg;base64,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);
+}
+
+.BuildGuides {
+    text-align: center;
+    background-image: url(https://cdn.imgbin.com/15/21/1/imgbin-monster-hunter-tri-monster-hunter-3-ultimate-monster-hunter-generations-monster-hunter-world-stargate-earth-symbol-pefjUgmzHrb1FRYYcHYsD0xYZ.jpg);
+    background-repeat: no-repeat;
+    background-size: 10vw 8vh;
+    mix-blend-mode: multiply;
+    width: 10vw;
+    height: 8vh;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+/*--------------end of navbar-------------*/
+
+
+/* navbar links with pictures */
+.navbartoplink1 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    width: 10vw;
+    height: 8vh;
+    background-image: url(https://spieletippsps4.com/wp-content/uploads/2021/04/Monster-Hunter-Rise-Roadmap-fuer-2021.jpg);
+    background-repeat: no-repeat;
+    background-size: 10vw 8.1vh;
+}
+
+.navbartoplink2 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    width: 10vw;
+    height: 8vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzpEPFHNQFd2zzIr-c2Y0RZb-WfYa2e1np4l2RWL_bJg&s);
+    background-repeat: no-repeat;
+    background-size: 10vw 8.1vh;
+
+}
+
+.navbartoplink3 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    background-image: url(https://static.wikia.nocookie.net/monsterhunter/images/a/af/ItemIcon047.png/revision/latest?cb=20100611135518);
+    background-repeat: no-repeat;
+    mix-blend-mode: multiply;
+    width: 10vw;
+    height: 8vh;
+    background-size: 10vw 8vh;
+}
+
+/*-------------end of navbar links--------------*/
+
+/*home button top left, <a href="index.html"> - edit for subpages*/
+.homeicon {
+    height: 8vh;
+    width: 8vw;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4796/4796383.png);
+    background-size: 8vw 8vh;
+}
+
+/*--------------------end of back home button--------------------------*/
+/*navbar side; may need to change to be responsible like pop in-out with a hover detect; use for maybe toc*/
+.navbarside {
+    font-size: 1.3rem;
+    height: 100vh;
+    width: 8vw;
+    background-color: transparent;
+    color: #ececec;
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    overflow: show;
+}
+/*------------------------navbar side end--------------------------------------------*/
