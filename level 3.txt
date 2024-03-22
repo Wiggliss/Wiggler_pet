@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="heigh=device-height, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="wiggler.pet" content="Monster Hunter Weapon Guides, Monster Hunter Meta Sets, Made and curated by Speedrunners and Theorycrafters">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<link rel="stylesheet" type="text/css" href="sitewide.css" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+
+<head>
+    <title>Wiggler.pet</title>
+    <top-panel></top-panel>
+
+</head>
+<body>
+
+
+
+
+
+
+</body>
+
+<footer-bar></footer-bar>
+
+<script src="footer-bar_top_level.js" type="text/javascript" defer></script>
+<script src="static_site_layout_top_level.js" type="text/javascript" defer></script>
+</html>

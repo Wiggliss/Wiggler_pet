@@ -83,6 +83,7 @@ input[type='checkbox'] {
     transition: 0.2s;
     background-color: rgb(92, 90, 90);
     color: #f3f3f3;
+    
 }
 
 .collapsible-contentBuilds {
@@ -116,6 +117,7 @@ input[type='checkbox'] {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     place-items: center;
+
 }
 
 .navbartop>* {
@@ -125,27 +127,154 @@ input[type='checkbox'] {
 
 .WeaponGuides {
     text-align: center;
-
+    outline: auto;
+    border-radius: 5%;
     width: 10vw;
     height: 8vh;
     grid-column-start: 1;
     grid-column-end: 1;
-    background-image: url(Sitewide_Images/How2weap.webp);
     background-size:contain;
     background-repeat: no-repeat;
     background-position-y: 1vh;
 }
 
 .BuildGuides {
-    text-align: center;
-    background-image: url(Sitewide_Images/mh\ chest\ icon.webp);
+    /*background-image: url(Sitewide_Images/mh\ chest\ icon.webp);
     background-repeat: no-repeat;
-    background-size: 10vw 8vh;
+    background-size: 10vw 8vh;*/
     width: 10vw;
     height: 8vh;
+    inline-size: auto;
     grid-column-start: 2;
     grid-column-end: 2;
+    outline: 2px solid white;
+    outline: auto;
+    border-radius: 5%;
 }
+
+/* unvisited link */
+.RiseGuides a:link {
+    color: rgb(197, 197, 197);
+    padding-left:1vw ;
+    padding-right: 1vw;
+    border-style: dashed;
+    text-align: center;
+    background-color: #8f1313;
+    max-width: 728px;
+    text-align: center;
+    font-size: 1.2rem;
+    }
+    
+
+  
+  /* visited link */
+  .RiseGuides a:visited {
+    color: rgb(197, 197, 197);
+    padding-left:1vw ;
+    padding-right: 1vw;
+    border-style: dashed;
+    text-align: center;
+    background-color: #8f1313;
+    max-width: 728px;
+    text-align: center;
+    font-size: 1.2rem;
+    }
+  
+  /* mouse over link */
+  .RiseGuides a:hover {
+    font-size: 2rem;
+
+  }
+  
+  /* selected link */
+  .RiseGuides a:active {
+    color: green;
+    border: 2px green;
+    background-color: green;
+    font-size: 1.2rem;
+  }
+
+
+
+/* unvisited link */
+.WorldGuides a:link {
+    color: rgb(197, 197, 197);
+    padding-left:1vw ;
+    padding-right: 1vw;
+    border-style: dashed;
+    text-align: center;
+    background-color: #277eb8;
+    max-width: 728px;
+    text-align: center;
+    font-size: 1.2rem;
+    }
+    
+
+
+ 
+  .WorldGuides a:visited {
+    color: rgb(197, 197, 197);
+    padding-left:1vw ;
+    padding-right: 1vw;
+    border-style: dashed;
+    text-align: center;
+    background-color: #277eb8;
+    max-width: 728px;
+    text-align: center;
+    font-size: 1.2rem;
+    }
+  /* mouse over link */
+  .WorldGuides a:hover {
+    font-size: 2rem;
+
+  }
+  
+  /* selected link */
+  .WorldGuides a:active {
+    color: green;
+    border: 2px green;
+    background-color: green;
+    font-size: 1.2rem;
+  }
+
+.WeapGuideButton {
+    Background-color: rgba(0, 0, 0, 0.171);
+    font-size: 2rem;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 8vh;
+    
+}
+.BuildsButton {
+    background-color: rgba(37, 41, 38, 0.068);
+    font-size: 2rem;
+    color:#f3f3f3;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.BuildGuides a:link {
+    color: rgb(197, 197, 197);
+    padding-left:1vw ;
+    padding-right: 1vw;
+    border-style: dashed;
+    text-align: center;
+    background-color: #277eb8;
+    max-width: 728px;
+    text-align: center;
+    font-size: 1.5rem;
+    }
+
+    .BuildGuides a:hover {
+        font-size: 2rem;
+    
+      }
+      
+.WeaponIcon {
+    max-height: 4vh;
+    max-width: 4vh;
+}      
 
 /*--------------end of navbar-------------*/
 
@@ -159,8 +288,11 @@ input[type='checkbox'] {
     background-image: url(https://spieletippsps4.com/wp-content/uploads/2021/04/Monster-Hunter-Rise-Roadmap-fuer-2021.jpg);
     background-repeat: no-repeat;
     background-size: 10vw 8.1vh;
-}
+    outline: auto;
+    outline-color: white;
+    border-radius: 5%;
 
+}
 .navbartoplink2 {
     grid-column-start: 4;
     grid-column-end: 4;
@@ -169,7 +301,9 @@ input[type='checkbox'] {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzpEPFHNQFd2zzIr-c2Y0RZb-WfYa2e1np4l2RWL_bJg&s);
     background-repeat: no-repeat;
     background-size: 10vw 8.1vh;
-
+    outline: auto;
+    outline-color: white;
+    border-radius: 5%;
 }
 
 .navbartoplink3 {
@@ -180,6 +314,9 @@ input[type='checkbox'] {
     width: 10vw;
     height: 8vh;
     background-size: 10vw 8vh;
+    outline: auto;
+    outline-color: white;
+    border-radius: 5%;
 }
 
 /*-------------end of navbar links--------------*/
@@ -188,14 +325,20 @@ input[type='checkbox'] {
 .homeicon {
     height: 8vh;
     width: 8vw;
-    background-color: rgb(255, 255, 255);
     position: fixed;
     left: 0;
     top: 0;
-    background-image: url(Sitewide_Images/Farcaster.webp);
     background-size: 8vw 8vh;
+    outline: auto;
+    border-radius: 5%;
+    outline-color: auto;
 }
-
+.homeiconlink a:link {
+    color: #f3f3f3;
+}
+.homeiconlink a:visited {
+    color: #f3f3f3;
+}
 /*--------------------end of back home button--------------------------*/
 /*navbar side; may need to change to be responsible like pop in-out with a hover detect; use for maybe toc*/
 .navbarside {
@@ -215,17 +358,15 @@ input[type='checkbox'] {
 .aboutus {
     font-size: 3rem;
     padding: 10vw 10vh;
-
     color: #f3f3f3;
     text-align: center;
 
 
 }
 .wigglis {
-    background-image: url(Sitewide_Images/Wigglis.webp);
-    background-size:auto;
     padding: 6vw 6vh;
-    background-repeat: no-repeat;
+    max-width: 30vw;
+    max-height: 30vh;
 }
 /*.risebackground {
     background-image: url(Sitewide_Images/AmazonPrimordialDarkVest.webp);
@@ -235,3 +376,203 @@ input[type='checkbox'] {
     width: 98vw;
 }*/
 /*---------------about us end----------------------*/
+
+/*Collapsible Paragraphs*/
+.collapsible-contentParagraphs {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    width: 80vw;
+    color: #f3f3f3;
+}
+.CollHeader {
+    text-decoration: underline;
+    font-size: 14pt;
+    text-align: center;
+    width: 80vw;
+    color: #f3f3f3;
+    margin-left: 10vw;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+
+
+}
+
+.CollHeader::before {
+    content: ' ';
+}
+
+.toggle:checked+.CollHeader+.collapsible-contentParagraphs {
+    max-height: 1000vh;
+    max-width: 80vw;
+    
+}
+
+
+
+.CollHeader-contentParagraphs {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    background-color: rgb(92, 90, 90);
+    color: #f3f3f3;
+    
+}
+
+/* end of paragraph formatting for guides or everything*/
+/*buildcards and such*/
+    .BuildCard {
+    float: left;
+    max-width: 30vw;
+    padding: 0.2vw;
+
+}
+    .ParagraphContainer{
+     max-width: 80vw;
+     margin-left: 10vw;
+     margin-right: 10vw;
+}
+    .ParagraphText {
+        text-align: left;
+        margin-left: 10vw;
+        float: none;
+    }
+
+/*buildcards end*/
+
+
+.collapsible-1contentParagraphs {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    width: 80vw;
+    color: #f3f3f3;
+}
+.CollHeader1 {
+    text-decoration: underline;
+    font-size: 14pt;
+    text-align: center;
+    width: 20vw;
+    color: #f3f3f3;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.CollHeader1::before {
+    content: ' ';
+}
+
+.toggle:checked+.CollHeader1+.collapsible-1contentParagraphs {
+    max-height: 1000vh;
+    max-width: 80vw;
+  
+
+}
+
+
+
+.CollHeader1-1contentParagraphs {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    background-color: rgb(92, 90, 90);
+    color: #f3f3f3;
+    
+}
+
+.collapsible-1contentParagraphs {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    width: 80vw;
+    color: #f3f3f3;
+
+    
+}
+.CollHeader2 {
+    text-decoration: underline;
+    font-size: 14pt;
+    text-align: center;
+    width: 80vw;
+    color: #f3f3f3;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+
+
+}
+
+.CollHeader2::before {
+    content: ' ';
+}
+
+.toggle:checked+.CollHeader2+.collapsible-2contentParagraphs {
+    max-height: 1000vh;
+    max-width: 80vw;
+    margin-left: 10vw;  
+}
+
+.CollHeader2-2contentParagraphs {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    background-color: rgb(92, 90, 90);
+    color: #f3f3f3;
+    
+}
+
+.collapsible-2contentParagraphs {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    width: 80vw;
+    color: #f3f3f3;
+}
+
+.CollHeader3 {
+    text-decoration: underline;
+    font-size: 14pt;
+    text-align: center;
+    width: 80vw;
+    color: #f3f3f3;
+    margin-right: 9vw;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+
+
+}
+
+.CollHeader3::before {
+    content: ' ';
+}
+
+.toggle:checked+.CollHeader3+.collapsible-3contentParagraphs {
+    max-height: 1000vh;
+    max-width: 80vw;
+
+}
+
+.CollHeader3-3contentParagraphs {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    background-color: rgb(92, 90, 90);
+    color: #f3f3f3;
+    
+}
+
+.collapsible-3contentParagraphs {
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    width: 80vw;
+    color: #f3f3f3;
+}
