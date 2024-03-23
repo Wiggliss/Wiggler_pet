@@ -7,7 +7,7 @@ class FooterBar extends HTMLElement {
 		super();
 
 		this.innerHTML =`
-        <a href="../Wiggler_Pet_Nonspecific/About_Us.html" class="aboutus"><span class="wigglis">About Us</span></a>
+        <a href="../../other/About_Us.html" class="aboutus"><img src="../Sitewide_Images/Wigglis.webp" class="wigglis"/></a>
         `;
 
 	}

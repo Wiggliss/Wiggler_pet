@@ -11,14 +11,14 @@ class SidebarTopbarHomeButton extends HTMLElement {
 
 		// Render HTML
 		this.innerHTML =`
-
+    
    
     <div class="navbartop">
-        <a href="../Wiggler_Pet_Rise_Sunbreak/index_rise.html" class="navbartoplink1"></a> <a
-            href="../Wiggler_Pet_World_Iceborne/index_world.html" class="navbartoplink2"></a>
-        <a href="../Wiggler_Pet_Nonspecific/index_nonspecific.html" class="navbartoplink3"></a>
+        <a href="../rise/rise.html" class="navbartoplink1"></a> <a
+            href="../world/world.html" class="navbartoplink2"></a>
+        <a href="../other/other.html" class="navbartoplink3"></a>
         <div class="WeaponGuides"> <input id="collapsibleWeaponGuides" class="toggle" type="checkbox">
-            <label for="collapsibleWeaponGuides" class="collapsible">Weapon Guides</label>
+            <label for="collapsibleWeaponGuides" class="collapsible"><img src="../Sitewide_Images/How2weap.webp" class="WeapGuideButton"></label>
     
             <div class="collapsible-contentWeaps">
                 <div class="collapsible-content-inside">
@@ -27,42 +27,37 @@ class SidebarTopbarHomeButton extends HTMLElement {
                     <label for="WeaponGuidesSunbreak" class="collapsible">Sunbreak</label>
     
                     <div class="collapsible-contentWeaps">
-                        <div class="collapsible-content-inside">
+                        <div class="collapsible-content-inside RiseGuides">
     
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/01_Greatsword_Guide.html">GS</a><br>
+                                href="../rise/guide/greatsword.html"><img src="../Sitewide_Images/greatsword.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/02_Longsword_Guide.html">ls</a><br>
+                                href="../rise/guide/longsword.html"><img src="../Sitewide_Images/longsword.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/03_Sword_And_Shield_Guide.html">sns</a><br>
+                            href="../rise/guide/sword_and_shield.html"><img src="../Sitewide_Images/sns.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/04_Dual_Blades_Guide.html">db</a><br>
+                                href="../rise/guide/dual_blades.html"><img src="../Sitewide_Images/db.gif" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/05_Hammer_Guide.html">hammmer</a><br>
+                                href="../rise/guide/hammer.html"><img src="../Sitewide_Images/hammer.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/06_Hunting_Horn_Guide.html">Horn</a><br>
+                                href="../rise/guide/hunting_horn.html"><img src="../Sitewide_Images/horn.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/07_Lance_Guide.html">lans</a><br>
+                                href="../rise/guide/lance.html"><img src="../Sitewide_Images/lance.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/08_Gunlance_Guide.html">gunlance</a><br>
+                                href="../rise/guide/gunlance.html"><img src="../Sitewide_Images/gunlance.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/09_Switch_Axe_Guide.html">switch
-                                axe</a><br>
+                                href="../rise/guide/switch_axe.html"><img src="../Sitewide_Images/swaxe.png" class="WeaponIcon"/></a><br>
     
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/10_Charge_Blade_Guide.html">charge
-                                blade</a><br>
+                                href="../rise/guide/charge_blade.html"><img src="../Sitewide_Images/charge_blade.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/11_Insect_Glaive_Guide.html">insect
-                                glaive</a><br>
+                                href="../rise/guide/insect_glaive.html"><img src="../Sitewide_Images/insect_glaive.webp" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/12_Light_Bowgun_Guide.html">light
-                                bowgun</a><br>
+                                href="../rise/guide/light_bowgun.html"><img src="../Sitewide_Images/lbg.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/13_Heavy_Bowgun_Guide.html">heavy
-                                bowgun</a><br>
+                                href="../rise/guide/heavy_bowgun.html"><img src="../Sitewide_Images/hbg.png" class="WeaponIcon"/></a><br>
                             <a
-                                href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/14_Bow_Guide.html">bow</a>
+                                href="../rise/guide/bow.html"><img src="../Sitewide_Images/bow.png" class="WeaponIcon"/></a>
                         </div>
                     </div>
                 </div>
@@ -71,43 +66,38 @@ class SidebarTopbarHomeButton extends HTMLElement {
                 <label for="collapsible1.0" class="collapsible">World</label>
     
                 <div class="collapsible-contentWeaps">
-                    <div class="collapsible-content-inside">
+                    <div class="collapsible-content-inside WorldGuides">
     
     
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/01_Greatsword_Guide.html">Gs</a><br>
+                            href="../world/guide/greatsword.html"><img src="../Sitewide_Images/greatsword.png" class="WeaponIcon"></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/02_Longsword_Guide.html">ls</a><br>
+                            href="../world/guide/longsword.html"><img src="../Sitewide_Images/longsword.png" class="WeaponIcon"/></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/03_Sword_And_Shield_Guide.html">sns</a><br>
+                            href="../world/guide/sword_and_shield.html"><img src="../Sitewide_Images/sns.png" class="WeaponIcon"/></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/04_Dual_Blades_Guide.html">db</a><br>
+                            href="../world/guide/dual_blades.html"><img src="../Sitewide_Images/db.gif" class="WeaponIcon"/></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/05_Hammer_Guide.html">hammmer</a><br>
+                            href="../world/guide/hammer.html"><img src="../Sitewide_Images/hammer.png" class="WeaponIcon"/></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/06_Hunting_Horn_Guide.html">horn</a><br>
+                            href="../world/guide/hunting_horn.html"><img src="../Sitewide_Images/horn.png" class="WeaponIcon"/></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/07_Lance_Guide.html">lans</a><br>
+                            href="../world/guide/lance.html"><img src="../Sitewide_Images/lance.png" class="WeaponIcon"/></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/08_Gunlance_Guide.html">gunlance</a><br>
+                            href="../world/guide/gunlance.html"><img src="../Sitewide_Images/gunlance.png" class="WeaponIcon"/></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/09_Switch_Axe_Guide.html">switch
-                            axe</a><br>
+                            href="../world/guide/switch_axe.html"><img src="../Sitewide_Images/swaxe.png" class="WeaponIcon"></a><br>
     
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/10_Charge_Blade_Guide.html">charge
-                            blade</a><br>
+                            href="../world/guide/charge_blade.html"><img src="../Sitewide_Images/charge_blade.png" class="WeaponIcon"></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/11_Insect_Glaive_Guide.html">insect
-                            glaive</a><br>
+                            href="../world/guide/insect_glaive.html"><img src="../Sitewide_Images/insect_glaive.webp" class="WeaponIcon"/></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/12_Light_Bowgun_Guide.html">light
-                            bowgun</a><br>
+                            href="../world/guide/light_bowgun.html"><img src="../Sitewide_Images/lbg.png" class="WeaponIcon"></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/13_Heavy_Bowgun_Guide.html">heavy
-                            bowgun</a><br>
+                            href="../world/guide/heavy_bowgun.html"><img src="../Sitewide_Images/hbg.png" class="WeaponIcon"></a><br>
                         <a
-                            href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/14_Bow_Guide.html">bow</a>
+                            href="../world/guide/bow.html"><img src="../Sitewide_Images/bow.png" class="WeaponIcon"/></a>
                     </div>
                 </div>
             </div>
@@ -115,10 +105,10 @@ class SidebarTopbarHomeButton extends HTMLElement {
         </a>
         <div class="wrap-collabsible BuildGuides">
             <input id="collapsibleBuilds" class="toggle" type="checkbox">
-            <label for="collapsibleBuilds" class="collapsible">Builds</label>
+            <label for="collapsibleBuilds" class="collapsible"><img class="BuildsButton" src="../Sitewide_Images/mh\ chest\ icon.webp"></label>
     
             <div class="collapsible-contentBuilds">
-                <div class="collapsible-content-inside">
+                <div class="collapsible-content-inside ">
     
     
                     <input id="Risebuilds" class="toggle" type="checkbox">
@@ -129,156 +119,156 @@ class SidebarTopbarHomeButton extends HTMLElement {
     
     
                             <input id="RiseGS" class="toggle" type="checkbox">
-                            <label for="RiseGS" class="collapsible">GS</label>
+                            <label for="RiseGS" class="collapsible"><img src="../Sitewide_Images/greatsword.png" class="WeaponIcon"></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/01_Greatsword_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/01_Greatsword_Prog.html">PROG</a>
+                                        href="../rise/meta/greatsword.html">META</a><br><a
+                                        href="../rise/progression/greatsword.html">PROG</a>
                                 </div>
     
                             </div>
                             <input id="RiseLS" class="toggle" type="checkbox">
-                            <label for="RiseLS" class="collapsible">LS</label>
+                            <label for="RiseLS" class="collapsible"><img src="../Sitewide_Images/longsword.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/02_Longsword_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/02_Longsword_Prog.html">PROG</a>
+                                        href="../rise/meta/longsword.html">META</a><br><a
+                                        href="../rise/progression/longsword.html">PROG</a>
                                 </div>
     
                             </div>
                             <input id="RiseSNS" class="toggle" type="checkbox">
-                            <label for="RiseSNS" class="collapsible">SNS</label>
+                            <label for="RiseSNS" class="collapsible"><img src="../Sitewide_Images/sns.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/03_Sword_And_Shield_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/03_Sword_And_Shield_Prog.html">PROG</a>
+                                        href="../rise/meta/sword_and_shield.html">META</a><br><a
+                                        href="../rise/progression/sword_and_shield.html">PROG</a>
                                 </div>
     
                             </div>
                             <input id="RiseDB" class="toggle" type="checkbox">
-                            <label for="RiseDB" class="collapsible">DB</label>
+                            <label for="RiseDB" class="collapsible"><img src="../Sitewide_Images/db.gif" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/04_Dual_Blades_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/04_Dual_Blades_Prog.html">PROG</a>
+                                        href="../rise/meta/dual_blades.html">META</a><br><a
+                                        href="../rise/progression/dual_blades.html">PROG</a>
                                 </div>
     
                             </div>
                             <input id="RiseHammer" class="toggle" type="checkbox">
-                            <label for="RiseHammer" class="collapsible">Hammer</label>
+                            <label for="RiseHammer" class="collapsible"><img src="../Sitewide_Images/hammer.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/05_Hammer_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/05_Hammer_Prog.html">PROG</a>
+                                        href="../rise/meta/hammer.html">META</a><br><a
+                                        href="../rise/progression/hammer.html">PROG</a>
                                 </div>
     
                             </div>
                             <input id="RiseHorn" class="toggle" type="checkbox">
-                            <label for="RiseHorn" class="collapsible">Horn</label>
+                            <label for="RiseHorn" class="collapsible"><img src="../Sitewide_Images/horn.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/06_Hunting_Horn_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/06_Hunting_Horn_Prog.html">PROG</a>
+                                        href="../rise/meta/hunting_horn.html">META</a><br><a
+                                        href="../rise/progression/hunting_horn.html">PROG</a>
                                 </div>
     
                             </div>
                             <input id="RiseLance" class="toggle" type="checkbox">
-                            <label for="RiseLance" class="collapsible">Lance</label>
+                            <label for="RiseLance" class="collapsible"><img src="../Sitewide_Images/lance.png" class="WeaponIcon"></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/07_Lance_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/07_Lance_Prog.html">PROG</a>
+                                        href="../rise/meta/lance.html">META</a><br><a
+                                        href="../rise/progression/lance.html">PROG</a>
                                 </div>
                             </div>
     
                             <input id="RiseGunlance" class="toggle" type="checkbox">
-                            <label for="RiseGunlance" class="collapsible">Gunlance</label>
+                            <label for="RiseGunlance" class="collapsible"><img src="../Sitewide_Images/gunlance.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/08_Gunlance_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/08_Gunlance_Prog.html">PROG</a>
+                                        href="../rise/meta/gunlance.html">META</a><br><a
+                                        href="../rise/progression/gunlance.html">PROG</a>
                                 </div>
     
                             </div>
                             <input id="RiseSwitchAxe" class="toggle" type="checkbox">
-                            <label for="RiseSwitchAxe" class="collapsible">Switch Axe</label>
+                            <label for="RiseSwitchAxe" class="collapsible"><img src="../Sitewide_Images/swaxe.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/09_Switch_Axe_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/09_Switch_Axe_Prog.html">PROG</a>
+                                        href="../rise/meta/switch_axe.html">META</a><br><a
+                                        href="../rise/progression/switch_axe.html">PROG</a>
     
                                 </div>
                             </div>
                             <input id="RiseChargeBlade" class="toggle" type="checkbox">
-                            <label for="RiseChargeBlade" class="collapsible">Charge Blade</label>
+                            <label for="RiseChargeBlade" class="collapsible"><img src="../Sitewide_Images/charge_blade.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/10_Charge_Blade_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/10_Charge_Blade_Prog.html">PROG</a>
+                                        href="../rise/meta/charge_blade.html">META</a><br><a
+                                        href="../rise/progression/charge_blade.html">PROG</a>
                                 </div>
     
                             </div>
                             <input id="RiseInsectGlaive" class="toggle" type="checkbox">
-                            <label for="RiseInsectGlaive" class="collapsible">Insect Glaive</label>
+                            <label for="RiseInsectGlaive" class="collapsible"><img src="../Sitewide_Images/insect_glaive.webp" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/11_Insect_Glaive_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/11_Insect_Glaive_Prog.html">PROG</a>
+                                        href="../rise/meta/insect_glaive.html">META</a><br><a
+                                        href="../rise/progression/insect_glaive.html">PROG</a>
     
                                 </div>
                             </div>
                             <input id="RiseLBG" class="toggle" type="checkbox">
-                            <label for="RiseLBG" class="collapsible">Light Bowgun</label>
+                            <label for="RiseLBG" class="collapsible"><img src="../Sitewide_Images/lbg.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/12_Light_Bowgun_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/12_Light_Bowgun_Prog.html">PROG</a>
+                                        href="../rise/meta/light_bowgun.html">META</a><br><a
+                                        href="../rise/progression/light_bowgun.html">PROG</a>
                                 </div>
                             </div>
     
                             <input id="RiseHBG" class="toggle" type="checkbox">
-                            <label for="RiseHBG" class="collapsible">Heavy Bowgun</label>
+                            <label for="RiseHBG" class="collapsible"><img src="../Sitewide_Images/hbg.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/13_Heavy_Bowgun_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/13_Heavy_Bowgun_Prog.html">PROG</a>
+                                        href="../rise/meta/heavy_bowgun.html">META</a><br><a
+                                        href="../rise/progression/heavy_bowgun.html">PROG</a>
                                 </div>
     
                             </div>
                             <input id="RiseBow" class="toggle" type="checkbox">
-                            <label for="RiseBow" class="collapsible">Bow</label>
+                            <label for="RiseBow" class="collapsible"><img src="../Sitewide_Images/bow.png" class="WeaponIcon"/></label>
     
                             <div class="collapsible-contentBuilds">
                                 <div class="collapsible-content-inside">
                                     <a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Meta/14_Bow_Meta.html">META</a><br><a
-                                        href="../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_Progression/14_Bow_Prog.html">PROG</a>
+                                        href="../rise/meta/bow.html">META</a><br><a
+                                        href="../rise/progression/bow.html">PROG</a>
                                 </div>
                             </div>
     
@@ -297,148 +287,142 @@ class SidebarTopbarHomeButton extends HTMLElement {
     
                         <input id="WorldGS" class="toggle" type="checkbox">
                         <label for="WorldGS" class="collapsible">
-                            GS
+                        <img src="../Sitewide_Images/greatsword.png" class="WeaponIcon">
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/01_Greatsword_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/01_Greatsword_Prog.html">PROG</a>
+                                    href="../world/meta/greatsword.html">META</a><br><a
+                                    href="../world/progression/greatsword.html">PROG</a>
                             </div>
                         </div> <input id="WorldLS" class="toggle" type="checkbox">
                         <label for="WorldLS" class="collapsible">
-                            LS
+                        <img src="../Sitewide_Images/longsword.png" class="WeaponIcon">
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/02_Longsword_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/02_Longsword_Prog.html">PROG</a>
+                                    href="../world/meta/longsword.html">META</a><br><a
+                                    href="../world/progression/longsword.html">PROG</a>
                             </div>
                         </div>
                         <input id="WorldSNS" class="toggle" type="checkbox">
                         <label for="WorldSNS" class="collapsible">
-                            SNS
+                        <img src="../Sitewide_Images/sns.png" class="WeaponIcon">
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/03_Sword_And_Shield_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/03_Sword_And_Shield_Prog.html">PROG</a>
+                                    href="../world/meta/sword_and_shield.html">META</a><br><a
+                                    href="../world/progression/sword_and_shield.html">PROG</a>
                             </div>
                         </div>
                         <input id="WorldDB" class="toggle" type="checkbox">
                         <label for="WorldDB" class="collapsible">
-                            DB
+                        <img src="../Sitewide_Images/db.gif" class="WeaponIcon"/>
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/04_Dual_Blades_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/04_Dual_Blades_Prog.html">PROG</a>
+                                    href="../world/meta/dual_blades.html">META</a><br><a
+                                    href="../world/progression/dual_blades.html">PROG</a>
                             </div>
                         </div>
                         <input id="WorldHammer" class="toggle" type="checkbox">
                         <label for="WorldHammer" class="collapsible">
-                            Hammer
+                        <img src="../Sitewide_Images/hammer.png" class="WeaponIcon">
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/05_Hammer_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/05_Hammer_Prog.html">PROG</a>
+                                    href="../world/meta/hammer.html">META</a><br><a
+                                    href="../world/progression/hammer.html">PROG</a>
                             </div>
                         </div> <input id="WorldHorn" class="toggle" type="checkbox">
                         <label for="WorldHorn" class="collapsible">
-                            Horn
+                        <img src="../Sitewide_Images/horn.png" class="WeaponIcon">
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/06_Hunting_Horn_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/06_Hunting_Horn_Prog.html">PROG</a>
+                                    href="../world/meta/hunting_horn.html">META</a><br><a
+                                    href="../world/progression/hunting_horn.html">PROG</a>
                             </div>
                         </div> <input id="WorldLance" class="toggle" type="checkbox">
                         <label for="WorldLance" class="collapsible">
-                            Lance
+                        <img src="../Sitewide_Images/lance.png" class="WeaponIcon">
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/07_Lance_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/07_Lance_Prog.html">PROG</a>
+                                    href="../world/meta/lance.html">META</a><br><a
+                                    href="../world/progression/lance.html">PROG</a>
                             </div>
                         </div> <input id="WorldGunlance" class="toggle" type="checkbox">
                         <label for="WorldGunlance" class="collapsible">
-                            Gunlance
+                        <img src="../Sitewide_Images/gunlance.png" class="WeaponIcon">
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/08_Gunlance_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/08_Gunlance_Prog.html">PROG</a>
+                                    href="../world/meta/gunlance.html">META</a><br><a
+                                    href="../world/progression/gunlance.html">PROG</a>
                             </div>
                         </div>
                         <input id="WorldSwitchAxe" class="toggle" type="checkbox">
-                        <label for="WorldSwitchAxe" class="collapsible">
-                            Switch Axe
-                        </label>
+                        <label for="WorldSwitchAxe" class="collapsible"><img src="../Sitewide_Images/swaxe.png" class="WeaponIcon"/></label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/09_Switch_Axe_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/09_Switch_Axe_Prog.html">PROG</a>
+                                    href="../world/meta/switch_axe.html">META</a><br><a
+                                    href="../world/progression/switch_axe.html">PROG</a>
                             </div>
                         </div> <input id="WorldChargeBlade" class="toggle" type="checkbox">
                         <label for="WorldChargeBlade" class="collapsible">
-                            Charge Blade
+                        <img src="../Sitewide_Images/charge_blade.png" class="WeaponIcon">
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/10_Charge_Blade_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/10_Charge_Blade_Prog.html">PROG</a>
+                                    href="../world/meta/charge_blade.html">META</a><br><a
+                                    href="../world/progression/charge_blade.html">PROG</a>
                             </div>
                         </div> <input id="WorldInsectGlaive" class="toggle" type="checkbox">
-                        <label for="WorldInsectGlaive" class="collapsible">
-                            Insect Glaive
-                        </label>
+                        <label for="WorldInsectGlaive" class="collapsible"><img src="../Sitewide_Images/insect_glaive.webp" class="WeaponIcon"/></label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/11_Insect_Glaive_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/11_Insect_Glaive_Prog.html">PROG</a>
+                                    href="../world/meta/insect_glaive.html">META</a><br><a
+                                    href="../world/progression/insect_glaive.html">PROG</a>
                             </div>
                         </div> <input id="WorldLBG" class="toggle" type="checkbox">
-                        <label for="WorldLBG" class="collapsible">
-                            Light Bowgun
-                        </label>
+                        <label for="WorldLBG" class="collapsible"><img src="../Sitewide_Images/lbg.png" class="WeaponIcon"/></label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/12_Light_Bowgun_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/12_Light_Bowgun_Prog.html">PROG</a>
+                                    href="../world/meta/light_bowgun.html">META</a><br><a
+                                    href="../world/progression/light_bowgun.html">PROG</a>
                             </div>
                         </div> <input id="WorldHBG" class="toggle" type="checkbox">
                         <label for="WorldHBG" class="collapsible">
-                            Heavy Bowgun
+                        <img src="../Sitewide_Images/hbg.png" class="WeaponIcon"/>
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/13_Heavy_Bowgun_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/13_Heavy_Bowgun_Prog.html">PROG</a>
+                                    href="../world/meta/heavy_bowgun.html">META</a><br><a
+                                    href="../world/progression/heavy_bowgun.html">PROG</a>
                             </div>
                         </div>
                         <input id="WorldBow" class="toggle" type="checkbox">
                         <label for="WorldBow" class="collapsible">
-                            Bow
+                        <img src="../Sitewide_Images/bow.png" class="WeaponIcon">
                         </label>
                         <div class="collapsible-contentBuilds">
                             <div class="collapsible-content-inside">
                                 <a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Meta/14_Bow_Meta.html">META</a><br><a
-                                    href="../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_Progression/14_Bow_Prog.html">PROG</a>
+                                    href="../world/meta/bow.html">META</a><br><a
+                                    href="../world/progression/bow.html">PROG</a>
     
                             </div>
                         </div>
@@ -449,9 +433,12 @@ class SidebarTopbarHomeButton extends HTMLElement {
     
     
     </div>
-    <aside><a href="../index.html" class="homeicon"></a></aside>
-    <aside class="navbarside"> this should be on the side THERE WILL BE TEXT HERE I THINK THE TOC WILL MOVE INTO THIS FOR
-        ALL GUIDE PAGES </aside>`;
+    <aside class="homeiconlink"><a href="../index.html"><img src="../Sitewide_Images/Farcaster.webp" class="homeicon"></a></aside>
+             
+       
+       
+       
+        `
 
 	}
 
