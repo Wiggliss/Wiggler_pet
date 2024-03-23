@@ -1,0 +1,41 @@
+/*background for rise meme*/
+/*.risebackground {
+    background-image: url(Sitewide_Images/AmazonPrimordialDarkVest.webp);
+    background-repeat: no-repeat;
+    min-width: 50vw;
+    min-height: 50vh;
+    max-height: 100vh;
+    max-width: 100vw;
+ 
+}
+/*------------------end of background options for meme--------------*/
+
+h1 {
+    font-size: 5em;
+}
+body {
+    background-image: url(Sitewide_Images/AmazonPrimordialDarkVest.webp);
+min-height: 50vh;
+min-width: 50vw;
+max-height: 100%;
+max-width: 100%;
+background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 3rem;
+    text-shadow: 2px  1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+ }
+ 
+.content {
+    margin: 10%;
+}
+/*image links to subpages*/
+.IndexImg {
+    width: 25vw;
+    min-width: 200px;
+    height: 20vw;
+    min-height: 200px;
+    margin: 5%;
+}
+/**/
