@@ -11,7 +11,6 @@ const controlSchemes = [
   ['pc', 'Mouse & Keyboard'],
 ];
 
-
 function generateControlDropdown() {
   // find select root element
   const root = document.getElementById('controls-dropdown-placeholder');
@@ -46,13 +45,13 @@ function changeControls() {
   const selectedPlatform = dropdown.value;
 
   // loop over all moves
-  controlsData.forEach((button) => {
+  controlsData.forEach((move) => {
     // get all html elements with tagged class
-    const elements = document.querySelectorAll('.' + 'controls-' + button.id);
+    const elements = document.querySelectorAll('.' + 'controls-' + move.id);
 
     // set text according to selected control scheme, for all occurences
     elements.forEach((element) => {
-      element.textContent = button.controls[selectedPlatform];
+      element.textContent = move.controls[selectedPlatform];
     });
   });
 }
