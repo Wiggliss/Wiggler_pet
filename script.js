@@ -11,70 +11,6 @@ const controlSchemes = [
   ['pc', 'Mouse & Keyboard'],
 ];
 
-const controls =
-[
-    {
-        "id": "a-button",
-        "name": "A-Button",
-        "controls": {
-            "switch": "A",
-            "ps": "Circle",
-            "xbox": "B",
-            "pc": "RMB"
-        }
-    },
-    {
-        "id": "b-button",
-        "name": "B-Button",
-        "controls": {
-            "switch": "B",
-            "ps": "X",
-            "xbox": "A",
-            "pc": "Spacebar"
-        }
-    },
-    {
-        "id": "x-button",
-        "name": "X-Button",
-        "controls": {
-            "switch": "X",
-            "ps": "Triangle",
-            "xbox": "Y",
-            "pc": "LMB"
-        }
-    },
-    {
-        "id": "y-button",
-        "name": "Y-Button",
-        "controls": {
-            "switch": "Y",
-            "ps": "Square",
-            "xbox": "X",
-            "pc": "E"
-        }
-    },
-    {
-        "id": "zr-button",
-        "name": "ZR-Button",
-        "controls": {
-            "switch": "ZR",
-            "ps": "R2",
-            "xbox": "RT",
-            "pc": "M5"
-        }
-    },
-    {
-        "id": "zl-button",
-        "name": "zl-Button",
-        "controls": {
-            "switch": "ZL",
-            "ps": "L2",
-            "xbox": "LT",
-            "pc": "M3"
-        }
-    }
-];
-
 
 function generateControlDropdown() {
   // find select root element
@@ -116,7 +52,7 @@ function changeControls() {
 
     // set text according to selected control scheme, for all occurences
     elements.forEach((element) => {
-      element.textContent = move.name + ': ' + move.controls[selectedPlatform];
+      element.textContent = move.controls[selectedPlatform];
     });
   });
 }
