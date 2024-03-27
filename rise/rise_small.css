@@ -10,21 +10,22 @@ head {
   left: 0;
 }
 .IndexImg {
-width: 30vw;
-padding: 2vw;
-margin: 2vw;
-}
-.explainImg {
-width: 2vw;
+  width: 30vw;
+  padding: 2vw;
+  margin: 2vw;
 }
 .risebgmeme {
-size: 95vw;
+  width: 95vw;
   z-index: -1;
+}
+
+.explainImg {
+  width: 4vw;
 }
 
 /*side-wite body; can use to change all bg images at once if desired/none displayed yet*/
 body {
- /* background-image: url(../Sitewide_Images/AmazonPrimordialDarkVest.webp);
+  /*background-image: url(../Sitewide_Images/AmazonPrimordialDarkVest.webp);
   background-repeat: no-repeat;
   background-size: 100vw;*/
   color: #f3f3f3;
@@ -32,18 +33,11 @@ body {
   font-family: 'Didact Gothic';
   font-size: clamp(12px, 2vw, 20px);
   text-align: center;
-  margin-top: 10%;
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 1s;
-  margin-top: 5vh;
-}
-
-h2 {
-  font-size: 3rem;
-  text-shadow: 2px  1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 @keyframes fadeInOpacity {
@@ -123,7 +117,7 @@ input[type='checkbox'] {
   text-align: center;
   transition: 0.2s;
   background-color: rgb(32, 47, 51);
-  width: 10vw;
+  width: 18vw;
   z-index: -20;
   color: #f3f3f3;
 }
@@ -160,7 +154,7 @@ input[type='checkbox'] {
   text-align: center;
   outline: auto;
   border-radius: 5%;
-  width: 10vw;
+  width: 20vw;
   height: 8vh;
   grid-column-start: 1;
   grid-column-end: 1;
@@ -173,7 +167,7 @@ input[type='checkbox'] {
   /*background-image: url(Sitewide_Images/mh\ chest\ icon.webp);
   background-repeat: no-repeat;
   background-size: 10vw 8vh;*/
-  width: 10vw;
+  width: 18vw;
   height: 8vh;
   inline-size: auto;
   grid-column-start: 2;
@@ -282,12 +276,13 @@ input[type='checkbox'] {
   color:#f3f3f3;
   max-width: 100%;
   max-height: 100%;
+  height: 8vh;
   
 }
 
 .BuildGuides a:link {
   color: rgb(197, 197, 197);
-  padding-left:1vw ;
+  padding-left:1vw;
   padding-right: 1vw;
   border-style: dashed;
   text-align: center;
@@ -303,8 +298,8 @@ input[type='checkbox'] {
     }
     
 .WeaponIcon {
-  max-height: 4vh;
-  max-width: 4vh;
+  max-height: 4.7vh;
+  max-width: 4.7vh;
 }      
 
 /*--------------end of navbar-------------*/
@@ -314,11 +309,11 @@ input[type='checkbox'] {
 .navbartoplink1 {
   grid-column-start: 3;
   grid-column-end: 3;
-  width: 10vw;
+  width: 18vw;
   height: 8vh;
   background-image: url(https://spieletippsps4.com/wp-content/uploads/2021/04/Monster-Hunter-Rise-Roadmap-fuer-2021.jpg);
   background-repeat: no-repeat;
-  background-size: 10vw 8.1vh;
+  background-size: 20vw 8.1vh;
   outline: auto;
   outline-color: white;
   border-radius: 5%;
@@ -327,11 +322,11 @@ input[type='checkbox'] {
 .navbartoplink2 {
   grid-column-start: 4;
   grid-column-end: 4;
-  width: 10vw;
+  width: 18vw;
   height: 8vh;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzpEPFHNQFd2zzIr-c2Y0RZb-WfYa2e1np4l2RWL_bJg&s);
   background-repeat: no-repeat;
-  background-size: 10vw 8.1vh;
+  background-size: 20vw 8.1vh;
   outline: auto;
   outline-color: white;
   border-radius: 5%;
@@ -342,9 +337,9 @@ input[type='checkbox'] {
   grid-column-end: 5;
   background-image: url(Sitewide_Images/binoculars.webp);
   background-repeat: no-repeat;
-  width: 10vw;
+  width: 18vw;
   height: 8vh;
-  background-size: 10vw 8vh;
+  background-size: 20vw 8vh;
   outline: auto;
   outline-color: white;
   border-radius: 5%;
@@ -401,11 +396,10 @@ input[type='checkbox'] {
 }
 /*.risebackground {
   background-image: url(Sitewide_Images/AmazonPrimordialDarkVest.webp);
-  min-height: 50vh;
-  min-width: 50vw;
-  max-height: 100%;
-  max-width: 100%;
   background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 100vh;
+  width: 98vw;
 }*/
 /*---------------about us end----------------------*/
 
@@ -427,8 +421,9 @@ input[type='checkbox'] {
   margin-left: 10vw;
   cursor: pointer;
   transition: 0.3s ease-in;
-  background-color: yellow;
   
+
+
 }
 
 .CollHeader::before {
@@ -459,11 +454,12 @@ input[type='checkbox'] {
   min-width: 600px;
   max-width: 35vw;
   padding: 1vw;
+  display: none;
 }
 
   .BuildCardMobile {
       padding: 1vw;
-      display: none;
+      max-width: 100%;
   }
 
   .ParagraphText {
@@ -489,7 +485,7 @@ input[type='checkbox'] {
   cursor: pointer;
   transition: 0.3s ease-in;
   max-width: 10vw;
-  background-color: #6e6e6e;
+  background-color: #313030;
 }
 
 
@@ -513,8 +509,7 @@ input[type='checkbox'] {
   max-height: 0px;
   text-align: center;
   transition: 0.2s;
-  background-color: rgb(92, 90, 90);
-  color: #f3f3f3;
+  color: #333232;
 }
   
 
@@ -656,7 +651,7 @@ input[type='checkbox'] {
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
-
+  display: none;
 }
 
 .eletable thead th:nth-child(1) {
@@ -750,8 +745,6 @@ input[type='checkbox'] {
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
-  background-color: green;
-  display: none;
 }
 
 .eletableMobile thead th:nth-child(1) {
@@ -774,8 +767,9 @@ input[type='checkbox'] {
 
 .eletableMobile tbody tr {
   
-  text-shadow: 3px 3px 3px rgb(0, 0, 0); /* numbers = offset; if NONE is wanted, DELETE instead */
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);  /* numbers = offset; if NONE is wanted, DELETE instead */
   /*color goes here if change is desired*/
+  border: 2px solid #ffffff;
 }    
 
 .eletableMobile tfoot th {
@@ -1009,311 +1003,287 @@ input[type='checkbox'] {
 
 /*END OF TABLES*/
 
+
 /*collapsible on game page and other*/
 .CollL2Page {
-  border: 2px solid white;
-  border-radius: 5%;
-  text-align: center;
-  background-color: #333333;
-  color: #f3f3f3;
-  
+    border: 10px red;
+    text-align: center;
+    background-color: red;
+    color: #f80000;
+    
 }
 /*end of collapsible on game page and other*/
 
 /*sidebar*/
 summary::-webkit-details-marker {
-  display: none
-}
-::-webkit-scrollbar {display: none;}
-details summary {
-  cursor: pointer;
-}
+    display: none
+  }
+  ::-webkit-scrollbar {display: none;}
+  details summary {
+    cursor: pointer;
+  }
+  
+  input[type='checkbox'] {
+    display: none;
+  }
 
-input[type='checkbox'] {
-  display: none;
-}
-
-.sidebarbutton {
-  text-decoration: underline;
-  text-align: center;
-  color: #f3f3f3;
-  cursor: pointer;
-  transition: 0.3s ease-in;
-  position: fixed;
-  bottom: 0;
-  left:0;
-  z-index: 10;
-  height: 6vh;
-  width: 4vw;
-}
-
-
-.sidebarbutton::before {
-  display: hidden;
+  .sidebarbutton {
+    text-decoration: underline;
+    text-align: center;
+    color: #f3f3f3;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    z-index: 2;
+    height: 10vh;
+    width: 10vw;
 }
 
+  
+  .sidebarbutton::before {
+    display: hidden;
+  }
+  
 
 
-.toggle:checked+.sidebarbutton+.collapsible-contentSidebar {
-  max-height: 100vh;
-  max-width: 100vw;
-  top:0;
-  transform: translateX(-150%);
-
-}
+  .toggle:checked+.sidebarbutton+.collapsible-contentSidebar {
+    max-height: 100vh;
+    max-width: 100vw;
+    top:0;
+    transform: translateX(-150%);
+  
+  }
 .collapsible-contentSidebar {
 top:0;
-overflow:scroll;
-text-align: center;
-transition: 0.2s;
-height: 100vh;
-color: #f3f3f3;
+  overflow:scroll;
+  text-align: center;
+  transition: 0.2s;
+  height: 100vh;
+  color: #f3f3f3;
 position: fixed;
 background-color: rgb(32, 47, 51);
 border: 2px solid white;
 border-radius: 3%;
-z-index: 5;
 
 
 
 }
 .burger {
-  width: 4vw;
-  height: 6vh;
+    width: 10vh;
+    height: 10vh;
+   
 }
 
 .collapsible-contentSidebar1 {
-  max-height: 0px;
-  overflow: hidden;
-  text-align: center;
-  transition: 0.2s;
-  background-color: rgb(32, 47, 51);
-  z-index: -20;
-  color: #f3f3f3;
-  width: 40vw;
-
+    max-height: 0px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    background-color: rgb(32, 47, 51);
+    z-index: -20;
+    color: #f3f3f3;
+    width: 80vw;
 }
 .toggle:checked+.collapsibleSidebar+.collapsible-contentSidebar1 {
-  max-height: 150vh;
-  margin: auto;
-  max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    max-width: 100%;
 
 }
 
 .collapsibleSidebar {
-  text-decoration: underline;
-  text-align: center;
-  color: #f3f3f3;
-  cursor: pointer;
-  width: 40vw;
-  transition: 0.5s ease-in;
-  height: 100vh;
+    text-decoration: underline;
+    text-align: center;
+    color: #f3f3f3;
+    cursor: pointer;
+    width: 80vw;
+    transition: 0.5s ease-in;
+    height: 100vh;
 
 }
 .sidebar {
-  width: 80vw;
+    width: 80vw;
 }
 
 .MainPagesBurger {
-  font-size: 1.7rem;
+    font-size: 1.7rem;
 }
 
 /* unvisited link */
 .sidebar a:link {
-  color: #f3f3f3;
-  padding-left:1vw ;
-  padding-right: 1vw;
-  border-style: dashed;
-  text-align: center;
-  background-color: #333333;
-  max-width: 728px;
-  text-align: center;
-  font-size: 1.2rem;
+    color: #f3f3f3;
+    padding-left:1vw ;
+    padding-right: 1vw;
+    border-style: dashed;
+    text-align: center;
+    background-color: #333333;
+    max-width: 728px;
+    text-align: center;
+    font-size: 1.2rem;
+    }
+    
+
+  
+  /* visited link */
+  .sidebar a:visited {
+    color: #f3f3f3;
+    padding-left:1vw ;
+    padding-right: 1vw;
+    border-style: dashed;
+    text-align: center;
+    background-color: #333333;
+    max-width: 728px;
+    text-align: center;
+    font-size: 1.2rem;
+    }
+  
+  /* mouse over link */
+  .sidebar a:hover {
+    font-size: 2rem;
+
   }
   
-
-
-/* visited link */
-.sidebar a:visited {
-  color: #f3f3f3;
-  padding-left:1vw ;
-  padding-right: 1vw;
-  border-style: dashed;
-  text-align: center;
-  background-color: #333333;
-  max-width: 728px;
-  text-align: center;
-  font-size: 1.2rem;
+  /* selected link */
+  .sidebar a:active {
+    color: #444;
+    border: 2px green;
+    background-color: #444;
+    font-size: 1.2rem;
   }
 
-/* mouse over link */
-.sidebar a:hover {
-  font-size: 1.8rem;
-
-}
-
-/* selected link */
-.sidebar a:active {
-  color: #444;
-  border: 2px green;
-  background-color: #444;
-  font-size: 1.8rem;
-}
-
-.Side_Img {
-  width: 12vw;
-  height: 12vw;
-}
-
-/*end of sidebar*/
-/*Collapsible ToC*/
+  /*end of sidebar*/
+  /*Collapsible ToC*/
 .collapsible-contentToC {
-  overflow: hidden;
-  text-align: center;
-  transition: 0.2s;
-  /*width: 80vw;*/
-  color: #f3f3f3;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.2s;
+    /*width: 80vw;*/
+    color: #f3f3f3;
 }
 .ToCHeader {
-  text-decoration: underline;
-  text-align: center;
-  color: #f3f3f3;
-  cursor: pointer;
-  transition: 0.3s ease-in;
-  position: fixed;
-  top: 0;
-  left:0;
-  z-index: 1;
-  height: 6vh;
-  width: 4vw;
+    text-decoration: underline;
+    text-align: center;
+    color: #f3f3f3;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 1;
+    height: 6vh;
+    width: 4vw;
+    
 }
 
 .ToCHeader::before {
-  display: hidden;
-}
+    display: hidden;
+
+  }
 
 .toggle:checked+.ToCHeader+.collapsible-contentToC {
-  max-height: 100vh;
-  transform: translateY(-100%);
-  /*max-width: 90vw;*/
-  
+    max-height: 100vh;
+    transform: translateY(-100%);
+    /*max-width: 90vw;*/
+    
 }
 
 .CollToc {
-  width: 30vw;
-  height: 40vh;
-  left: 0;
-  top: 0;
-  position: fixed;
-  z-index: 2;
+    width: 40vw;
+    height: 40vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    
 }
 
 
 .ToCHeader-contentToC {
-  height: 100vh;
-  overflow: hidden;
-  transition: 0.2s;
-  background-color: rgb(92, 90, 90);
-  color: #f3f3f3;
-  
+    height: 100vh;
+    overflow: hidden;
+    transition: 0.2s;
+    background-color: rgb(92, 90, 90);
+    color: #f3f3f3;
+    
 }
 
 .Toc_Img {
-  width: 6vw;
-  height: 6vw;
+    width: 8vw;
+    height: 8vw;
 }
 
 .ColledToc {
-  left: 0;
-  width: 20vw;
-  background-color: #444544;
+    left: 0;
+    width: 40vw;
+    background-color: #444544;
 }
 --------------------------------------------------------
 .ColledToc a:link {
-  color: #f3f3f3;
-  padding-left:1vw ;
-  padding-right: 1vw;
-  border-style: dashed;
-  text-align: center;
-  background-color: #333333;
-  max-width: 728px;
-  text-align: center;
-  font-size: 1.2rem;
-  }
+    color: #f3f3f3;
+    padding-left:1vw ;
+    padding-right: 1vw;
+    border-style: dashed;
+    text-align: center;
+    background-color: #333333;
+    max-width: 728px;
+    text-align: center;
+    font-size: 1.2rem;
+    }
+    
+
   
-
-
-/* visited link */
-.ColledToc a:visited {
-  color: #f3f3f3;
-  padding-left:1vw ;
-  padding-right: 1vw;
-  border-style: dashed;
-  text-align: center;
-  background-color: #333333;
-  max-width: 728px;
-  text-align: center;
-  font-size: 1.2rem;
-  }
-
-/* mouse over link */
-.ColledToc a:hover {
-  font-size: 1.8rem;
-
-}
-
-/* selected link */
-.ColledToc a:active {
-  color: #444;
-  border: 2px green;
-  background-color: #444;
-  font-size: 1.8rem;
-}
+  /* visited link */
+  .ColledToc a:visited {
+    color: #f3f3f3;
+    padding-left:1vw ;
+    padding-right: 1vw;
+    border-style: dashed;
+    text-align: center;
+    background-color: #333333;
+    max-width: 728px;
+    text-align: center;
+    font-size: 1.2rem;
+    }
+  
 /*end of collapsible toc*/
 
-
 #meta, #prog, #guide {
-  display: none;
+    display: none;
+  }
+  
+  #meta {
+    background-color: #333333;
+    width: 40vw;
+    margin: auto;
+    outline: 2px solid gray;
+  }
+  
+  #prog {
+    background-color: #333333;
+    width: 40vw;
+    margin: auto;
+    outline: 2px solid gray;
+  }
+  
+ #guide {
+    background-color: #333333;
+    width: 40vw;
+    margin: auto;
+    outline: 2px solid gray;
 }
 
-#meta {
-  background-color: #070707;
-  width: 40vw;
-  margin: auto;
-  outline: 2px solid gray;
-}
-
-#prog {
-  background-color: #757575;
-  width: 40vw;
-  margin: auto;
-  outline: 2px solid gray;
-
-}
-
-#guide {
-  background-color: #525151;
-  width: 40vw;
-  margin: auto;
-  outline: 2px solid gray;
-
-}
-
-input[id="showmeta"]:checked ~ #meta,
-input[id="showprog"]:checked ~ #prog,
-input[id="showguide"]:checked ~ #guide {
-  display: block;
-}
+  input[id="showmeta"]:checked ~ #meta,
+  input[id="showprog"]:checked ~ #prog,
+  input[id="showguide"]:checked ~ #guide {
+    display: block;
+  }
 .radiobutton {
-  display: none;
+    display: none;
 }
 .radiotext {
-  background-color: #333333;
-  margin-left: 1vw;
-  margin-right: 1vw;
-  width: 4vw;
-  height: 2vh;
-  cursor: pointer;
-  border: 2px solid white;
+    background-color: orange;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    cursor: pointer;
 }
-
