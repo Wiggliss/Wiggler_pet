@@ -1,6 +1,6 @@
 [
     {
-        "id": "a-button",
+        "id": "a",
         "controls": {
             "switch": "A",
             "ps": "Circle",
@@ -9,7 +9,7 @@
         }
     },
     {
-        "id": "b-button",
+        "id": "b",
         "controls": {
             "switch": "B",
             "ps": "X",
@@ -18,7 +18,7 @@
         }
     },
     {
-        "id": "x-button",
+        "id": "x",
         "controls": {
             "switch": "X",
             "ps": "Triangle",
@@ -27,7 +27,7 @@
         }
     },
     {
-        "id": "y-button",
+        "id": "y",
         "controls": {
             "switch": "Y",
             "ps": "Square",
@@ -36,7 +36,7 @@
         }
     },
     {
-        "id": "zr-button",
+        "id": "zr",
         "controls": {
             "switch": "ZR",
             "ps": "R2",
@@ -45,7 +45,7 @@
         }
     },
     {
-        "id": "zl-button",
+        "id": "zl",
         "controls": {
             "switch": "ZL",
             "ps": "L2",
