@@ -528,8 +528,25 @@ input[type='checkbox'] {
   margin-right: 10vw;
 }
 /*--end--*/
-    
+.GuideParagraph {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.GuideParagraphText {
+  text-align: center;
 
+}
+
+.GuideCard {
+  min-width: 600px;
+  max-width: 35vw;
+  padding: 1vw;
+}
+
+  .GuideCardMobile {
+      padding: 1vw;
+      display: none;
+  }
 
 /*ALL THE TABLES*/
 
