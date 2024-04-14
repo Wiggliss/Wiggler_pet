@@ -1,358 +1,641 @@
 <!DOCTYPE html>
-<html>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../../sitewide.css" />
-<link rel="stylesheet" type="text/css" href="index.css" />
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="wiggler.pet"
+    content="Monster Hunter Weapon Guides, Monster Hunter Meta Sets, Made and curated by Speedrunners and Theorycrafters">
+<meta name="keywords" content="Monster Hunter Wilds Switch Axe Guide">
+<link rel="stylesheet" media="screen and (max-width: 850px)" type="text/css" href="../wilds_small.css" />
+<link rel="stylesheet" media="screen and (min-width: 851px)" type="text/css" href="../wilds.css" />
 
 <head>
-    <link rel="shortcut icon" href="../../wigglis.ico">
-    <title>Wiggler.pet</title>
+    <link rel="shortcut icon" href="../../Sitewide_Images/wigglis.ico">
+    <title>How to: Wilds Swaxe</title>
+    <top-panel></top-panel>
+    <burger-menu></burger-menu>
 
-</head>
-<div class="navbartop">
-    <a href="../../Wiggler_Pet_Rise_Sunbreak/index_rise.html" class="navbartoplink1"></a> <a
-        href="../../Wiggler_Pet_World_Iceborne/index_world.html" class="navbartoplink2"></a>
-        <a
-        href="../../Wiggler_Pet_Nonspecific/index_nonspecific.html" class="navbartoplink3"></a>
-    <div class="WeaponGuides"> <input id="collapsibleWeaponGuides" class="toggle" type="checkbox">
-        <label for="collapsibleWeaponGuides" class="collapsible">Weapon Guides</label>
-
-        <div class="collapsible-contentWeaps">
+    <div class="CollToc">
+        <input id="TOC" class="toggle" type="checkbox" checked>
+        <label for="TOC" class="ToCHeader"><img src="../../Sitewide_Images/toc_img.webp" class="Toc_Img">
+        </label>
+        <div class="collapsible-contentToC">
             <div class="collapsible-content-inside">
+                <div class="ColledToc">
+                    <div data-toc></div>
 
-                <input id="WeaponGuidesSunbreak" class="toggle" type="checkbox">
-                <label for="WeaponGuidesSunbreak" class="collapsible">Sunbreak</label>
-
-                <div class="collapsible-contentWeaps">
-                    <div class="collapsible-content-inside">
-
-                        <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/01_Greatsword_Guide.html">GS</a><br> 
-                            <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/02_Longsword_Guide.html">ls</a><br> 
-                                <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/03_Sword_And_Shield_Guide.html">sns</a><br>
-                                    <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/04_Dual_Blades_Guide.html">db</a><br>
-                                        <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/05_Hammer_Guide.html">hammmer</a><br>
-                                            <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/06_Hunting_Horn_Guide.html">Horn</a><br>
-                                                <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/07_Lance_Guide.html">lans</a><br>
-                                                    <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/08_Gunlance_Guide.html">gunlance</a><br>
-                                                        <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/09_Switch_Axe_Guide.html">switch axe</a><br>
-                        
-                                                            <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/10_Charge_Blade_Guide.html">charge blade</a><br>
-                                                                <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/11_Insect_Glaive_Guide.html">insect glaive</a><br>
-                                                                    <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/12_Light_Bowgun_Guide.html">light bowgun</a><br>
-                                                                        <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/13_Heavy_Bowgun_Guide.html">heavy bowgun</a><br>
-                                                                            <a href="../../Wiggler_Pet_Rise_Sunbreak/Wiggler_Pet_Rise_Weapons_How_To/14_Bow_Guide.html">bow</a>
-                    </div>
-                </div>
-            </div>
-<br>
-            <input id="collapsible1.0" class="toggle" type="checkbox">
-            <label for="collapsible1.0" class="collapsible">World</label>
-
-            <div class="collapsible-contentWeaps">
-                <div class="collapsible-content-inside">
-
-                    
-                    <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/01_Greatsword_Guide.html">Gs</a><br>
-                        <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/02_Longsword_Guide.html">ls</a><br> 
-                            <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/03_Sword_And_Shield_Guide.html">sns</a><br> 
-                                <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/04_Dual_Blades_Guide.html">db</a><br> 
-                                    <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/05_Hammer_Guide.html">hammmer</a><br> 
-                                        <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/06_Hunting_Horn_Guide.html">horn</a><br> 
-                                            <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/07_Lance_Guide.html">lans</a><br> 
-                                                <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/08_Gunlance_Guide.html">gunlance</a><br> 
-                                                    <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/09_Switch_Axe_Guide.html">switch axe</a><br>
-                    
-                                                        <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/10_Charge_Blade_Guide.html">charge blade</a><br>
-                                                            <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/11_Insect_Glaive_Guide.html">insect glaive</a><br> 
-                                                                <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/12_Light_Bowgun_Guide.html">light bowgun</a><br> 
-                                                                    <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/13_Heavy_Bowgun_Guide.html">heavy bowgun</a><br> 
-                                                                        <a href="../../Wiggler_Pet_World_Iceborne/Wiggler_Pet_World_Weapons_How_To/14_Bow_Guide.html">bow</a>
-                </div>
-                </div>
-            </div>
-        </div>
-            </a>
-    <div class="wrap-collabsible BuildGuides">
-        <input id="collapsibleBuilds" class="toggle" type="checkbox">
-        <label for="collapsibleBuilds" class="collapsible">Builds</label>
-
-        <div class="collapsible-contentBuilds">
-            <div class="collapsible-content-inside">
-
-
-                <input id="Risebuilds" class="toggle" type="checkbox">
-                <label for="Risebuilds" class="collapsible">Sunbreak</label>
-
-                <div class="collapsible-contentBuilds">
-                    <div class="collapsible-content-inside">
-
-
-                        <input id="RiseGS" class="toggle" type="checkbox">
-                        <label for="RiseGS" class="collapsible">GS</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-
-                        </div>
-                        <input id="RiseLS" class="toggle" type="checkbox">
-                        <label for="RiseLS" class="collapsible">LS</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-
-                        </div>
-                        <input id="RiseSNS" class="toggle" type="checkbox">
-                        <label for="RiseSNS" class="collapsible">SNS</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-
-                        </div>
-                        <input id="RiseDB" class="toggle" type="checkbox">
-                        <label for="RiseDB" class="collapsible">DB</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-
-                        </div>
-                        <input id="RiseHammer" class="toggle" type="checkbox">
-                        <label for="RiseHammer" class="collapsible">Hammer</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-
-                        </div>
-                        <input id="RiseHorn" class="toggle" type="checkbox">
-                        <label for="RiseHorn" class="collapsible">Horn</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-
-                        </div>
-                        <input id="RiseLance" class="toggle" type="checkbox">
-                        <label for="RiseLance" class="collapsible">Lance</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-                        </div>
-
-                        <input id="RiseGunlance" class="toggle" type="checkbox">
-                        <label for="RiseGunlance" class="collapsible">Gunlance</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-
-                        </div>
-                        <input id="RiseSwitchAxe" class="toggle" type="checkbox">
-                        <label for="RiseSwitchAxe" class="collapsible">Switch Axe</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-
-                            </div>
-                        </div>
-                        <input id="RiseChargeBlade" class="toggle" type="checkbox">
-                        <label for="RiseChargeBlade" class="collapsible">Charge Blade</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-
-                        </div>
-                        <input id="RiseInsectGlaive" class="toggle" type="checkbox">
-                        <label for="RiseInsectGlaive" class="collapsible">Insect Glaive</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-
-                            </div>
-                        </div>
-                        <input id="RiseLBG" class="toggle" type="checkbox">
-                        <label for="RiseLBG" class="collapsible">Light Bowgun</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-                        </div>
-
-                        <input id="RiseHBG" class="toggle" type="checkbox">
-                        <label for="RiseHBG" class="collapsible">Heavy Bowgun</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-
-                        </div>
-                        <input id="RiseBow" class="toggle" type="checkbox">
-                        <label for="RiseBow" class="collapsible">Bow</label>
-
-                        <div class="collapsible-contentBuilds">
-                            <div class="collapsible-content-inside">
-                                META<br>PROG
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-            </div>
-
-<br>
-            <input id="WorldBuilds" class="toggle" type="checkbox">
-            <label for="WorldBuilds" class="collapsible">World</label>
-
-            <div class="collapsible-contentBuilds">
-                <div class="collapsible-content-inside">
-
-                    <input id="WorldGS" class="toggle" type="checkbox">
-                    <label for="WorldGS" class="collapsible">
-                        GS
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div> <input id="WorldLS" class="toggle" type="checkbox">
-                    <label for="WorldLS" class="collapsible">
-                        LS
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div>
-                    <input id="WorldSNS" class="toggle" type="checkbox">
-                    <label for="WorldSNS" class="collapsible">
-                        SNS
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div>
-                    <input id="WorldDB" class="toggle" type="checkbox">
-                    <label for="WorldDB" class="collapsible">
-                        DB
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div>
-                    <input id="WorldHammer" class="toggle" type="checkbox">
-                    <label for="WorldHammer" class="collapsible">
-                        Hammer
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div> <input id="WorldHorn" class="toggle" type="checkbox">
-                    <label for="WorldHorn" class="collapsible">
-                        Horn
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div> <input id="WorldLance" class="toggle" type="checkbox">
-                    <label for="WorldLance" class="collapsible">
-                        Lance
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div> <input id="WorldGunlance" class="toggle" type="checkbox">
-                    <label for="WorldGunlance" class="collapsible">
-                        Gunlance
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div>
-                    <input id="WorldSwitchAxe" class="toggle" type="checkbox">
-                    <label for="WorldSwitchAxe" class="collapsible">
-                        Switch Axe
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div> <input id="WorldChargeBlade" class="toggle" type="checkbox">
-                    <label for="WorldChargeBlade" class="collapsible">
-                        Charge Blade
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div> <input id="WorldInsectGlaive" class="toggle" type="checkbox">
-                    <label for="WorldInsectGlaive" class="collapsible">
-                        Insect Glaive
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div> <input id="WorldLBG" class="toggle" type="checkbox">
-                    <label for="WorldLBG" class="collapsible">
-                        Light Bowgun
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div> <input id="WorldHBG" class="toggle" type="checkbox">
-                    <label for="WorldHBG" class="collapsible">
-                        Heavy Bowgun
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-                        </div>
-                    </div>
-                    <input id="WorldBow" class="toggle" type="checkbox">
-                    <label for="WorldBow" class="collapsible">
-                        Bow
-                    </label>
-                    <div class="collapsible-contentBuilds">
-                        <div class="collapsible-content-inside">
-                            META<br>PROG
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <img src="../../Sitewide_Images/switch_axe_guide.webp" class="IndexImg">
+    <h2>How to: Switch Axe - Wilds Edition</h2>
+</head>
 
-   
-</div>
-<aside><a href="../../index.html"><img src="https://cdn-icons-png.flaticon.com/512/4796/4796383.png"
-            class="homeicon"></a></aside>
-<aside class="navbarside"> this should be on the side THERE WILL BE TEXT HERE I THINK THE TOC WILL MOVE INTO THIS FOR
-    ALL GUIDE PAGES </aside>
+
+<body>
+
+
+    <div id="controls-dropdown-placeholder"></div>
+
+    A-Button: <span class="controls-a-button">A</span><br>
+    B-Button: <span class="controls-b-button">B</span><br>
+    X-Button: <span class="controls-x-button">X</span><br>
+    Y-Button: <span class="controls-y-button">Y</span><br>
+    ZR-Button: <span class="controls-zr-button">ZR</span><br>
+    ZL-Button: <span class="controls-zl-button">ZL</span><br>
+
+    <div data-content>
+        <div class="BuildParagraph">
+            <input id="1.0" class="toggle" type="checkbox">
+            <label for="1.0" class="CollHeader">
+                <h3>1.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe1.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe1.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                            diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                            amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem
+                            ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                            ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                            eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
+                            duis dolore te feugait nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
+                            mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+                            wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                            aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="BuildParagraph">
+            <input id="2.0" class="toggle" type="checkbox">
+            <label for="2.0" class="CollHeader">
+                <h3>2.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe2.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe2.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                            sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                            rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                            amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos
+                            et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                            sanctus est Lorem ipsum dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                            vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
+                            dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+                            facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                            nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                            vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                            delenit augue duis dolore te feugait nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
+                            mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                            lobortis nisl ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BuildParagraph">
+            <input id="3.0" class="toggle" type="checkbox">
+            <label for="3.0" class="CollHeader">
+                <h3>3.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe3.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe3.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                            eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                            takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                            ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                            diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+                            gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                            consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+                            iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+                            te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                            volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                            lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in
+                            hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat
+                            nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                            praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+                            quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BuildParagraph">
+            <input id="4.0" class="toggle" type="checkbox">
+            <label for="4.0" class="CollHeader">
+                <h3>4.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe4.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe4.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                            no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                            labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+                            et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                            sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                            consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan
+                            et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                            dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                            aliquam erat volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                            lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                            dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+                            eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla
+                            facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming
+                            id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                            dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                            consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BuildParagraph">
+            <input id="5.0" class="toggle" type="checkbox">
+            <label for="5.0" class="CollHeader">
+                <h3>5.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe5.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe5.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                            amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+                            diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                            amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+                            diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                            amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                            molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros
+                            et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                            delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit
+                            amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel
+                            eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+                            vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+                            iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
+                            dolore te feugait nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                            doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit
+                            amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                            quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex
+                            ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BuildParagraph">
+            <input id="6.0" class="toggle" type="checkbox">
+            <label for="6.0" class="CollHeader">
+                <h3>6.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe6.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe6.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+                            amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                            rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                            ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est Lorem ipsum dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                            molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                            eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                            zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum
+                            dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                            euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
+                            vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                            consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+                            accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+                            delenit augue duis dolore te feugait nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
+                            doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit
+                            amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+                            minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                            nisl ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BuildParagraph">
+            <input id="7.0" class="toggle" type="checkbox">
+            <label for="7.0" class="CollHeader">
+                <h3>7.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe7.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe7.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                            no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                            dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                            molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                            vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                            luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                            volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                            suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
+                            autem vel eum iriure dolor in hendrerit in vulputate velit esse
+                            molestie consequat, vel illum dolore eu feugiat nulla facilisis at
+                            vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                            luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue nihil
+                            imperdiet doming id quod mazim placerat facer possim assum. Lorem
+                            ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                            consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BuildParagraph">
+            <input id="8.0" class="toggle" type="checkbox">
+            <label for="8.0" class="CollHeader">
+                <h3>8.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe8.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe8.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                            diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                            justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                            takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                            sed diam voluptua. At vero eos et accusam et justo duo dolores
+                            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+                            est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo dolores et ea
+                            rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                            Lorem ipsum dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                            esse molestie consequat, vel illum dolore eu feugiat nulla
+                            facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatum zzril delenit augue duis dolore te
+                            feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                            laoreet dolore magna aliquam erat volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                            consequat. Duis autem vel eum iriure dolor in hendrerit in
+                            vulputate velit esse molestie consequat, vel illum dolore eu
+                            feugiat nulla facilisis at vero eros et accumsan et iusto odio
+                            dignissim qui blandit praesent luptatum zzril delenit augue duis
+                            dolore te feugait nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue nihil
+                            imperdiet doming id quod mazim placerat facer possim assum.
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                            diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                            aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BuildParagraph">
+            <input id="9.0" class="toggle" type="checkbox">
+            <label for="9.0" class="CollHeader">
+                <h3>9.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe9.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe9.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                            diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                            justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                            sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                            ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                            justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                            sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                            ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                            nonumy eirmod tempor invidunt ut labore et dolore magna
+                            aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                            justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                            sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate
+                            velit esse molestie consequat, vel illum dolore eu feugiat
+                            nulla facilisis at vero eros et accumsan et iusto odio
+                            dignissim qui blandit praesent luptatum zzril delenit augue
+                            duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit
+                            amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                            euismod tincidunt ut laoreet dolore magna aliquam erat
+                            volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                            consequat. Duis autem vel eum iriure dolor in hendrerit in
+                            vulputate velit esse molestie consequat, vel illum dolore eu
+                            feugiat nulla facilisis at vero eros et accumsan et iusto
+                            odio dignissim qui blandit praesent luptatum zzril delenit
+                            augue duis dolore te feugait nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue
+                            nihil imperdiet doming id quod mazim placerat facer possim
+                            assum. Lorem ipsum dolor sit amet, consectetuer adipiscing
+                            elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                            dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                            veniam, quis nostrud exerci tation ullamcorper suscipit
+                            lobortis nisl ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BuildParagraph">
+            <input id="10.0" class="toggle" type="checkbox">
+            <label for="10.0" class="CollHeader">
+                <h3>10.0 - Paragraph</h3>
+            </label>
+
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe10.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe10.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                            sed diam nonumy eirmod tempor invidunt ut labore et
+                            dolore magna aliquyam erat, sed diam voluptua. At vero
+                            eos et accusam et justo duo dolores et ea rebum. Stet
+                            clita kasd gubergren, no sea takimata sanctus est Lorem
+                            ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                            consetetur sadipscing elitr, sed diam nonumy eirmod
+                            tempor invidunt ut labore et dolore magna aliquyam erat,
+                            sed diam voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no sea
+                            takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                            ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                            diam nonumy eirmod tempor invidunt ut labore et dolore
+                            magna aliquyam erat, sed diam voluptua. At vero eos et
+                            accusam et justo duo dolores et ea rebum. Stet clita
+                            kasd gubergren, no sea takimata sanctus est Lorem ipsum
+                            dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in
+                            vulputate velit esse molestie consequat, vel illum
+                            dolore eu feugiat nulla facilisis at vero eros et
+                            accumsan et iusto odio dignissim qui blandit praesent
+                            luptatum zzril delenit augue duis dolore te feugait
+                            nulla facilisi. Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                            ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                            commodo consequat. Duis autem vel eum iriure dolor in
+                            hendrerit in vulputate velit esse molestie consequat,
+                            vel illum dolore eu feugiat nulla facilisis at vero eros
+                            et accumsan et iusto odio dignissim qui blandit praesent
+                            luptatum zzril delenit augue duis dolore te feugait
+                            nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option congue
+                            nihil imperdiet doming id quod mazim placerat facer
+                            possim assum. Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                            ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                            enim ad minim veniam, quis nostrud exerci tation
+                            ullamcorper suscipit lobortis nisl ut aliquip ex ea
+                            commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="BuildParagraph">
+            <input id="11.0" class="toggle" type="checkbox">
+            <label for="11.0" class="CollHeader">
+                <h3>11.0 - Paragraph</h3>
+            </label>
+            <div class="collapsible-contentParagraphs">
+                <div class="collapsible-content-inside">
+                    <img src="images/switch_axe111.1.webp" class="BuildCardMobile">
+                    <img src="images/switch_axe111.webp" class="BuildCard">
+                    <div class="ParagraphText">
+                        <p> Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut
+                            labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no
+                            sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut
+                            labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no
+                            sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            Lorem ipsum dolor sit amet, consetetur sadipscing
+                            elitr, sed diam nonumy eirmod tempor invidunt ut
+                            labore et dolore magna aliquyam erat, sed diam
+                            voluptua. At vero eos et accusam et justo duo
+                            dolores et ea rebum. Stet clita kasd gubergren, no
+                            sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+                            Duis autem vel eum iriure dolor in hendrerit in
+                            vulputate velit esse molestie consequat, vel illum
+                            dolore eu feugiat nulla facilisis at vero eros et
+                            accumsan et iusto odio dignissim qui blandit
+                            praesent luptatum zzril delenit augue duis dolore te
+                            feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit, sed diam nonummy nibh
+                            euismod tincidunt ut laoreet dolore magna aliquam
+                            erat volutpat.
+
+                            Ut wisi enim ad minim veniam, quis nostrud exerci
+                            tation ullamcorper suscipit lobortis nisl ut aliquip
+                            ex ea commodo consequat. Duis autem vel eum iriure
+                            dolor in hendrerit in vulputate velit esse molestie
+                            consequat, vel illum dolore eu feugiat nulla
+                            facilisis at vero eros et accumsan et iusto odio
+                            dignissim qui blandit praesent luptatum zzril
+                            delenit augue duis dolore te feugait nulla facilisi.
+
+                            Nam liber tempor cum soluta nobis eleifend option
+                            congue nihil imperdiet doming id quod mazim placerat
+                            facer possim assum. Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit, sed diam nonummy nibh
+                            euismod tincidunt ut laoreet dolore magna aliquam
+                            erat volutpat. Ut wisi enim ad minim veniam, quis
+                            nostrud exerci tation ullamcorper suscipit lobortis
+                            nisl ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    <!-- DO NOT DELETE PAST HERE DO NOT DELETE PAST HERE DO NOT DELETE PAST HERE DO NOT DELETE PAST HERE DO NOT DELETE PAST HERE DO NOT DELETE PAST HERE-->
+
+    </div>
+
+
+</body>
+<footer-bar></footer-bar>
+<script src="../../burger-menu_level_3.js" type="text/javascript" defer></script>
+<script src="../../footer-bar_level_3.js" type="text/javascript" defer></script>
+<script src="../../controls.js" dataPath="../../controls.json"></script>
+<script src="../../autotoc.js"></script>
+<script>
+    tableOfContents('[data-content]', '[data-toc]', {
+        heading: 'Table of Contents:', // Change the headings
+        // Change the list type
+        // levels: 'h2, h3, h4' // Change the levels used
+    });</script>
+
+
+</html>
