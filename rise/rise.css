@@ -17,7 +17,7 @@ margin: 2vw;
 .explainImg {
 width: 2vw;
 }
-.risebgmeme {
+.gamememe {
 size: 95vw;
   z-index: -1;
 }
@@ -456,12 +456,13 @@ input[type='checkbox'] {
 /*buildcards and such*/
   .BuildCard {
   float: left;
+  width: 100%;
   min-width: 600px;
   max-width: 35vw;
   padding: 1vw;
 }
 
-  .BuildCardMobile {
+  .TableScreenshot {
       padding: 1vw;
       display: none;
   }
@@ -533,26 +534,47 @@ input[type='checkbox'] {
   margin-right: 10vw;
 }
 .GuideParagraphText {
-  text-align: center;
+  text-align: left;
 
+}
+
+.bluebg {
+  background-color: rgba(116, 116, 223, 0.432);
+}
+.redbg {
+  background-color: rgba(233, 107, 107, 0.425);
+}
+
+.centertext {
+  text-align: center;
+  display: block;
+}
+
+.lefttext {
+  text-align: left;
 }
 
 .GuideCard {
   min-width: 600px;
-  max-width: 35vw;
-  padding: 1vw;
+  margin: 0 auto;
+  display: block;
+}
+.GuideCardMobile {
+  display: none;
 }
 
-  .GuideCardMobile {
-      padding: 1vw;
-      display: none;
-  }
-
+.YouTube {
+  width: 40vw;
+  height: 40vh;
+  padding: 1vw;
+  display: block;
+  margin: 0 auto;
+}
 /*ALL THE TABLES*/
-
+/*switch skill table*/
 .switchskilltable {
     table-layout: fixed;
-  text-align: center;
+  text-align: left;
   max-width: 80vw;
   margin: auto;
   min-width: 40vw;
@@ -606,7 +628,7 @@ input[type='checkbox'] {
   background-color: #757575;
 }
 
-
+/*end of switch skill table*/
 .rawtable {
   table-layout: fixed;
   text-align: center;
@@ -662,7 +684,9 @@ input[type='checkbox'] {
 .rawtable tbody tr:nth-child(even) {
   background-color: #757575;
 }
-
+.rawtableMobile{
+  display: none;
+}
 .inlineimg {
   width: 5vw;
 }
@@ -815,6 +839,7 @@ input[type='checkbox'] {
   background-color: #48096d;
 }
 /*eletablephone end*/
+/*gltable start*/
  .gltable {
    table-layout: fixed;
    text-align: center;
@@ -893,6 +918,12 @@ input[type='checkbox'] {
    {
    background-color: #3d3d3d; 
    }
+
+   .gltableMobile {
+    display: none;
+   }
+
+   /*gltable end*/
   
    .skillpriotable {
       table-layout: fixed;
@@ -1217,8 +1248,8 @@ z-index: 5;
 }
 
 .CollToc {
-  width: 30vw;
-  height: 40vh;
+  width: 20vw;
+  height: 1vh;
   left: 0;
   top: 0;
   position: fixed;
@@ -1244,6 +1275,8 @@ z-index: 5;
   left: 0;
   width: 20vw;
   background-color: #444544;
+  margin-left: 6vw;
+  text-align: left;
 }
 --------------------------------------------------------
 .ColledToc a:link {
@@ -1289,11 +1322,11 @@ z-index: 5;
 /*end of collapsible toc*/
 
 
-#meta, #prog, #guide {
+#endgame, #prog, #guide {
   display: none;
 }
 
-#meta {
+#endgame {
   background-color: #070707;
   width: 40vw;
   margin: auto;
@@ -1316,7 +1349,7 @@ z-index: 5;
 
 }
 
-input[id="showmeta"]:checked ~ #meta,
+input[id="showendgame"]:checked ~ #endgame,
 input[id="showprog"]:checked ~ #prog,
 input[id="showguide"]:checked ~ #guide {
   display: block;
@@ -1334,3 +1367,12 @@ input[id="showguide"]:checked ~ #guide {
   border: 2px solid white;
 }
 
+.Level2Paragraph {
+  text-align: left;
+  width: 40vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+.Patchnotes {
+  Width: 15vw;
+}

@@ -23,23 +23,19 @@ h2 {
 }
 
 .GuideCard {
-  min-width: 600px;
-  max-width: 35vw;
+  max-width: 100%;
   padding: 1vw;
-  display: none;
 }
-
-  .GuideCardMobile {
-    padding: 1vw;
-    max-width: 100%;
-  }
-
+.GuideCardMobile {
+  max-width: 100%;
+  padding: 1vw;
+}
 .IndexImg {
   width: 30vw;
   padding: 2vw;
   margin: 2vw;
 }
-.risebgmeme {
+.gamememe {
   width: 95vw;
   z-index: -1;
 }
@@ -475,14 +471,11 @@ input[type='checkbox'] {
 /* end of paragraph formatting for guides or everything*/
 /*buildcards and such*/
   .BuildCard {
-  float: left;
-  min-width: 600px;
-  max-width: 35vw;
-  padding: 1vw;
-  display: none;
+    padding: 1vw;
+    max-width: 100%;
 }
 
-  .BuildCardMobile {
+  .TableScreenshot {
       padding: 1vw;
       max-width: 100%;
   }
@@ -554,211 +547,59 @@ input[type='checkbox'] {
 /*ALL THE TABLES*/
 
 .switchskilltable {
-    table-layout: fixed;
-  text-align: center;
-  max-width: 80vw;
-  margin: auto;
-  min-width: 40vw;
-  border-collapse: collapse;
-  font-size: clamp(14px, 2em, 30px);
+  display: none;
 }
 
-.switchskilltable thead th:nth-child(1) {
-  width: 5%;
- border: 1px solid white;
-}
-
-.switchskilltable thead th:nth-child(2) {
-  width: 15%;
-  border: 1px solid #ddd;
- 
-}
-
-.switchskilltable thead th:nth-child(3) {
-  width: 15%;
-  border: 1px solid #ddd;
-}
-
-.switchskilltable thead th:nth-child(4) {
-  width: 15%;
-  border: 1px solid #ddd;
-}
-
-.switchskilltable thead th:nth-child(5) {
-  width: 50%;
-  border: 1px solid #ddd;
-}
-
-.switchskilltable td {
-  padding: 20px;
-  border: 1px solid #ddd;
-}
-
-.switchskilltable tbody tr {
-  border: 1px solid #ddd;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
-}
-
-.switchskilltable tfoot th {
-  border: none;
-}
-.switchskilltable tbody tr:nth-child(odd) {
-  background-color: #a09c9c;
-}
-.switchskilltable tbody tr:nth-child(even) {
-  background-color: #757575;
-}
-
-
+/*rawtable start*/
 .rawtable {
-  table-layout: fixed;
-  text-align: center;
-  max-width: 80vw;
-  margin: auto;
-  min-width: 40vw;
-  border-collapse: collapse;
-  font-size: clamp(14px, 2em, 30px);
+  display: none;
 }
 
-.rawtable thead th:nth-child(1) {
-  width: 5%;
-  border: 1px solid #ddd;
-}
 
-.rawtable thead th:nth-child(2) {
-  width: 15%;
-  border: 1px solid #ddd;
-
-}
-
-.rawtable thead th:nth-child(3) {
-  width: 15%;
-  border: 1px solid #ddd;
-}
-
-.rawtable thead th:nth-child(4) {
-  width: 15%;
-  border: 1px solid #ddd;
-}
-
-.rawtable thead th:nth-child(5) {
-  width: 50%;
-  border: 1px solid #ddd;
-}
-
-.rawtable td {
-  padding: 20px;
-  border: 1px solid #ddd;
-}
-
-.rawtable tbody tr {
-  border: 1px solid #ddd;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
-}
-
-.rawtable tfoot th {
-  border: none;
-}
-.rawtable tbody tr:nth-child(odd) {
-  background-color: #a09c9c;
-}
-.rawtable tbody tr:nth-child(even) {
-  background-color: #757575;
-}
-
-.inlineimg {
-  width: 5vw;
-}
-.eletable {
+.rawtableMobile {
   table-layout: fixed;
   text-align: center;
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
   border-collapse: collapse;
-  display: none;
 }
-
-.eletable thead th:nth-child(1) {
-  width: 5%;
-  border: 2px solid #ffffff;
-  
-}
-
-.eletable thead th:nth-child(2) {
-  min-width: 10%;
-  max-width: 30%;
-  border: 2px solid #ffffff;
-}
-
-.eletable thead th:nth-child(3) {
+.rawtableMobile thead th:nth-child(1) {
   width: 15%;
-  border: 2px solid #ffffff;
+  border: 1px solid #ddd;
 }
 
-.eletable thead th:nth-child(4) {
-  width: 15%;
-  border: 2px solid #ffffff;
+.rawtableMobile thead th:nth-child(2) {
+  width: 85%;
+  border: 1px solid #ddd;
+
 }
 
-.eletable thead th:nth-child(5) {
-  width: 50%;
-  border: 2px solid #ffffff;
+.rawtableMobile td {
+  padding: 20px;
+  border: 1px solid #ddd;
 }
 
-
-  .eletable thead th:nth-child(6) {
-      width: 10%;
-      border: 2px solid #ffffff;
-}
-.eletable thead th:nth-child(7) {
-  width: 10%;
-  border: 2px solid #ffffff;
-}
-.eletable thead th:nth-child(8) {
-  width: 10%;
-  border: 2px solid #ffffff;
-}
-.eletable thead th:nth-child(9) {
-  width: 10%;
-  border: 2px solid #ffffff;
-}
-.eletable thead th:nth-child(10) {
-  width: 10%;
-  border: 2px solid #ffffff;
+.rawtableMobile tbody tr {
+  border: 1px solid #ddd;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
-.eletable td {
-  border: 2px solid #ffffff;
-  
-}
-.eletable th {
-  border: 2px solid white;
-}
-.eletable tbody tr {
-  border: 2px solid #ffffff;
-  text-shadow: 3px 3px 3px rgb(0, 0, 0); /* numbers = offset; if NONE is wanted, DELETE instead */
-  /*color goes here if change is desired*/
-}    
-
-.eletable tfoot th {
+.rawtableMobile tfoot th {
   border: none;
 }
-.eletable tbody tr:nth-child(1) {
-  background-color: #cf5151;
+.rawtableMobile tbody tr:nth-child(odd) {
+  background-color: #a09c9c;
 }
-.eletable tbody tr:nth-child(2) {
-  background-color: #290b94;
+.rawtableMobile tbody tr:nth-child(even) {
+  background-color: #757575;
 }
-
-.eletable tbody tr:nth-child(3) {
-  background-color: #8a8a0b;
+/*rawtable end*/
+.inlineimg {
+  width: 5vw;
 }
-.eletable tbody tr:nth-child(4) {
-  background-color: #215c5c;
-}
-.eletable tbody tr:nth-child(5) {
-  background-color: #48096d;
+.eletable {
+  display: none;
 }
 
 /*eletablephone*/
@@ -817,6 +658,7 @@ input[type='checkbox'] {
   background-color: #48096d;
 }
 /*eletablephone end*/
+/*gltable start*/
  .gltable {
    table-layout: fixed;
    text-align: center;
@@ -895,7 +737,8 @@ input[type='checkbox'] {
    {
    background-color: #3d3d3d; 
    }
-  
+
+  /*gltable end*/
    .skillpriotable {
       table-layout: fixed;
       text-align: center;
@@ -1031,10 +874,7 @@ input[type='checkbox'] {
 
 /*collapsible on game page and other*/
 .CollL2Page {
-    border: 10px red;
     text-align: center;
-    background-color: red;
-    color: #f80000;
     
 }
 /*end of collapsible on game page and other*/
@@ -1216,7 +1056,7 @@ border-radius: 3%;
 
 .CollToc {
     width: 40vw;
-    height: 40vh;
+    height: 1vh;
     left: 0;
     top: 0;
     position: fixed;
@@ -1271,11 +1111,11 @@ border-radius: 3%;
   
 /*end of collapsible toc*/
 
-#meta, #prog, #guide {
+#endgame, #prog, #guide {
     display: none;
   }
   
-  #meta {
+  #endgame {
     background-color: #333333;
     width: 40vw;
     margin: auto;
@@ -1296,7 +1136,7 @@ border-radius: 3%;
     outline: 2px solid gray;
 }
 
-  input[id="showmeta"]:checked ~ #meta,
+  input[id="showendgame"]:checked ~ #endgame,
   input[id="showprog"]:checked ~ #prog,
   input[id="showguide"]:checked ~ #guide {
     display: block;
@@ -1309,4 +1149,10 @@ border-radius: 3%;
     margin-left: 1vw;
     margin-right: 1vw;
     cursor: pointer;
+}
+.Level2Paragraph {
+  text-align: left;
+}
+.Patchnotes {
+  width: 50vw;
 }
