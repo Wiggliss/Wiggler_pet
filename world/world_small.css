@@ -9,18 +9,30 @@ head {
   top: 8vh;
   left: 0;
 }
+.IndexImg {
+  width: 30vw;
+  padding: 2vw;
+  margin: 2vw;
+}
+.risebgmeme {
+  width: 95vw;
+  z-index: -1;
+}
+
+.explainImg {
+  width: 4vw;
+}
 
 /*side-wite body; can use to change all bg images at once if desired/none displayed yet*/
 body {
-  background-image: url();
+  /*background-image: url(../Sitewide_Images/AmazonPrimordialDarkVest.webp);
   background-repeat: no-repeat;
-  background-size: 100vw;
+  background-size: 100vw;*/
   color: #f3f3f3;
   background-color: #333333;
   font-family: 'Didact Gothic';
   font-size: clamp(12px, 2vw, 20px);
   text-align: center;
-  margin-top: 10%;
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
@@ -994,10 +1006,8 @@ input[type='checkbox'] {
 
 /*collapsible on game page and other*/
 .CollL2Page {
-    border: 10px red;
     text-align: center;
-    background-color: red;
-    color: #f80000;
+
     
 }
 /*end of collapsible on game page and other*/
@@ -1059,7 +1069,7 @@ border-radius: 3%;
 
 }
 .burger {
-    width: 10vw;
+    width: 10vh;
     height: 10vh;
    
 }
@@ -1236,11 +1246,11 @@ border-radius: 3%;
   
 /*end of collapsible toc*/
 
-#meta, #prog, #guide {
+#endgame, #prog, #guide {
     display: none;
   }
   
-  #meta {
+  #endgame {
     background-color: #333333;
     width: 40vw;
     margin: auto;
@@ -1261,7 +1271,7 @@ border-radius: 3%;
     outline: 2px solid gray;
 }
 
-  input[id="showmeta"]:checked ~ #meta,
+  input[id="showendgame"]:checked ~ #endgame,
   input[id="showprog"]:checked ~ #prog,
   input[id="showguide"]:checked ~ #guide {
     display: block;
@@ -1274,4 +1284,10 @@ border-radius: 3%;
     margin-left: 1vw;
     margin-right: 1vw;
     cursor: pointer;
+}
+.Level2Paragraph {
+  text-align: left;
+}
+.Patchnotes {
+  width: 50vw;
 }

@@ -26,7 +26,7 @@ head {
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 1s;
-    margin-top: 60vh;
+    margin-top: 5vh;
   }
   
   h2 {
@@ -396,7 +396,10 @@ head {
     background-repeat: no-repeat;
   }*/
   /*---------------about us end----------------------*/
-  
+  .gamememe {
+    z-index: -1;
+    size: 95vw;
+  }
   /*Collapsible Paragraphs*/
   .collapsible-contentParagraphs {
     max-height: 0px;
@@ -412,10 +415,9 @@ head {
     text-align: center;
     width: 80vw;
     color: #f3f3f3;
-    margin-left: 10vw;
+    margin-left: none;
     cursor: pointer;
-    transition: 0.3s ease-in;
-    background-color: yellow;
+    transition: 0.3s ease-in;;
     
   }
   
@@ -425,8 +427,7 @@ head {
   
   .toggle:checked+.CollHeader+.collapsible-contentParagraphs {
     max-height: 1000vh;
-    /*max-width: 90vw;*/
-    
+    /*max-width: 90vw;*/    
   }
   
   
@@ -1260,11 +1261,11 @@ head {
   /*end of collapsible toc*/
   
   
-  #meta, #prog, #guide {
+  #endgame, #prog, #guide {
     display: none;
   }
   
-  #meta {
+  #endgame {
     background-color: #070707;
     width: 40vw;
     margin: auto;
@@ -1287,7 +1288,7 @@ head {
   
   }
   
-  input[id="showmeta"]:checked ~ #meta,
+  input[id="showendgame"]:checked ~ #endgame,
   input[id="showprog"]:checked ~ #prog,
   input[id="showguide"]:checked ~ #guide {
     display: block;
@@ -1305,4 +1306,12 @@ head {
     border: 2px solid white;
   }
   
-  
+  .Level2Paragraph {
+    text-align: left;
+    width: 40vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .Patchnotes {
+    width: 15vw;
+  }
