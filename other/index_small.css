@@ -19,7 +19,7 @@ head {
     background-color: #333333;
     font-family: 'Didact Gothic';
     font-size: clamp(12px, 2vw, 20px);
-    text-align: center;
+    text-align: left;
     margin-top: 10%;
     opacity: 1;
     animation-name: fadeInOpacity;
@@ -1235,43 +1235,125 @@ head {
       }
     
   /*end of collapsible toc*/
-  
-  #meta, #prog, #guide {
-      display: none;
-    }
-    
-    #meta {
-      background-color: #333333;
-      width: 40vw;
-      margin: auto;
-      outline: 2px solid gray;
-    }
-    
-    #prog {
-      background-color: #333333;
-      width: 40vw;
-      margin: auto;
-      outline: 2px solid gray;
-    }
-    
-   #guide {
-      background-color: #333333;
-      width: 40vw;
-      margin: auto;
-      outline: 2px solid gray;
+
+  #a1, #a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10, #a11, #a12 {
+    display: none;
   }
   
-    input[id="showmeta"]:checked ~ #meta,
-    input[id="showprog"]:checked ~ #prog,
-    input[id="showguide"]:checked ~ #guide {
-      display: block;
-    }
-  .radiobutton {
-      display: none;
+  #a1 {
+    background-color: #070707;
+    width: 40vw;
+    margin: auto;
+    outline: 2px solid gray;
   }
-  .radiotext {
-      background-color: orange;
-      margin-left: 1vw;
-      margin-right: 1vw;
-      cursor: pointer;
+  
+  #a2 {
+    background-color: #757575;
+    width: 40vw;
+    margin: auto;
+    outline: 2px solid gray;
+
   }
+  
+ #a3 {
+    background-color: #525151;
+    width: 40vw;
+    margin: auto;
+    outline: 2px solid gray;
+
+}
+
+#a4 {
+  background-color: #070707;
+  width: 40vw;
+  margin: auto;
+  outline: 2px solid gray;
+}
+
+#a5 {
+  background-color: #757575;
+  width: 40vw;
+  margin: auto;
+  outline: 2px solid gray;
+
+}
+
+#a6 {
+  background-color: #525151;
+  width: 40vw;
+  margin: auto;
+  outline: 2px solid gray;
+
+}
+#a7 {
+  background-color: #070707;
+  width: 40vw;
+  margin: auto;
+  outline: 2px solid gray;
+}
+
+#a8 {
+  background-color: #757575;
+  width: 40vw;
+  margin: auto;
+  outline: 2px solid gray;
+
+}
+
+#a9 {
+  background-color: #525151;
+  width: 40vw;
+  margin: auto;
+  outline: 2px solid gray;
+
+}
+#a10 {
+  background-color: #070707;
+  width: 40vw;
+  margin: auto;
+  outline: 2px solid gray;
+}
+
+#a11 {
+  background-color: #757575;
+  width: 40vw;
+  margin: auto;
+  outline: 2px solid gray;
+
+}
+
+#a12 {
+  background-color: #525151;
+  width: 40vw;
+  margin: auto;
+  outline: 2px solid gray;
+
+}
+  input[id="1aa"]:checked ~ #a1,
+  input[id="2aa"]:checked ~ #a2,
+  input[id="3aa"]:checked ~ #a3,
+  input[id="4aa"]:checked ~ #a4,
+  input[id="5aa"]:checked ~ #a5,
+  input[id="6aa"]:checked ~ #a6,
+  input[id="7aa"]:checked ~ #a7,
+  input[id="8aa"]:checked ~ #a8,
+  input[id="9aa"]:checked ~ #a9,
+  input[id="10aa"]:checked ~ #a10,
+  input[id="11aa"]:checked ~ #a11,
+  input[id="12aa"]:checked ~ #a12 {
+    display: block;
+  }
+
+.radiobutton {
+    display: none;
+}
+.radiotext {
+    background-color: #333333;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 4vw;
+    height: 2vh;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
