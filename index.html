@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self';">
-    <link rel="shortcut icon" href="Sitewide_Images/wigglis.ico">
-    <title>Wiggler Gardens</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-<meta name="keywords" content="Monster Hunter, Guides, Builds, Sets, Endgame, Progression">
-<link rel="stylesheet" media="screen and (max-width: 850px)" type="text/css" href="index_small.css" />
-<link rel="stylesheet" media="screen and (min-width: 851px)" type="text/css" href="index.css" />
-    <!---->
-<meta property="og:url" content="https://www.wiggliss.github.io/Wiggler_pet/index.html" />
-<meta property="og:image" content="https://raw.githubusercontent.com/Wiggliss/Wiggler_pet/main/Sitewide_Images/Wigglis.webp">
-<meta name="description" content="Monster Hunter Builds, Guides and more - Written and curated by Theorycrafters and Speedrunners.">
-<!---->
-
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; object-src 'none'; base-uri 'none'; script-src 'self';">
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Wiggler, Monster Hunter, Rise, Sunbreak, World, Iceborne, Guides, Prog, Meta, Endgame, How to, MH">
+    <link rel="stylesheet" media="screen and (max-width: 850px)" type="text/css" href="Global_small.css" />
+    <link rel="stylesheet" media="screen and (min-width: 851px)" type="text/css" href="Global.css" />
+    <link rel="shortcut icon" href="images/wigglis.png">
+    <title>Wiggler.pet</title>
+    <meta property="og:url" content="https://www.wiggler.pet" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/Im-terribly-bad-at-names/justsomestuffineedforotherstuff/main/wigglis.png">
+    <meta property="description" content="Monster Hunter Guides, written and curated by Theorycrafters, Speedrunners and you!">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Wiggler.pet" />
+    <meta property="og:description" content="Monster Hunter Guides, written and curated by Theorycrafters, Speedrunners and you!" />
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large">
 </head>
-<body>
-    <top-panel></top-panel>
-    <burger-menu></burger-menu>
-      
 
+<body class="RiseMeme">
+        <div class="spaceholder"></div>
+        <h1>Home</h1>
+        
+        <burger-menu></burger-menu>
 
-    <h1>Home</h1>
-    <h2>Welcome to the Wiggler Garden! Please select a Monster Hunter entry below.</h2>
-
-    
+    <span class="tooltip"><h1><u>How to use: Click or Hover me!</u></h1><span class="tooltiptext">
+        <ul><li><img src="images/map.webp" class="explainImg"> - This is a Burger Menu for navigation.</li>
+        <li><img src="images/Wigglis.webp" class="explainImg"> - The "About Us" page.</li>
+        <li><img src="images/binoculars.webp" class="explainImg"> - The "Other Guides" page.</li>
+        <li><img src="images/farcaster.webp" class="explainImg"> - Return to Main page.</li><br>
+        All Games and Weapon Icons have collapsible sub-menus.</ul></span></span><br>
+        <h2>Welcome to the Wiggler Garden! Please select a Monster Hunter entry below.</h2> <br><br>
     <div class="content">
-        <a href="wilds\wilds.html"><img class="IndexImg"
-                src="https://www.monsterhunter.com/wilds/assets/img/mainVisual/all.png"></a>
-        <a href="rise\rise"><img class="IndexImg"
-                src="https://www.monsterhunter.com/rise-sunbreak/assets/img/logo-sb-global.png"></a>
-        <a href="world/world.html"><img class="IndexImg"
-                src="Sitewide_Images/world_logo.webp"></a>
-        <a href="other/other.html"><img class="IndexImg"
-                src="https://i.pinimg.com/736x/45/15/1e/45151e4bf354a5feecaab2221e4f1050.jpg"></a><br>
+        <a href="wilds"><img class="IndexImg" src="images/wilds_logo.webp"></a>
+        <a href="rise"><img class="IndexImg" src="images/rise_logo.webp"></a>
+        <a href="world"><img class="IndexImg" src="images/world_logo.webp"></a>
+        <a href="other"><img class="IndexImg" src="images/other_guides_logo.webp"></a><br>
              
     </div>
     <h2>How to use this Website:</h2>
-        <p><img src="Sitewide_Images/map.webp" class="explainImg"> - This is a Burger Menu for navigation. <br>
-        <img src="Sitewide_Images/Wigglis.webp" class="explainImg"> - The "About Us" page. <br>
-        <img src="Sitewide_Images/binoculars.webp" class="explainImg"> - The "Other Guides" page. <br>
-        <img src="Sitewide_Images/farcaster.webp" class="explainImg"> - Return to Main page.<br>
+        <p><img src="images/map.webp" class="explainImg"> - This is a Burger Menu for navigation. <br>
+        <img src="images/Wigglis.webp" class="explainImg"> - The "About Us" page. <br>
+        <img src="images/binoculars.webp" class="explainImg"> - The "Other Guides" page. <br>
+        <img src="images/farcaster.webp" class="explainImg"> - Return to Main page.<br>
         All Games and Weaponicons have collapsible sub-menus.
-        
         </p>
 </body>
 <footer>
@@ -51,8 +53,6 @@
 
 
 </footer>
-<script src="footer-bar_top_level.js" type="text/javascript" defer></script>
-<!--<script src="static_site_layout_top_level.js" type="text/javascript" defer></script>-->
-<script src="burger-menu_top_level.js" type="text/javascript" defer></script>
-
+<script src="footer-bar.js" type="text/javascript" defer></script>
+<script src="burger-menu.js" type="text/javascript" defer></script>
 </html>
