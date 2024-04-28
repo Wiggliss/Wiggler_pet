@@ -1,59 +1,47 @@
-head {
-  overflow-x: hidden;
-  width: 100%;
-  height: 10vh;
-  background-repeat: no-repeat;
-  padding: none;
-  top: 8vh;
-  left: 0;}
 @font-face {
-    font-family: 'Didact Gothic';/*taken from here - https://github.com/ossobuffo/didact-gothic under the license here - http://scripts.sil.org/OFL */
+    font-family: "Didact Gothic", sans-serif;/*taken from here - https://github.com/ossobuffo/didact-gothic under the license here - http://scripts.sil.org/OFL */
     src: url(DidactGothic-Regular.otf);}
 body {
   color: #f3f3f3;
   background-color: #333333;
   font-family: 'Didact Gothic';
-  font-size: clamp(12px, 2.5vw, 30px);
-  text-align: center;
-  margin-top: 10%;
+  font-size: clamp(14px, 2vw, 27px);
+  text-align: left;
+  margin-top: 5%;
   opacity: 1;
   animation-name: fadeInOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
+  margin-left: 10vw;
+  margin-right: 10vw;
   animation-duration: 1s;}
-h2 {font-size: 3rem; text-shadow: 2px  1px 2px red, 0 0 1em blue, 0 0 0.2em blue;}
-h3 {font-size: 2rem}
+footer {text-align: center; margin-left: -10vw; margin-right:-10vw;}
+p {text-align: left;}
+li {list-style-type: none; text-align: left;}
+h2 {font-size: 3rem; text-shadow: 2px  1px 2px red, 0 0 1em blue, 0 0 0.2em blue; text-align: center;}
+h3, .CollHeading .center {background: linear-gradient(45deg, #0000003d, #2727273d, rgba(0, 0, 0, 0.24)00, #4646462a,#00000060); border: outset 5px rgba(206, 204, 204, 0.5); display: inline-block; margin-top: 10px; margin-bottom: 10px; font-size: 2rem;}
+h1 {font-size: 1.5rem;}
 @keyframes fadeInOpacity {
     0% {opacity: 0;}
     100% {opacity: 1;}}
 summary::-webkit-details-marker {display: none}
 details summary {cursor: pointer;}
 input[type='checkbox'] {display: none;}
-.WeaponIcon{max-height: 4vh;max-width: 4vh;} 
-.wigglis {
-    padding: 6vw 6vh;
-    max-width: 30vw;
-    max-height: 30vh;}
-.collapsible-contentParagraphs {
-    max-height: 0px;
-    overflow: hidden;
-    text-align: center;
+.WeaponIcon{height: 4vw;width: 4vw;} 
+.wigglis {padding: 6vw 6vh; width: 30vw; height: 30vw; max-width: 300px; max-height: 300px; margin-left: auto; margin-right: 0 auto; display: block; float:none;}
+.CollParagraph {
+    text-align: left;
     transition: 0.2s;
-    color: #f3f3f3;}
-.CollHeader {
-    text-decoration: underline;
-    text-align: center;
-    width: 80vw;
     color: #f3f3f3;
-    margin-left: 10vw;
-    cursor: pointer;
-    transition: 0.3s ease-in;}
-.CollHeader::before {content: ' ';}
-.toggle:checked+.CollHeader+.collapsible-contentParagraphs {max-height: 1000vh;}
-.IndexImg {
-    width: 30vw;
-    padding: 2vw;
-    margin: 2vw; border: 4px solid #00000021; border-radius: 5%;}
+    max-height: 0px;
+    overflow: hidden;}
+.CollHeading {display: inline-block; margin-left: 18vw;} /*text-decoration: underline; text-align: center; color: #f3f3f3; cursor: pointer; transition: 0.3s ease-in; display: inline-block; font-weight: bold; cursor: pointer; border-radius: 7px; transition: all 0.25s ease-out; */
+.CollL2Page .CollHeading {display: inline-block; margin-left: 0;}
+label {cursor: pointer;}
+.CollHeading::before {content: "\261E"}
+.toggle:checked ~ .CollHeading::before {content: "\261F"}
+.toggle:checked ~ .CollParagraph {max-height: 1000vh;}
+.IndexImg {width: 30vw; padding: 2vw; margin: 2vw; border: 4px solid #00000021; border-radius: 5%;}
 .IndexImg:hover {animation: flicker 2s infinite; transform: rotate(355deg) scale(125%);}
 .explainImg {width: 2vw;}
 .BuildCard {float: left;
@@ -93,9 +81,6 @@ input[type='checkbox'] {display: none;}
     color: #f3f3f3;}
 .SetLinksContainer{
     clear:both;}
-.BuildParagraph {
-    margin:auto;
-width: 80vw;}
 a:link:visited {color: #f3f3f3;}
 a:link {color:#f3f3f3;}
 /*tables go here*/
@@ -127,7 +112,9 @@ a:link {color:#f3f3f3;}
 .bad {background-color: #9e4949;}
 .redscroll {color: #ff0000;}
 .bluescroll {color: #7777fa;}
-.tooltip {position: relative;display: inline-block;}
+.gray {background-color: #757575;}
+.dark {background-color: #3d3d3d;}
+.tooltip {position: relative;display: inline-block; text-decoration: italic;}
 .tooltip .tooltiptext {
     visibility: hidden;
     background: linear-gradient(0deg, #000, #272727);
@@ -164,12 +151,12 @@ a:link {color:#f3f3f3;}
 .tooltiptext:after {filter: blur(50px);}
 /*yoinked from https://www.sliderrevolution.com/resources/css-border-animation/ - by Nick*/
 .CollL2Page {
-    border: 2px solid white;
-    border-radius: 5%;
+    border: 2px solid rgba(255, 255, 255, 0.274);
     text-align: center;
-    background-color: #333333;
+    background-color: #33333300;
     color: #f3f3f3;}
 ::-webkit-scrollbar {display: none;}
+.sidebar li {text-align: center;}
 .sidebarbutton {
     text-decoration: underline;
     text-align: center;
@@ -180,18 +167,20 @@ a:link {color:#f3f3f3;}
     bottom: 0;
     left:0;
     z-index: 10;
+    height: 10vh;
     width: 3.4vw; height: 4vw; min-height: 80px; min-width: 70px;}
-.sidebarbutton::before {
-    display: hidden;}
+.sidebarbutton::before {display: hidden;}
+.sidebarBigClose::before{display:hidden;}
+.sidebarBigClose {background-color: rgba(32, 47, 51, 0.336); left: 40vw;width: 100vw; margin-top: -200px;height: 150vh; z-index: -99; position: fixed; animation: 3s fadeInOpacity ease-in-out;}
 .toggle:checked+.sidebarbutton+.collapsible-contentSidebar {
     max-height: 100vh;
-    max-width: 100vw;
+    left:0;
     top:0;
-    transform: translateX(-250%);}
-.sidebarBigClose::before{display:hidden;}
-.sidebarBigClose {background-color: rgba(32, 47, 51, 0.336); left: 0;width: 100vw; margin-top: -200px;height: 150vh; z-index: -99; position: fixed; animation: 3s fadeInOpacity ease-in-out;}
+    transform: translateX(-100%);}  
 .collapsible-contentSidebar {
     top:0;
+    bottom: 0;
+    left:0;
     overflow:scroll;
     text-align: center;
     transition: 0.2s;
@@ -201,6 +190,8 @@ a:link {color:#f3f3f3;}
     background-color: rgb(32, 47, 51);
     border: 2px solid white;
     border-radius: 3%;
+    width: 41vw;
+    min-width: 610px;
     z-index: 5;}
 .burger {width: 3.4vw; height: 4vw; min-height: 80px; min-width: 70px;}
 .collapsible-contentSidebar1 {
@@ -211,42 +202,22 @@ a:link {color:#f3f3f3;}
     background-color: rgb(32, 47, 51);
     z-index: 1;
     color: #f3f3f3;
-    width: 40vw;}
+    display: inline-block;
+width: 40vw; min-width: 600px;}
 .toggle:checked+.collapsibleSidebar+.collapsible-contentSidebar1 {
-    max-height: 150vh;
-    margin: auto;
-    max-width: 100%;}
+    max-height: 250vh;}
 .collapsibleSidebar {
-    text-decoration: underline;
     text-align: center;
     color: #f3f3f3;
     cursor: pointer;
-    width: 40vw;
     transition: 0.5s ease-in;
     height: 100vh;}
-.sidebar {width: 80vw;} 
-.MainPagesBurger {
-    font-size: 1.7rem;}
+.sidebar {width: 40vw; min-width: 700px; display: inline-block;}
 .collapsible-contentSidebar1 a:link, a:visited {
     color: #f3f3f3;
-    padding-left:1vw ;
-    padding-right: 1vw;
-    border-style: dashed;
     text-align: center;
-    background-color: #333333;
-    max-width: 728px;
-    text-align: center;
-    font-size: 1.2rem;}
-.collapsible-contentSidebar1 a:hover {
-    font-size: 1.8rem;}
-.collapsible-contentSidebar1 a:active {
-    color: #444;
-    border: 2px green;
-    background-color: #444;
-    font-size: 1.8rem;}
-.Side_Img {
-    width: 8vw;
-    height: 8vw;}
+    font-size: 1.5rem;}
+.Side_Logo {width: 10vw; max-width: 300px; min-width: 150px;}
 .collapsible-contentToC {
       overflow: hidden;
       text-align: center;
@@ -262,8 +233,8 @@ a:link {color:#f3f3f3;}
     left: 0;
     top: 0;
     z-index: 1;
-    height: 6vw;
-    width: 6vw; min-width: 90px; min-height: 90px;}
+    height: 7vw;
+    width: 7vw;}
 .ToCHeader::before {display: hidden;}
 .toggle:checked+.ToCHeader+.collapsible-contentToC {
     max-height: 100vh;
@@ -272,7 +243,7 @@ a:link {color:#f3f3f3;}
     height: 1vh;
     left: 0;
     top: 0;
-    margin-left: 8vw;
+    margin-left: 7vw;
     width: 45vw; min-width: 600px;
     position: fixed;
     z-index: 2;}
@@ -282,7 +253,7 @@ a:link {color:#f3f3f3;}
     transition: 0.2s;
     background-color: rgb(92, 90, 90);
     color: #f3f3f3;}
-.Toc_Img {width: 8vw; height: 8vw;}
+.Toc_Img {width: 7vw; height: 7vw;}
 .ColledToc {
     left: 0;
     width: 25vw; min-width: 400px;
@@ -313,7 +284,7 @@ input[id="showguide"]:checked ~ #guide {
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1s; width: 40vw; margin: auto; border: 2px solid gray;}
+    animation-duration: 1s; width: 40vw; margin: auto; border: 2px solid gray; margin-top: 10px;}
 input[id="showendgame"]:checked ~ .radiotext1,
 input[id="showguide"]:checked ~ .radiotext2,
 input[id="showprog"]:checked ~ .radiotext3 {
@@ -335,8 +306,10 @@ input[id="showprog"]:checked ~ .radiotext3 {
     width: 4vw;
     height: 2vh;
     cursor: pointer;
+    text-align: center;
     border: 2px solid white;
     background-color: #333333;}
+.RadioContainer {text-align: center;}
 .PeopleTable {
     text-align: left;
     margin-left: auto;
@@ -353,7 +326,7 @@ input[id="showprog"]:checked ~ .radiotext3 {
     border-collapse: collapse;
     width: 50vw;}
 .PeopleTableSmall tbody tr {text-shadow: 3px 3px 3px rgb(0, 0, 0);}
-.centertext {text-align: center; display: block;}
+.center {text-align: center; display: block;}
 .gamememe {z-index: -1; width: 85vw;}
 .Level2Paragraph {
     text-align: left;
@@ -362,12 +335,7 @@ input[id="showprog"]:checked ~ .radiotext3 {
     margin-right: 10vw;}
 .Patchnotes {width: 15vw;}
 .GuideImg {
-    width: 65vw; z-index: -1;} 
-.GuideParagraph {
-    margin-left: 10vw;
-    margin-right: 10vw;}
-.GuideParagraphText {
-    text-align: left;}
+    width: 65vw; z-index: -1; margin-left: auto; margin-right: auto; display: block;} 
 .bluebg {background-color: rgba(116, 116, 223, 0.432);}
 .redbg {background-color: rgba(233, 107, 107, 0.425);}
 .GuideCard {
@@ -451,22 +419,117 @@ lite-youtube.lyt-activated > .lty-playbtn {
     position: absolute;
     white-space: nowrap;
     width: 1px;} /*complete yt lite embed yoinked from: https://github.com/paulirish/lite-youtube-embed*/
-.spaceholder { visibility: hidden; width: 1px; height: 30vh;}
+.spaceholder {visibility: hidden; width: 1px; height: 30vh;}
 .L2Container {text-align: center; display: inline-block; width: 25vw;}
 .L2Container:hover {transform: scale(1.3);}
 .l2guideimg {width: 20vw;}
-.RiseMeme {background-image: url(images/AmazonPrimordialDarkVest.webp); background-repeat: no-repeat; background-size: 80vw; background-position: 50% 2%;}
-.WorldMeme {background-image: url(images/slap_roof_of_fatty.webp); background-repeat: no-repeat; background-size: 80vw; background-position: 50% 2%;}
+.RiseMeme {background-image: url(images/AmazonPrimordialDarkVest.webp); background-repeat: no-repeat; background-size: 80vw; background-position: 50% -1%;}
+.WorldMeme {background-image: url(images/slap_roof_of_fatty.webp); background-repeat: no-repeat; background-size: 80vw; background-position: 50% 0;}
 .EleStatusImg {
     width: 40px; height: 40px;}
-li {list-style-type: none;}
 .endgameButton, .guideButton, .progButton {width: 40vw; display: inline-block; text-align: center; border: 4px solid rgba(231, 231, 231, 0.158); margin-left: 3vw; margin-right: 3vw;}
 .endgameButton:hover, .guideButton:hover, .progButton:hover {animation: flicker 4s; transform: scale(120%);}
 .endgameButton p, .guideButton p, .progButton p {margin-top: 0 auto; margin-bottom: 0 auto; font-size: 2rem; text-shadow: 3px 3px 3px rgb(34, 34, 34);}
 .endgameButton img, .guideButton img, .progButton img {width: 2vw; min-width: 40px; max-width: 100%; margin-top: auto; margin-bottom: auto;}
 .progButton br, .guideButton br, .endgameButton br {display:none;}
 footer a:link {color: #f3f3f3;}
-p {text-indent: 30px;}
-.Level2Paragraph p {text-indent:0px;}
 footer {margin-top: 10vw;}
 .ImgButton {display: none;}
+#controls-dropdown {width: 12vw; height: 2vw; min-height: 50px; border: outset 8px rgba(43, 43, 43, 0.288); background-color: #333333; color: #f3f3f3; font-size: 1.3rem;}
+.BurgerWeaponTable {display:block; width: 22.5vw; border-collapse:separate; border-spacing: 0.5vw; background-color: #00000000; margin-left: 0;float: left; min-width: 250px; min-height: 250px;height: 100%;}
+.BurgerWeaponTable td {background-color: #00000000;}
+.BurgerWeaponTableImg {width: 4vw; background-color: #000; margin: 0 auto;}
+#showWorldGS, #showRiseGS, #showWildsGS, #showWorldLS, #showRiseLS, #showWildsLS, #showWorldSnS, #showRiseSnS, #showWildsSnS, #showWorldDB, #showRiseDB, #showWildsDB, #showWorldHammer, #showRiseHammer, #showWildsHammer, #showWorldHorn, #showRiseHorn, #showWildsHorn, 
+#showWorldLance, #showRiseLance, #showWildsLance, #showWorldGunlance, #showRiseGunlance, #showWildsGunlance, #showWorldSwaxe, #showRiseSwaxe, #showWildsSwaxe, #showWorldCB, #showRiseCB, #showWildsCB, #showWorldGlaive, #showRiseGlaive, #showWildsGlaive, 
+#showWorldBow, #showRiseBow, #showWildsBow, #showWorldLBG, #showRiseLBG, #showWildsLBG, #showWorldHBG, #showRiseHBG, #showWildsHBG {display: none;}
+#BurgerWorldGS:hover, #BurgerWorldLS:hover, #BurgerWorldSnS:hover, #BurgerWorldDB:hover, #BurgerWorldHammer:hover, #BurgerWorldHorn:hover, #BurgerWorldLance:hover, #BurgerWorldGunlance:hover, #BurgerWorldSwaxe:hover, #BurgerWorldCB:hover, 
+#BurgerWorldGlaive:hover, #BurgerWorldBow:hover, #BurgerWorldLBG:hover, #BurgerWorldHBG:hover {transition: transform 1s ease-in-out;transform: scale(1.15);}
+#BurgerWorldGS, #BurgerWorldLS, #BurgerWorldSnS, #BurgerWorldDB, #BurgerWorldHammer, #BurgerWorldHorn, #BurgerWorldLance, #BurgerWorldGunlance, #BurgerWorldSwaxe, #BurgerWorldCB, #BurgerWorldGlaive, #BurgerWorldBow, #BurgerWorldLBG, #BurgerWorldHBG,
+#BurgerRiseGS, #BurgerRiseLS, #BurgerRiseSnS, #BurgerRiseDB, #BurgerRiseHammer, #BurgerRiseHorn, #BurgerRiseLance, #BurgerRiseGunlance, #BurgerRiseSwaxe, #BurgerRiseCB, #BurgerRiseGlaive, #BurgerRiseBow, #BurgerRiseLBG, #BurgerRiseHBG,
+#BurgerWildsGS, #BurgerWildsLS, #BurgerWildsSnS, #BurgerWildsDB, #BurgerWildsHammer, #BurgerWildsHorn, #BurgerWildsLance, #BurgerWildsGunlance, #BurgerWildsSwaxe, #BurgerWildsCB, #BurgerWildsGlaive, #BurgerWildsBow, #BurgerWildsLBG, #BurgerWildsHBG {border: outset 8px rgba(43, 43, 43, 0.288);transition: transform 1s ease-in-out;transform: scale(1);}
+.sidebar a br {display:none;}
+.sidebarprogButton:hover, .sidebarguideButton:hover, .sidebarendgameButton:hover {transition: background-color 1s ease-in-out; background-color: rgba(255, 255, 255, 0);}
+input[id="WorldGS"]:checked ~ #showWorldGS,
+input[id="WorldLS"]:checked ~ #showWorldLS,
+input[id="WorldSnS"]:checked ~ #showWorldSnS,
+input[id="WorldDB"]:checked ~ #showWorldDB,
+input[id="WorldHammer"]:checked ~ #showWorldHammer,
+input[id="WorldHorn"]:checked ~ #showWorldHorn,
+input[id="WorldLance"]:checked ~ #showWorldLance,
+input[id="WorldGunlance"]:checked ~ #showWorldGunlance,
+input[id="WorldSwaxe"]:checked ~ #showWorldSwaxe,
+input[id="WorldCB"]:checked ~ #showWorldCB,
+input[id="WorldGlaive"]:checked ~ #showWorldGlaive,
+input[id="WorldBow"]:checked ~ #showWorldBow,
+input[id="WorldLBG"]:checked ~ #showWorldLBG,
+input[id="WorldHBG"]:checked ~ #showWorldHBG,
+input[id="RiseGS"]:checked ~ #showRiseGS,
+input[id="RiseLS"]:checked ~ #showRiseLS,
+input[id="RiseSnS"]:checked ~ #showRiseSnS,
+input[id="RiseDB"]:checked ~ #showRiseDB,
+input[id="RiseHammer"]:checked ~ #showRiseHammer,
+input[id="RiseHorn"]:checked ~ #showRiseHorn,
+input[id="RiseLance"]:checked ~ #showRiseLance,
+input[id="RiseGunlance"]:checked ~ #showRiseGunlance,
+input[id="RiseSwaxe"]:checked ~ #showRiseSwaxe,
+input[id="RiseCB"]:checked ~ #showRiseCB,
+input[id="RiseGlaive"]:checked ~ #showRiseGlaive,
+input[id="RiseBow"]:checked ~ #showRiseBow,
+input[id="RiseLBG"]:checked ~ #showRiseLBG,
+input[id="RiseHBG"]:checked ~ #showRiseHBG,
+input[id="WildsGS"]:checked ~ #showWildsGS,
+input[id="WildsLS"]:checked ~ #showWildsLS,
+input[id="WildsSnS"]:checked ~ #showWildsSnS,
+input[id="WildsDB"]:checked ~ #showWildsDB,
+input[id="WildsHammer"]:checked ~ #showWildsHammer,
+input[id="WildsHorn"]:checked ~ #showWildsHorn,
+input[id="WildsLance"]:checked ~ #showWildsLance,
+input[id="WildsGunlance"]:checked ~ #showWildsGunlance,
+input[id="WildsSwaxe"]:checked ~ #showWildsSwaxe,
+input[id="WildsCB"]:checked ~ #showWildsCB,
+input[id="WildsGlaive"]:checked ~ #showWildsGlaive,
+input[id="WildsBow"]:checked ~ #showWildsBow,
+input[id="WildsLBG"]:checked ~ #showWildsLBG,
+input[id="WildsHBG"]:checked ~ #showWildsHBG {
+    display: block;
+    float: right;
+    margin-right: 0px;
+    margin-left: 2vw;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.3s; width: 16.5vw; min-width: 200px; height: 97%; min-height: 250px;}
+#showWorldGS, #showRiseGS, #showWildsGS {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/greatsword.webp);}
+#showWorldLS, #showRiseLS, #showWildsLS {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/longsword.webp);}
+#showWorldSnS, #showRiseSnS, #showWildsSnS {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/sword_and_shield.webp);}
+#showWorldDB, #showRiseDB, #showWildsDB {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/dual_blades.webp);}
+#showWorldHammer, #showRiseHammer, #showWildsHammer {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/hammer.webp);}
+#showWorldHorn, #showRiseHorn, #showWildsHorn {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/hunting_horn.webp);}
+#showWorldLance, #showRiseLance, #showWildsLance {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/lance.webp);}
+#showWorldGunlance, #showRiseGunlance, #showWildsGunlance {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/gunlance.webp);}
+#showWorldSwaxe, #showRiseSwaxe, #showWildsSwaxe {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/switch_axe.webp);}
+#showWorldCB, #showRiseCB, #showWildsCB {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/charge_blade.webp);}
+#showWorldGlaive, #showRiseGlaive, #showWildsGlaive {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/insect_glaive.webp);}
+#showWorldBow, #showRiseBow, #showWildsBow {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/bow.webp);}
+#showWorldLBG, #showRiseLBG, #showWildsLBG {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/light_bowgun.webp);}
+#showWorldHBG, #showRiseHBG, #showWildsHBG {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/heavy_bowgun.webp);}
+.CollSidebar {
+    text-align: center;
+    display:inline-block;
+    transition: all 0.25s ease-out;
+    color: #f3f3f3;
+    max-height: 0px;
+    overflow: hidden;}
+.SidebarHeading {display: block;} /*text-decoration: underline; text-align: center; color: #f3f3f3; cursor: pointer; transition: 0.3s ease-in; display: inline-block; font-weight: bold; cursor: pointer; border-radius: 7px; transition: all 0.25s ease-out; */
+.toggle:checked ~ .CollSidebar {max-height: 100vh;}
+.SidebarHeading {margin: 0 auto;}
+.NavbarWeapSelect {height: 20vw; min-height: 250px; max-height: 500px;}
+.GuideLink {width: 100%; height: 30%; display: block; background-color: rgba(139, 139, 139, 0.74); border: 3px outset black; transition: transform 0.5s ease-in-out; transform: scale(1);}
+.NavbarWeapSelect h2 {font-size: 2vw; height: 3vw; width: 16vw; min-width: 180px; text-align: center; margin: 0 auto; display: block;}
+.GamePageLink h2 {font-size: clamp(15px,1.5vw,23px);}
+.GamePageLink {display: inline-block; margin-left: 0 auto; margin-right: 0 auto; margin-bottom: 0.3vw;width: 15vw;background: linear-gradient(45deg, #0000003d, #2727273d, rgba(0, 0, 0, 0.24)00, #4646462a,#00000060); border: outset 5px rgba(206, 204, 204, 0.5);transition: transform 0.5s ease-in-out; transform: scale(1);}
+.GuideLink:hover {transition: transform 0.5s ease-in-out; transform: scale(1.05);}
+.GamePageLink:hover {transition: transform 0.5s ease-in-out; transform: scale(1.05);}
+.ReturnToGameIcon {position: fixed; top: 0; right: 0; display: inline-block;}
+.ReturnToGameImg {width: 8vw; height: 4vw; min-width: 150px; min-height: 75px;}
+.switchskilltable li {margin-left: 25%;}
