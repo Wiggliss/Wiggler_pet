@@ -9,7 +9,7 @@ class="sidebarbutton"><img src="images/map.webp" class="burger" alt="Open Burger
     <label for="WildsBurger" class="SidebarHeading"><img src="images/wilds_logo.webp" class="Side_Logo" alt="Monster Hunter Wilds"></label><div class="CollSidebar"> 
 <a href="wilds" class="GamePageLink"><h2>Game Page</h2></a><br>
 <div class="NavbarWeapSelect">
-                    <input type="radio" class="radiobutton" name="BurgerWildsRadio" id="WildsGS">
+                    <input type="radio" class="radiobutton" name="BurgerWildsRadio" id="WildsGS" checked>
                     <input type="radio" class="radiobutton" name="BurgerWildsRadio" id="WildsLS">
                     <input type="radio" class="radiobutton" name="BurgerWildsRadio" id="WildsSnS">
                     <input type="radio" class="radiobutton" name="BurgerWildsRadio" id="WildsDB">
@@ -112,7 +112,7 @@ class="sidebarbutton"><img src="images/map.webp" class="burger" alt="Open Burger
     <label for="RisebreakBurger" class="SidebarHeading"><img src="images/rise_logo.webp" class="Side_Logo" alt="Monster Hunter Rise"></label><div class="CollSidebar"> 
 <a href="rise" class="GamePageLink"><h2>Game Page</h2></a><br>
 <div class="NavbarWeapSelect">
-                    <input type="radio" class="radiobutton" name="BurgerRiseRadio" id="RiseGS">
+                    <input type="radio" class="radiobutton" name="BurgerRiseRadio" id="RiseGS" checked>
                     <input type="radio" class="radiobutton" name="BurgerRiseRadio" id="RiseLS">
                     <input type="radio" class="radiobutton" name="BurgerRiseRadio" id="RiseSnS">
                     <input type="radio" class="radiobutton" name="BurgerRiseRadio" id="RiseDB">
@@ -214,7 +214,7 @@ class="sidebarbutton"><img src="images/map.webp" class="burger" alt="Open Burger
     <label for="WorldborneBurger" class="SidebarHeading"><img src="images/world_logo.webp" class="Side_Logo" alt="Monster Hunter World"></label><div class="CollSidebar"> 
 <a href="world" class="GamePageLink"><h2>Game Page</h2></a><br>
 <div class="NavbarWeapSelect">
-                    <input type="radio" class="radiobutton" name="BurgerWorldRadio" id="WorldGS">
+                    <input type="radio" class="radiobutton" name="BurgerWorldRadio" id="WorldGS" checked>
                     <input type="radio" class="radiobutton" name="BurgerWorldRadio" id="WorldLS">
                     <input type="radio" class="radiobutton" name="BurgerWorldRadio" id="WorldSnS">
                     <input type="radio" class="radiobutton" name="BurgerWorldRadio" id="WorldDB">
