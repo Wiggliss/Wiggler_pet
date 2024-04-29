@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Didact Gothic"; /*taken from here - https://github.com/ossobuffo/didact-gothic under the license here - http://scripts.sil.org/OFL */
-    src: url(DidactGothic-Regular.otf);}
+    src: url(https://fonts.googleapis.com/css?family=Didact Gothic);}
 body {
   color: #f3f3f3;
   background-color: #333333;
