@@ -4,7 +4,7 @@ class="sidebarbutton"><img src="../../images/map.webp" class="burger" alt="Open 
 <div class="collapsible-content-inside"><label for="sidebar">
         <div class="sidebarBigClose"></div>
     </label>
-    <section>
+    <section class="wilds">
     <input id="WildsBurger" class="toggle" type="checkbox">
     <label for="WildsBurger" class="SidebarHeading"><img src="../../images/wilds_logo.webp" class="Side_Logo" alt="Monster Hunter Wilds"></label><div class="CollSidebar"> 
 <a href="../../wilds" class="GamePageLink"><h2>Game Page</h2></a><br>
@@ -50,64 +50,64 @@ class="sidebarbutton"><img src="../../images/map.webp" class="burger" alt="Open 
                 </table>
                 
                 <div id="showWildsGS">
-                <a href="../../wilds/guide/greatsword" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/greatsword" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/greatsword"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/greatsword"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsLS">
-                <a href="../../wilds/guide/longsword" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/longsword" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/longsword"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/longsword"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsSnS">
-                <a href="../../wilds/guide/sword_and_shield" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/sword_and_shield" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/sword_and_shield"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/sword_and_shield"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsDB">
-                <a href="../../wilds/guide/dual_blades" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/dual_blades" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/dual_blades"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/dual_blades"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsHammer">
-                <a href="../../wilds/guide/hammer" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/hammer" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/hammer"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/hammer"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsHorn">
-                <a href="../../wilds/guide/hunting_horn" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/hunting_horn" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/hunting_horn"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/hunting_horn"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsLance">
-                <a href="../../wilds/guide/lance" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/lance" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/lance"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/lance"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsGunlance">
-                <a href="../../wilds/guide/gunlance" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/gunlance" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/gunlance"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/gunlance"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsSwaxe">
-                <a href="../../wilds/guide/switch_axe" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/switch_axe" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/switch_axe"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/switch_axe"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsCB">
-                <a href="../../wilds/guide/charge_blade" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/charge_blade" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/charge_blade"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/charge_blade"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsGlaive">
-                <a href="../../wilds/guide/insect_glaive" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/insect_glaive" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/insect_glaive"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/insect_glaive"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsBow">
-                <a href="../../wilds/guide/bow" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/bow" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/bow"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/bow"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsLBG">
-                <a href="../../wilds/guide/light_bowgun" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/light_bowgun" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/light_bowgun"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/light_bowgun"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWildsHBG">
-                <a href="../../wilds/guide/heavy_bowgun" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../wilds/guide/heavy_bowgun" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../wilds/endgame/heavy_bowgun"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../wilds/progression/heavy_bowgun"class="GuideLink"><h2>Progression</h2></a></div>                
 </div>    </div></section><br>
 
-<section>
+<div class="rise">
     <input id="RisebreakBurger" class="toggle" type="checkbox">
     <label for="RisebreakBurger" class="SidebarHeading"><img src="../../images/rise_logo.webp" class="Side_Logo" alt="Monster Hunter Rise"></label><div class="CollSidebar"> 
 <a href="../../rise" class="GamePageLink"><h2>Game Page</h2></a><br>
@@ -153,63 +153,63 @@ class="sidebarbutton"><img src="../../images/map.webp" class="burger" alt="Open 
                 </table>
                 
                 <div id="showRiseGS">
-                <a href="../../rise/guide/greatsword" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
-                <a href="../../rise/endgame/greatsword"class="GuideLink"><h2>Sets and Builds</h2></a>
-                <a href="../../rise/progression/greatsword"class="GuideLink"><h2>Progression</h2></a></div>
+                <a href="../../rise/guide/greatsword" class="GuideLink"><h2>Guide</h2></a>
+                <a href="../../rise/endgame/greatsword" class="GuideLink"><h2>Sets and Builds</h2></a>
+                <a href="../../rise/progression/greatsword" class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseLS">
-                <a href="../../rise/guide/longsword" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
-                <a href="../../rise/endgame/longsword"class="GuideLink"><h2>Sets and Builds</h2></a>
-                <a href="../../rise/progression/longsword"class="GuideLink"><h2>Progression</h2></a></div>
+                <a href="../../rise/guide/longsword" class="GuideLink"><h2>Guide</h2></a>
+                <a href="../../rise/endgame/longsword" class="GuideLink"><h2>Sets and Builds</h2></a>
+                <a href="../../rise/progression/longsword" class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseSnS">
-                <a href="../../rise/guide/sword_and_shield" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
-                <a href="../../rise/endgame/sword_and_shield"class="GuideLink"><h2>Sets and Builds</h2></a>
-                <a href="../../rise/progression/sword_and_shield"class="GuideLink"><h2>Progression</h2></a></div>
+                <a href="../../rise/guide/sword_and_shield" class="GuideLink"><h2>Guide</h2></a>
+                <a href="../../rise/endgame/sword_and_shield" class="GuideLink"><h2>Sets and Builds</h2></a>
+                <a href="../../rise/progression/sword_and_shield" class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseDB">
-                <a href="../../rise/guide/dual_blades" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
-                <a href="../../rise/endgame/dual_blades"class="GuideLink"><h2>Sets and Builds</h2></a>
-                <a href="../../rise/progression/dual_blades"class="GuideLink"><h2>Progression</h2></a></div>
+                <a href="../../rise/guide/dual_blades" class="GuideLink"><h2>Guide</h2></a>
+                <a href="../../rise/endgame/dual_blades" class="GuideLink"><h2>Sets and Builds</h2></a>
+                <a href="../../rise/progression/dual_blades" class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseHammer">
-                <a href="../../rise/guide/hammer" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
-                <a href="../../rise/endgame/hammer"class="GuideLink"><h2>Sets and Builds</h2></a>
-                <a href="../../rise/progression/hammer"class="GuideLink"><h2>Progression</h2></a></div>
+                <a href="../../rise/guide/hammer" class="GuideLink"><h2>Guide</h2></a>
+                <a href="../../rise/endgame/hammer" class="GuideLink"><h2>Sets and Builds</h2></a>
+                <a href="../../rise/progression/hammer" class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseHorn">
-                <a href="../../rise/guide/hunting_horn" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
-                <a href="../../rise/endgame/hunting_horn"class="GuideLink"><h2>Sets and Builds</h2></a>
-                <a href="../../rise/progression/hunting_horn"class="GuideLink"><h2>Progression</h2></a></div>
+                <a href="../../rise/guide/hunting_horn" class="GuideLink"><h2>Guide</h2></a>
+                <a href="../../rise/endgame/hunting_horn" class="GuideLink"><h2>Sets and Builds</h2></a>
+                <a href="../../rise/progression/hunting_horn" class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseLance">
-                <a href="../../rise/guide/lance" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../rise/guide/lance" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../rise/endgame/lance"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../rise/progression/lance"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseGunlance">
-                <a href="../../rise/guide/gunlance" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../rise/guide/gunlance" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../rise/endgame/gunlance"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../rise/progression/gunlance"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseSwaxe">
-                <a href="../../rise/guide/switch_axe" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../rise/guide/switch_axe" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../rise/endgame/switch_axe"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../rise/progression/switch_axe"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseCB">
-                <a href="../../rise/guide/charge_blade" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../rise/guide/charge_blade" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../rise/endgame/charge_blade"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../rise/progression/charge_blade"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseGlaive">
-                <a href="../../rise/guide/insect_glaive" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../rise/guide/insect_glaive" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../rise/endgame/insect_glaive"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../rise/progression/insect_glaive"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseBow">
-                <a href="../../rise/guide/bow" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../rise/guide/bow" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../rise/endgame/bow"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../rise/progression/bow"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseLBG">
-                <a href="../../rise/guide/light_bowgun" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../rise/guide/light_bowgun" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../rise/endgame/light_bowgun"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../rise/progression/light_bowgun"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showRiseHBG">
-                <a href="../../rise/guide/heavy_bowgun" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../rise/guide/heavy_bowgun" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../rise/endgame/heavy_bowgun"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../rise/progression/heavy_bowgun"class="GuideLink"><h2>Progression</h2></a></div>                
-</div>    </div></section></div><br>
-<section>
+</div>    </div></div></div><br>
+<section class="world">
     <input id="WorldborneBurger" class="toggle" type="checkbox">
     <label for="WorldborneBurger" class="SidebarHeading"><img src="../../images/world_logo.webp" class="Side_Logo" alt="Monster Hunter World"></label><div class="CollSidebar"> 
 <a href="../../world" class="GamePageLink"><h2>Game Page</h2></a><br>
@@ -255,65 +255,65 @@ class="sidebarbutton"><img src="../../images/map.webp" class="burger" alt="Open 
                 </table>
                 
                 <div id="showWorldGS">
-                <a href="../../world/guide/greatsword" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/greatsword" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/greatsword"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/greatsword"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldLS">
-                <a href="../../world/guide/longsword" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/longsword" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/longsword"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/longsword"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldSnS">
-                <a href="../../world/guide/sword_and_shield" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/sword_and_shield" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/sword_and_shield"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/sword_and_shield"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldDB">
-                <a href="../../world/guide/dual_blades" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/dual_blades" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/dual_blades"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/dual_blades"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldHammer">
-                <a href="../../world/guide/hammer" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/hammer" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/hammer"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/hammer"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldHorn">
-                <a href="../../world/guide/hunting_horn" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/hunting_horn" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/hunting_horn"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/hunting_horn"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldLance">
-                <a href="../../world/guide/lance" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/lance" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/lance"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/lance"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldGunlance">
-                <a href="../../world/guide/gunlance" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/gunlance" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/gunlance"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/gunlance"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldSwaxe">
-                <a href="../../world/guide/switch_axe" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/switch_axe" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/switch_axe"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/switch_axe"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldCB">
-                <a href="../../world/guide/charge_blade" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/charge_blade" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/charge_blade"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/charge_blade"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldGlaive">
-                <a href="../../world/guide/insect_glaive" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/insect_glaive" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/insect_glaive"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/insect_glaive"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldBow">
-                <a href="../../world/guide/bow" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/bow" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/bow"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/bow"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldLBG">
-                <a href="../../world/guide/light_bowgun" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/light_bowgun" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/light_bowgun"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/light_bowgun"class="GuideLink"><h2>Progression</h2></a></div>
                 <div id="showWorldHBG">
-                <a href="../../world/guide/heavy_bowgun" class="GuideLink"><h2>Weapon <br>Guide</h2></a>
+                <a href="../../world/guide/heavy_bowgun" class="GuideLink"><h2>Guide</h2></a>
                 <a href="../../world/endgame/heavy_bowgun"class="GuideLink"><h2>Sets and Builds</h2></a>
                 <a href="../../world/progression/heavy_bowgun"class="GuideLink"><h2>Progression</h2></a></div>                
 </div>    </div></section><br>
-    <a href="../../other"><img src="../../images/binoculars.webp"
+    <a href="../../other" class="Side_Link"><img src="../../images/binoculars.webp"
             class="Side_Logo" alt="https://www.wiggler.pet/other"></a>
-<a href="../../index"><img src="../../images/farcaster.webp"
+<a href="https://www.wiggler.pet" class="Side_Link"><img src="../../images/farcaster.webp"
         class="Side_Logo" alt="https://www.wiggler.pet"></a>
 </div>
 </div>
