@@ -1,13 +1,20 @@
 /*@font-face {
 font-family: "Didact Gothic"; /*taken from here - https://github.com/ossobuffo/didact-gothic under the license here - http://scripts.sil.org/OFL */
 /*src: url(Didact_Gothic.css);}*/
-    @font-face {
-        font-family: 'Didact Gothic';
-        font-style: normal;
-        font-weight: 400;
-        src: url(didact_gothic.woff2) format('woff2');}
+@font-face {
+    font-family: 'Didact Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(didact_gothic.woff2) format('woff2');}
+::-webkit-scrollbar {width: 0.5vw; min-width: 10px; transition: 0.4s ease-in-out;}
+::-webkit-scrollbar-track {background: #9b9b9bb2;}
+::-webkit-scrollbar-thumb {background: #000000;}
+::-webkit-scrollbar-thumb:hover {background: #242424;}
+::-moz-scrollbar {width: 0.5vw; min-width: 10px; transition: 0.4s ease-in-out;}
+::-moz-scrollbar-track {background: #9b9b9bb2;}
+::-moz-scrollbar-thumb {background: #000000;}
+::-moz-scrollbar-thumb:hover {background: #242424;}
 body {
-    scrollbar-width: none;
     color: #f3f3f3;
     background-color: #333333;
     font-family: 'Didact Gothic', Helvetica;
@@ -25,7 +32,7 @@ footer {text-align: center; margin-left: -10vw; margin-right:-10vw;}
 p {text-align: left;}
 li {list-style-type: none; text-align: left;}
 h2 {font-size: 3rem; text-shadow: 2px  1px 2px red, 0 0 1em blue, 0 0 0.2em blue; text-align: center;}
-h3, .CollHeading .center {background: linear-gradient(45deg, #0000003d, #2727273d, rgba(0, 0, 0, 0.24)00, #4646462a,#00000060); border: outset 5px rgba(206, 204, 204, 0.5); display: inline-block; margin-top: 10px; margin-bottom: 10px; font-size: 2rem;}
+h3, .CollHeading .center, h4 {background: linear-gradient(45deg, #0000003d, #2727273d, rgba(0, 0, 0, 0.24)00, #4646462a,#00000060); border: outset 5px rgba(206, 204, 204, 0.5); display: inline-block; margin-top: 10px; margin-bottom: 10px; font-size: 2rem;}
 h1 {font-size: 1.5rem;}
 @keyframes fadeInOpacity {
     0% {opacity: 0;}
@@ -122,7 +129,7 @@ a:link {color:#f3f3f3;}
 .bluescroll {color: #7777fa;}
 .gray {background-color: #757575;}
 .dark {background-color: #3d3d3d;}
-.tooltip {position: relative;display: inline-block; text-decoration: italic;}
+.tooltip {position: relative;display: inline-block; text-decoration:underline; text-decoration-style: dotted;}
 .tooltip .tooltiptext {
     visibility: hidden;
     background: linear-gradient(0deg, #000, #272727);
@@ -130,6 +137,7 @@ a:link {color:#f3f3f3;}
     text-align: left;
     border-radius: 5px;
     border: solid;
+    text-decoration: none;
     border-color:#757717;
     position: absolute;
     bottom: 90%;}
@@ -159,12 +167,10 @@ a:link {color:#f3f3f3;}
 .tooltiptext:after {filter: blur(50px);}
 /*yoinked from https://www.sliderrevolution.com/resources/css-border-animation/ - by Nick*/
 .CollL2Page {
-    border: 2px solid rgba(255, 255, 255, 0.274);
+/*    border: 2px solid rgba(255, 255, 255, 0.274);*/
     text-align: center;
     background-color: #33333300;
     color: #f3f3f3;}
-::-webkit-scrollbar {display: none;}
-::-moz-scrollbar {display: none;}
 .sidebar li {text-align: center;}
 .sidebarbutton {
     text-decoration: underline;
@@ -198,6 +204,7 @@ a:link {color:#f3f3f3;}
     position: fixed;
     background-color: rgb(33, 33, 33);
     border: 2px solid white;
+    border-right: none;
     border-radius: 3%;
     width: 41vw;
     min-width: 610px;
@@ -221,13 +228,14 @@ width: 40vw; min-width: 600px;}
     cursor: pointer;
     transition: 0.5s ease-in;
     height: 100vh;}
-.sidebar {width: 40vw; min-width: 700px; display: inline-block; scrollbar-width: none;}
+.sidebar {width: 40vw; min-width: 700px; display: inline-block;}
 .collapsible-contentSidebar1 a:link, a:visited {
     color: #f3f3f3;
     text-align: center;
     font-size: 1.5rem;}
 .Side_Logo {width: 10vw; max-width: 300px; min-width: 150px;}
-.collapsible-contentToC {transition: 0.3s ease-in;}
+.Side_Link .Side_Logo {border: 5px outset rgba(0, 0, 0, 0.322)}
+.collapsible-contentToC {transition: 0.3s ease-in; width: 25vw;}
 .ToCHeader {
     position: fixed;
     left: 0;
@@ -237,7 +245,6 @@ width: 40vw; min-width: 600px;}
     width: 5vw;}
 .ToCHeader::before {display: hidden;}
 .toggle:checked+.ToCHeader+.collapsible-contentToC {
-    max-height: 100vh;
     transform: translateY(-100%);}
 .CollToc {
     height: 1vh;
@@ -250,7 +257,10 @@ width: 40vw; min-width: 600px;}
 .Toc_Img {width: 5vw; height: 5vw;}
 .ColledToc {
     left: 0;
-    width: 25vw; min-width: 400px;
+    overflow-y: scroll;
+    height: 100vh;
+    max-height: 600px;
+    width: 25vw; min-width: 250px;
     background-color: linear-gradient(60deg, rgba(92, 92, 92, 0.95), rgb(84, 2, 117, 0.95));
     border: 2px solid gold;
     text-align: left;}
@@ -265,8 +275,8 @@ width: 40vw; min-width: 600px;}
 .ColledToc a:hover {font-size: 1.1rem;}
 #endgame, #prog, #guide {display: none;}
 #endgame, .endgameButton {background: linear-gradient(200deg, rgba(189, 65, 73, 0.699), rgba(255, 211, 99, 0.705) );}
-#prog, .progButton {background: linear-gradient(20deg, rgb(140, 174, 90), rgb(103, 100, 215) );}
-#guide, .guideButton {background-image: linear-gradient(to right top, #000000, #31262f, #514b66, #5979a3, #43add8, #33b3d3, #2eb8cb, #37bcc1, #399295, #356b6c, #2c4546, #202323);}
+#prog, .progButton {background: linear-gradient(20deg, rgb(140, 174, 90, 0.699), rgb(103, 100, 215, 0.705) );}
+#guide, .guideButton {background-image: linear-gradient(to right top, #00000091, #31262fa1, #514b6691, #5979a398, #43aed89c, #33b3d3, #2eb9cb85, #37bcc18f, #399295a4, #356b6c9d, #2c4546b0, #202323a9);}
 input[id="showendgame"]:checked ~ #endgame,
 input[id="showprog"]:checked ~ #prog,
 input[id="showguide"]:checked ~ #guide {
@@ -275,12 +285,16 @@ input[id="showguide"]:checked ~ #guide {
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 1s; width: 40vw; margin: auto; border: 2px solid gray; margin-top: 10px;}
-input[id="showendgame"]:checked ~ .radiotext1,
-input[id="showguide"]:checked ~ .radiotext2,
-input[id="showprog"]:checked ~ .radiotext3 {
+.WeaponTable {width: 22vw; border-collapse:separate; border-spacing: 0.5vw; margin-left: auto; margin-right: auto;}
+.WeaponTable .inlineimg:hover {transform: scale(1.5); transition: 0.4s ease-out;}
+.WeaponTable .inlineimg {transition: 0.4s ease-out;}
+input[id="showguide"]:checked ~ .radiotext1,
+input[id="showprog"]:checked ~ .radiotext2,
+input[id="showendgame"]:checked ~ .radiotext3 {
     border: 4px solid;
     animation: flicker 4s infinite;
-    background-color: #000000;}    
+    background-color: #000000;}
+.WeaponTable .inlineimg {width: 5vw; max-width: 100px; margin: 0 auto;}
 @keyframes flicker {
     0% {border-color: rgba(179, 252, 255, 0.3);
     border-bottom-color: white;}
@@ -426,7 +440,7 @@ footer a:link {color: #f3f3f3;}
 footer {margin-top: 10vw;}
 .ImgButton {display: none;}
 #controls-dropdown {width: 12vw; height: 2vw; min-height: 50px; border: outset 8px rgba(43, 43, 43, 0.288); background-color: #333333; color: #f3f3f3; font-size: 1.3rem;}
-.BurgerWeaponTable {display:block; width: 22.5vw; border-collapse:separate; border-spacing: 0.5vw; background-color: #00000000; margin-left: 0;float: left; min-width: 250px; min-height: 250px;height: 100%;}
+.BurgerWeaponTable {display:block; width: 22vw; border-collapse:separate; border-spacing: 0.5vw; background-color: #00000000; margin-left: 0;float: left; min-width: 250px; min-height: 250px;height: 100%;}
 .BurgerWeaponTable td {background-color: #00000000;}
 .BurgerWeaponTableImg {width: 4vw; max-width: 80px; background-color: #000; margin: 0 auto;}
 #showWorldGS, #showRiseGS, #showWildsGS, #showWorldLS, #showRiseLS, #showWildsLS, #showWorldSnS, #showRiseSnS, #showWildsSnS, #showWorldDB, #showRiseDB, #showWildsDB, #showWorldHammer, #showRiseHammer, #showWildsHammer, #showWorldHorn, #showRiseHorn, #showWildsHorn, 
@@ -483,7 +497,7 @@ input[id="WildsHBG"]:checked ~ #showWildsHBG {
     animation-name: fadeInOpacity;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 0.3s; width: 16.5vw; min-width: 200px; height: 97%; min-height: 250px;}
+    animation-duration: 0.3s; width: 16vw; min-width: 200px; height: 97%; min-height: 250px;}
 #showWorldGS, #showRiseGS, #showWildsGS {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/greatsword.webp);}
 #showWorldLS, #showRiseLS, #showWildsLS {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/longsword.webp);}
 #showWorldSnS, #showRiseSnS, #showWildsSnS {background-repeat: no-repeat; background-size:contain;background-position: 50% 50%;background-image: url(images/sword_and_shield.webp);}
@@ -529,6 +543,15 @@ input[id="WildsHBG"]:checked ~ #showWildsHBG {
 .wilds .GamePageLink:hover {transition: 2s; background-color: #03b12044;}
 .wilds .BurgerWeaponTableImg {border: outset 8px #03b12044;transition: 1s ease-in-out;}
 .wilds .BurgerWeaponTableImg:hover {transition: 2s; background-color: #03b12044;}
+
+.wilds .CollHeading h3 {background: none; background-color: rgba(160, 20, 60, 0.08); border: outset 5px #03b12044; display: inline-block; margin-top: 10px; margin-bottom: 10px; font-size: 2rem; transition: 0.4s;}
+.wilds .CollHeading h3:hover {background-color: #03b12044; transition:1s;}
+.wilds .ColledToc {background-color: #03b12044; border: 4px solid rgba(160, 20, 60, 0.315); transition: 1s;}
+.wilds .ColledToc:hover {background-color: #03b12044; transition: 1s ease-out;}
+.wilds .ColledToc a:link {border: 1px solid rgba(255, 255, 255, 0.404); background: none; background-color: rgba(0, 0, 0, 0.555);}
+.wilds.progButton, .wilds.endgameButton, .wilds.guideButton {background: none; background-color: #03b12044; transition: 0.5s ease-out;}
+.wilds.progButton:hover,.wilds.endgameButton:hover,.wilds.guideButton:hover {background-color: #03b120; transition: 1s ease-in;}
+
 .rise .CollHeading h3 {background: none; background-color: rgba(160, 20, 60, 0.08); border: outset 5px rgba(160, 20, 60, 0.3); display: inline-block; margin-top: 10px; margin-bottom: 10px; font-size: 2rem; transition: 0.4s;}
 .rise .CollHeading h3:hover {background-color: rgba(160, 20, 60, 0.3); transition:1s;}
 .rise .ColledToc {background-color: rgba(160, 20, 60, 0.5); border: 4px solid rgba(160, 20, 60, 0.315); transition: 1s;}
@@ -536,6 +559,15 @@ input[id="WildsHBG"]:checked ~ #showWildsHBG {
 .rise .ColledToc a:link {border: 1px solid rgba(255, 255, 255, 0.404); background: none; background-color: rgba(0, 0, 0, 0.555);}
 .rise.progButton, .rise.endgameButton, .rise.guideButton {background: none; background-color: rgba(160,20,60, 0.7); transition: 0.5s ease-out;}
 .rise.progButton:hover,.rise.endgameButton:hover,.rise.guideButton:hover {background-color: rgba(160,20,60, 1); transition: 1s ease-in;}
+ 
+.world .CollHeading h3 {background: none; background-color: rgba(160, 20, 60, 0.08); border: outset 5px rgba(37, 123, 163, 0.7); display: inline-block; margin-top: 10px; margin-bottom: 10px; font-size: 2rem; transition: 0.4s;}
+.world .CollHeading h3:hover {background-color: rgba(37, 123, 163, 0.7); transition:1s;}
+.world .ColledToc {background-color: rgba(37, 123, 163, 0.7); border: 4px solid rgba(160, 20, 60, 0.315); transition: 1s;}
+.world .ColledToc:hover {background-color: rgba(37, 123, 163, 0.7); transition: 1s ease-out;}
+.world .ColledToc a:link {border: 1px solid rgba(255, 255, 255, 0.404); background: none; background-color: rgba(0, 0, 0, 0.555);}
+.world.progButton, .world.endgameButton, .world.guideButton {background: none; background-color: rgba(37, 123, 163, 0.7); transition: 0.5s ease-out;}
+.world.progButton:hover,.world.endgameButton:hover,.world.guideButton:hover {background-color: rgba(37, 123, 163, 1); transition: 1s ease-in;}
+
 .rise .IndexImg, .wilds .IndexImg, .world .IndexImg {transition: 1s;}
 .world .IndexImg:hover {background-color: rgba(37, 123, 163, 0.5); transition: 0.5s;}
 .rise .IndexImg:hover {background-color: rgba(160, 20, 60, 0.5); transition: 0.5s;}
@@ -543,9 +575,35 @@ input[id="WildsHBG"]:checked ~ #showWildsHBG {
 .home h4 {color: rgb(218, 218, 218); text-shadow: 0px 0px 0px rgb(0, 0, 0), 1px 1px 1px rgb(0, 0, 0), 10px 10px 10px rgb(0, 0, 0); text-align: center; border: 3px solid rgba(128, 128, 128, 0.493); border-top-left-radius: 3%; border-bottom-right-radius: 20%; width: 12vw; background-color: rgba(128, 128, 128, 0.116); margin: auto;}
 .ReturnToGameIcon {position: fixed; top: 0; right: 0; display: inline-block;}
 .ReturnToGameImg {width: 10vw; height: 6.416666666vw; min-width: 150px; min-height: 100px;}
-.world .ReturnToGameImg {border: 5px outset rgba(37, 123, 163, 0.4); transition: 0.5s; background-color: rgba(37, 123, 163, 0.15);}
-.world .ReturnToGameImg:hover {background-color: rgba(37, 123, 163, 0.15); transition: 0.7s;}
-.rise .ReturnToGameImg {border: 5px outset rgba(160, 20, 60, 0.4); transition: 0.5s; background-color: rgba(160, 20, 60, 0.15);}
+.world .ReturnToGameImg {border: 5px outset rgba(37, 123, 163, 0.4); transition: 0.5s;}
+.world .ReturnToGameImg:hover {background-color: rgba(37, 123, 163, 0.425); transition: 0.7s;}
+.rise .ReturnToGameImg {border: 5px outset rgba(160, 20, 60, 0.4); transition: 0.5s;}
 .rise .ReturnToGameImg:hover {background-color:rgba(160, 20, 60, 0.6); transition: 0.7s;}
-.wilds .ReturnToGameImg{border: 5px outset #03b12044; transition: 0.5s; background-color: #03b12044;}
+.wilds .ReturnToGameImg{border: 5px outset #03b12044; transition: 0.5s;}
 .wilds .ReturnToGameImg:hover {background-color: #03b12079; transition: 0.7s;}
+
+input[id="playstyle1"]:checked ~ #playstyle1,
+input[id="playstyle2"]:checked ~ #playstyle2 {
+    display:contents;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s; width: 80vw; margin: auto; margin-top: 10px;}
+
+#playstyle1, #playstyle2 {display: none;}
+
+input[id="playstyle1"]:checked ~ .radioplaystyle1,
+input[id="playstyle2"]:checked ~ .radioplaystyle2 {
+    border: 4px solid;
+    animation: flicker 4s infinite;
+    background-color: #000000;}
+
+.radioplaystyle1, .radioplaystyle2 {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 4vw;
+    height: 2vh;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid white;
+    background-color: #333333;}
