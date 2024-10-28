@@ -256,7 +256,6 @@ a:link {color:#f3f3f3;}
   left: 0;
   overflow-y: scroll;
   max-height: 800px;
-  height: 100vh;
   width: 60vw; min-width: 250px;
   border: 2px solid gold;
   background-color: linear-gradient(60deg, rgba(92, 92, 92, 0.95), rgb(84, 2, 117, 0.95));
