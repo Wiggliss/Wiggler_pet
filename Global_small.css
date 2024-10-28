@@ -575,3 +575,17 @@ input[id="playstyle2"]:checked ~ .radioplaystyle2 {
     text-align: center;
     border: 2px solid white;
     background-color: #333333;}
+.SharpnessTable {table-layout: auto; text-align: center; margin: auto; border-collapse: collapse; width: 100%;}
+.SharpnessTable thead {border: 2px solid #6464646c; background: linear-gradient(180deg, #333333, #202020, #222222, #101010, #111111, #010101, #000000);}
+.SharpnessTable td {padding: 5px; border: 2px solid #000;}
+.SharpnessTable tbody tr {border: 2px solid #ffffff8e; text-shadow: 2px 2px 2px rgb(0, 0, 0);}
+.SharpnessTable tbody tr tr:nth-child(0) {background: purple;}
+.SharpnessTable tfoot th {border: 2px solid #ffffff8e; font-weight:normal;}
+.SharpnessTable tbody tr:nth-child(1) {background-color: purple;}
+.SharpnessTable tbody tr:nth-child(2) {background-color: white;}
+.SharpnessTable tbody tr:nth-child(3) {background-color: blue;}
+.SharpnessTable tbody tr:nth-child(4) {background-color: green;}
+.SharpnessTable tbody tr:nth-child(5) {background-color: yellow;}
+.SharpnessTable tbody tr:nth-child(6) {background-color: orange;}
+.SharpnessTable tbody tr:nth-child(7) {background-color: red;}
+.SharpnessTable tfoot {font-size: clamp(10px, 1rem, 15px);}
