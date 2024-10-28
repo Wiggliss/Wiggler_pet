@@ -258,7 +258,6 @@ width: 40vw; min-width: 600px;}
 .ColledToc {
     left: 0;
     overflow-y: scroll;
-    height: 100vh;
     max-height: 600px;
     width: 25vw; min-width: 250px;
     background-color: linear-gradient(60deg, rgba(92, 92, 92, 0.95), rgb(84, 2, 117, 0.95));
