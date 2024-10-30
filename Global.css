@@ -607,6 +607,8 @@ input[id="playstyle2"]:checked ~ .radioplaystyle2 {
     border: 2px solid white;
     background-color: #333333;}
 
+.CopyrightBox {border: outset 4px rgba(255, 255, 0, 0.342); background-color: rgba(0, 0, 0, 0.753); width: 40vw; max-width: 1200px; margin-left: auto; margin-right: auto; margin-top: 30px; margin-bottom: 30px;}
+
 .SharpnessTable {table-layout: auto; text-align: center; margin: auto; border-collapse: collapse;}
 .SharpnessTable thead {border: 2px solid #6464646c; background: linear-gradient(180deg, #333333, #202020, #222222, #101010, #111111, #010101, #000000);}
 .SharpnessTable td {padding: 5px; border: 2px solid #000;}
