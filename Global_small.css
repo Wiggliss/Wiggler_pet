@@ -580,11 +580,11 @@ input[id="playstyle2"]:checked ~ .radioplaystyle2 {
 .SharpnessTable tbody tr {border: 2px solid #ffffff8e; text-shadow: 2px 2px 2px rgb(0, 0, 0);}
 .SharpnessTable tbody tr tr:nth-child(0) {background: purple;}
 .SharpnessTable tfoot th {border: 2px solid #ffffff8e; font-weight:normal;}
-.SharpnessTable tbody tr:nth-child(1) {background-color: purple;}
-.SharpnessTable tbody tr:nth-child(2) {background-color: white;}
-.SharpnessTable tbody tr:nth-child(3) {background-color: blue;}
-.SharpnessTable tbody tr:nth-child(4) {background-color: green;}
-.SharpnessTable tbody tr:nth-child(5) {background-color: yellow;}
-.SharpnessTable tbody tr:nth-child(6) {background-color: orange;}
-.SharpnessTable tbody tr:nth-child(7) {background-color: red;}
+.SharpnessTable tbody tr:nth-child(1) {background-color: #e400c8;}
+.SharpnessTable tbody tr:nth-child(2) {background-color: #e6e6e5;}
+.SharpnessTable tbody tr:nth-child(3) {background-color: #0d6aff;}
+.SharpnessTable tbody tr:nth-child(4) {background-color: #2edd79;}
+.SharpnessTable tbody tr:nth-child(5) {background-color: #ffff00;}
+.SharpnessTable tbody tr:nth-child(6) {background-color: #ff6a00;}
+.SharpnessTable tbody tr:nth-child(7) {background-color: #e41600;}
 .SharpnessTable tfoot {font-size: clamp(10px, 1rem, 15px);}
