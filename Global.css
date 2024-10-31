@@ -54,7 +54,7 @@ input[type='checkbox'] {display: none;}
 label {cursor: pointer;}
 .CollHeading::before {content: "\261E"}
 .toggle:checked ~ .CollHeading::before {content: "\261F"}
-.toggle:checked ~ .CollParagraph {max-height: 1000vh;}
+.toggle:checked ~ .CollParagraph {max-height: 2000vh;}
 .IndexImg {width: 30vw; padding: 2vw; margin: 2vw; margin-left: auto; margin-right: auto; border: 4px solid #00000021; border-radius: 5%;}
 .IndexImg:hover {animation: flicker 2s infinite;}
 .IndexLogos {width: 80vw; margin: 0 auto;}
@@ -135,12 +135,13 @@ a:link {color:#f3f3f3;}
     background: linear-gradient(0deg, #000, #272727);
     color: #f3f3f3;
     text-align: left;
-    border-radius: 5px;
+    font-size: 15px;
+    border-radius: 3px;
     border: solid;
     text-decoration: none;
     border-color:#757717;
     position: absolute;
-    bottom: 90%;}
+    top: 20px;}
 .tooltip:hover .tooltiptext {
     visibility: visible;
     animation-name: fadeInOpacity;
@@ -158,7 +159,7 @@ a:link {color:#f3f3f3;}
     background-size: 400%;
     width: calc(100% + 4px);
     height: calc(100% + 4px);
-    z-index: -1;
+    z-index: -2;
     animation: steam 20s linear;}
     @keyframes steam {
     0% {background-position: 0 0;}
