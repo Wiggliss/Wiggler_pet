@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; script-src 'self' 'sha256-Jc4bXqbnK3AjZZuLzfCShTvvTAKRE2ON8NWLk8dDTZU='">
+        content="default-src 'self'; script-src 'self' 'sha256-Jc4bXqbnK3AjZZuLzfCShTvvTAKRE2ON8NWLk8dDTZU=' https://www.youtube.com https://www.youtube.com/iframe_api; img-src 'self' https://i.ytimg.com; frame-src https://www.youtube-nocookie.com/ https://www.youtube.com https://www.youtube.com/iframe_api">
     <meta name="referrer" content="no-referrer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     <title>Rise Switch Axe Sets</title>
     <meta property="og:url" content="https://www.wiggler.pet/rise/endgame/switch_axe" />
     <meta property="og:image" content="https://www.wiggler.pet/rise/endgame/sets/switch_axe_endgame_intro_small.webp">
-    <meta property="description"
+    <meta name="description"
         content="Monster Hunter Rise Sunbreak Switch Axe Sets and Builds - Written and Curated by Theorycrafters and Speedrunners, and you!">
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Rise Switch Axe Sets" />
@@ -28,7 +28,8 @@
 
     <img src="sets/switch_axe_endgame_intro.webp" class="GuideImg" alt="">
     <h2>Switch Axe Endgame Sets</h2>
-
+    <div class="CopyrightBox">If you find this guide anywhere other than our website or the authors youtube channels, please let us know.<br>
+        If you'd like to reference this guide, please read the Copyright Stuff section on the <a href="https://wiggler.pet/about" target="_blank">About us page</a>.</div>
     <section  class="rise">
     <div class="CollToc">
         <input id="TOC" class="toggle" type="checkbox" checked>
@@ -48,342 +49,343 @@
     <div data-content>
         <section>
             <input id="1.0" class="toggle" type="checkbox">
-            <label for="1.0" class="CollHeading"><h3>1. A word from the Author</h3></label><div class="CollParagraph"><p> 
-                    Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-                    halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot across
-                    the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the lead
-                    killick rigging bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of the
-                    Black. Chandler ho Plate Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail rutters
-                    shrouds port jolly boat boatswain squiffy dead men tell no tales.
-
-                    Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                    man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-                    aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the
-                    plank topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab
-                    gally. Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go
-                    on account capstan. Swab rigging jury mast port line nipper scallywag pirate.
-        </p></div></section>
+            <label for="1.0" class="CollHeading"><h3>1. A word from the Authors</h3></label><div class="CollParagraph">
+                <p> This guide was written by <a href=https://www.youtube.com/@iamsasch>Sasch</a>, and reviewed by <a href=https://www.youtube.com/@juzzi>Juzzi</a>.<br>
+                    Sasch has been privately optimizing and speedrunning since MHTri, going public with the release of Sunbreak, writing and reviewing guides for Switch Axe, crunching numbers and giving advice both behind the scenes and in Gathering Hall's Switch Axe chat.<br>
+                    Juzzi has been playing since Iceborne's Fatalis update, regularly speedruns, has won CGS twice and strongly dislikes Guides and advice that do not account for practicality in favour of looking stronger on paper.<br>
+                    <br>
+                    As such, this guide sets out to provide the following:
+                    <ul><li>Sets and Setups for the average player,</li>
+                        <li>Sets and Setups for advanced players,</li>
+                        <li>gameplans for those sets,</li>
+                        <li>upgrade paths for those sets,</li>
+                        <li>an explanation on what makes and breaks those sets, and why they work,</li>
+                        <li>a better understanding of what's important for Sunbreak's iteration of Swaxe, based on Numbers, experience and applicability, and</li>
+                        <li>alternatives for people that just wish to dabble</li></ul><br>
+                    <br>
+                    Remember to take your time. Don’t compare yourself to others, don’t let anyone tell you how you can and can’t enjoy the game you paid for. 
+                    This guide does not exist to push a meta onto you, merely to guide those who are a little lost on their way to achieve measurable greatness.
+                </p>
+            </div>
+        </section>
             <section>
                 <input id="2.0" class="toggle" type="checkbox">
-                <label for="2.0" class="CollHeading"><h3>2. Build Assumptions</h3></label><div class="CollParagraph"><p> 
-                    Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-                    halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot across
-                    the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the lead
-                    killick rigging bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of the
-                    Black. Chandler ho Plate Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail rutters
-                    shrouds port jolly boat boatswain squiffy dead men tell no tales.
-
-                    Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                    man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-                    aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the
-                    plank topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab
-                    gally. Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go
-                    on account capstan. Swab rigging jury mast port line nipper scallywag pirate.
-            </p></div></section>
+                <label for="2.0" class="CollHeading"><h3>2. Build Assumptions</h3></label><div class="CollParagraph"><p>
+                All Sets listed in the following Sections generally assume players to have general knowledge on moveset options and knowing Swaxe's kit and general matchup knowledge, aswell as a certain comfort in having basically no defensive options. If you consistently eat hits you could 
+                have avoided, want a brain-off (and bad) playstyle, none of the sets on this page are for you.
+                </p>
+                    <section>
+                        <input id="2.1" class="toggle" type="checkbox">
+                        <label for="2.1" class="CollHeading"><h3>2.1 Skill Priority</h3></label><div class="CollParagraph"><p> 
+                            Skill Priority for endgame Sets are different from Progression Sets, and depend on wether you go Raw or Element.<br>
+                            Traditional "ranking" of skills creates the illusion of being able to drop "lower rated" skills. To avoid this, the following list has repeating numbers. Sets in Sunbreak, and even base Rise, have so much space that these don't usually compete for slots with other options.</p>
+                            <p>
+                            <table class="skillpriotable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Importance</th>
+                                    <th scope="col">Skill, Level, (Abbreviation)</th>
+                                    <th scope="col">Notes</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Rapid Morph 3 (RM3)</td>
+                                    <td>The single most broken skill in the whole franchise, arguably. It boosts the
+                                        animation speed and damage of morph attacks, which is 2 out of 3 moves of our main
+                                        damage combo and a good number of utility options. Once you get access to it, never
+                                        drop below 3.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Weakness Exploit 3 (Wex3)</td>
+                                    <td>50% affinity (crit chance) for hitting parts you want to hit in the first place -
+                                        weakspots (HZV of 45 or above).
+                                        While Phials don’t crit in this game, the majority of our big meaty swings can. Wex
+                                        is the most efficient source of affinity. Use it, because -
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Critical Boost 3 (CB3)</td>
+                                    <td>- Critical hits deal 25% more damage in MH. Critical Boost 3 raises that that 40%
+                                        more damage (total), or a factor of 1.4, making the Wex3 CB3 combination one of the
+                                        best Return-on-Investment Skills in terms of Skill points → Damage</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Purple Sharpness + Maintenance</td>
+                                    <td>Sunbreak Swaxe is a much more elementally leaning weapon than its previous
+                                        iterations.
+                                        As such, it really enjoys the increased modifiers from Purple Sharpness and wants a
+                                        way to keep it for as long as possible, ideally the whole hunt.
+                                        Early on, the easiest way to achieve this is enough Handicraft to reach purple
+                                        (typically 3) and then opting for Protective Polish 3, which grants 90 seconds of no
+                                        sharpness reduction.
+                                        Later Sets opt for either Heaven-Sent 3 which gives flat out infinite sharpness, or
+                                        100% affinity + Master’s Touch 3, sometimes supplemented by Bladescale Hone or,
+                                        rarely, Razor Sharp 3.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>100% Affinity</td>
+                                    <td>See the Wex and CB entries above.
+                                        More affinity = more damage = more hit stuff deader gooder.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">3</td>
+                                    <td><span class="bluebg">Fire, Water... Attack 5 (Ele 5)</span></td>
+                                    <td rowspan="2">Swaxe being more elementally inclined makes us want to scale that
+                                        element further. Note that both of these scale off of base element and as such don’t
+                                        interact with other increases.
+                                        If you’re very strapped for slots, Elder Bless gives the bigger bang for your buck,
+                                        but on standard sets you’ll almost always be able (and want) to fit both.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><span class="bluebg">Kushala / Teostra Blessing 2 (Elder Bless 2)</span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4a</th>
+                                    <td>Mail of Hellfire 3 (MoH3)</td>
+                                    <td><span class="redscroll">Raw Sets</span> use this on <span class="redscroll">Red
+                                            Scroll</span>, <span class="bluescroll">Element</span> chooses <span
+                                            class="bluescroll">Blue</span>. Note that level 1 is technically the most
+                                        efficient for <span class="redscroll">Raw</span>, level 3 is the most efficient for
+                                        <span class="bluescroll">Element</span>.
+                                        Further note that the buffs are opposite to Dereliction, where the scrolls are
+                                        reversed, making them usually mutually exclusive.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4b</th>
+                                    <td> <span class="bluebg">Furious 3 and Dragon Conversion 3 (Furiosu DC3)</span></td>
+                                    <td>Furious 3 gives +20 Resistance in all elements. DC3, on <span
+                                            class="bluescroll">Blue Scroll</span> grants +15 Resistance for all elements by
+                                        hitting for 30 times. Phial ticks count as full hits for this. Swapping to <span
+                                            class="redscroll">Red Scroll</span> sets all Ele Resists to 0 but converts
+                                        positive res into element (conversion rate 4:1).
+                                        On its own, this combination can grant up to 43 more element, a massive buff. It’s
+                                        very comfortable to use, as the DC buff is permanent.
+                                        Note: When going for this, do not use Skill+ when qrafting, as it’s guaranteed to
+                                        take away some ele res, which hurts your potential damage.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2">5</th>
+                                    <td><span class="bluebg">Burst 3</span></td>
+                                    <td>Hitting a monster gives +5 Raw and Element and puts you on a 3s timer. If you hit
+                                        more during that window, the timer resets and more raw and element gets added, until
+                                        the cap of +15 raw and +15 ele.
+                                        The real kicker here is the +15 element, which is a lot with all the multipliers
+                                        elemental Swaxe has going for it.</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="redbg">Burst 1</span></td>
+                                    <td>Unlike Element, for Raw sets, Burst is a 1-point-Wonder. 10 Raw for a single level 2
+                                        slot is great, but the extra 5 from the additional 4slot (or 2x 2slot) does not
+                                        justify the investment. </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td><span class="redbg">Attack Boost 4 or 7 (AB4/7)</span></td>
+                                    <td>Nice and simple extra raw. The +% are based off of <u>base</u> raw (weapon attack +
+                                        slot upgrades + augments). 4, 6 and 7 are the desirable levels, just avoid levels
+                                        1-3 and 5, as they’re inefficient for their investment:damage ratio.</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th scope="row" colspan="3">
+                                        <h6>2.1A - Skill Priority Table, <span class="bluebg">Element Sets</span>, <span
+                                                class="redbg">Raw Sets</span></h6>
+                                        </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        Additionally, not all comfort skills are equal. Following is a list of recommended ones:<br>
+                        <table class="skillpriotable">
+                            <caption>
+                                <h4>Recommended Comfort</h4>
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Importance</th>
+                                    <th scope="col">Skill, Level, (Abbreviation)</th>
+                                    <th scope="col">Notes</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row" rowspan="2">1</th>
+                                    <td>Frenzied Bloodlust 2/3 (FBL2/3)</td>
+                                    <td rowspan="2">Due to the sheer damage EBC provides, we want a way to access it as
+                                        consistently as possible. Having 3 bugs enables pseudo-chains (i.e. back-to-back
+                                        with a little delay), while 4 can chain indefinitely for as long as the picked up
+                                        bug lasts.
+                                        FBL2 will make the generated third bug last until Bloodlust procs again, while FBL3
+                                        can make it permanent. Wind Mantle 1 is a cheaper option that does not enable
+                                        counter-chains but can still help especially with setups that involve Wirestep or
+                                        Soaring Wyvern Blade.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Wind Mantle 1 (WM1)</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Power Prolonger 1/2 (PowPro 1/2)</td>
+                                    <td>Helps massively with Amp uptime, very recommended in Multiplayer where you cannot
+                                        guarantee getting all the counters off in time. Also helps with prolonged Afflicted
+                                        Topples where you would otherwise lose amp.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Bloodrite 1 (BR1)</td>
+                                    <td>Hit a broken part to heal, very comfy skill. Mandatory for Blood Awakening sets, but
+                                        Anti-Synergetic with Strife sets (except berserk).</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Intrepid Heart 1 (IH1)</td>
+                                    <td>IH comes with an extra gauge, which fills up by attacking monsters. Swaxe needs 40
+                                        hits to fill it completely - phial ticks count in full, meaning you can activate it
+                                        pretty fast. Once filled, it’ll stay full until you take a hit that would knock you
+                                        back or send you flying. This consumes the bar, but negates that knockback and
+                                        drastically reduces damage taken. It’s a hyper armor on demand skill, which makes
+                                        Heaven Sent just that much more comfortable. Being on a level 1 slot deco makes it
+                                        pretty easy to fit, highly recommended.
+                                        Level 2 only adds an explosion that deals 300 damage upon being hit and activating
+                                        IH, making it a fairly underwhelming “upgrade”.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Evade Extender 1 (EE1)</td>
+                                    <td>Can help with positioning and getting out of a lot of attacks, but can also land you
+                                        in a lot of attacks and mess with your positioning. Using it is preference, just
+                                        avoid going above 1.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">MP</th>
+                                    <td>Shockproof 1</td>
+                                    <td>Completely useless in singeplayer, flinch free on crack in multiplayer. Can increase
+                                        your dps massively just on virtue of not being punted around by the next Bullet
+                                        Barrage spamming random (and other offenders).
+                                        Theoretically, you can adapt your playstyle to not needing either Flinch Free or
+                                        Shockproof, so don’t worry about not being able to fit it, but it does make
+                                        positioning and aggression just a little bit easier.
+                                    </td>
+                                </tr>
+    
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th scope="row" colspan="3">
+                                        <h6>2.1B - Recommended Comfort Skills</h6>
+                                        </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                </p></div></section>
                 <section>
-                    <input id="3.0" class="toggle" type="checkbox">
-                    <label for="3.0" class="CollHeading"><h3>3. Skill Priority</h3></label><div class="CollParagraph"><p> 
-                    <table class="skillpriotable">
-                        <caption>
-                            <h4>Skill Priority</h4>
-                        </caption>
-                        <thead>
-                            <tr>
-                                <th scope="col">Importance</th>
-                                <th scope="col">Skill, Level, (Abbreviation)</th>
-                                <th scope="col">Notes</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Rapid Morph 3 (RM3)</td>
-                                <td>The single most broken skill in the whole franchise, arguably. It boosts the
-                                    animation speed and damage of morph attacks, which is 2 out of 3 moves of our main
-                                    damage combo and a good number of utility options. Once you get access to it, never
-                                    drop below 3.</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Weakness Exploit 3 (Wex3)</td>
-                                <td>50% affinity (crit chance) for hitting parts you want to hit in the first place -
-                                    weakspots (HZV of 45 or above).
-                                    While Phials don’t crit in this game, the majority of our big meaty swings can. Wex
-                                    is the most efficient source of affinity. Use it, because -
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Critical Boost 3 (CB3)</td>
-                                <td>- Critical hits deal 25% more damage in MH. Critical Boost 3 raises that that 40%
-                                    more damage (total), or a factor of 1.4, making the Wex3 CB3 combination one of the
-                                    best Return-on-Investment Skills in terms of Skill points → Damage</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Purple Sharpness + Maintenance</td>
-                                <td>Sunbreak Swaxe is a much more elementally leaning weapon than its previous
-                                    iterations.
-                                    As such, it really enjoys the increased modifiers from Purple Sharpness and wants a
-                                    way to keep it for as long as possible, ideally the whole hunt.
-                                    Early on, the easiest way to achieve this is enough Handicraft to reach purple
-                                    (typically 3) and then opting for Protective Polish 3, which grants 90 seconds of no
-                                    sharpness reduction.
-                                    Later Sets opt for either Heaven-Sent 3 which gives flat out infinite sharpness, or
-                                    100% affinity + Master’s Touch 3, sometimes supplemented by Bladescale Hone or,
-                                    rarely, Razor Sharp 3.</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>100% Affinity</td>
-                                <td>See the Wex and CB entries above.
-                                    More affinity = more damage = more hit stuff deader gooder.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th rowspan="2">3</td>
-                                <td><span class="bluebg">Fire, Water... Attack 5 (Ele 5)</span></td>
-                                <td rowspan="2">Swaxe being more elementally inclined makes us want to scale that
-                                    element further. Note that both of these scale off of base element and as such don’t
-                                    interact with other increases.
-                                    If you’re very strapped for slots, Elder Bless gives the bigger bang for your buck,
-                                    but on standard sets you’ll almost always be able (and want) to fit both.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td><span class="bluebg">Kushala / Teostra Blessing 2 (Elder Bless 2)</span></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">4a</th>
-                                <td>Mail of Hellfire 3 (MoH3)</td>
-                                <td><span class="redscroll">Raw Sets</span> use this on <span class="redscroll">Red
-                                        Scroll</span>, <span class="bluescroll">Element</span> chooses <span
-                                        class="bluescroll">Blue</span>. Note that level 1 is technically the most
-                                    efficient for <span class="redscroll">Raw</span>, level 3 is the most efficient for
-                                    <span class="bluescroll">Element</span>.
-                                    Further note that the buffs are opposite to Dereliction, where the scrolls are
-                                    reversed, making them usually mutually exclusive.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">4b</th>
-                                <td> <span class="bluebg">Furious 3 and Dragon Conversion 3 (Furiosu DC3)</span></td>
-                                <td>Furious 3 gives +20 Resistance in all elements. DC3, on <span
-                                        class="bluescroll">Blue Scroll</span> grants +15 Resistance for all elements by
-                                    hitting for 30 times. Phial ticks count as full hits for this. Swapping to <span
-                                        class="redscroll">Red Scroll</span> sets all Ele Resists to 0 but converts
-                                    positive res into element (conversion rate 4:1).
-                                    On its own, this combination can grant up to 43 more element, a massive buff. It’s
-                                    very comfortable to use, as the DC buff is permanent.
-                                    Note: When going for this, do not use Skill+ when qrafting, as it’s guaranteed to
-                                    take away some ele res, which hurts your potential damage.</td>
-                            </tr>
-                            <tr>
-                                <th scope="row" rowspan="2">5</th>
-                                <td><span class="bluebg">Burst 3</span></td>
-                                <td>Hitting a monster gives +5 Raw and Element and puts you on a 3s timer. If you hit
-                                    more during that window, the timer resets and more raw and element gets added, until
-                                    the cap of +15 raw and +15 ele.
-                                    The real kicker here is the +15 element, which is a lot with all the multipliers
-                                    elemental Swaxe has going for it.</td>
-                            </tr>
-                            <tr>
-                                <td><span class="redbg">Burst 1</span></td>
-                                <td>Unlike Element, for Raw sets, Burst is a 1-point-Wonder. 10 Raw for a single level 2
-                                    slot is great, but the extra 5 from the additional 4slot (or 2x 2slot) does not
-                                    justify the investment. </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">6</th>
-                                <td><span class="redbg">Attack Boost 4 or 7 (AB4/7)</span></td>
-                                <td>Nice and simple extra raw. The +% are based off of <u>base</u> raw (weapon attack +
-                                    slot upgrades + augments). 4, 6 and 7 are the desirable levels, just avoid levels
-                                    1-3 and 5, as they’re inefficient for their investment:damage ratio.</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <th scope="row" colspan="3">
-                                    <h6>3.0A - Skill Priority Table, <span class="bluebg">Element Sets</span>, <span
-                                            class="redbg">Raw Sets</span></h6>
-                                    </td>
-                            </tr>
-                        </tfoot>
-                    </table>
+                    <input id="2.2" class="toggle" type="checkbox">
+                    <label for="2.2" class="CollHeading"><h3>2.2 Requirements</h3></label><div class="CollParagraph"><p> 
+                        Strictly speaking, the baseline requirement for most sets is <span class="tooltip">MR10<span class="tooltiptext">Master Rank 10</span></span>. In order to make the most out of them, 
+                        <span class="tooltip">AR241+<span class="tooltiptext">Anomaly Rank 241 or higher</span></span> is recommended. This is in part due to the final Decoration unlock at around that time, in part to get good enough charms, and 
+                        mostly in order to craft and augment the Weapons.<br>
+                        Most Raw weapons will need a rampage slot upgrade, and all element weapons need Slot upgrades. Element starts to shine once you start getting Sharpness from the Slot upgrades, and <b>really</b> shine after having fully augmented them.<br>
+                        For these reasons, the soft requirement will be <span class="tooltip">AR241+<span class="tooltiptext">Anomaly Rank 241 or higher</span></span>, with the hard requirement being <span class="tooltip">MR10<span class="tooltiptext">Master Rank 10</span></span> 
+                        and having access to people with Risen Elder quests.<br>
+                        The specific requirements for each individual Set are listed underneath said set.
+                </p></div></section>
 
-                    <table class="skillpriotable">
-                        <caption>
-                            <h4>Recommended Comfort</h4>
-                        </caption>
-                        <thead>
-                            <tr>
-                                <th scope="col">Importance</th>
-                                <th scope="col">Skill, Level, (Abbreviation)</th>
-                                <th scope="col">Notes</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row" rowspan="2">1</th>
-                                <td>Frenzied Bloodlust 2/3 (FBL2/3)</td>
-                                <td rowspan="2">Due to the sheer damage EBC provides, we want a way to access it as
-                                    consistently as possible. Having 3 bugs enables pseudo-chains (i.e. back-to-back
-                                    with a little delay), while 4 can chain indefinitely for as long as the picked up
-                                    bug lasts.
-                                    FBL2 will make the generated third bug last until Bloodlust procs again, while FBL3
-                                    can make it permanent. Wind Mantle 1 is a cheaper option that does not enable
-                                    counter-chains but can still help especially with setups that involve Wirestep or
-                                    Soaring Wyvern Blade.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Wind Mantle 1 (WM1)</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Power Prolonger 1/2 (PowPro 1/2)</td>
-                                <td>Helps massively with Amp uptime, very recommended in Multiplayer where you cannot
-                                    guarantee getting all the counters off in time. Also helps with prolonged Afflicted
-                                    Topples where you would otherwise lose amp.</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Bloodrite 1 (BR1)</td>
-                                <td>Hit a broken part to heal, very comfy skill. Mandatory for Blood Awakening sets, but
-                                    Anti-Synergetic with Strife sets (except berserk).</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Intrepid Heart 1 (IH1)</td>
-                                <td>IH comes with an extra gauge, which fills up by attacking monsters. Swaxe needs 40
-                                    hits to fill it completely - phial ticks count in full, meaning you can activate it
-                                    pretty fast. Once filled, it’ll stay full until you take a hit that would knock you
-                                    back or send you flying. This consumes the bar, but negates that knockback and
-                                    drastically reduces damage taken. It’s a hyper armor on demand skill, which makes
-                                    Heaven Sent just that much more comfortable. Being on a level 1 slot deco makes it
-                                    pretty easy to fit, highly recommended.
-                                    Level 2 only adds an explosion that deals 300 damage upon being hit and activating
-                                    IH, making it a fairly underwhelming “upgrade”.
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Evade Extender 1 (EE1)</td>
-                                <td>Can help with positioning and getting out of a lot of attacks, but can also land you
-                                    in a lot of attacks and mess with your positioning. Using it is preference, just
-                                    avoid going above 1.</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">MP</th>
-                                <td>Shockproof 1</td>
-                                <td>Completely useless in singeplayer, flinch free on crack in multiplayer. Can increase
-                                    your dps massively just on virtue of not being punted around by the next Bullet
-                                    Barrage spamming random (and other offenders).
-                                    Theoretically, you can adapt your playstyle to not needing either Flinch Free or
-                                    Shockproof, so don’t worry about not being able to fit it, but it does make
-                                    positioning and aggression just a little bit easier.
-                                </td>
-                            </tr>
 
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <th scope="row" colspan="3">
-                                    <h6>3.0B - Recommended Comfort Skills</h6>
-                                    </td>
-                            </tr>
-                        </tfoot>
-                    </table>
+<section>
+    <input id="2.3" class="toggle" type="checkbox">
+    <label for="2.3" class="CollHeading"><h3>2.3 Considerations</h3></label><div class="CollParagraph"><p> 
+            Dango/Food Skills:<br>
+            There are no specific Food Skills for Swaxe. Super Recovery Dango at Level 4 can be used to help with Strife Uptime on Berserk sets, but can also be an active detriment if you use Dereliction for Strife. Booster is a flat raw increase and good enough at Level 1; note that Levels 3 and 4 have a shorter duration. Weakener works on some quests, but not on Anomalies, where 
+            most people will spend the majority of their time, making it less useful than it could be. Moxie/Adrenaline are okay, but not great to rely on in Moxie's case, and speedrun specific in Adrenaline's case.</p><br>
+            <p>Pets:<br>
+            Swaxe is not particularly hungry for environment wirebugs and generally prefers monsters to move, given how strong EBC is. Cats don't contribute much to damage beyond that, so they're not a big consideration for optimization.<br>
+            With the nerf of Gundogs, Chaindogs are now the go-to choice. They excel at dealing elemental damage, and customizing their Skills is very easy to do with Sunbreak's feature of transfering pet Skills from one to another. The standard Setup is:
+            <table class="rawtable">
+                <thead><th>Skill</th><th>Equipment</th><th>Weapon</th></thead>
+                <tbody>
+                    <tr>
+                        <td>Melee Centric</td><td rowspan="2">Dual Chains</td><td class="firebg">C Rathalos Sword X</td>
+                    </tr>
+                    <tr>
+                        <td>Attack L</td><td class="waterbg">C Almudron Wings X</td>
+                    </tr>
+                    <tr>
+                        <td>Attack S</td><td rowspan="3">Choice between Blitz and the Healing Scrolls</td><td class="thunderbg">C Thunderblade</td>
+                    </tr>
+                    <tr>
+                        <td>Element Attack Up</td><td class="icebg">C Daora Scythe X</td>
+                    </tr>
+                    <tr>
+                        <td>Artful Dodger</td><td class="dragonbg">C Crimson Eclipse Sword</td>
+                    </tr>
+                </tbody>
+                <tfoot><tr><td colspan="3">2.3A - Chaindog Setup</td></tr></tfoot>
+            </table>
+            If you have a specific script in mind, Attack L can be replaced with Counter.
+            </p>
+            <p>Followers:<br>
+                Followers don't typically compete with player damage, if you play well enough. Hinoa and Utsushi, both on Horn, offer the best bang here with their Element and Raw buffs.<br>
+                Less strong is Rondine on Swaxe, who tends to spam powders and traps, which can be nice. Luchika on HBG can provide extra Staggers and KOs, but doesn't do much outside of that. Hinoa and Utsushi is the clear best combo, but they don't typically make or break a hunt either. 
+                The sets on this page don't assume the use of any particular Follower, or Pet, or Dango.
+</p></div></section>
             </p></div></section>
 
             <section>
-                <input id="4.0" class="toggle" type="checkbox">
-                <label for="4.0" class="CollHeading"><h3>4. Notable Foodskills, Pets, Followers</h3></label><div class="CollParagraph"><p> 
-                        Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-                        halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon.
-                        Booty run a shot across the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six
-                        pounders swing the lead killick rigging bowsprit swab.
-                        Topgallant Barbary Coast gally grog belay jib ye Admiral of the Black. Chandler ho Plate Fleet
-                        nipper long clothes rutters Jolly Roger haul wind. Topsail rutters shrouds port jolly boat
-                        boatswain squiffy dead men tell no tales.
-                        Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                        man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain
-                        Shot aft.
-                        Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the
-                        plank topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me
-                        swab gally.
-                        Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go on
-                        account capstan. Swab rigging jury mast port line nipper scallywag pirate.
-            </p></div></section>
-            <section>
-<input id="5.0" class="toggle" type="checkbox">
-<label for="5.0" class="CollHeading"><h3>5. Meta</h3></label><div class="CollParagraph"><p> 
-Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon.
-Booty run a shot across the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six
-pounders swing the lead killick rigging bowsprit swab.
-Topgallant Barbary Coast gally grog belay jib ye Admiral of the Black. Chandler ho Plate Fleet
-nipper long clothes rutters Jolly Roger haul wind. Topsail rutters shrouds port jolly boat boatswain
-squiffy dead men tell no tales.
-Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-aft.
-Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the plank
-topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab gally.
-Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go on
-account capstan. Swab rigging jury mast port line nipper scallywag pirate.
+<input id="3.0" class="toggle" type="checkbox">
+<label for="3.0" class="CollHeading"><h3>3. Meta</h3></label><div class="CollParagraph"><p> 
+The following sets are ordered from weakest (and cheapest) to strongest (and most expensive).<br>
+They all assume the use of <span class="tooltip">EBC<span class="tooltiptext">Elemental Burst Counter</span></span> and <span class="tooltip">PSB<span class="tooltiptext">Phial Switch Boost</span></span> Rampage decoration. Unless specified, no other Switch Skill is mandatory. 
+The Rampage Decoration is non-negotiable for any of the Sets below.</p>
+<p>Sunbreak in its final state is a predominately Element-Oriented meta. Switch axe usually hovers around 50/50 for Raw/Element damage ratio, with few notable Raw matchups - see Section 4, Matchup Chart.<br>
+“Budget” refers to a rough outline of required Charms and Qrafts - Low Budget sets usually need 3 +1 Skill Qrafts, Medium Budget require 6 unslottable skills, either through Charm or Qrafts, while the High End set requires a rare charm alongside qrafting +2 skill on a single piece. Most Sets 
+shown are <b>baselines</b>, meaning nothing can be dropped in order to make them cheaper, or to fit other skills instead, without also heavily nerfing the Sets damage.</p>
+<p>Note that most Element Sets use the same Helmet and Waist. The two major options between the remaining three pieces is either 3x Amatsu or 3x Primordial Malzeno. 
+Due to this, the only thing that changes between elements is the Weapon and the Element Attack/Elder Bless Deco of choice, meaning you don’t actually need to build 5 different sets.<br><br>
+Sets are ordered within their subsection from Easiest -> Hardest to build and Lowest -> Highest Damage Potential in standard gameplay.</p>
+
+
 <h2>Element</h2>    
 <section>
-<input id="5.1" class="toggle" type="checkbox">
-<label for="5.1" class="CollHeading"><h3>5.1 Low Budget Heaven-Sent MoH</h3></label><div class="CollParagraph"><p> 
-<p>
-<img src="sets/switch_axe1.2.webp" class="BuildCard" alt="Low Budget Heaven-Sent MoH build for Switch Axe">
-<a href="sets/switch_axe1.2.webp" target="_blank" class="ImgButton">Open image in new
-tab</a>
-<p> <b>Requirements:</b>
+<input id="3.1" class="toggle" type="checkbox">
+<label for="3.1" class="CollHeading"><h3>3.1 Low Budget Heaven-Sent MoH</h3></label>
+<div class="CollParagraph"><p> 
+<p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+<img src="sets/switch_axe1.webp" class="BuildCard" alt="Low Budget Heaven-Sent MoH build for Switch Axe">
+<a href="sets/switch_axe1.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+<div><p> <b>Requirements:</b>
 <ul>
-<li>MoH3 300 charm OR 3x MoH qrafts</li>
-</ul>
+<li><span class="tooltip">AR 131+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+<li><span class="tooltip">MoH3 300<span class="tooltiptext">Mail of Hellfire 3, 1x Level 3 Slot</span></span> charm OR 3x MoH qrafts</li></ul>
 </p>
-<b>Baseline:</b><br>Ele5, <span class="tooltip">Elder Bless 2<span
-class="tooltiptext">Except Dragon and Thunder</span></span>, Purple sharpness, AB4,
-100% Affinity, Burst 1, Rapid Morph 3, Heaven-Sent 3, MoH 3, Intrepid 1, CB3<br>
+<b>Baseline:</b><br><span class="tooltip">Ele 5<span class="tooltiptext">Fire, Water... Attack</span></span>, <span class="tooltip">Elder Bless 2<span
+class="tooltiptext">Except Dragon and Thunder</span></span>, Purple sharpness, <span class="tooltip">AB4<span class="tooltiptext">Attack Boost 4</span></span>,
+100% Affinity, Burst 1, Rapid Morph 3, Heaven-Sent 3, <span class="tooltip">MoH 3<span class="tooltiptext">Mail of Hellfire 3</span></span>, <span class="tooltip">IH1<span class="tooltiptext">Intrepid Heart 1</span></span>, 
+<span class="tooltip">CB3<span class="tooltiptext">Critical Boost 3</span></span>.<br>
 <p><u>Gameplan:</u><br>
-Different from normal MoH3 sets, you’ll want to engage first, proc HS and then swap to
-gain the sharpness restoring effect. If you have more/extra handicraft, you can swap
+Different from normal MoH3 sets, you’ll want to engage first, proc <span class="tooltip">HS<span class="tooltiptext">Heaven-Sent</span></span> and then swap to gain the sharpness restoring effect. If you have more/extra handicraft, you can swap
 earlier too - just make sure to always be in purple sharp.</p>
-<p>HS3 does not require a scroll swap to activate however, and swapping again resets DC
-bonus, meaning you’ll have to land 30 hits again. It’s important to note that HS will
-run out if you’re out of range or get sent flying - damage taken does not matter, which
-is why Intrepid is so strong for this. HS also grants infinite stamina, making Max Might
-a somewhat reliable source of affinity (for once).
-Best used in Arena/Forlorn Arena or with mons that don’t fly/jump/dig away a whole lot.
-</p>
+
 <p>You’ll play on <span class="bluescroll">Blue Scroll</span>.<br>
 Get your comfort skills through qrafting.<br>
-<u>Recommended:</u> PowPro 1-2, EE1, BR1, Shockproof 1 (mp only)<br>
-<u>Improvements:</u> Burst 3, AB7, Peak Performance, Wind Mantle, more Powder Mantle,
-Resus/Coa/HFC, Adrush
+<u>Recommended:</u> <span class="tooltip">PowPro<span class="tooltiptext">Power Prolonger</span></span>PowPro 1-2, <span class="tooltip">EE<span class="tooltiptext">Evade Extender</span></span>1, BR1, Shockproof 1 (multiplayer only)<br>
+<u>Improvements:</u> Critical Element 1->3, Element Exploit 1->3, Burst 1->3, <span class="tooltip">AB<span class="tooltiptext">Attack Boost</span></span>4->7, Peak Performance, <span class="tooltip">Wind Mantle<span class="tooltiptext">If you like Wirestep/ZSD</span></span>, 
+<span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust, enables more EBC</span></span>1->2, Resuscitate/Coalescence/<span class="tooltip">HFC<span class="tooltiptext">Hellfire Cloak</span></span>, Adrenaline Rush
 </p>
-
-Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad
-hempen halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run
-a shot across the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six
-pounders swing the lead killick rigging bowsprit swab. Topgallant Barbary Coast gally grog
-belay jib ye Admiral of the Black. Chandler ho Plate Fleet nipper long clothes rutters Jolly
-Roger haul wind. Topsail rutters shrouds port jolly boat boatswain squiffy dead men tell no
-tales.
-</p>
-<p>
-Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer
-chains man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls
-coxswain Chain Shot aft. Ahoy long boat league lugger Letter of Marque grog Sink me
-belaying pin. Jack Ketch walk the plank topsail sutler piracy boatswain heave down aft.
-Gangway hands Arr cog poop deck Sink me swab gally. Bring a spring upon her cable Letter
-of Marque Barbary Coast black spot sutler marooned to go on account capstan. Swab
-rigging jury mast port line nipper scallywag pirate.
-</p>
+<p>Note: This set can technically be made at MR10, as the join requirements for Risen Elders are MR10, but it will lack Intrepid Heart. The <span class="tooltip">IH<span class="tooltiptext">Intrepid Heart</span></span>2 decoration is chosen for the 3-Slot, 
+    because its crafting material requirement is lower than for the 1-slot decoration. For different Elements, replace the elemental decorations appropriately. 
+    <br>Please refer to Section 8. - Frequently Asked Questions for questions regarding the Defense/Elemental Resistance drop from the Mail of Hellfire Skill.</p></div>
 <section>
-<input id="5.1Links" class="toggle" type="checkbox">
-<label for="5.1Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+<input id="3.1Links" class="toggle" type="checkbox">
+<label for="3.1Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
 <div class="SetLinksContainer">
 <table class="eletable">
 <caption>
@@ -395,7 +397,6 @@ rigging jury mast port line nipper scallywag pirate.
 <th scope="col">Weapon</th>
 <th scope="col">Augs</th>
 <th scope="col">Rampage Deco</th>
-<th scope="col">comment</th>
 </tr>
 </thead>
 <tbody>
@@ -407,7 +408,6 @@ target="_blank" alt="link to the armor set search">Volcanic
 Switch / Magma Almudron</a></td>
 <td>8 Element + 1 Attack</td>
 <td>Phial Switch Boost</td>
-<td>i like tiddies this is good yaaa tiddies</td>
 </tr>
 <tr>
 <th scope="row"><img src="../../images/water.webp"
@@ -417,7 +417,6 @@ target="_blank" alt="link to the armor set search">Void
 Bringer Axe / Almudron</a></td>
 <td>8 Element + 1 Attack</td>
 <td>Phial Switch Boost</td>
-<td>i like tiddies this is good yaaa tiddies</td>
 </tr>
 <tr>
 <th scope="row"><img src="../../images/thunder.webp"
@@ -427,7 +426,6 @@ target="_blank" alt="link to the armor set search">Fullmark+
 / Khezu</a></td>
 <td>8 Element + 1 Attack</td>
 <td>Phial Switch Boost</td>
-<td>i like tiddies this is good yaaa tiddies</td>
 </tr>
 <tr>
 <th scope="row"><img src="../../images/ice.webp"
@@ -437,7 +435,6 @@ target="_blank" alt="link to the armor set search">Splitear
 Weiss / Lagombi</a></td>
 <td>8 Element + 1 Attack</td>
 <td>Phial Switch Boost</td>
-<td>i like tiddies this is good yaaa tiddies</td>
 </tr>
 <tr>
 <th scope="row"><img src="../../images/dragon.webp"
@@ -447,11 +444,10 @@ target="_blank" alt="link to the armor set search">Silver
 Slasher / Primordial Malzeno</a></td>
 <td>8 Element + 1 Attack</td>
 <td>Phial Switch Boost</td>
-<td>i like tiddies this is good yaaa tiddies</td>
 </tr>
 </tbody>
 <tfoot>
-<th scope="row" colspan="4">
+<th scope="row" colspan="3">
 <h6>5.1A - HS MoH Sets</h6>
 </td>
 </tr>
@@ -464,230 +460,1076 @@ class="ImgButton">Open in new tab</a>
 </div>
 </section></p></div>
 
-<!--For a Second Archetype, copy the codeblock into here-->
 <section>
-<input id="5.2" class="toggle" type="checkbox">
-<label for="5.2" class="CollHeading"><h3>5.2 Low Budget 2</h3></label><div class="CollParagraph"><p> 
+<input id="3.2" class="toggle" type="checkbox">
+<label for="3.2" class="CollHeading"><h3>3.2 Low Budget Blood Awakening MoH</h3></label><div class="CollParagraph"><p> 
+    <p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+        <img src="sets/switch_axe2.webp" class="BuildCard" alt="Low Budget Heaven-Sent MoH build for Switch Axe">
+        <a href="sets/switch_axe2.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+        <div><p> <b>Requirements:</b>
+        <ul>
+        <li><span class="tooltip">AR 241+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+        <li><span class="tooltip">MoH3 222<span class="tooltiptext">Mail of Hellfire 3, 3x Level 2 Slot</span></span> charm AND 3x <span class="tooltip">RM<span class="tooltiptext">Rapid Morph</span></span> qrafted</li>
+        <li>OR</li>
+        <li><span class="tooltip">RM3 222<span class="tooltiptext">Rapid Morph 3, 3x Level 2 slot</span></span> charm AND 3x <span class="tooltip">MoH<span class="tooltiptext">Mail of Hellfire</span></span> qrafted</li></ul>
+        </p>
+        <b>Baseline:</b><br><span class="tooltip">Ele 5<span class="tooltiptext">Fire, Water... Attack</span></span>, <span class="tooltip">Elder Bless 2<span
+        class="tooltiptext">Except Dragon and Thunder</span></span>, Purple sharpness, <span class="tooltip">Crit Ele 3<span class="tooltiptext">Critical Element 3</span></span>, <span class="tooltip">Ewex 3<span class="tooltiptext">Elemental Exploit 3</span></span>
+        100% Affinity, Burst 3, Rapid Morph 3, Blood Awakening 3, <span class="tooltip">MoH 3<span class="tooltiptext">Mail of Hellfire 3</span></span>, <span class="tooltip">FBL 1<span class="tooltiptext">Frenzied Bloodlust 1</span></span>, 
+        <span class="tooltip">CB3<span class="tooltiptext">Critical Boost 3</span></span>.<br>
+        <p><u>Gameplan:</u><br>
+        You’ll play on <span class="bluescroll">Blue Scroll</span>.<br>
+        Blood Awakening will activate from Bloodrite leech, but also from Bloodblight leech. In addition to the usual options for dealing with moves, such as EBC, positioning and Wirestep, Blood Awakening opens up options to Invincible Gambit or ZSD in order to intentionally catch 
+        Bloodblight, to proc BA faster. </p>
+        
+        Get your comfort skills through qrafting.<br>
+        <u>Recommended:</u> <span class="tooltip">PowPro<span class="tooltiptext">Power Prolonger</span></span>PowPro 1-2, <span class="tooltip">EE<span class="tooltiptext">Evade Extender</span></span>1, BR1, Shockproof 1 (multiplayer only)<br>
+        <u>Improvements:</u> IH1, <span class="tooltip">AB<span class="tooltiptext">Attack Boost</span></span>0->4->6->7, Peak Performance, <span class="tooltip">Wind Mantle<span class="tooltiptext">If you like Wirestep/ZSD</span></span>, 
+        <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust, enables more EBC</span></span>1->2, Resuscitate/Coalescence/<span class="tooltip">HFC<span class="tooltiptext">Hellfire Cloak</span></span>, Adrenaline Rush
+        </p>
+        <p>Note: This set can technically be made at MR10, as the join requirements for Risen Elders are MR10, but it will lack Intrepid Heart. For different Elements, replace the elemental decorations appropriately. 
+            <br>Please refer to Section 8. - Frequently Asked Questions for questions regarding the Defense/Elemental Resistance drop from the Mail of Hellfire Skill.</p></div>
+        <section>
 
-text here
 <section><div class="SetLinksContainer">
-<input id="5.2Links" class="toggle" type="checkbox">
-<label for="5.2Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-table here
+<input id="3.2Links" class="toggle" type="checkbox">
+<label for="3.2Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+    <table class="eletable">
+    <caption>
+        <h4>Blood Awakening MoH Budget Sets:</h4>
+        </caption>
+        <thead>
+        <tr>
+        <th scope="col">Ele</th>
+        <th scope="col">Weapon</th>
+        <th scope="col">Augs</th>
+        <th scope="col">Rampage Deco</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <th scope="row"><img src="../../images/fire.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Wind%20MantleLv1%2CMail%20of%20HellfireLv3%2CWeakness%20ExploitLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv6%2CHandicraftLv4%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv1%2CElement%20ExploitLv3%2CBurstLv3%2CBlood%20RiteLv2%2CFire%20AttackLv5%2CCritical%20ElementLv3%2CTeostra%20BlessingLv2&s=1&e=1&v=10&g=13&w=LV3%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Volcanic
+        Switch / Magma Almudron</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/water.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Wind%20MantleLv1%2CMail%20of%20HellfireLv3%2CWeakness%20ExploitLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv6%2CHandicraftLv4%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv1%2CElement%20ExploitLv3%2CBurstLv3%2CBlood%20RiteLv2%2CCritical%20ElementLv3%2CIntrepid%20HeartLv1%2CKushala%20BlessingLv2%2CWater%20AttackLv5&s=1&e=1&v=10&g=13&w=LV2-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Void
+        Bringer Axe / Almudron</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/thunder.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Wind%20MantleLv1%2CMail%20of%20HellfireLv3%2CWeakness%20ExploitLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv6%2CHandicraftLv4%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv1%2CElement%20ExploitLv3%2CBurstLv3%2CBlood%20RiteLv2%2CCritical%20ElementLv3%2CThunder%20AttackLv5%2CIntrepid%20HeartLv1&s=1&e=1&v=10&g=13&w=LV3-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Fullmark+
+        / Khezu</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/ice.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Dragon%20ConversionLv3%2CBloodlustLv1%2CBurstLv1%2CWeakness%20ExploitLv3%2CStrifeLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv4%2CCritical%20ElementLv1%2CDerelictionLv1%2CElement%20ExploitLv1%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CFire%20ResistanceLv3%2CFuriousLv3%2CHandicraftLv3%2CKushala%20BlessingLv2%2CIce%20AttackLv5&s=1&e=1&v=10&g=13&w=LV3-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Splitear
+        Weiss / Lagombi</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/dragon.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Wind%20MantleLv1%2CMail%20of%20HellfireLv3%2CWeakness%20ExploitLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv6%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv1%2CElement%20ExploitLv3%2CBurstLv3%2CBlood%20RiteLv2%2CCritical%20ElementLv3%2CPartbreakerLv2%2CIntrepid%20HeartLv1%2CAdrenaline%20RushLv3%2CAttack%20BoostLv6%2CDragon%20AttackLv5&s=1&e=1&v=10&g=13&w=LV4-4-4%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Silver
+        Slasher / Primordial Malzeno</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <th scope="row" colspan="3">
+        <h6>3.2A - BA MoH Sets</h6>
+        </td>
+        </tr>
+        </tfoot>
+        </table>
+        <a href="sets/switch_axe_table2.webp" target="_blank"
+        class="ImgButton">Open in new tab</a>
+
 </div></div></section></p></div>
 
 <section>
-<input id="5.3" class="toggle" type="checkbox">
-<label for="5.3" class="CollHeading"><h3>5.3 Medium Budget 1</h3></label><div class="CollParagraph"><p> 
-<!--YourTextHere-->
+<input id="3.3" class="toggle" type="checkbox">
+<label for="3.3" class="CollHeading"><h3>3.3 Medium Budget HS DC</h3></label><div class="CollParagraph"><p> 
+    <p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+        <img src="sets/switch_axe3.webp" class="BuildCard" alt="Medium Budget Heaven-Sent DC build for Switch Axe">
+        <a href="sets/switch_axe3.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+        <div><p> <b>Requirements:</b>
+        <ul>
+        <li><span class="tooltip">AR 241+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+        <li><span class="tooltip">Furious 3 110<span class="tooltiptext">Furious 3, 2x Level 21Slot</span></span> charm AND 3x <span class="tooltip">DC<span class="tooltiptext">Dragon Conversion</span></span> qrafted</li>
+        <li>OR</li>
+        <li><span class="tooltip">DC3 110<span class="tooltiptext">Dragon Conversion 3, 2x Level 1 slot</span></span> charm AND 3x Furious qrafted</li></ul>
+        </p>
+        <b>Baseline:</b><br><span class="tooltip">Ele5<span class="tooltiptext">Fire, Water... Attack 5</span></span>, 100% Affinity and <span class="tooltip">CB3<span class="tooltiptext">Critical Boost 3</span></span>, Furious 3 and <span class="tooltip">DC3<span class="tooltiptext">Dragon Conversion 3</span></span>, 
+        Purple Sharpness, <span class="tooltip">RM3<span class="tooltiptext">Rapid Morph 3</span></span>>, Burst 1, <span class="tooltip">Elder Bless 2<span class="tooltiptext">Teo/Kushala, Thunder and Dragon have none</span></span>, <span class="tooltip">Crit Ele 1<span class="tooltiptext">Critical Element 1</span></span>, 
+        <span class="tooltip">Ewex 1<span class="tooltiptext">Elemental Exploit 1</span></span>, <span class="tooltip">IH1<span class="tooltiptext">Intrepid Heart 1</span></span>.<br>
+        <p><u>Gameplan:</u><br>
+            You will Scroll Swap to <span class="bluescroll">Blue Scroll</span> at the start of the hunt and do your standard opening. After 30 Hits - including Phial Ticks - you Scroll Swap and remain in <span class="redscroll">Red Scroll</span>. <span class="tooltip">HS3<span class="tooltiptext">Heaven-Sent 3</span></span> 
+            does not require a scroll swap to activate however, and swapping again resets DC bonus, meaning you’ll have to land 30 hits again. It’s important to note that HS will run out if you’re out of range or get sent flying - damage taken does not matter, which is why Intrepid is 
+            so strong for this Set. <span class="tooltip">HS3<span class="tooltiptext">Heaven-Sent 3</span></span> also grants infinite stamina, making Max Might a somewhat reliable source of affinity (for once).<br>
+            Best used in Arena/Forlorn Arena or with mons that don’t fly/jump/dig away a whole lot.
+        </p>
+        
+        Get your comfort skills through qrafting.<br>
+        <u>Recommended:</u> <span class="tooltip">PowPro<span class="tooltiptext">Power Prolonger</span></span> 1-2, <span class="tooltip">EE<span class="tooltiptext">Evade Extender</span></span>1, BR1, Shockproof 1 (multiplayer only)<br>
+        <u>Improvements:</u> <span class="tooltip">Crit Ele<span class="tooltiptext">Critical Element</span></span>2->3, <span class="tooltip">Ewex<span class="tooltiptext">Elemental Exploit</span></span>2->3, <span class="tooltip">Wind Mantle<span class="tooltiptext">If you like Wirestep/ZSD</span></span>, 
+        <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust, enables more EBC</span></span>1->2 or even 3.<br> 
+        For different Elements, replace the elemental decorations accordingly. 
+        <p>Note: Do not use Skill+ as the augment option, as it is guaranteed to remove Element Resistance, which directly lowers the flat Element gained from Dragon Conversion.</p></div>
+        <section>
+
+
 <section><div class="SetLinksContainer">
-<input id="5.3Links" class="toggle" type="checkbox">
-<label for="5.3Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-table here
+<input id="3.3Links" class="toggle" type="checkbox">
+<label for="3.3Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+
+<table class="eletable">
+    <caption>
+        <h4>Medium Budget HS DC Sets:</h4>
+        </caption>
+        <thead>
+        <tr>
+        <th scope="col">Ele</th>
+        <th scope="col">Weapon</th>
+        <th scope="col">Augs</th>
+        <th scope="col">Rampage Deco</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <th scope="row"><img src="../../images/fire.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv4%2CDragon%20ConversionLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CPower%20ProlongerLv2%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CHandicraftLv1%2CHeaven-SentLv3%2CMaximum%20MightLv2%2CPowder%20MantleLv1%2CCritical%20EyeLv2%2CFuriousLv3%2CElement%20ExploitLv1%2CCritical%20ElementLv1%2CTeostra%20BlessingLv2%2CFire%20AttackLv5%2CIntrepid%20HeartLv1&s=1&e=1&v=10&g=13&w=LV3%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Volcanic
+        Switch / Magma Almudron</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/water.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv4%2CDragon%20ConversionLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CPower%20ProlongerLv2%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CHandicraftLv1%2CHeaven-SentLv3%2CMaximum%20MightLv2%2CPowder%20MantleLv1%2CCritical%20EyeLv2%2CFuriousLv3%2CWater%20AttackLv5%2CKushala%20BlessingLv2%2CElement%20ExploitLv1%2CCritical%20ElementLv1%2CIntrepid%20HeartLv1&s=1&e=1&v=10&g=13&w=LV2-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=2004"
+        target="_blank" alt="link to the armor set search">Void
+        Bringer Axe / Almudron</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/thunder.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv4%2CDragon%20ConversionLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CPower%20ProlongerLv2%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CHeaven-SentLv3%2CMaximum%20MightLv2%2CPowder%20MantleLv1%2CCritical%20EyeLv2%2CFuriousLv3%2CElement%20ExploitLv1%2CCritical%20ElementLv1%2CThunder%20AttackLv5%2CHandicraftLv1%2CIntrepid%20HeartLv1&s=1&e=1&v=10&g=13&w=LV3-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Fullmark+
+        / Khezu</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/ice.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv4%2CDragon%20ConversionLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CPower%20ProlongerLv2%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CHeaven-SentLv3%2CMaximum%20MightLv2%2CPowder%20MantleLv1%2CCritical%20EyeLv2%2CFuriousLv3%2CElement%20ExploitLv1%2CCritical%20ElementLv1%2CHandicraftLv1%2CIntrepid%20HeartLv1%2CIce%20AttackLv5%2CKushala%20BlessingLv2&s=1&e=1&v=10&g=13&w=LV3-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Splitear
+        Weiss / Lagombi</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/dragon.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv4%2CDragon%20ConversionLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CPower%20ProlongerLv2%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CHeaven-SentLv3%2CMaximum%20MightLv2%2CPowder%20MantleLv1%2CCritical%20EyeLv2%2CFuriousLv3%2CElement%20ExploitLv1%2CCritical%20ElementLv1%2CHandicraftLv1%2CIntrepid%20HeartLv1%2CDragon%20AttackLv5&s=1&e=1&v=10&g=13&w=LV4-4-4%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Silver
+        Slasher / Primordial Malzeno</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <th scope="row" colspan="3">
+        <h6>3.3A - Medium Budget HS DC Sets</h6>
+        </td>
+        </tr>
+        </tfoot>
+        </table>
+        <a href="sets/switch_axe_table3.webp" target="_blank" class="ImgButton">Open in new tab</a>
+
 </div></div></section></p></div>
 
 <section>
-<input id="5.4" class="toggle" type="checkbox">
-<label for="5.4" class="CollHeading"><h3>5.4 Medium Budget 2</h3></label><div class="CollParagraph"><p> 
-
-<!--YourTextHere-->
+<input id="3.4" class="toggle" type="checkbox">
+<label for="3.4" class="CollHeading"><h3>3.4 Medium Budget BA DC</h3></label><div class="CollParagraph">
+    <p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+        <img src="sets/switch_axe4.webp" class="BuildCard" alt="Medium Budget Blood Awakening Dragon Conversion build for Switch Axe">
+        <a href="sets/switch_axe4.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+        <div><p> <b>Requirements:</b>
+        <ul>
+        <li><span class="tooltip">AR 241+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+        <li><span class="tooltip">DC3 300<span class="tooltiptext">Dragon Conversion 3, 1x Level 3 Slot</span></span> charm AND 3x Furious qrafted</li>
+        <li>OR</li>
+        <li>Furious 3 300 charm AND 3x <span class="tooltip">DC<span class="tooltiptext">Dragon Conversion</span></span> qrafted</li></ul>
+        </p>
+        <b>Baseline:</b><br>
+        ><span class="tooltip">Ele5<span class="tooltiptext">Fire, Water... Attack 5</span></span>, 100% Affinity and <span class="tooltip">CB3<span class="tooltiptext">Critical Boost 3</span></span>, Furious 3 and <span class="tooltip">DC3<span class="tooltiptext">Dragon Conversion 3</span></span>, 
+        Purple Sharpness, <span class="tooltip">RM3<span class="tooltiptext">Rapid Morph 3</span></span>>, Burst 1, <span class="tooltip">Elder Bless 2<span class="tooltiptext">Teo/Kushala, Thunder and Dragon have none</span></span>, <span class="tooltip">Crit Ele 1<span class="tooltiptext">Critical Element 1</span></span>, 
+        <span class="tooltip">Ewex 1<span class="tooltiptext">Elemental Exploit 1</span></span>, <span class="tooltip">BR1<span class="tooltiptext">Bloodrite 1</span></span>.
+        <p><u>Gameplan:</u><br>
+            You will Scroll Swap to <span class="bluescroll">Blue Scroll</span> at the start of the hunt and do your standard opening. After 30 Hits - including Phial Ticks - you Scroll Swap and remain in <span class="redscroll">Red Scroll</span>. Hyper armor moves such as ZSD, Invincible 
+            Gambit, <span class="tooltip">EBC<span class="tooltiptext">Elemental Burst Counter</span></span> endlag, aswell as <span class="tooltip">IH<span class="tooltiptext">Intrepid Heart</span></span> can be used to intentionally tank an attack that inflicts bloodblight, and juggling this 
+            well will increase your damage immensely. 
+        <br>
+        <u>Recommended:</u> <span class="tooltip">PowPro<span class="tooltiptext">Power Prolonger</span></span>PowPro 1-2, <span class="tooltip">EE<span class="tooltiptext">Evade Extender</span></span>1, Shockproof 1 (multiplayer only)<br>
+        <u>Improvements:</u> <span class="tooltip">BR<span class="tooltiptext"></span></span>1->2, <span class="tooltip">IH1<span class="tooltiptext">Intrepid Heart 1</span></span>, <span class="tooltip">Crit Ele<span class="tooltiptext">Critical Element</span></span>2->3, <span class="tooltip">Ewex<span class="tooltiptext">Elemental Exploit</span></span>2->3, <span class="tooltip">Wind Mantle<span class="tooltiptext">If you like Wirestep/ZSD</span></span>, 
+            <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust, enables more EBC</span></span>1->2 or even 3.<br> 
+            For different Elements, replace the elemental decorations accordingly. 
+        </p>
+        <p>Note: Do not use Skill+ as the augment option, as it is guaranteed to remove Element Resistance, which directly lowers the flat Element gained from Dragon Conversion.</p></div>
+            
+    
+    Links:
+    
 <section><div class="SetLinksContainer">
-<input id="5.4Links" class="toggle" type="checkbox">
-<label for="5.4Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-table here
+<input id="3.4Links" class="toggle" type="checkbox">
+<label for="3.4Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+
+    <table class="eletable">
+        <caption>
+            <h4>Blood Awakening DC Sets:</h4>
+            </caption>
+            <thead>
+            <tr>
+            <th scope="col">Ele</th>
+            <th scope="col">Weapon</th>
+            <th scope="col">Augs</th>
+            <th scope="col">Rampage Deco</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <th scope="row"><img src="../../images/fire.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Weakness%20ExploitLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv6%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv1%2CBurstLv3%2CHandicraftLv2%2CFuriousLv3%2CDragon%20ConversionLv3%2CElement%20ExploitLv1%2CBlood%20RiteLv1%2CFire%20AttackLv5%2CTeostra%20BlessingLv2&s=1&e=1&v=10&g=13&w=LV2-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Volcanic
+            Switch / Magma Almudron</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            <tr>
+            <th scope="row"><img src="../../images/water.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Weakness%20ExploitLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv6%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv1%2CBurstLv3%2CHandicraftLv2%2CWater%20AttackLv5%2CKushala%20BlessingLv2%2CFuriousLv3%2CDragon%20ConversionLv3%2CElement%20ExploitLv1%2CBlood%20RiteLv2&s=1&e=1&v=10&g=13&w=LV2-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Void
+            Bringer Axe / Almudron</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            <tr>
+            <th scope="row"><img src="../../images/thunder.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Weakness%20ExploitLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv6%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv1%2CBurstLv3%2CHandicraftLv2%2CFuriousLv3%2CDragon%20ConversionLv3%2CElement%20ExploitLv1%2CBlood%20RiteLv1%2CThunder%20AttackLv5&s=1&e=1&v=10&g=13&w=LV3-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Fullmark+
+            / Khezu</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            <tr>
+            <th scope="row"><img src="../../images/ice.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Weakness%20ExploitLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv6%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv1%2CBurstLv3%2CHandicraftLv2%2CKushala%20BlessingLv2%2CFuriousLv3%2CDragon%20ConversionLv3%2CElement%20ExploitLv1%2CBlood%20RiteLv1%2CIce%20AttackLv5&s=1&e=1&v=10&g=13&w=LV3-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Splitear
+            Weiss / Lagombi</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            <tr>
+            <th scope="row"><img src="../../images/dragon.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Weakness%20ExploitLv3%2CCritical%20BoostLv3%2CCritical%20EyeLv6%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv1%2CBurstLv3%2CHandicraftLv2%2CFuriousLv3%2CDragon%20ConversionLv3%2CElement%20ExploitLv1%2CBlood%20RiteLv1%2CDragon%20AttackLv5&s=1&e=1&v=10&g=13&w=LV4-4-4%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Silver
+            Slasher / Primordial Malzeno</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <th scope="row" colspan="3">
+            <h6>3.4A - BA DC Sets</h6>
+            </td>
+            </tr>
+            </tfoot>
+            </table>
+            <a href="sets/switch_axe_table4.webp" target="_blank" class="ImgButton">Open in new tab</a>
+
 </div></div></section></p></div>
 
 
-<!--For a Second Archetype, copy the codeblock into here-->
-
 <section>
-<input id="5.5" class="toggle" type="checkbox">
-<label for="5.5" class="CollHeading"><h3>5.5 High End</h3></label><div class="CollParagraph"><p> 
-<!--YourTextHere-->
+<input id="3.5" class="toggle" type="checkbox">
+<label for="3.5" class="CollHeading"><h3>3.5 High End - Berserk "Budget" V1</h3></label><div class="CollParagraph"><p> 
+    <p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+        <img src="sets/switch_axe5.webp" class="BuildCard" alt="'Budget' Berserk build for Switch Axe">
+        <a href="sets/switch_axe5.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+        <div><p> <b>Requirements:</b>
+        <ul>
+        <li><span class="tooltip">AR 241+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+        <li>Berserk 2 110 charm AND 3x <span class="tooltip">MoH<span class="tooltiptext">Mail of Hellfire</span></span> AND 3x Strife qrafted</li>
+        <li>OR</li>
+        <li>All of the above but Berserk 1 110 if you can play basically hitless</li></ul>
+        </p>
+        <b>Baseline:</b><br>
+        <span class="tooltip">Ele 5<span class="tooltiptext">Fire, Water... Attack 5</span></span>, <span class="tooltip">Elder Bless 2<span class="tooltiptext">Teostra/Kushala Blessing, none for Thunder/Dragon</span></span>, <b>consistent</b> 100% Affinity, Critical Boost 3, Purple Sharpness and 
+        <span class="tooltip">Maintenance<span class="tooltiptext">Usually Master's Touch 3</span></span>, <span class="tooltip">RM<span class="tooltiptext">Rapid Morph</span></span>3, <span class="tooltip">BA<span class="tooltiptext">Blood Awakening</span></span>3, 
+        <span class="tooltip">BR<span class="tooltiptext">Bloodrite</span></span>1, Powder Mantle 1, Critical Element 3, <span class="tooltip">Ewex<span class="tooltiptext">Elemental Exploit</span></span>1, Burst 3, <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span>1.<br>
+        Note: This set overcaps a lot on affinity in order to make sharpness maintenance a little bit more consistent on monsters like Diablos or Seething Bazelgeuse, amongst others.<br>
+
+        <u>Gameplan:</u>
+        You’ll play on Blue Scroll. The safer way to play is trying to avoid every instance of damage to make Berserk's health drain, and thus Strife uptime, more managable. The stronger way to play is to regularly catch Bloodblight for better Blood Awakening uptime.<br>
+        Regardless of the route you chose, Berserk is difficult to play well. Eating for Super Recovery Dango at Level 4 helps here.<br>
+        Get your comfort skills through qrafting, or from a better charm. You don't exactly have a lot of room here.
+        <u>Recommended:</u> <span class="tooltip">PowPro<span class="tooltiptext">Power Prolonger</span></span> 1-2, Intrepid Heart 1, <span class="tooltip">EE<span class="tooltiptext">Evade Extender</span></span> 1, Shockproof 1 for multiplayer<br>
+        <u>Improvements:</u> <span class="tooltip">Ewex<span class="tooltiptext">Elemental Exploit</span></span> 1->3 if you can consistently hit ele hitzones of 20+, <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span> 1->2, <span class="tooltip">WM<span class="tooltiptext">Wind Mantle</span></span> 1 
+        if you enjoy Wirestep, and if so, <span class="tooltip">BSH<span class="tooltiptext">Bladescale Hone</span></span> is worth a consideration, more Handicraft.
 
 <section><div class="SetLinksContainer">
-<input id="5.5Links" class="toggle" type="checkbox">
-<label for="5.5Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-table here
-</div></div></section></p></div>
+<input id="3.5Links" class="toggle" type="checkbox">
+<label for="3.5Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+
+<table class="eletable">
+    <caption>
+        <h4>"Budget" Berserk Sets</h4>
+        </caption>
+        <thead>
+        <tr>
+        <th scope="col">Ele</th>
+        <th scope="col">Weapon</th>
+        <th scope="col">Augs</th>
+        <th scope="col">Rampage Deco</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <th scope="row"><img src="../../images/fire.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=BerserkLv2%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CFrenzied%20BloodlustLv1%2CMail%20of%20HellfireLv3%2CPowder%20MantleLv1%2CStrifeLv3%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CMaximum%20MightLv3%2CCritical%20EyeLv4%2CHandicraftLv2%2CElement%20ExploitLv2%2CBlood%20RiteLv1%2CTeostra%20BlessingLv2%2CFire%20AttackLv5&s=1&e=1&v=10&g=13&w=LV3%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Volcanic
+        Switch / Magma Almudron</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/water.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Water%20AttackLv5%2CBerserkLv2%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CFrenzied%20BloodlustLv1%2CMail%20of%20HellfireLv3%2CPowder%20MantleLv1%2CStrifeLv3%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CKushala%20BlessingLv2%2CMaximum%20MightLv3%2CCritical%20EyeLv4%2CHandicraftLv2%2CElement%20ExploitLv2%2CBlood%20RiteLv1&s=1&e=1&v=10&g=13&w=LV2-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Void
+        Bringer Axe / Almudron</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/thunder.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=BerserkLv2%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CFrenzied%20BloodlustLv1%2CMail%20of%20HellfireLv3%2CPowder%20MantleLv1%2CStrifeLv3%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CMaximum%20MightLv3%2CCritical%20EyeLv4%2CHandicraftLv2%2CElement%20ExploitLv2%2CBlood%20RiteLv1%2CThunder%20AttackLv5&s=1&e=1&v=10&g=13&w=LV3%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Fullmark+
+        / Khezu</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/ice.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=BerserkLv2%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CFrenzied%20BloodlustLv1%2CMail%20of%20HellfireLv3%2CPowder%20MantleLv1%2CStrifeLv3%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CKushala%20BlessingLv2%2CMaximum%20MightLv3%2CCritical%20EyeLv4%2CHandicraftLv2%2CElement%20ExploitLv2%2CBlood%20RiteLv1%2CIce%20AttackLv5&s=1&e=1&v=10&g=13&w=LV3-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Splitear
+        Weiss / Lagombi</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        <tr>
+        <th scope="row"><img src="../../images/dragon.webp"
+        class="EleStatusImg"></th>
+        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=BerserkLv2%2CBlood%20AwakeningLv3%2CBloodlustLv1%2CBurstLv1%2CCritical%20BoostLv3%2CFrenzied%20BloodlustLv1%2CMail%20of%20HellfireLv3%2CPowder%20MantleLv1%2CStrifeLv3%2CWeakness%20ExploitLv3%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CMaximum%20MightLv3%2CCritical%20EyeLv4%2CHandicraftLv2%2CElement%20ExploitLv2%2CBlood%20RiteLv1%2CDragon%20AttackLv5&s=1&e=1&v=10&g=13&w=LV4-4-4%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+        target="_blank" alt="link to the armor set search">Silver
+        Slasher / Primordial Malzeno</a></td>
+        <td>8 Element + 1 Attack</td>
+        <td>Phial Switch Boost</td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <th scope="row" colspan="3">
+        <h6>3.5A - "Budget" Berserk Sets</h6>
+        </td>
+        </tr>
+        </tfoot>
+        </table>
+        <a href="sets/switch_axe_table5.webp" target="_blank" class="ImgButton">Open in new tab</a>
+
+</div></div></section></p></div></section></section>
 <section>
-<input id="5.6" class="toggle" type="checkbox">
-<label for="5.6" class="CollHeading"><h3>5.6 High End 2</h3></label><div class="CollParagraph"><p> 
-text here
+<input id="3.6" class="toggle" type="checkbox">
+<label for="3.6" class="CollHeading"><h3>3.6 High End - Berserk V2</h3></label><div class="CollParagraph"><p> 
+    <p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+    <img src="sets/switch_axe6.webp" class="BuildCard" alt="'Budget' Berserk build for Switch Axe">
+    <a href="sets/switch_axe6.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+    <div>
+        <p> <b>Requirements:</b>
+            <ul>
+            <li><span class="tooltip">AR 241+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+            <li>Berserk 2 110 charm AND 3x <span class="tooltip">MoH<span class="tooltiptext">Mail of Hellfire</span></span> AND 3x Strife qrafted</li>
+            <li>OR</li>
+            <li>All of the above but Berserk 1 110 if you can play basically hitless</li></ul>
+            </p>
+            <b>Baseline:</b><br>
+            <span class="tooltip">Ele<span class="tooltiptext">Fire, Water... Attack 5</span></span>, <span class="tooltip">MoH<span class="tooltiptext">Mail of Hellfire</span></span>3,  Critical element 3, Strife 3, 100% Affinity and <span class="tooltip">CB<span class="tooltiptext">Critical Boost</span></span>3, <span class="tooltip">Ewex<span class="tooltiptext">Elemental Exploit</span></span>3, 
+            <span class="tooltip">BA<span class="tooltiptext">Blood Awakening</span></span>3, Purple Sharpness + <span class="tooltip">Maintenance<span class="tooltiptext">Usually Master's Touch</span></span>, Burst 3, <span class="tooltip">RM<span class="tooltiptext">Rapid Morph</span></span>3, 
+            Berserk 2, <span class="tooltip">BR<span class="tooltiptext">Bloodrite</span></span>2, <span class="tooltip">Elder Bless<span class="tooltiptext">Teostra/Kushala, except for Thunder/Dragon</span></span>, <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span>1, 
+            <span class="tooltip">PM<span class="tooltiptext">Powder Mantle</span></span>1.<br>
+            Note: This set overcaps a lot on affinity in order to make sharpness maintenance a little bit more consistent on monsters like Diablos or Seething Bazelgeuse, amongst others.<br>
+    
+            <u>Gameplan:</u>
+            You’ll play on Blue Scroll. The safer way to play is trying to avoid every instance of damage to make Berserk's health drain, and thus Strife uptime, more managable. The stronger way to play is to regularly catch Bloodblight for better Blood Awakening uptime.<br>
+            Regardless of the route you chose, Berserk is difficult to play well. Recommended Dango are Super Recovery 4, Medic 3 and Booster 1. Do not use against the <span class="tooltip">Elder Trio<span class="tooltiptext">Chameleos, Kushala, Teostra</span></span> or their Risen counterparts, 
+            as their parts break very late and they do not inflict Bloodblight.<br>
+
+            Get your comfort skills through qrafting, or from a better charm. You don't exactly have a lot of room here.
+            <u>Recommended:</u> <span class="tooltip">PowPro<span class="tooltiptext">Power Prolonger</span></span> 1-2, Intrepid Heart 1, Shockproof 1 for multiplayer<br>
+            <u>Improvements:</u> Kushala Blessing 3, <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span> 1->2, <span class="tooltip">WM<span class="tooltiptext">Wind Mantle</span></span> 1 if you enjoy Wirestep, and if so, 
+            <span class="tooltip">BSH<span class="tooltiptext">Bladescale Hone</span></span> is worth a consideration.
+    
+
+
+
+    </div>
 <section><div class="SetLinksContainer">
-<input id="5.6Links" class="toggle" type="checkbox">
-<label for="5.6Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-table here
+<input id="3.6Links" class="toggle" type="checkbox">
+<label for="3.6Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+    <table class="eletable">
+        <caption>
+            <h4>Berserk Sets</h4>
+            </caption>
+            <thead>
+            <tr>
+            <th scope="col">Ele</th>
+            <th scope="col">Weapon</th>
+            <th scope="col">Augs</th>
+            <th scope="col">Rampage Deco</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <th scope="row"><img src="../../images/fire.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Fire%20AttackLv5%2CMail%20of%20HellfireLv3%2CCritical%20ElementLv3%2CStrifeLv3%2CWeakness%20ExploitLv3%2CElement%20ExploitLv3%2CBlood%20AwakeningLv3%2CCritical%20BoostLv3%2CHandicraftLv4%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBerserkLv2%2CBlood%20RiteLv2%2CTeostra%20BlessingLv2%2CBloodlustLv1%2CFrenzied%20BloodlustLv1%2CPowder%20MantleLv1%2CCritical%20EyeLv2&s=1&e=1&v=10&g=13&w=LV3%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Volcanic
+            Switch / Magma Almudron</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            <tr>
+            <th scope="row"><img src="../../images/water.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Mail%20of%20HellfireLv3%2CCritical%20ElementLv3%2CStrifeLv3%2CWeakness%20ExploitLv3%2CElement%20ExploitLv3%2CBlood%20AwakeningLv3%2CCritical%20BoostLv3%2CHandicraftLv4%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBerserkLv2%2CBlood%20RiteLv2%2CBloodlustLv1%2CFrenzied%20BloodlustLv1%2CPowder%20MantleLv1%2CCritical%20EyeLv2%2CWater%20AttackLv5%2CKushala%20BlessingLv2&s=1&e=1&v=10&g=13&w=LV2-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Void
+            Bringer Axe / Almudron</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            <tr>
+            <th scope="row"><img src="../../images/thunder.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Mail%20of%20HellfireLv3%2CCritical%20ElementLv3%2CStrifeLv3%2CWeakness%20ExploitLv3%2CElement%20ExploitLv3%2CBlood%20AwakeningLv3%2CCritical%20BoostLv3%2CHandicraftLv4%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBerserkLv2%2CBlood%20RiteLv2%2CBloodlustLv1%2CFrenzied%20BloodlustLv1%2CPowder%20MantleLv1%2CCritical%20EyeLv2%2CThunder%20AttackLv5&s=1&e=1&v=10&g=13&w=LV2-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Fullmark+
+            / Khezu</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            <tr>
+            <th scope="row"><img src="../../images/ice.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Mail%20of%20HellfireLv3%2CCritical%20ElementLv3%2CStrifeLv3%2CWeakness%20ExploitLv3%2CElement%20ExploitLv3%2CBlood%20AwakeningLv3%2CCritical%20BoostLv3%2CHandicraftLv4%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBerserkLv2%2CBlood%20RiteLv2%2CBloodlustLv1%2CFrenzied%20BloodlustLv1%2CPowder%20MantleLv1%2CCritical%20EyeLv2%2CKushala%20BlessingLv2%2CIce%20AttackLv5&s=1&e=1&v=10&g=13&w=LV2-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Splitear
+            Weiss / Lagombi</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            <tr>
+            <th scope="row"><img src="../../images/dragon.webp"
+            class="EleStatusImg"></th>
+            <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Mail%20of%20HellfireLv3%2CCritical%20ElementLv3%2CStrifeLv3%2CWeakness%20ExploitLv3%2CElement%20ExploitLv3%2CBlood%20AwakeningLv3%2CCritical%20BoostLv3%2CHandicraftLv4%2CRapid%20MorphLv3%2CMaster's%20TouchLv3%2CBerserkLv2%2CBlood%20RiteLv2%2CBloodlustLv1%2CFrenzied%20BloodlustLv1%2CPowder%20MantleLv1%2CCritical%20EyeLv2%2CDragon%20AttackLv5&s=1&e=1&v=10&g=13&w=LV4-4-4%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+            target="_blank" alt="link to the armor set search">Silver
+            Slasher / Primordial Malzeno</a></td>
+            <td>8 Element + 1 Attack</td>
+            <td>Phial Switch Boost</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <th scope="row" colspan="3">
+            <h6>3.6A - Berserk Sets</h6>
+            </td>
+            </tr>
+            </tfoot>
+            </table>
+            <a href="sets/switch_axe_table6.webp" target="_blank" class="ImgButton">Open in new tab</a>
 </div></div></section></p></div>
 
 <h2>Raw</h2>
-<!--For a Second Archetype, copy the codeblock into here-->
+<p>Despite how strong element is in Sunbreak, some monsters don't match up well with it. The sets below are mainly for those Match ups, for players who don't want to commit to grinding Element weapons, hunters who only want to dabble in, or try out, Swaxe without committing to it, aswell as for multi-target hunt enjoyers.
+They all assume the use of <span class="tooltip">EBC<span class="tooltiptext">Elemental Burst Counter</span></span> and <span class="tooltip">PSB<span class="tooltiptext">Phial Switch Boost</span></span> Rampage decoration. Unless specified, no other Switch Skill is mandatory. 
+The Rampage Decoration is non-negotiable for any of the Sets below. For specific Matchups, consult Section 4.</p>
+
 <section>
-    <input id="5.0Raw" class="toggle" type="checkbox">
-    <label for="5.0Raw" class="CollHeading"><h3>Raw Sets</h3></label><div class="CollParagraph"><p> 
-    <!--YourTextHere-->
-    Text
+    <input id="3.0Raw" class="toggle" type="checkbox">
+    <label for="3.0Raw" class="CollHeading"><h3>3.7 Budget HS - Power Phial/Status</h3></label><div class="CollParagraph"><p> 
+        <p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+            <img src="sets/switch_axe_raw1.webp" class="BuildCard" alt="'Budget' Berserk build for Switch Axe">
+            <a href="sets/switch_axe_raw1.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+            <div>
+                <p> <b>Requirements:</b>
+                    <ul>
+                    <li><span class="tooltip">AR 241+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+                    <li>Qrafted 3x <span class="tooltip">BUB<span class="tooltiptext">Buildup Boost</span></span> and any charm with <span class="tooltip">210<span class="tooltiptext">1x Level 2 Slot and 1x Level 1 Slot</span></span> OR a <span class="tooltip">BUB3 210<span class="tooltiptext">Buildup Boost 3 with 1 Level 2 and 1 Level 1 Slot</span></span> charm</li>
+                    </p>
+                    <b>Baseline:</b><br>
+                    <span class="tooltip">AB<span class="tooltiptext">Attack Boost</span></span>4, <span class="tooltip">HS<span class="tooltiptext">Heaven-Sent</span></span>3, 100% Affinity and <span class="tooltip">CB<span class="tooltiptext">Critical Boost</span></span>3, 
+                    <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span>1, <span class="tooltip">IH<span class="tooltiptext">Intrepid Heart</span></span>1, <span class="tooltip">BUB<span class="tooltiptext">Buildup Boost</span></span> 3, 
+                    <span class="tooltip">STrigger<span class="tooltiptext">Status Trigger</span></span> 3, Chameleos Blessing 3 for Poison<br>
+                    <u>Recommended:</u> <span class="tooltip">PowPro<span class="tooltiptext">Power Prolonger</span></span> 1-2, Embolden 2 or 3 for Solo, Evade Window for multiplayer, Shockproof 1 for multiplayer<br>
+                    <u>Improvements:</u> Mail of Hellfire, <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span> 1->2, <span class="tooltip">WM<span class="tooltiptext">Wind Mantle</span></span> 1 if you enjoy Wirestep, 
+                    <span class="tooltip">BSH<span class="tooltiptext">Bladescale Hone</span></span>1-3, nearly any skill that boosts <span class="tooltip">Raw<span class="tooltiptext">Attack</span></span>.<br><br>
+                    <u>Gameplan:</u> 
+                    Status has a 33% chance to proc every hit on melee weapons. Successfully iframing any attack with “dodge” moves, such as rolls, hops and, importantly: wirestep, will proc Status Trigger. 
+                    Status Trigger guarantees status procs for up to 12 seconds at level 3, meaning it provides a big boost to damage in conjunction with Buildup Boost 3. 
+                    Things change slightly depending on which specific iteration you want to build for:
+                    Heaven-Sent 3 works best on the Elder Trio* Matchup, as their Head Partbreak is tied to remaining HP and does not occur until the latter third of the hunt.
+                    Blood Awakening 3 has theoretically better peak damage, but makes reaching 100% affinity a lot more expensive, struggles with the Elder Trio Matchup due to their delayed partbreaks, but has better synergy with skills like Bladescale Hone and Adrenaline Rush, 
+                    which also proc on evasion. Dereliction 1 in conjunction with Resentment 5 can yield great results regardless of the choice between Heaven-Sent and Blood Awakening. Mail of Hellfire 3 is a more comfy option than Dereliction, 
+                    but is arguably a little easier to obtain, at the cost of scaling less. Both skills are mutually exclusive.
+                    Hellfire Cloak 4 together with Resuscitate can be used to force a singular opening at will and further buff your Attack, and will work well with any of the above.
+                    Peak Performance is a comfortable option on Blood Awakening setups, but locks you out of Dereliction+Resentment.
+                    Vengeful Fellcleave (Scorned Magnamalo) and Zariella’s Phantasm (Chameleos) are usually the best options for this type of build, but on very high-end sets, Bazelheart (Seething Bazelgeuse) is preferred, due to its greater Base Raw at the cost of -15% affinity. 
+                    Thanatos Serpent (Remobra) can go toe-to-toe with Chameleos' Swaxe. Status Raw Sets can be used to fulfill a varying amount of niches to become jacks of all trades, masters of some. It depends on what you want that specific set to achieve. 
+                    <span class="redscroll">Mail of Hellfire</span> Variations are played on <span class="redscroll">Red Scroll</span>, <span class="bluescroll">Dereliction</span> plays on <span class="bluescroll">Blue Scroll</span>.
+                    Links:<br><br>
+
+
+            </div>
     <section><div class="SetLinksContainer">
-    <input id="5.0RawLinks" class="toggle" type="checkbox">
-    <label for="5.0RawLinks" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-    table here
+    <input id="3.0RawLinks" class="toggle" type="checkbox">
+    <label for="3.0RawLinks" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+        <table class="rawtable">
+            <caption>
+                <h4>Budget Status Raw Sets</h4>
+                </caption>
+                <thead>
+                <tr>
+                <th scope="col">Ele</th>
+                <th scope="col">Weapon</th>
+                <th scope="col">Augs</th>
+                <th scope="col">Rampage Deco</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <th scope="row"><img src="../../images/poison.webp"
+                class="EleStatusImg"></th>
+                <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Blood%20RiteLv1%2CMaximum%20MightLv3%2CHeaven-SentLv3%2CRapid%20MorphLv3%2CWeakness%20ExploitLv3%2CCritical%20BoostLv3%2CAttack%20BoostLv4%2CPowder%20MantleLv1%2CIntrepid%20HeartLv1%2CStatus%20TriggerLv3%2CBuildup%20BoostLv3%2CBurstLv1%2CFrenzied%20BloodlustLv1%2CMail%20of%20HellfireLv3%2CBloodlustLv1%2CCritical%20EyeLv4%2CChameleos%20BlessingLv3%2CAdrenaline%20RushLv3&s=1&e=1&v=10&g=13&w=LV3-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+                target="_blank" alt="link to the armor set search">Zariella’s
+                Phantasm / Chameleos</a></td>
+                <td>Rampage Upgrade 1 + 3 Attack</td>
+                <td>Phial Switch Boost</td>
+                </tr>
+                <tr>
+                <th scope="row"><img src="../../images/blast.webp"
+                class="EleStatusImg"></th>
+                <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Blood%20RiteLv1%2CBloodlustLv1%2CMaximum%20MightLv3%2CHeaven-SentLv3%2CRapid%20MorphLv3%2CWeakness%20ExploitLv3%2CCritical%20BoostLv3%2CAttack%20BoostLv4%2CPowder%20MantleLv1%2CIntrepid%20HeartLv1%2CStatus%20TriggerLv3%2CBuildup%20BoostLv3%2CBurstLv1%2CFrenzied%20BloodlustLv1%2CCritical%20EyeLv4%2CAdrenaline%20RushLv3%2CMail%20of%20HellfireLv3&s=1&e=1&v=10&g=13&w=LV3-2%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+                target="_blank" alt="link to the armor set search">Vengeful
+                Fellcleave / Scorned Magnamalo</a></td>
+                <td>Rampage Upgrade 1 + 3 Attack</td>
+                <td>Phial Switch Boost</td>
+                </tr>
+                <tr>
+                <th scope="row"><img src="../../images/blast.webp"
+                class="EleStatusImg"></th>
+                <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Blood%20RiteLv1%2CMaximum%20MightLv3%2CHeaven-SentLv3%2CRapid%20MorphLv3%2CWeakness%20ExploitLv3%2CCritical%20BoostLv3%2CAttack%20BoostLv4%2CPowder%20MantleLv1%2CIntrepid%20HeartLv1%2CStatus%20TriggerLv3%2CBuildup%20BoostLv3%2CBurstLv1%2CFrenzied%20BloodlustLv1%2CAdrenaline%20RushLv3%2CMail%20of%20HellfireLv3%2CBloodlustLv1%2CCritical%20EyeLv7&s=1&e=1&v=10&g=13&w=LV1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+                target="_blank" alt="link to the armor set search">Bazelheart
+                / Seething Bazelgeuse</a></td>
+                <td>Rampage Upgrade 1 + 3 Attack</td>
+                <td>Phial Switch Boost</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <th scope="row" colspan="3">
+                <h6>3.7A - Budget Status Raw Sets</h6>
+                </td>
+                </tr>
+                </tfoot>
+                </table>
+                <a href="sets/switch_axe_table_raw1.webp" target="_blank" class="ImgButton">Open in new tab</a>
+
     </div></div></section></p></div>
-<!--For a Second Archetype, copy the codeblock into here-->
+    <section>
+        <input id="3.1Raw" class="toggle" type="checkbox">
+        <label for="3.1Raw" class="CollHeading"><h3>3.8 Medium Budget Status Power Phials</h3></label><div class="CollParagraph"><p> 
+            <p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+                <img src="sets/switch_axe_raw2.webp" class="BuildCard" alt="'Budget' Berserk build for Switch Axe">
+                <a href="sets/switch_axe_raw2.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+                <div>
+                    <p> <b>Requirements:</b>
+                        <ul>
+                        <li><span class="tooltip">AR 241+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+                        <li>3 Points of Mail of Hellfire and Buildup Boost between qrafts and charm each, alongside 2-2-2 slots on charm</li>
+                        </p>
+                        <b>Baseline:</b><br>
+                        <span class="tooltip">AB<span class="tooltiptext">Attack Boost</span></span>7, <span class="tooltip">HS<span class="tooltiptext">Heaven-Sent</span></span>3, 100% Affinity and <span class="tooltip">CB<span class="tooltiptext">Critical Boost</span></span>3, 
+                        <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span>1, <span class="tooltip">IH<span class="tooltiptext">Intrepid Heart</span></span>1, <span class="tooltip">BUB<span class="tooltiptext">Buildup Boost</span></span> 3, 
+                        <span class="tooltip">STrigger<span class="tooltiptext">Status Trigger</span></span> 3, Chameleos Blessing 3 for Poison, <span class="tooltip">MoH<span class="tooltiptext">Mail of Hellfire</span></span>3, <span class="tooltip">PM<span class="tooltiptext">Powder Mantle</span></span>1, 
+                        <span class="tooltip">RM<span class="tooltiptext">Rapid Morph</span></span>3<br>
+    
+                        <u>Gameplan:</u>
+                        Get your comfort skills through qrafting, or from a better charm. This set is played on <span class="redscroll">Red Scroll</span>. Status has a 33% chance to proc every hit on melee weapons. Successfully iframing any attack with “dodge” moves, such as rolls, hops and, importantly: wirestep, will proc Status Trigger if 
+                        you roll near or through monster attacks. 
+                        Status Trigger guarantees status procs for up to 12 seconds at level 3, meaning it provides a big boost to damage in conjunction with Buildup Boost 3.<br>
+                        <u>Recommended:</u> <span class="tooltip">PowPro<span class="tooltiptext">Power Prolonger</span></span> 1-2, Embolden 2 or 3 for Solo, Evade Window for multiplayer, Shockproof 1 for multiplayer<br>
+                        <u>Improvements:</u> <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span> 1->2, <span class="tooltip">WM<span class="tooltiptext">Wind Mantle</span></span> 1 if you enjoy Wirestep, nearly any skill that 
+                        boosts <span class="tooltip">Raw<span class="tooltiptext">Attack</span></span>
+                </div>
+        <section><div class="SetLinksContainer">
+        <input id="3.1RawLinks" class="toggle" type="checkbox">
+        <label for="3.1RawLinks" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+    
+            <table class="rawtable">
+                <caption>
+                    <h4>Budget Status Raw Sets</h4>
+                    </caption>
+                    <thead>
+                    <tr>
+                    <th scope="col">Ele</th>
+                    <th scope="col">Weapon</th>
+                    <th scope="col">Augs</th>
+                    <th scope="col">Rampage Deco</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <th scope="row"><img src="../../images/blast.webp"
+                    class="EleStatusImg"></th>
+                    <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv7%2CMail%20of%20HellfireLv3%2CHeaven-SentLv3%2CAdrenaline%20RushLv3%2CWeakness%20ExploitLv3%2CBuildup%20BoostLv3%2CStatus%20TriggerLv3%2CCritical%20BoostLv3%2CRapid%20MorphLv3%2CIntrepid%20HeartLv1%2CFrenzied%20BloodlustLv1%2CBloodlustLv1%2CPowder%20MantleLv1%2CMaximum%20MightLv2%2CEmboldenLv2%2CBlood%20RiteLv1%2CCritical%20EyeLv2&s=1&e=1&v=10&g=13&w=LV3-2%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+                    target="_blank" alt="link to the armor set search">Vengeful
+                    Fellcleave / Scorned Magnamalo</a></td>
+                    <td>Rampage Upgrade 1 + 3 Attack</td>
+                    <td>Phial Switch Boost</td>
+                    </tr>
+                    <tr>
+                    <th scope="row"><img src="../../images/blast.webp"
+                    class="EleStatusImg"></th>
+                    <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv7%2CMail%20of%20HellfireLv3%2CHeaven-SentLv3%2CAdrenaline%20RushLv3%2CWeakness%20ExploitLv3%2CBuildup%20BoostLv3%2CStatus%20TriggerLv3%2CCritical%20BoostLv3%2CRapid%20MorphLv3%2CIntrepid%20HeartLv1%2CFrenzied%20BloodlustLv1%2CBloodlustLv1%2CPowder%20MantleLv1%2CEmboldenLv1%2CCritical%20EyeLv2%2CMaximum%20MightLv3&s=1&e=1&v=10&g=13&w=LV3-2%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+                    target="_blank" alt="link to the armor set search">Bazelheart / Seething Bazelgeuse</a></td>
+                    <td>Rampage Upgrade 1 + 3 Attack</td>
+                    <td>Phial Switch Boost</td>
+                    </tr>
+                    <tr>
+                    <th scope="row"><img src="../../images/poison.webp"
+                    class="EleStatusImg"></th>
+                    <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv7%2CMail%20of%20HellfireLv3%2CHeaven-SentLv3%2CAdrenaline%20RushLv3%2CWeakness%20ExploitLv3%2CBuildup%20BoostLv3%2CStatus%20TriggerLv3%2CCritical%20BoostLv3%2CRapid%20MorphLv3%2CIntrepid%20HeartLv1%2CFrenzied%20BloodlustLv1%2CBloodlustLv1%2CPowder%20MantleLv1%2CEmboldenLv2%2CCritical%20EyeLv2%2CMaximum%20MightLv2%2CChameleos%20BlessingLv3&s=1&e=1&v=10&g=13&w=LV2-1-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+                    target="_blank" alt="link to the armor set search">Thanatos' Serpent / Remobra</a></td>
+                    <td>4 Attack</td>
+                    <td>Phial Switch Boost</td>
+                    </tr>
+                    <tr>
+                    <th scope="row"><img src="../../images/poison.webp"
+                    class="EleStatusImg"></th>
+                    <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv7%2CMail%20of%20HellfireLv3%2CHeaven-SentLv3%2CAdrenaline%20RushLv3%2CWeakness%20ExploitLv3%2CBuildup%20BoostLv3%2CStatus%20TriggerLv3%2CCritical%20BoostLv3%2CRapid%20MorphLv3%2CIntrepid%20HeartLv1%2CFrenzied%20BloodlustLv1%2CBloodlustLv1%2CPowder%20MantleLv1%2CEmboldenLv2%2CBlood%20RiteLv1%2CCritical%20EyeLv2%2CMaximum%20MightLv2%2CChameleos%20BlessingLv3&s=1&e=1&v=10&g=13&w=LV3-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+                    target="_blank" alt="link to the armor set search">Zariella’s
+                    Phantasm / Chameleos</a></td>
+                    <td>Rampage Upgrade 1 + 3 Attack</td>
+                    <td>Phial Switch Boost</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <th scope="row" colspan="3">
+                    <h6>3.8A - Budget Status Raw Sets</h6>
+                    </td>
+                    </tr>
+                    </tfoot>
+                    </table>
+                    <a href="sets/switch_axe_table_raw2.webp" target="_blank" class="ImgButton">Open in new tab</a>
+            
+    
+    
+        </div></div></section></p></div>
+        <section>
+            <input id="3.2Raw" class="toggle" type="checkbox">
+            <label for="3.2Raw" class="CollHeading"><h3>3.9 Amatsu</h3></label><div class="CollParagraph">
+                <p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+                    <img src="sets/switch_axe_raw3.webp" class="BuildCard" alt="'Budget' Berserk build for Switch Axe">
+                    <a href="sets/switch_axe_raw3.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+                    <div>
+                        <p> <b>Requirements:</b>
+                            <ul>
+                            <li><span class="tooltip">AR 241+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+                            <li>Qrafted 3x <span class="tooltip">BUB<span class="tooltiptext">Buildup Boost</span></span> and any charm with <span class="tooltip">210<span class="tooltiptext">1x Level 2 Slot and 1x Level 1 Slot</span></span> OR a <span class="tooltip">BUB3 210<span class="tooltiptext">Buildup Boost 3 with 1 Level 2 and 1 Level 1 Slot</span></span> charm</li>
+                            </p>
+                            <b>Baseline:</b><br>
+                            <span class="tooltip">AB<span class="tooltiptext">Attack Boost</span></span>7, <span class="tooltip">HS<span class="tooltiptext">Heaven-Sent</span></span>3, 100% Affinity and <span class="tooltip">CB<span class="tooltiptext">Critical Boost</span></span>3, 
+                            <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span>2, <span class="tooltip">IH<span class="tooltiptext">Intrepid Heart</span></span>1, <span class="tooltip">MoH<span class="tooltiptext">Mail of Hellfire</span></span>3
+
+                            <u>Gameplan:</u>
+                            This set is played on <span class="redscroll">Red Scroll</span>. Amatsu has built-in Silkbind Boost, which boosts Silkbind Attacks by 10%. Your gameplan consists of hitting as many <span class="tooltip">EBC<span class="tooltiptext">Elemental Burst Counter</span>s as possible. 
+                            Having 3 Wirebugs enables pseudo-chaining them, picking up a 4th allows for back-to-back chaining for as long as the Sword Gauge allows.<br> 
+                            Get your comfort skills through qrafting, or from a better charm.
+                            <u>Recommended:</u> Embolden 2 or 3 for Solo, Evade Window for multiplayer, Shockproof 1 for multiplayer<br>
+                            <u>Improvements:</u> MoH 3 <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span> 2->3, <span class="tooltip">WM<span class="tooltiptext">Wind Mantle</span></span> 1 if you enjoy Wirestep, nearly any skill that boosts <span class="tooltip">Raw<span class="tooltiptext">Attack</span></span>
+                    </div>
+                <section><div class="SetLinksContainer">
+            <input id="3.2RawLinks" class="toggle" type="checkbox">
+            <label for="3.2RawLinks" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+        
+                <table class="rawtable">
+                    <caption>
+                        <h4>Amatsu Raw Sets</h4>
+                        </caption>
+                        <thead>
+                        <tr>
+                        <th scope="col">Ele</th>
+                        <th scope="col">Weapon</th>
+                        <th scope="col">Augs</th>
+                        <th scope="col">Rampage Deco</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                        <th scope="row"><img src="../../images/raw.webp"
+                        class="EleStatusImg"></th>
+                        <td><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Blood%20RiteLv1%2CAttack%20BoostLv7%2CMail%20of%20HellfireLv3%2CHeaven-SentLv3%2CAdrenaline%20RushLv3%2CWeakness%20ExploitLv3%2CPeak%20PerformanceLv3%2CPowder%20MantleLv1%2CFrenzied%20BloodlustLv2%2CMaximum%20MightLv3%2CCritical%20BoostLv3%2CBloodlustLv1%2CRapid%20MorphLv3%2CIntrepid%20HeartLv1%2CEmboldenLv1%2CCritical%20EyeLv4&s=1&e=1&v=10&g=13&w=None%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+                        target="_blank" alt="link to the armor set search">Cloudburst Axe / Amatsu</a></td>
+                        <td>4 Attack</td>
+                        <td>Phial Switch Boost</td>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                        <th scope="row" colspan="4">
+                        <h6>3.9A - Amatsu Set</h6>
+                        </td>
+                        </tr>
+                        </tfoot>
+                        </table>
+                        <a href="sets/switch_axe_table_raw3.webp" target="_blank" class="ImgButton">Open in new tab</a>
+                
+        
+            </div></div></section></p></div>
 </section></p></div></section>
 
             <section>
-                <input id="6.0" class="toggle" type="checkbox">
-                <label for="6.0" class="CollHeading"><h3>6. Matchup Chart</h3></label><div class="CollParagraph"><p> 
+                <input id="4.0" class="toggle" type="checkbox">
+                <label for="4.0" class="CollHeading"><h3>4. Matchup Chart</h3></label><div class="CollParagraph"><p> 
                         <img src="sets/switch_axe_matchup.webp" class="GuideCard" alt="Rise Switch Axe Matchups">
                         <a href="sets/switch_axe_matchup.webp" target="_blank" class="ImgButton">Open image in new
                             tab</a><br>
-                        <span class="center">6.0A - Matchup Sheet</span>
+                        <span class="center">4.0A - Matchup Sheet</span>
                     </p>
                 </div>
             </section>
             <section>
-                <input id="7.0" class="toggle" type="checkbox">
-                <label for="7.0" class="CollHeading"><h3>7. Alternative Builds</h3></label><div class="CollParagraph"><p> 
-                        <!--YourTextHere-->
+                <input id="5.0" class="toggle" type="checkbox">
+                <label for="5.0" class="CollHeading"><h3>5. Alternative Build</h3></label><div class="CollParagraph"><p> 
+                        This set solely exists due to popular demand. Note that no matter what you do to it, Reconqueress sucks.
                         <section>
-                            <input id="7.1" class="toggle" type="checkbox">
-                            <label for="7.1" class="CollHeading"><h3>7.1 Alternative 1</h3></label><div class="CollParagraph"><p> 
-                                <!--YourTextHere-->
-
+                            <input id="5.1" class="toggle" type="checkbox">
+                            <label for="5.1" class="CollHeading"><h3>5.1 Reconqueress</h3></label><div class="CollParagraph"><p> 
+                                <p>Note: Risen Shagaru Armor pieces are called Virtue for Type 1/Male characters, and Prudence for Type 2/Female characters.
+                                    <img src="sets/switch_axe_alternative1.webp" class="BuildCard" alt="'Budget' Berserk build for Switch Axe">
+                                    <a href="sets/switch_axe_alternative1.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+                                    <div>
+                                        <p> <b>Requirements:</b>
+                                            <ul>
+                                            <li><span class="tooltip">AR 241+<span class="tooltiptext">Anomaly Rank</span></span>, Ability to clear and farm Amatsu, Risen Teostra and Risen Shagaru Magala</li>
+                                            <li>Between Charm and Qrafts, 3 Levels of <span class="tooltip">BuB<span class="tooltiptext">Buildup Boost</span></span> and 3 Levels of <span class="tooltip">MoH<span class="tooltiptext">Mail of Hellfire</span></span>, aswell as 3 Level 2 Slots on the charm</li>
+                                            </p>
+                                            <b>Baseline:</b><br>
+                                            <span class="tooltip">AB<span class="tooltiptext">Attack Boost</span></span>7, <span class="tooltip">HS<span class="tooltiptext">Heaven-Sent</span></span>3, 100% Affinity and <span class="tooltip">CB<span class="tooltiptext">Critical Boost</span></span>3, 
+                                            <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span>2, <span class="tooltip">IH<span class="tooltiptext">Intrepid Heart</span></span>1, <span class="tooltip">MoH<span class="tooltiptext">Mail of Hellfire</span></span>3, <span class="tooltip">BuB<span class="tooltiptext">Buildup Boost</span></span>3
+                
+                                            <u>Gameplan:</u>
+                                            This set is played on <span class="redscroll">Red Scroll</span>. Exhaust Phials are guaranteed to proc their status, and thus guarantee Buildup Boost. Play as normal. <span class="tooltip">DH<span class="tooltiptext">Dragon Heart</span></span> does not disable Exhaust, making it a possible upgrade path.<br> 
+                                            Get your comfort skills through qrafting, or from a better charm.
+                                            <u>Recommended:</u> <span class="tooltip">PowPro<span class="tooltiptext">Power Prolonger</span></span>1-2, Shockproof 1 for multiplayer<br>
+                                            <u>Improvements:</u> <span class="tooltip">FBL<span class="tooltiptext">Frenzied Bloodlust</span></span> 1->2, <span class="tooltip">WM<span class="tooltiptext">Wind Mantle</span></span> 1 if you enjoy Wirestep, nearly any skill that boosts <span class="tooltip">Raw<span class="tooltiptext">Attack</span></span>, 
+                                            <span class="tooltip">DH<span class="tooltiptext">Dragon Heart</span></span>5
+                                    </div>
                                   <div class="SetLinksContainer">
                                <section>
-                        <input id="8.1Links" class="toggle" type="checkbox">
-                        <label for="8.1Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-                                 <!--YourTableHere-->
+                        <input id="5.1Links" class="toggle" type="checkbox">
+                        <label for="5.1Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
+        
+                            <table class="rawtable">
+                                <caption>
+                                    <h4>Reconqueress</h4>
+                                    </caption>
+                                    <thead>
+                                    <tr>
+                                    <th scope="col">Ele</th>
+                                    <th scope="col">Weapon</th>
+                                    <th scope="col">Augs</th>
+                                    <th scope="col">Rampage Deco</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                    <th scope="row"><img src="../../images/raw.webp"
+                                    class="EleStatusImg"></th>
+                                    <td><br><a href="https://mhrise.wiki-db.com/sim/?hl=en#skills=Attack%20BoostLv7%2CMail%20of%20HellfireLv3%2CHeaven-SentLv3%2CAdrenaline%20RushLv3%2CWeakness%20ExploitLv3%2CPowder%20MantleLv1%2CCritical%20BoostLv3%2CBloodlustLv1%2CRapid%20MorphLv3%2CIntrepid%20HeartLv1%2CEmboldenLv3%2CBuildup%20BoostLv3%2CMaximum%20MightLv2%2CFrenzied%20BloodlustLv1%2CCritical%20EyeLv2%2CHandicraftLv1&s=1&e=1&v=10&g=13&w=LV1-1-1%20Slot%20Weapon&ws=&d=0&rf=-100&rw=-100&rt=-100&ri=-100&rd=-100&l=200"
+                                    target="_blank" alt="link to the armor set search">Reconqueress / Bad</a></td>
+                                    <td>4 Attack</td>
+                                    <td>Phial Switch Boost</td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot>
+                                    <th scope="row" colspan="4">
+                                    <h6>5.1A - Reconqueress Set</h6>
+                                    </td>
+                                    </tr>
+                                    </tfoot>
+                                    </table>
+                                    <a href="sets/switch_axe_table_alternative1.webp" target="_blank" class="ImgButton">Open in new tab</a>
+                            
+                    
+                                 
                             </p> 
                             </div>
                 </div>
             </section></p></div></section>
 
             <section>
-                <input id="8.0" class="toggle" type="checkbox">
-                <label for="8.0" class="CollHeading"><h3>8. Meme Builds</h3></label><div class="CollParagraph"><p> 
-                        <!--YourTextHere-->
+                <input id="6.0" class="toggle" type="checkbox">
+                <label for="6.0" class="CollHeading"><h3>6. Meme Builds</h3></label><div class="CollParagraph"><p>
                         <section>
-                            <input id="8.1" class="toggle" type="checkbox">
-                            <label for="8.1" class="CollHeading"><h3>8.1 Meme 1</h3></label><div class="CollParagraph"><p> 
-                <!--YourTextHere-->
-                </p>
-                <div class="SetLinksContainer">
-                    <section>
-                        <input id="8.1Links" class="toggle" type="checkbox">
-                        <label for="8.1Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-            <!--YourTableHere-->
-        </p> 
-    </div>
-</div>
-</section></p></div></section>
-                <section>
-                <input id="9.0" class="toggle" type="checkbox">
-                <label for="9.0" class="CollHeading"><h3>9. Changes throughout the Title Updates</h3></label><div class="CollParagraph"><p> 
-                        Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-                        halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot
-                        across the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the
-                        lead killick rigging bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of
-                        the Black. Chandler ho Plate Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail
-                        rutters shrouds port jolly boat boatswain squiffy dead men tell no tales.
+                            <input id="6.1" class="toggle" type="checkbox">
+                            <label for="6.1" class="CollHeading"><h3>6.1 Volvidon't use it</h3></label><div class="CollParagraph"><p>                                 
+                                <lite-youtube videoid="aez-YyJ0NwY" class="GuideCard"><a href="https://www.youtube.com/watch?v=aez-YyJ0NwY" class="lty-playbtn" title="Play Video"></a>
+                                </lite-youtube><br><span class="center">Fig 6.1A - Relatable</span><br><p><img src="sets/switch_axe_meme1.webp" class="BuildCard" alt="Volvi-just-don't">
+                                    <a href="sets/switch_axe_meme1.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+                                Are you sick and Tired of this <b>TOXIC META</b>game with its meta <u>SLAVES</u> trying to <b>FORCE</b> their <b>NUMERICAL SUPERIORITY</b> and <b>PLAYSTYLE</b> onto <b>YOU</b>?<br>
+                                <b>BOY</b> do I have the BUILD for <b>YOU</b>!<br>
+                                <span class="center"><u>Introducing:</u><br> The Volvidon’t use this Swaxe!</span><br>
+                                This bad boy is almost guaranteed to deal <i><b>NO DAMAGE</b></i>! It is built specifically to <b>NOT</b> deal <b>DAMAGE</b> while <b>STILL</b> giving you the <b>FLASHY</b>, <b>FUN</b> visual <b>EFFECTS</b> and <b>SPARKLES</b> of doing <b>CRITICAL HITS</b> <u>(that deal also no damage)</u>.<br>
 
-                        Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                        man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain
-                        Shot aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch
-                        walk the plank topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck
-                        Sink me swab gally. Bring a spring upon her cable Letter of Marque Barbary Coast black spot
-                        sutler marooned to go on account capstan. Swab rigging jury mast port line nipper scallywag
-                        pirate.
+                            </section>
+<section>
+    <input id="6.2" class="toggle" type="checkbox">
+    <label for="6.2" class="CollHeading"><h3>6.2 IMMORAL, UNLIKABLE, VINCIBLE GAMBIT</h3></label><div class="CollParagraph"><p> 
+        <img src="sets/switch_axe_meme2.webp" class="BuildCard" alt="Immortal, unkillable, invincible gambit"><br>
+        <a href="sets/switch_axe_meme2.webp" target="_blank" class="ImgButton">Open image in new tab</a><br>
+        Who needs Rapid Morph? Just tank everything with Berserk and Stun Resistance and get Bloodblighted constantly to keep your HP up, no thinking required. 90% WEXless affinity as well so you can just smack into whatever hitzone you want.<br>
+        You <span class="tooltip">can<span class="tooltiptext">but you shouldn't</span></span> use this to either spam ZSD>SWB>Switch Charger>Repeat or spam Invincible Gambit.
+
+</p>
+</section>
+</p></div></section>
+                <section>
+                <input id="7.0" class="toggle" type="checkbox">
+                <label for="7.0" class="CollHeading"><h3>7. Changes throughout the Title Updates</h3></label><div class="CollParagraph"><p> 
+                                      
                         <section>
-                        <input id="9.6" class="toggle" type="checkbox">
-                        <label for="9.6" class="CollHeading"><h4>Title Update 6/Bonus Update</h4></label><div class="CollParagraph"><p>
-                            Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad
-                            hempen halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run
-                            a shot across the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six
-                            pounders swing the lead killick rigging bowsprit swab. Topgallant Barbary Coast gally grog
-                            belay jib ye Admiral of the Black. Chandler ho Plate Fleet nipper long clothes rutters Jolly
-                            Roger haul wind. Topsail rutters shrouds port jolly boat boatswain squiffy dead men tell no
-                            tales.
+                        <input id="7.6" class="toggle" type="checkbox">
+                        <label for="7.6" class="CollHeading"><h4>Title Update 6/Bonus Update</h4></label><div class="CollParagraph"><p>
+                            Bonus Update added Primordial Malzeno and with it came the Silver Slasher, which, despite technically having a lower statline, beats out the previous best Dragon choice in Death Stench, due to the sheer power of Slots. Additionally,
+                            Primo brought with him Blood Awakening, an incredibly strong Set bonus that, while giving up on the luxury that is Heaven-Sent, pushed Switch Axe into a Berserk Endgame. This finally sees Rise/Sunbreak completed, providing ample opportunities 
+                            for theorizing, crafting, upgrading, and importantly, testing Sets with reasonably tanky monsters that can still be bested before the timer reaches the 6 minute mark.
                         </p>
                     </div></section>
                 <section>
-                    <input id="9.5" class="toggle" type="checkbox">
-                    <label for="9.5" class="CollHeading"><h4>Title Update 5</h4></label><div class="CollParagraph"><p> 
-            <!--YourTextHere-->
+                    <input id="7.5" class="toggle" type="checkbox">
+                    <label for="7.5" class="CollHeading"><h4>Title Update 5</h4></label><div class="CollParagraph"><p> 
+                        The final “proper” title update gave us Amatsu and Risen Shagaru.<br>
+                        Amatsus skill is, true to its name, Heaven-Sent, an easy to activate source of infinite sharpness and stamina, facilitating once again that the meta way to deal with gauges is to ignore them.
+                        Cloudburst Axe is an expensive option to build for, needing to make up for the -25% affinity, but boasting ridiculous raw, at the cost of no slots whatsoever. It makes up for it by buffing all wirebug moves by 10%, making it the supreme choice for raw-centrict EBC spam sets.
+                        Risen Shagaru introduced Frenzied Bloodlust, which grants a third wirebug everytime you clear Bloodlust/Frenzy, lasting up to 90 seconds.<br>
+                        TU5 gave us the level 4 deco for Bloodlust, Bladescale hone and Status Trigger, alongside the coveted AB4 and Expert4 decos. In its last act of powercreep on the deco side of things, it gave us Shockproof, which powercrept Flinch Free out of business. 
+                        The level cap for Anomaly Investigations was lifted to 300, at which point you gain access to Special Investigations. These are just even beefier versions of Anomaly Investigations with no additional unlocks tied to them.
+                        A9 Quests were introduced here.<br>
+                        The qrafting pool got extended again, now making Dragon Conversion accessible.
+                        Furthermore, we got new melding methods: Qurious Melding - Vigor, which uses afflicted materials to create completely randomized charms off of a better table than previous options, being able to produce charms with skills such as Furious, Dereliction and the much coveted Berserk 2, aswell as overall better slots than other options. 
+                        Cyclus on the other hand uses qurious charms as melding material and is used to target-meld for skills. Note that the list is much smaller and does not cover most of the actually sought after skills.
+                        These changes and additions made Sets and their potential damage output explode, giving us EFR and EFele values well into the quadruple and triple digit numbers, respectively.
+    
         </p>
     </div></section>
 
     <section>
-        <input id="9.4" class="toggle" type="checkbox">
-        <label for="9.4" class="CollHeading"><h4>Title Update 4</h4></label><div class="CollParagraph"><p> 
-    <input id="9.4" class="toggle" type="checkbox"><span class="CollHeading"> <label for="9.4">
-            Title Update 4</span></label>
+        <input id="7.4" class="toggle" type="checkbox">
+        <label for="7.4" class="CollHeading"><h4>Title Update 4</h4></label><div class="CollParagraph"><p> 
     <div class="CollParagraph">
-            <!--YourTextHere-->
-        </p>
-    </div></section>
-
-    <section>
-        <input id="9.3" class="toggle" type="checkbox">
-        <label for="9.3" class="CollHeading"><h4>Title Update 3</h4></label><div class="CollParagraph"><p> 
+        Velkhana returns and brings Risen Valstrax to the party.<br>
+        While Velkhanas’ armor provides nothing of value to us, its weapon is the earliest maxed out Swaxe you can acquire, with absolutely busted stats for how early into the endgame you can get it, making it the weapon to go for for returners or late adopters. 
+        Risen Valstrax brought with it Dragon Conversion, a very strong and comfy skill, focused on buffing element. This will be relevant later.
+        Anomaly Rank cap got lifted to 220, we got more slot upgrades for weapon augmenting.<br>
+        TU4 introduced the 4slot decos for Burst and Elemental Exploit, alongside Intrepid Heart on a 1slot.<br>
+        The biggest Buff and most meaningful impact was the changes to the qrafting pool, which now includes Powder Mantle, Wind Mantle, Strife and Mail of Hellfire. 
+        Especially MoH being now easily accessible on any armor piece makes it a nigh-automatic addition to any set at level 3, and sealed the deal on shifting into an all-element meta.
         
-            <!--YourTextHere-->
         </p>
     </div></section>
 
     <section>
-        <input id="9.2" class="toggle" type="checkbox">
-        <label for="9.2" class="CollHeading"><h4>Title Update 2</h4></label><div class="CollParagraph"><p> 
-     <!--YourTextHere-->
+        <input id="7.3" class="toggle" type="checkbox">
+        <label for="7.3" class="CollHeading"><h4>Title Update 3</h4></label><div class="CollParagraph"><p> 
+            Title Update 3 gave us Chaotic Gore, Risen Kushala and Risen Teostra.<br>
+            CGore had a minor impact on the meta weapon choices, as its Swaxe was the first semi-decent Power Phial dragon Swaxe, unfortunately requiring Bloodlust 3 and being obnoxious to build for if you wanted it to perform well. Once that was done, however, it performed.
+            It also brought along two new Skills, Berserk and Strife, which are not widely used until way later, but gave a rough idea of where the meta was going to go, in hindsight. 
+            Risen Kushala brought Wind Mantle to the table, a strong wirebug recovery skill, which saw some use and is still good today. 
+            Risen Teostra brought atrociously efficient Armor Pieces, to the point that his helmet is the go-to option to this day. His new signature skill, Powder Mantle, was and is a very strong one-point-wonder, that single handedly raises the DPS of most sets by a few %. 
+            Further changes include raising the Anomaly Level cap to 200 and introducing decorations for Elemental Exploit, Blood Rite, aswell as Kushala and Teostra Blessing, allowing for even more freedom when building sets.
+            With all the positives, we also should take the moment to remember those nerfed:
+            Gundog had many of its values cut in half or to a third,<br>
+            <img src="sets/switch_axe_gundog.webp" class="GuideCard" alt="Gundog more like gone, dog"><br>
+            <a href="sets/switch_axe_gundog.webp" target="_blank" class="ImgButton">Open image in new tab</a><br>
+            <span class="center">Fig. 3.3A - Gundogn’t</span><br>
+getting strictly replaced by chaindogs in the process.<br>
+Chaindogs lack the status support Gundogs offered before, but come with even more ridiculous elemental based Damage and work very nicely with Swaxe.
+
         </p>
     </div></section>
 
     <section>
-        <input id="9.1" class="toggle" type="checkbox"><label for="9.1" class="CollHeading"><h4>Title Update 1</h4></label>
+        <input id="7.2" class="toggle" type="checkbox">
+        <label for="7.2" class="CollHeading"><h4>Title Update 2</h4></label><div class="CollParagraph"><p> 
+            TU2 brought with it Violent Mizutsune, Flaming Espinas and Risen Chameleos. Risen Elder Dragons don’t have weapons associated with them, but do bring new Skills.<br>
+            While Vizu had little impact on Switch Axe, Flaming Espinas’ armor pieces have excellent qrafting fodder and combine just enough Attack Boost and slots to stay casually relevant. The Anomaly Rank cap got moved higher up, from 100 previously to 120. 
+            Mizu brought Embolden, which combined Guard and Evasion while being targeted by a monster. Flaming Espinas also brought Intrepid Heart, which was rough to fit at the time, but great comfort nonetheless. Risen Chameleos single handedly brought Exhaust Phials to nigh-relevancy, until it was realized that a 1.2 modifier slapped onto a 0 damage weapon still results in 0 damage.*<br>
+            Despite its Hype, Swaxe had no use for the Flaming Espinas Weapon, which has mediocre element, a hidden poison Value, and an element Phial. Weapons can now be layered. Hooray!<br><br>
+            *Reconqueress is actually kinda alright, the buff was just not enough to push it into actual meta relevancy.
+        </p>
+    </div></section>
+
+    <section>
+        <input id="7.1" class="toggle" type="checkbox"><label for="7.1" class="CollHeading"><h4>Title Update 1</h4></label>
         <div class="CollParagraph">
             <p> 
-     <!--YourTextHere-->
+                TU1 brought us Seething Bazelgeuse, both Metal Raths alongside Lucent Nargacuga and the Forlorn Arena. It introduced Anomaly Investigations, which had a seperate rank system, from 1 to 100. <br>
+                Materials obtained from those could be used in a new system called Qurious Crafting, or Qrafting for short, which allows players to roll on armor pieces to gain or lose stats, ranging from defense and eleres to skills.
+                This is usually treated as a +1 random skill, relatively grindy for a somewhat minor upgrade. Surely this will not somehow break the game.<br>
+                Seething brought with it the Bazelheart Switch Axe, which is expensive to build for but the strongest status option nowadays. On release, none of their weapons came close to what the Meta used at the time, which consisted of the same element Axes we use today, alongside Rathalos, Zinogre, Daimyo, and the absolutely busted Kushala Swaxe. Dragon was kinda eh.
+                The Metals brought their signature skills with them: Silver Rathalos gave access to Elemental Exploit, while Gold Rathian brought Burst. Los’ Helmet and ‘ians Arms were a staple for all sorts of sets.<br>
+                It is generally agreed upon that odd choices were made.
+
         </p>
         </div></section></p></div></section>
 
 <section>
-        <input id="10.0" class="toggle" type="checkbox">
-        <label for="10.0" class="CollHeading"><h3>10. Frequently Asked Questions</h3></label><div class="CollParagraph"><p> 
-         <!--YourTextHere-->
+        <input id="8.0" class="toggle" type="checkbox">
+        <label for="8.0" class="CollHeading"><h3>8. Frequently Asked Questions</h3></label><div class="CollParagraph"><p> 
+            Q: How does DC/MoH/Berserk/Powder Mantle/Heaven Sent… work?<br>
+            A: See Section 14, Subsection: Skills</p>
+            <p>
+            Q: Which Dangos to eat?<br>
+            A: Weakener/Moxie Adren/Booster for non-anomaly quests, Booster/Moxie Adren/whatever for general hunts. Super Recovery Dango helps with Strife uptime on Berserk sets, the spiribird one if you collect those religiously. The only Dango that directly impacts our damage is Booster, which is good enough at Level 1. 
+        </p><p>
+            Q: Reconqueress is misaligned in the table!<br>
+            A: It’s floating below the other text because it knows its place.
+        </p><p>
+            Q: How does Damage work? What is a HZV? What does MV mean?<br>
+            A: Hitzone Values (HZV) are the stats of monster body parts. They’re used in the damage calculation and calculating hitstop/hitlag. Motion Values (MV) are also used in damage calculation, they are attached to every move and describe how well your Attack stat translates into damage. Their elemental counterpart is called elemod (because of course it is). 
+            Damage, very simplified, is calculated as: (Attack x MV x HZV) + (Element x elemod x Elemental HZV).<br>
+            For exact MV and Hzv data, see Section 9 Resources.
+        </p><p>
+            Q: Why do your sets overcap on affinity?<br>
+            A: When building for other people, it’s difficult to offer a blanket solution for everyone while also being concise and of manageable volume. Relying on Bloodlust for 100% affinity is bad practice, as it’s a little inconsistent, especially if you don’t know the skill level of who you’re building for. On MT Sets, BL inaccuracies can lead to significantly worse sharpness management. Multiplayer or Monsters changing area further complicate the situation. Depending on hunt length, the check can become very hard to overcome, making it tight to clear frenzy in the first place. Overall, I found it best practice to account Bloodlust for about 5-10% on average. If you’re confident in your ability to clear Bloodlust and want to free up some slots, you can easily scale down to 80% and use the free slots otherwise.
+        </p><p>
+            Q: What’s the difference between Attack, Element, Raw, Base Raw, True Raw and Base Element?<br>
+            A: Attack and Raw are used interchangeably and refer to the same thing: Raw, non-element, non-status Damage. Element is a special damage type that, for the most part, can be treated as “extra damage with flavor”. True Raw/True Element refer to the unbloated numbers in the Status Screen. Rise/Sunbreak has no bloat and always displays True numbers, unlike World/Iceborne for example. Base Raw and Base element refer to weapon stats “out of the box”. In sunbreaks case, the bonuses from slot upgrades and augments count towards the Base values. Base is important, as every +% - think: AB, MoH, Ele attack - scales off of that number and does not interact with each other or things like Dragon Conversion.
+        </p><p>
+            Q: How does Defense work? Isn’t MoHs downside really bad? How does element res work?<br>
+            A: Every 1 point towards an ele res equals 1% damage reduction from that specific element. If you have 13 Thunder resistance, the Thunder element portion of an incoming attacks damage will be reduced by 13%, while having -20 means you’d take 20% more damage from it. Elemental resistances are capped at 50 and can prevent respective blights at certain thresholds (20 for the biggest). Defense is based on a formula: 80/(80 + your defense). This results in a value below 1, which acts as a multiplier to monster attacks. Kiranico and Mhrice (see Section 12 Resources) have information on the Attack Strength and Composition, aswell as the quest modifiers respectively. To calculate how much impact the downsides have, you:<br>
+            Calculate your reduction value with the above formula<br>
+            Multiply the Monsters’ Attack value with the Attack modifier of the quest<br>
+            Multiply the resulting value with your reduction value<br>
+            And do the same with element if you worry about the big negative resistances.
+            </p><p>
+            Q: Why those weapon choices? What makes a weapon good?<br>
+            A: PSB requires a level 3 rampage slot. Rampage slot upgrades are costly, making the first step of the filtering process to remove every weapon with less than a level 2 rampage slot. The next comparison is the sharpness level, as Purple has the highest multiplier. Then the misaligned Phial Types get filtered: Poison, Paralyze, and Dragon phials are bad, weapons like Gaismagorms’ with fuckhuge raw and little Dragon, but an element Phial are weeded out in this step. Last, you compare the fully upgraded versions’ stats and slots and pick the ones with the biggest numbers. The Meta choices after the last TU are a culmination of all of the above and the development and continuous refining of the live service releases. Note that just because a weapon is not listed here does not automatically translate to it being bad, merely that it's not the absolute best pick. Weapons like Megatalon Shears, Daora’s Ajniha and Oppressors Torrent are still very strong in their own right, it’s just that others have become even stronger.
+        </p><p>
+            Q:  Why is PSB used over Anti-Species? <br>
+            A: On paper, Anti-Species can compete with Phial Switch Boost. During the actual use-case, you’ll need to interrupt your morph-loop spam to use 2-stage instead, which strictly results in less damage.
+        </p><p>
+            Q: What’s the best Pet Setup? <br>
+            A: Chaindogs are dominant in terms of DPS. Equip them with a matching elemental weapon, dual chains and the following skills:<br>
+            Melee Centric<br>
+            Attack L OR Counter<br>
+            Attack S<br>
+            Element Attack Up<br>
+            Artful Dodger<br>
+            (Thanks juzzi)<br>
+            Cats are more comfy and personalized, just make sure to equip lottery box.
+        </p><p>
+            Q: Which are the best followers?<br>
+            A: Pick 2!
+            <table class="rawtable">
+                <thead><th>Follower</th><th>Weapon</th><th>Why</th></thead>
+                <tbody>
+                    <tr><td>Utsushi</td><td>Hunting Horn</td><td>Element + Raw buff</td></tr>
+                    <tr><td>Hinoa</td><td>Hunting Horn</td><td>Raw buff</td></tr>
+                    <tr><td>Rondine</td><td>Switch Axe</td><td>Spams Powders and Traps</td></tr>
+                    <tr><td>Luchika</td><td>Heavy Bowgun</td><td>Supposedly Staggers and KOs</td></tr>
+                </tbody>
+            </table>
+        </p><p>
+            Q: What about modded sets?<br>
+            A:  Regardless of stance on the matter, you are very unlikely to find useful help and advice. The issue with modded/”theoretical” sets is that due to the sheer number of skills you can fit, some priorities and interactions change. You run out of evergreen skills and end up needing to look into conditionals, which alter playstyle. Such sets are much, much more susceptible to player error and may end up performing suboptimally. There’s too many variables to reasonably recommend going one way or another. 
+        </p><p>
+            Q: Why do you only recommend Power Prolonger 1-2 instead of 3? <br>
+            A: Because it's more common to have a 4 slot open than 3 2slots or a 4 and a 2. PowPro 1 aligns very well with common topples → long downs on anomaly investigations, 2 adds more leniency on EBC. 
+        </p><p>
+            Q: Why not blast attack/teostra blessing for Vengeful Fellcleave/Smango?<br>
+            A: Because of the sheer amount of health in endgame hunts. Blast has the same problem as Gunlance shells, where it’s strong at first and early on but falls off once monsters become a little bulkier. Each subsequent explosion takes more and more buildup, meaning you will more or less accidentally kill a monster before making a meaningful impact, even with a blast-centric set. On Top of its relative weakness, Blast Attack is a 2-Slot decoration, which can almost always be converted into something much stronger. Teostra Blessing is an alright fit if you end up on empty 1-slots and already have Shockproof and Intrepid Heart, but no way of upgrading it to a 2-Slot. To further put it into perspective: the average endgame hunt will have around 130k health solo, which needs approximately 60 (~300 hits) completed morph loops on good hitzones. Blast procs for ~300 damage. If you get 10 (EXTREMELY GENEROUS) more procs at the cost of 3 2-Slots, that means those 3 points contributed 3000 damage over the course of 300 hits, or roughly 10 damage per hit, or 5 damage per hit if you include Phial Ticks. Going from Burst 0 → 1 is an increase of +10 raw and scales with the Sharpness modifier, Rapid Morph, Phial Type,..., meaning that on an attack with 40 MV, it can achieve +5 damage (rounded down) on its own.
+        </p><p>
+            Q: What about Grinder?<br>
+            A: Grinder died when slot upgrades gave extra sharpness, making it impractical and hard to have reasonable uptime on, outside of scripted runs. 
+        </p><p>
+            Q: Which are the go-to augments? <br>
+            A: Power Phials: Rampage Upgrade 1, 3 Attack to fit PSB OR 4 Attack 2 Element<br>
+            Element Phials: Always 8 Element 1 Attack<br>
+            Note that under very specific circumstances, for Power Phials only, opting for an Affinity augment may be the best choice due to rounding, specific skill loadouts and setups,...            
             </p>
         </div></section>
     <section>
-        <input id="11.0" class="toggle" type="checkbox">
-        <label for="11.0" class="CollHeading"><h3>11. Useful Resources</h3></label><div class="CollParagraph"><p> 
-                Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen halter.
-                Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot across the bow aye
-                hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the lead killick rigging
-                bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of the Black. Chandler ho Plate
-                Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail rutters shrouds port jolly boat
-                boatswain squiffy dead men tell no tales.
-                Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-                aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the plank
-                topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab gally.
-                Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go on account
-                capstan. Swab rigging jury mast port line nipper scallywag pirate.
+        <input id="9.0" class="toggle" type="checkbox">
+        <label for="9.0" class="CollHeading"><h3>9. Useful Resources</h3></label><div class="CollParagraph"><p> 
+            Note: All <a href="https://i.kym-cdn.com/entries/icons/mobile/000/024/196/sign.jpg" target=_blank>underlined</a> sections are links that open in new tabs.<br>
+            The <a href="https://mhrise.wiki-db.com/sim/?hl=en" target=_blank>ASS</a> and <a href="https://gamecat.fun/e/#xxxxxs2OxYuux" target="_blank">Gamecat</a><br>
+            <a href="http://mhrise.mhrice.info/quest/anomaly_difficulty_0_3.html" target=_blank>Investigation Modifiers</a> (wwylele#4040)<br>
+            <a href="https://docs.google.com/spreadsheets/d/1iBgTZttW-ECbRUy_9zm_FFuiQbi9LT93KuY-2iK5t_g/edit#gid=419779434" target="_blank">Possible Charms</a> and <a href="https://docs.google.com/spreadsheets/u/0/d/1FFYv2em4LErylP6_dlzZ7Zt3h76UluzU3f1dpZCeP8w/htmlview#" target=_blank>Possible Qrafts</a> (dltnor)<br>  
+            <a href="https://bit.ly/3bh2fNY" target=_blank>Damage Calculator</a> for Swaxe (Kevin for creating, RhytmWiz for maintaining)<br>
+            <a href="https://docs.google.com/spreadsheets/d/1zbRfJ_7k5eH57x6_3_EinlYSVKY47Kco3LfOIve-4no/edit#gid=0" target=_blank>DC vs MoH</a> Calculator (J9)<br>
+            <a href="https://www.mhrspeedrun.com/en/sbfree/quest/" target=_blank>Speedrun Leaderboards</a> TA wiki & Freestyle - no longer updated, but still useful to get the idea of a matchup<br>
+            <a href="https://robomeche.github.io/MHRise-Database/" target=_blank>Robomeche</a> for HZV and other Data<br>
+            <a href="https://docs.google.com/spreadsheets/d/1KSH0Uf-DsbFixdldQvcH-5zFXpX303dIzThTYMVH33Q/edit#gid=729529151" target=_blank>MV Table</a> (dltnor; Elpsyodey for translating)<br> 
            </p></div></section>
     <section>
-        <input id="12.0" class="toggle" type="checkbox">
-        <label for="12.0" class="CollHeading"><h3>12. Acknowledgements</h3></label><div class="CollParagraph"><p> 
-                Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen halter.
-                Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot across the bow aye
-                hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the lead killick rigging
-                bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of the Black. Chandler ho Plate
-                Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail rutters shrouds port jolly boat
-                boatswain squiffy dead men tell no tales.
-                Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-                aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the plank
-                topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab gally.
-                Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go on account
-                capstan. Swab rigging jury mast port line nipper scallywag pirate.
+        <input id="10.0" class="toggle" type="checkbox">
+        <label for="10.0" class="CollHeading"><h3>10. Acknowledgements</h3></label><div class="CollParagraph"><p> 
+            I’d like to express several heart-felt Thank You’s to:<br>
+            Pinky, for bouncing back and forth ideas, double checking sets, readability and generally listening to my groans<br>
+            The entirity of the Wiggler team<br>
+            Poker, for providing and refining most images used in these guides<br>
+            Pala, for the absolute beauty that is the Matchup Cheatsheet<br>
+            Juzzi, for discussions and exchanges throughout the lifespan of Sunbreak<br>
+            The regulars of the MHGH Swaxe Chat, as each and every one of you had constructive feedback and fruitful discussions, challenged our collective understanding and contributed to a healthy climate<br>
+            Rhytm, for feedback and maintaining the calculator<br>
+            dltnor, without whose datamines the math would’ve been an absolute pain<br>
+            And probably a lot more people that would seriously blow this section out of proportion.<br>            
             </p>
         </div></section>
     
@@ -703,6 +1545,7 @@ table here
     <script src="../../burger-menu_level_3.js" type="text/javascript" defer></script>
     <script src="../../footer-bar_level_3.js" type="text/javascript" defer></script>
     <script src="../../autotoc.js"></script>
+    <script src="../../youtube_lite_embed.js" defer></script>
     <script>tableOfContents('[data-content]', '[data-toc]', { heading: 'Table of Contents:', });</script>
 </footer>
 
