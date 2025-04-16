@@ -342,6 +342,7 @@ input[id="showendgame"]:checked ~ .radiotext3 {
     width: 70vw; z-index: -1; margin-left: auto; margin-right: auto; display: block;} 
 .bluebg {background-color: rgba(116, 116, 223, 0.432);}
 .redbg {background-color: rgba(233, 107, 107, 0.425);}
+.yellowbg {background-color: rgba(230, 230, 0, 0.470);}
 .GuideCard {
     min-width: 600px;
     margin: 0 auto;
