@@ -27,6 +27,7 @@ footer {text-align: center; margin-left: -2vw; margin-right:-2vw; margin-top: 10
 p {text-align: left;}
 li {list-style-type: none; text-align: left;}
 h2 {font-size: 1.9rem; text-shadow: 2px  1px 2px red, 0 0 1em blue, 0 0 0.2em blue; text-align: center;}
+h5 {font-size: 1.4rem; text-shadow: 2px  1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(133, 143, 0); text-align: center;}
 h3, h4 {background: linear-gradient(45deg, #0000003d, #2727273d, rgba(0, 0, 0, 0.24)00, #4646462a,#00000060); border: outset 5px rgba(206, 204, 204, 0.5); display: inline-block; margin-top: 10px; margin-bottom: 10px; font-size: 2rem;}
 h1 {font-size: 1.5rem;}
  @keyframes fadeInOpacity {0% {opacity: 0;}100% {opacity: 1;}}
@@ -514,7 +515,7 @@ input[id="WildsHBG"]:checked ~ #showWildsHBG {
 .NavbarWeapSelect h2 {font-size: 2rem; width: 100%; max-width: 500px; text-align: center; margin: 0 auto; display: block;}
 .GamePageLink, .GuideLink {width: 50vw; max-width: 494px; margin-left: auto; margin-right: auto; display: block; background-color: black;}
 .ReturnToGameIcon {position: fixed; top: 0; right: 0; display: inline-block;}
-.ReturnToGameImg {width: 8vw; height: 5.133vw; min-width: 150px; min-height: 97px;}
+.ReturnToGameImg {display: none;}
 .CollHeading .center {border: 8px outset orange; background-color: black;}
 .GamePageLink h2, .GuideLink h2 {text-shadow: 6px 6px 6px #d1b34873, 1px 1px 1px #ffeccc77, 3px 3px 3px black; color: #e3ca8fa9;}
 .world .GuideLink {background-color: rgba(37, 123, 163, 0.411); border: 3px outset rgba(37, 123, 163, 0.7);}
