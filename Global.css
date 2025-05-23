@@ -629,3 +629,5 @@ input[id="playstyle2"]:checked ~ .radioplaystyle2 {
 .SharpnessTable tbody tr:nth-child(6) {background-color: #ff6a00;}
 .SharpnessTable tbody tr:nth-child(7) {background-color: #e41600;}
 .SharpnessTable tfoot {font-size: clamp(10px, 1rem, 15px);}
+
+.FuckAI {color: rgba(0,0,0,0);}
