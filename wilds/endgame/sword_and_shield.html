@@ -24,6 +24,8 @@
 
     <img src="sets/sword_and_shield_endgame_intro.webp" class="GuideImg" alt="">
     <h2>Sword and Shield Endgame Sets</h2>
+    <div class="CopyrightBox">If you find this guide anywhere other than our website or the authors youtube channels, please let us know.<br>
+    If you'd like to reference this guide, please read the Copyright Stuff section on the <a href="https://wiggler.pet/about" target="_blank">About us page</a>.</div>
 
 <section class="wilds">
 
@@ -53,20 +55,34 @@
             1. A word from the Author</h3></label>
             
             <div class="CollParagraph">
-                <p> 
-                Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-                halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot across
-                the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the lead
-                killick rigging bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of the
-                Black. Chandler ho Plate Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail rutters
-                shrouds port jolly boat boatswain squiffy dead men tell no tales.
-
-                Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-                aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the
-                plank topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab
-                gally. Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go
-                on account capstan. Swab rigging jury mast port line nipper scallywag pirate.
+                <p>
+This document contains meta recommendations based on mathematical calculations and in-game testing, all recommendations align with what works and it’s possible in game.
+                </p>
+                <p>
+<ul><li>Author: BK (theorycrafting + math + doc editor)</li>
+<li>Contributors:</li>
+<li>Mopop (theorycrafting + math)</li>
+<li>PokerDew (theorycrafting + progression sets + doc editor)</li>
+<li>HungryDave (theorycrafting + doc editor)</li></ul>
+<ul><li>Collaborators:</li>
+<li>Visby (gameplay guide tech contributor and moveset flowchart)</li>
+<li>dtlnor (datamining)</li>
+<li>T3h Phish (banner image)</li>
+<li>Wiggler Project</li>
+<li>Mathalos</li></ul>
+                </p>
+                <p>
+If you have any comments, suggestions or questions, feel free to message us on Reddit or Discord:
+<ul><li>BK (Reddit: /u/dragonbronze, Discord: __BK__)</li>
+<li>Mopop (Reddit: /u/MOPOP99, Discord: mopop)</li>
+<li>HungryDave (Reddit: /u/DaveTheHungry, Discord: HungryDave)</li>
+<li>PokerDew (Reddit: /u/PokerFace-XI, Discord: pokerdew)</li></ul>
+Check out the #sword-and-shield channel in the Monster Hunter Gathering Hall Discord server too!
+                </p>
+                <p>
+We all are busy with our own schedules in real life, but we will do our best to respond to queries in reasonable time.<br>
+If we do not respond, please send a DM to PokerDew specifically, and he will answer your queries the best he can.<br>
+Please remember to be kind, respectful, and patient with your fellow community members! This work is done with none of the authors/contributors receiving financial compensation.
                 </p>
             </div>
     </section>
@@ -77,114 +93,947 @@
             2. Build Assumptions</h3></label>
                 
             <div class="CollParagraph">
-                <p> 
-                Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-                halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot across
-                the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the lead
-                killick rigging bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of the
-                Black. Chandler ho Plate Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail rutters
-                shrouds port jolly boat boatswain squiffy dead men tell no tales.
-
-                Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-                aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the
-                plank topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab
-                gally. Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go
-                on account capstan. Swab rigging jury mast port line nipper scallywag pirate.
+                <p>
+Math was done by BK and Mopop independently and then cross-checked, sets were optimized using Armor Set Search.
                 </p>
+                <p>
+For the sets, please find attached BK’s <a href="https://docs.google.com/spreadsheets/d/1oGko0sy5IIDyLJvCcIo3diQbv4AKZ5LSvOfsG21dKsM/edit?gid=0#gid=0" target="_blank">math sheet</a> (Google Sheets). It contains frame data for most of the relevant SnS DPS rotations, DPS analysis, build recommendations, matchup calculations, etc. The math sheet has been tested in the field to ensure that the damage formulae used results in the actual damage numbers seen in-game. For more details on how this is done, please refer to the sheet.
+                </p>
+                <p>
+Set recommendations are based on Lateral Combo > Spinning Reaper > Amped Charged Chop DPS, as well as sustained loop (e.g. Lateral Loop, Chop Combo) DPS to a certain extent.
+                </p>
+
+  <section class="indent">
+                    <input id="2.1" class="toggle" type="checkbox">
+                    <label for="2.1" class="CollHeading"><h4>
+                        2.1 Skill Priority</h4></label>
+                            
+                        <div class="CollParagraph">
+                            <p> 
+                                <table class="skillpriotable">
+                                    <caption>
+                                        <h5>Armor Skill Priority</h5>
+                                    </caption>
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Importance</th>
+                                        <th scope="col">Skill, Level, (Abbreviation)</th>
+                                        <th scope="col">Notes</th>
+                                    </thead>
+                                    
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Weakness Exploit 5</td>
+                                        <td rowspan="3"><p>Crit, even when nerfed from World and Rise, is still our strongest damage amplification option, over boosting attack or elemental attack. Critical Boost is still a really strong skill even when divided into 5 parts.</p>
+                                                        <p>WEX 5 outperforms Burst 5 when we take into account Critical Boost and Master’s Touch.</p>
+                                                        <p>Maximum Might gives similar values to WEX but is more conditional. Changes to Maximum Might in Wilds let the skill stay active more often, as it now activates after 3s of full stamina and stays active through one dodge move (roll/backhop). Maximum Might is still worth using even when Perfect Guards cause it to deactivate.</p>
+                                                        <p>Black Eclipse and Antivirus adds on 25% more crit and is not hard to use (15% from clearing frenzy and +10% extra from Antivirus 3).</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row" class="dark">1</th>
+                                        <td class="dark">Black Eclipse (Gore set effect) + Antivirus 3</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Maximum Might 3</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Burst 1</td>
+                                        <td>Burst 1 is a very efficient skill. SnS hits fast and often, and will have high Burst uptime.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Agitator 1 - 5</td>
+                                        <td>Agitator at 70% uptime is comparable to Weakness Exploit, but Weakness Exploit is controlled by you hitting weakpoints, and the extra affinity from Weakness Exploit compared to Agitator helps with sharpness management off Master’s Touch, so we prefer Weakness Exploit > Agitator. However, for speedruns or certain monsters, where the Agitator uptime is very high, it is reasonable to swap out Weakness Exploit for Agitator</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Burst 2 - 5</td>
+                                        <td>Similarly to Sunbreak, Burst is a frontloaded skill. Most of the skill’s value comes from the first level (8raw/6ele), and subsequent levels only add about 2 - 3 raw and ele each, and that’s before uptime calculation. It’s still not too bad of a skill to max out, because at this moment we don’t have many good alternatives.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Flayer 1</td>
+                                        <td>Flayer 1 does add essentially a mini Blast status effect to your weapon, which deals 140 damage every proc (and becomes increasingly difficult to proc each time). The damage from Flayer is basically a 1 - 2% damage boost (see <a href="https://youtu.be/CCxqJmi320A?t=848" target="_blank">this video</a> (youtube, opens in new tab, timestamped) for math). It’s kind of interchangeable with Agitator or Burst 2 - 5. You can try it out and see which one you like.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Adrenaline Rush 1</td>
+                                        <td>Take this over Agitator or Burst 2-5 if you find that you need to use backhops semi-often instead of Perfect Guards.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Coalescence 1</td>
+                                        <td>This skill has poor uptime. It’s basically a third of a level of Critical Element, which already does close to nothing. You will only see this in sets because the armor has it.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Counterstrike</td>
+                                        <td>This skill can actually be really good if you get hit once every minute. If not, then we wouldn’t recommend using this. It does NOT trigger off Perfect Guards or Guards.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Variable</th>
+                                        <td>Convert Element</td>
+                                        <td>Convert Element’s value is based on how much a Convert Element set gives up compared to a normal set, as well as how many Convert Element explosions can be triggered. Hence, the value of Convert Element changes from patch to patch. Please see the Convert Element builds for a breakdown of how many explosions need to be triggered for Convert Element to be good, as well as whether such sets are good for the current patch.</td>
+                                    </tr>
+
+                                    </tbody>
+                                    <tfoot>
+                                    <tr>
+                                    <th scope="row" colspan="3">
+                                    <h6>Fig. 2.1A - Offensive Armor Skill “Priority”</h6>
+                                    </td>
+                                    </tr>
+                                    </tfoot>
+                                    </table>
+
+                                    
+                                    <table class="skillpriotable">
+                                        <caption>
+                                            <h5>Weapon Skill Priority</h5>
+                                        </caption>
+                                        <thead>
+                                        <tr>
+                                            <th scope="col">Importance</th>
+                                            <th scope="col">Skill, Level, (Abbreviation)</th>
+                                            <th scope="col">Notes</th>
+                                        </thead>
+                                        
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Crit Boost 3</td>
+                                            <td>Critical Boost is still really strong even when divided into 5 parts now. It handily outperforms everything else point-by-point, even at lower affinities (50% for example). Our builds average around 70 - 90% affinity. For example, Critical Boost 3 outperforms Offensive Guard 3 + Element Attack 1.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Sharpness Management</td>
+                                            <td><p>SnS has no innate sharpness mitigation and burns through sharpness quickly, hence you need some sort of plan for sharpness management. Sharpness management is important, because sharpening during combat is basically a direct drop in your damage output (even if done opportunistically), and not sharpening is also a direct drop in your damage output.</p>
+                                                <p>A detailed sharpness management discussion can be found in section 2.3.2 Sharpness Management.</p>
+                                                <p>We will typically recommend Master’s Touch for comfort. </p></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Offensive Guard 3</td>
+                                            <td>15% raw for Perfect Guarding is very strong. It’s still “weaker” than CB and sharpness management, but should be the next skill in line</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Critical Boost 4 - 5</td>
+                                            <td>Critical Boost is so strong for us that even the last 2 points of Critical Boost will still be better than the alternatives below at 3 points or 4 points (combined).</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Attack Boost 1 - 3</td>
+                                            <td>Got nerfed. We don’t really have the space to use AB 4 - 5 yet. </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Critical Eye</td>
+                                            <td>Got nerfed, your sets generally have enough affinity between all the other crit boosting skills, such that Crit Eye point-by-point doesn’t help too much over the above skills.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Elemental Attack 1 - 3</td>
+                                            <td>Elemental Attack is pretty good in Wilds. We’re not exactly an elemental weapon (we’re heavily raw-skewed despite being fast-hitting), but the values on Elemental Attack are good enough for it to be ranked here.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Critical Element 1 - 3</td>
+                                            <td>As someone that worked on Sunbreak math, I find it funny that people keep posting about how they think Critical Element is glitched and does little to nothing. Critical Element hasn’t changed since Sunbreak, and has always been that bad. We only started to slot it in in Sunbreak because we have the slots to use it. Do not use this in Wilds either over the other skills above, Critical Element does close to nothing for you.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Poison Duration Up, Foray, Crit Status, Poison Attack</td>
+                                            <td><p>While status damage is non-negligible, it is also a very small fraction of your damage (typically around 5% on average).</p>
+                                                <p>Status thresholds increase exponentially with every proc you do. Crit Status at level 3 for SnS is a 20% increase to status contingent on your affinity. Everyone already thinks Slugger is a horrible skill, you can think of Poison Attack and Critical Status similarly. </p>
+                                                <p>Poison Duration Up is not Chameleos Blessing from Sunbreak. It now only extends the duration by 20% rather than 100%. We have many other skills that do more.</p>
+                                                <p>Foray was bad in Sunbreak when we had Chameleos Blessing as the uptime was poor. This skill’s uptime can be better if you bring two Status weapons (e.g. Paralysis & Poison) and swap them around, but it’s still not great.</p></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Charge Master, Airborne</td>
+                                            <td>No.</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Variable</th>
+                                            <td>Mind’s Eye</td>
+                                            <td>For certain monsters such as Mizutsune and Gore Magala who have shitty hitzones in a lot of places, Mind’s Eye provides +30% damage which is quite good.</td>
+                                        </tr>
+
+                                        </tbody>
+                                        <tfoot>
+                                        <tr>
+                                        <th scope="row" colspan="3">
+                                        <h6>2.1B - Weapon Skill Priority Table</h6>
+                                        </td>
+                                        </tr>
+                                        </tfoot>
+                                        </table>
+            
+                            </p>
+                        </div>
+                </section>
+
+  <section class="indent">
+                    <input id="2.2" class="toggle" type="checkbox">
+                    <label for="2.2" class="CollHeading"><h4>
+                        2.2 Gear Requirements</h4></label>
+                            
+                        <div class="CollParagraph">
+                            <p> 
+The endgame sets can be built at the earliest at HR51 if you have good decoration luck, refer to the progression guide otherwise. If you want to use the new charms, then it's HR100.
+
+<section class="indent">
+                    <input id="2.2.1" class="toggle" type="checkbox">
+                    <label for="2.2.1" class="CollHeading"><h4>
+                        2.2.1 Charms</h4></label>
+                            
+                        <div class="CollParagraph">
+                            <p> 
+Charm info sheets via Wiggler group
+<a href="https://docs.google.com/spreadsheets/d/1fpkamu1VzEpX8dZqecygW1GflKyvdY2975Y0d9SUt04/htmlview?usp=sharing#gid=0" target="_blank">[MHWilds] Amulet Tables</a> & <a href="https://docs.google.com/spreadsheets/d/1QboeJMr66QGL9EZZ5fAmtP8boLVdBzXHk5JbjTJGghE/edit?usp=sharing" target="_blank">is this charm Possible Whylds edition</a> - Make a copy! (Google Sheets, opens in new tab)
+                            </p>
+                            <p>
+The first thing to know about the new charms is that the vast majority of them are not worth running over even your basic WEX2/Agi2 charms at this point:<br>
+Current skill budget on HR armor is low, meaning that taking away armor skill points and exchanging them for weapon skill points turns out to be a bad trade right now.<br>
+You’ll need a god charm (literally perfect) to beat out current WEX2/Agi2 charms. Even then, the overall gain is minimal, about ~0.3% over the existing standard. That’s about 2 seconds saved in a 10 minute fight.<br>
+Again, if you do not roll literally perfect, you’re losing out on damage compared to the regular builds.<br>
+The odds of rolling perfect are absolutely abysmal (1/192,000).
+                            </p>
+                            <p>
+The god charms are the below or equivalent:<br>
+[Attack Boost 3 / Weakness Exploit 1 OR Burst 1 OR Agitator 1] with at least 1 weapon deco slot<br>
+[Offensive Guard 3 / Weakness Exploit 1 OR Burst 1 OR Agitator 1] with at least 1 weapon deco slot<br>
+                            </p>
+                            <p>
+These charms will be equal in many cases but OFG charms will typically be the most flexible option.
+                            </p>
+Conclusion: Don’t sweat over the charm grind for now, the improvements are negligible at this moment. This may change as we get more armor skill budget, however!
+                            </p>
+
+                <img src="sets/sword_and_shield2.2.1A.webp" class="GuideCard" alt="Wilds Switch Axe Matchups">
+                <a href="sets/sword_and_shield2.2.1A.webp" target="_blank" class="ImgButton">Open image in new tab</a><br>
+                <span class="center">2.2.1A - My reaction when we have to actually recommend charms now due to new armor set in the future.<br>
+                                    (this will be bad for those who cant mod the godcharm in)</span>  
+                            </p>
+                        </div>
+  </section>
             </div>
     </section>
-    
-
     <section>
-        <input id="3.0" class="toggle" type="checkbox">
-        <label for="3.0" class="CollHeading"><h3>
-        3.0 Skill Priority</h3></label>
+        <input id="2.3" class="toggle" type="checkbox">
+        <label for="2.3" class="CollHeading"><h3>
+        2.3 Other Considerations</h3></label>
         
         <div class="CollParagraph">
             <p> 
-            <table class="skillpriotable">
-            <caption>
-                <h4>Skill Priority</h4>
-            </caption>
-            <thead>
-            <tr>
-                <th scope="col">Importance</th>
-                <th scope="col">Skill, Level, (Abbreviation)</th>
-                <th scope="col">Notes</th>
-            </thead>
-            
-            <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Sample Skill 14</td>
-                <td>You want this for reasons that are reasons and theyre good</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Not defense boost</td>
-                <td>Words that go here are words which are words that are here</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>sample skill 69</td>
-                <td>Hard Men create Men soft for Men</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Sample skill 420</td>
-                <td>words</td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>100% Affinity</td>
-                <td>Words</td>
-            </tr>
-            <tr>
-                <th rowspan="2">3</td>
-                <td><span class="bluebg">Sample</span></td>
-                <td rowspan="2">Words</td>
-            </tr>
-            <tr>
-                <td><span class="bluebg">Sample2</span></td>
-            </tr>
-            </tbody>
-            
-            <tfoot>
-            <tr>
-            <th scope="row" colspan="3">
-            <h6>3.0A - Skill Priority Table</h6>
-            </td>
-            </tr>
-            </tfoot>
-            </table>
+
+    <section>
+        <input id="2.3.1" class="toggle" type="checkbox">
+        <label for="2.3.1" class="CollHeading"><h3>
+        2.3.1 Uptime Assumptions</h3></label>
+        
+        <div class="CollParagraph">
+            <p>
+A very important caveat about uptime assumptions is that different people have different uptimes for different skills. This depends on the player’s skill level and the monster matchup. The best way to get uptimes that are relevant to you, would be to measure the uptime yourself. This can be done via video analysis (tedious), or via mods. 
+            </p>
+            <p>
+The uptimes we cite here are based on generally good gameplay (e.g. huge focus on hitting weakspots, not getting hit too often, and using good combos). Speedrunners may have better uptimes, and new players may have worse. Because as set builders, we have to make assumptions and generalisations about skill level and monster matchups, these numbers are really just averages, and you may find that your own uptime for a particular monster differs significantly. Hence, if you want the actual uptime, measure it yourself.
+            </p>
+            <p>
+<ul><li><u>Uptime assumptions:</u></li>
+<li>Frenzy Heal: 70%</li>
+<li class="indent">Assumed 70% uptime for good play.</li>
+<li class="indent">Antivirus reduces the threshold to overcome the Frenzy Virus by 30%, added to that the weapon motion values have been increased across the board when compared to Sunbreak.</li>
+<li class="indent">Please see section 2.3.5 Frenzy for more detailed discussion on how this skill now works.</li></ul>
+<ul><li>Coalescence: 37.5%</li>
+<li class="indent">Because we assume you get one cure on average every 80s, and Coalescence lasts for 30s, the uptime is 37.5%.</li></ul>
+<ul><li>Maximum Might: 80% on normal sets, practically 100% on Second Wind sets.</li>
+<li class="indent">Accounts for PG stamina depletion as well as rolls, backsteps, etc.</li>
+<li class="indent">Note that Maximum Might now has a “grace period” where you have to spend 2s below maximum stamina before it deactivates.</li></ul>
+<ul><li>Burst:</li>
+<li class="indent">First hit bonus: 100% (practically always on)</li>
+<li class="indent">5th hit bonus: 70% (analysed from the uptime mod back in Sunbreak)</li>
+<li class="indent">Because the way this skill activates and upgrades mid combat has not changed from Sunbreak, we don’t expect this value to change for Wilds.</li></ul>
+<ul><li>Agitator: 70%</li>
+<li class="indent">Unlike Sunbreak, monsters don’t have a forced cooldown period making this skill viable once again.</li></ul>
+<ul><li>Offensive Guard: 40%</li></ul>
+<li class="indent">Based on video analysis of speedruns and casual runs in Wilds.</li>
+<li class="indent">In particularly good matchups, the uptime may increase to 50%. This however does not make the skill better than Critical Boost or Master’s Touch.</li></ul>
 
             </p>
         </div>
     </section>
 
     <section>
+        <input id="2.3.2" class="toggle" type="checkbox">
+        <label for="2.3.2" class="CollHeading"><h3>
+        2.3.2 Sharpness Management</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+SnS has no innate sharpness mitigation beyond using Shield attacks, and spends around 120 - 150 sharpness in 3 - 4 minutes, which is around the time a monster will change area.
+            </p>
+            <p>
+Hence, sharpness management is essential.
+            </p>
+            <p>
+For this guide, we will recommend Master’s Touch in general given that most of the sets have good affinity.
+Razor Sharp + Handicraft is slightly inferior but will still work if you don’t have the Master’s Touch deco.
+            </p>
+            <p>
+For more details on sharpness management options, see section 8.2 How to determine which sharpness skill to run.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <input id="2.3.3" class="toggle" type="checkbox">
+        <label for="2.3.3" class="CollHeading"><h3>
+        2.3.3 Food Skills</h3></label>
+        
+        <div class="CollParagraph">
+            <p>
+<u>First Slot:</u> Meat as a base for food grants +2 Raw.
+            </p>
+            <p>
+<u>Second Slot:</u>
+<ul><li>Caprice Meal (Hi) (Airy Egg) gives +15 Raw in random intervals during its Duration, which last for 10 seconds each.</li>
+</li>Tumbler Meal (Mud and Turbid Shrimp) grant additional Iframes on dodges</li>
+</li>Moxie Meal (Specialty/Slid Garlic) can save you from a one shot attack when above the hp threshold.</li></ul>
+            </p>
+            <p>
+<u>Third Slot</u> depends on Set and Location.
+            </p>
+            <p>
+Ultimately, there is no stand-out absolute banger meal that will make a ginormous impact, so eating whatever is available or cooked by villagers or even just Meat is good enough.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <input id="2.3.4" class="toggle" type="checkbox">
+        <label for="2.3.4" class="CollHeading"><h3>
+        2.3.4 Cats</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+The current consensus is to give it a Paralysis Weapon. Para is the preferred status over Sleep, as it doesn’t interfere with Agitator and we don’t have any big wake-up hits.
+            </p>
+            <p>
+Cat unlocks extra abilities by doing its Side Quests, namely:
+<ul><li>Revive on cart with half health (once per quest)</li>
+<li>Spawn Vigor Wasps</li>
+<li>Steal materials</li>
+<li>Attack with aerial bombardment</li></ul>
+Cats max out at level 30.
+
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <input id="2.3.5" class="toggle" type="checkbox">
+        <label for="2.3.5" class="CollHeading"><h3>
+        2.3.5 Frenzy</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+Frenzy activates at an MV threshold, but this threshold increases over the course of the hunt based on how many times you’ve already triggered Frenzy cure. My rough estimates are 450/550/650/750/850 (cap) MV. Of course, this could be wrong, and I’ll correct it as new information comes in, but for now this is my best guess as to how this skill works in Wilds.
+            </p>
+            <p>
+A couple of things to note:
+<ul><li>Our MVs in Wilds are slightly higher than in Sunbreak (15 - 20% higher)</li>
+<li>Hunts now are quite short as monsters don’t have a lot of HP.</li>
+<li>Antivirus 3 reduces the MV threshold to cure by 30%</li></ul>
+            </p>
+            <p>
+The uptime from Sunbreak was 30s pre-cure, 60s post-cure on average across a hunt.
+            </p>
+            <p>
+Because in Wilds we now have Antivirus and increased MVs, we can calculate a new theoretical uptime:
+<ul><li>30s x 0.7 x 0.85 = 17s</li>
+<li>17s down and 60s up is about 78% uptime.</li></ul>
+For the uptime, we will use a slightly more conservative (and nicer to work with) estimate of 70%.
+
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <input id="2.3.6" class="toggle" type="checkbox">
+        <label for="2.3.6" class="CollHeading"><h3>
+        2.3.6. Whiteflame Torrent, Scorcher and Flayer</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+
+Whiteflame Torrent and Flayer both work very similarly in terms of what attacks they can proc on.<br>
+Read this first: <a href="https://www.reddit.com/r/MonsterHunterMeta/comments/1jc0098/this_is_how_flayer_doesnt_work/" target="_blank">This is how Flayer doesn't work</a> (Reddit: r/MonsterHunterMeta; opens in new tab)
+            </p>
+            <p>
+Flayer now seems to work with more moves in TU1, as dataminers found that more attacks now have _UseSkillAdditionalDamage set to True. 
+            </p>
+            <p>
+Flayer/Whiteflame Torrent does not currently work with:
+<ul><li>Leaping Slash</li>
+<li>Perfect Rush hits</li>
+<li>Focus Strike extra hits and the main stab itself, as well as all followups</li>
+<li>Clash stabs</li>
+<li>Charged Chop hits (except the first upward hit)</li>
+<li>Spinning Reaper</li>
+<li>Jumping and Scaling Slash</li>
+<li>Mounting attacks</li>
+<li>Counter Slash</li>
+<li>Corrupted Mantle extra hits</li>
+<li>Shield Bash combo</li>
+<li>Falling Bash (Plunging Thrust still procs Flayer/Whiteflame Torrent)</li></ul>
+            </p>
+            <p>
+Whiteflame Torrent works as follows:
+<li><ul>The game assigns a random number of “checks” at the start, between 1 and 3.</li>
+<li>Attacking a monster removes a check and starts an internal cooldown of ~3s on removing further checks.</li>
+<li>Once all checks are removed, Whiteflame Torrent activates and deals a flat 50 damage to the monster. The game generates a new “random number” for checks</li></ul>
+This check system simulates a 33% chance to activate.
+            </p>
+            <p>
+Scorcher alters the damage of Whiteflame Torrent..
+At base, Scorcher activates similarly to Whiteflame Torrent. 
+<li><ul>Scorcher 1 w/ no Whiteflame Torrent</li>
+<li class="indent">1 ele mod off 400 (post-bloat removal 40) Fire</li></ul>
+<li><ul>Scorcher 2 w/ no Whiteflame Torrent</li>
+<li class="indent">1 ele mod off 1000 (post-bloat removal 100) Fire</li></ul>
+<li><ul>Scorcher 0 + Whiteflame:</li>
+<li class="indent">50 flat</li></ul>
+<li><ul>Scorcher 1 + Whiteflame:
+<li class="indent">60 flat + 1 ele mod off 300 (post-bloat removal 30) Fire</li></ul>
+<li><ul>Scorcher 2 + Whiteflame:</li>
+<li class="indent">80 flat + 1 ele mod off 800 (post-bloat removal 80) Fire</li></ul>
+            </p>
+            <p>
+Because SnS can hit fast, we can typically remove checks every 3 - 4s when we’re doing our sustained damage rotations.
+            </p>
+            <p>
+We can assume the average time to remove a check is 3.5s for good play.<br>
+Hence:
+<ui><li>Whiteflame 1 check time taken: 3.5s</li>
+<li class="indent">Whiteflame 2 checks time taken: 7s</li>
+<li class="indent">Whiteflame 3 checks time taken: 10.5s</li></ul>
+Average whiteflame proc time taken: 7s.<br>
+Hence, we deal about 50 more damage every 7 seconds, give and take. This increases DPS by 7.14
+            </p>
+            <p>
+For Scorcher 1 + Whiteflame on an average 20 eHZV:
+<ul><li class="indent">60 flat + (20/100) * (30) * 1 = 66 damage
+<li class="indent">66 damage every 7 seconds = 9.42 DPS increase</li></ul>
+            </p>
+            <p>
+For Scorcher 2 + Whiteflame on an average 20 eHZV
+<ul><li class="indent">80 flat + (20/100) * (80) * 1 = 96 damage</li>
+<li class="indent">96 damage every 7 seconds = 13.71 DPS increase</li></ul>
+            </p>
+            <p>
+We know our theoretical DPS on monsters already.<br>
+Let’s assume Rey Dau hitzones (60:20) and we’re using our sustained damage combo Lateral Loop.<br>
+On a typical Verdoloto Ice build, we get 179 theoretical DPS on Lateral Combo > SR > CC2, and 160 theoretical DPS on lateral slash > Return Stroke > Roundslash looped.
+            </p>
+            <p>
+7 more damage per average of 10.5s in this case would be about:
+<ul><li class="indent">3.9% damage more on Lateral Combo > SR > CC2</li>
+<li class="indent">4.3% damage more on Lateral Loop.</li></ul>
+            </p>
+            <p>
+However, these DPS numbers are theoretical and most of the time your actual DPS is going to be far lower due to downtime, getting hit, etc.<br>
+The nice thing about the internal cooldown of Whiteflame is that it doesn’t matter what you do in those 3 seconds or so. You could be not attacking and Whiteflame will still operate as per usual. Hence, the actual DPS contribution of Whiteflame is going to be similar regardless of your actual damage output, unless you’re doing something wrong (aka not hitting the monster once every 3 seconds for the majority of the fight).
+            </p>
+            <p>
+Let’s take 3* Tempered Arkveld with around 24K HP. If you kill Tempered Arkveld in 5 minutes, you’re dealing about 80 DPS, and if you kill Tempered Arkveld in 7.5 minutes, you’re dealing about 53.3 DPS.<br>
+If we assume that Whiteflame’s DPS +7.14 remains similar regardless of your actual damage output (barring extreme cases), then:
+<ul><li>5 min T. Arkveld:</li>
+<li class="indent">Whiteflame Torrent: +8.9% damage increase</li>
+<li class="indent">Whiteflame Torrent + Scorcher 1: +11.8%</li>
+<li class="indent">Whiteflame Torrent + Scorcher 2: +17.1%</li>
+<li>7.5 min T. Arkveld: +13.4% damage increase</li>
+<li>Whiteflame Torrent + Scorcher 1: +17.7%</li>
+<li>Whiteflame Torrent + Scorcher 2:: +25.7%</li></ul>
+            </p>
+            <p>
+Whiteflame Torrent is actually pretty powerful, and Scorcher is pretty good when paired with Whiteflame as well.<br>
+Whiteflame Torrent becomes more powerful the less damage you deal, because across a range of DPS, it will contribute similarly.
+            </p>
+            <p>
+Of course, the caveats of these calculations would be:
+<ul><li>You hit the monster once every 3 seconds. If you play well, this is quite doable. If you get hit infrequently, it doesn’t affect the math too much. If you get hit a lot and need to heal a lot, it does start to affect Whiteflame uptime, but generally you’ll still benefit from this skill.</li>
+<li>You use certain types of rotations. Generally, because SnS uses a lot of attacks that proc Whiteflame and does many of those attacks across a span of time, it does not have a lot of issues getting 1 check done every 3 seconds generally. However, if you’re a Perfect Rush enjoyer, you may find that your Whiteflame Torrent damage is lacking.</li></ul>
+            </p>
+            <p>
+But overall, Whiteflame is a good skill.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <input id="2.3.7" class="toggle" type="checkbox">
+        <label for="2.3.7" class="CollHeading"><h3>
+        2.3.7 Convert Element</h3></label>
+        
+        <div class="CollParagraph">
+            <p>
+Convert Element triggers when you get hit by enough elemental attacks (varies from matchup to matchup?). Notably, Guard and Perfect Guard still count as getting hit for Convert Element to proc.
+            </p>
+            <p>
+Once it procs, for 2 minutes, you gain the following effects:
+<ul><li>If your weapon is Dragon element, gain +8/12/18 element (post-bloat removal)</li>
+<li class="indent">If your weapon is elemental (i.e. not raw/status), deal 150/200/280 flat damage + 1 ele mod off 60/80/100 Dragon element every so often.</li></ul>
+After the 2 minute effect, it goes on cooldown for 1.5 minutes.
+            </p>
+            <p>
+The first part of the effect is not very significant, especially considering that the SnS is a raw-centred weapon (most of our damage comes from raw damage [85 - 90%], even for pre-nerf Corrupted Mantle loops where the elemental damage only topped out at 15 - 20% of our damage).
+            </p>
+            <p>
+The second part of the effect is the notable part of the skill.
+It seems to build up as a status, meaning that it gets exponentially harder to proc the explosion the more times you have already triggered the explosion.
+            </p>
+The status buildup per hit seems to be proportional to:
+<ul><li>The raw of your weapon</li>
+<li>The critical damage multiplier (if your hits crit)</li>
+<li>MV of the hit</li>
+<li>Convert Element level modifier (1.1/1.15/1.2 from levels 1 - 3)</li></ul>
+
+It does not seem to scale off:
+<ul><li>Monster hitzones</li>
+<li>Element damage that you deal</li>
+<li>Sharpness damage modifier</li></ul>
+            <p>
+Because Kiranico status numbers are inaccurate for quests and we don’t have a robomeche equivalent resource for status like we do in Rise and World, it is extremely difficult to quantify the general contribution of Convert Element across monsters and across sets. The main way to test Convert Element’s contribution would be to bring in a damage overlay mod to a specific hunt, but you would get results that only apply to that specific hunt, and to the way you played in that hunt. 
+            </p>
+            <p>
+Until we get actual status numbers, we will only provide Convert Element sample sets and describe the damage differential between these sets and the general sets, as well as how many procs you need for the Convert Element sets to beat out the regular sets.
+
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <input id="2.3.8" class="toggle" type="checkbox">
+        <label for="2.3.8" class="CollHeading"><h3>
+        2.3.8. Bladescale Honing and Razor’s Edge</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+Bladescale Honing is a new skill introduced in TU2. It is present on Seregios weapons. 
+It shares the same activation requirement as Adrenaline Rush (it activates on a successful roll/backhop through an attack, but not on Sliding Swipe). 
+            </p>
+            <p>
+Once activated, it provides 6 units of what we call “Seregios sharpness”. 
+<ul><li>This sharpness is a slightly better version of purple sharpness, with 1.4x raw multiplier (as opposed to 1.39x for purple) and 1.25x elemental multiplier (although for Seregios weapons, they don’t have element).</li>
+<li class="indent">This multiplier applies regardless of the weapon’s underlying current sharpness (e.g. if you’re at green and gain Seregios sharpness, you still get the same 1.4x raw multiplier).</li>
+<li>These 6 units of sharpness cannot be extended via Razor Sharp or Master’s Touch.</li>
+<li>Attacks which burn less or 0 sharpness (e.g. shield attacks, Plunging Thrust, Charged Chop follow-up hits) will continue to burn the same amount of sharpness, so you could theoretically extend these 6 units of sharpness across more than 6 hits.</li></ul>
+            </p>
+            <p>
+Unfortunately, for SnS, 6 units of sharpness is too little for practical use, considering how fast we burn through sharpness in general. The gain from 1.32x (white) to 1.4x is about 6% increase in damage, meaning that when you have Seregios sharpness, the Seregios weapon goes from 220 base raw to effectively 233 base raw. That’s still not wholly competitive, especially when we take into account the weapon’s poor white sharpness count. 
+            </p>
+            <p>
+Razor’s Edge is the Seregios set skill.
+<ul><li>Level 1: extends Adrenaline Rush duration from 30s to 45s, and extends Arush by another 15s if triggered while active (normally, unlike other skills, Adrenaline Rush does not refresh itself if procced while it is active)</li>
+<li>Level 2: adds a 5% display raw buff while ARush is active</li></ul>
+            </p>
+            <p>
+This skill is not strong enough to justify using Seregios armor over Rey Dau armor. The predominant SnS playstyle currently also does not have many chances to activate Adrenaline Rush, because Perfect Guards and Sliding Swipes are preferred over Rolls and Backhops to maintain Maximum Might.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <input id="2.3.9" class="toggle" type="checkbox">
+        <label for="2.3.9" class="CollHeading"><h3>
+         2.3.9. Convert Thunder Resistance and Azure Bolt</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+Convert Thunder Resistance is the Lagiacrus SnS weapon skill. It grants bonus display thunder element to the weapon equal to 40% of your armor’s Thunder Resistance. For the current meta set (3pc Rey), which has 23 Thunder Resistance, that would be equal to 5.75 thunder ele (multiply by 10 to account for in-game element bloat).
+            </p>
+            <p>
+Azure Bolt is a skill that works very similarly to Flayer/Whiteflame Torrent. It has an internal cooldown (likely 3 seconds, similarly to Flayer/Whiteflame). 
+You need to accumulate about 100MV damage and the hit after the 100MV triggers the explosive damage (ignore hitzones and your raw)
+Once you accumulate enough MV damage, the skill procs:
+<ul><li>Level 1:</li>
+<li class="indent">Explodes for 30 flat + 70 * thunder HZV/100</li>
+<li class="indent">Starts an affinity bonus of 15% affinity for 20 seconds</li>
+<li class="indent">After the affinity bonus ends, goes on cooldown for 30 seconds.</li>
+<li>Level 2:</li>
+<li class="indent">Explodes for 60 flat + 200 * thunder HZV/100</li>
+<li class="indent">Starts an affinity bonus of 15% affinity for 30 seconds</li>
+<li class="indent">After the affinity bonus ends, goes on cooldown for 30 seconds</li></ul>
+            </p>
+            <p>
+If we want to calculate a theoretical uptime for Azure Bolt, it’s not too difficult. 
+This is as the uptime of Azure Bolt is mostly fixed within a certain range and the time taken to activate it doesn’t change the uptime of Azure Bolt too much.
+            </p>
+            <p>
+We assume from Frenzy activation (600MV in 30 seconds, can be done faster) that you clock about 120MV in 6 seconds, or 20MV/s.
+We know that there is an internal cooldown so if you take 6 procs to activate Azure Bolt that pulls up activation uptime to 20s. Based on some testing, Azure Bolt typically activates much faster, so let’s say 20s is an edge case. 
+If you’re fast and lucky (maybe you land some hard hitting attacks and proc it within say 2 procs), then you could potentially proc it in 6s or so.
+            </p>
+            <p>
+So, to calculate uptime for the two edge case above:
+<ul><li>For the unlucky edge case: 20s up / (30 down + 20 up + 20 activate) = 28% uptime</li>
+<li>For the lucky edge case: 20s up / (30 down + 20 up + 6 activate) = 35% uptime</li></ul>
+Generally if we say it takes about 10s to activate, then it’s about 30 - 33%.<br>
+Hence, you can see that the uptime generally ranges from 28 - 35%, even taking into account large differences in activation time.<br>
+This range is negligible in practice.
+            </p>
+            <p>
+For calculations, I think it’s quite safe to assume 30% uptime.<br>
+That’s about 4.5% effective affinity for the 2pc set. In contrast, Gore 2pc gives 25% * 0.7 = 17.5% effective affinity for the 2pc. We can see that the effective affinity bonus for Azure Bolt is actually quite small.
+            </p>
+            <p>
+As for the damage contribution of the explosion, it’s about 45 flat damage per 60s or so. That’s 45/60 = 0.75 DPS bonus. Compared to Whiteflame, which can contribute upwards of 10+ bonus DPS, Azure Bolt’s DPS bonus is mostly negligible. In calculations, we add about a 1% bonus damage multiplier to account for Azure Bolt’s impact on DPS, because the typical good player will hit around 60 DPS (based on experience with DPS tracker mods in game).
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <input id="2.3.10" class="toggle" type="checkbox">
+        <label for="2.3.10" class="CollHeading"><h3>
+        2.3.10 Dark Arts + Omega Resonance</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+Dark arts:
+This is a 2 Piece armor set bonus skill for the Normal Omega armor (It’s Bale!) This skill works as follow<br>
+When you have Red HP, Increase element by x1.25 Unlike Strife in sunbreak where it's based on the amount of red hp this is fixed. We can’t exactly use this skill due to us having like no way to get resentment reliability at all.<br>
+Greatsword players will probably like this.
+            </p>
+            <p>
+as for omega resonance:<br>
+This is a 2/4 Piece armor set bonus skill for the Savage Omega armor (not Bale!) The skill works as follows<br>
+effects initialize but do not apply in solo<br>
+works when someone joins, deactivates when they leave<br>
+10/20 Raw for far<br>
+20/40 affinity for close<br>
+randomly chosen effect at start of hunt, alternates every 90s based on quest timer.
+            </p>
+            <p>
+So like calculation wise the uptime of both of these skills are “50%” assuming you are multi with other people and they don't ruin your quests to stack or not to stack. We could make an optimization for multiplayer based builds but for general sake and the reliance of a teammate make this really unappealing. (You lose dps skills 2)<br>
+I could make a meme build around this but it feels kinda forced - PokerDew
+            </p>
+        </div>
+    </section>
+
+            </p>
+        </div>
+    </section>
+            </div>
+    </section>
+
+    <section>
+        <input id="3.0" class="toggle" type="checkbox">
+        <label for="3.0" class="CollHeading"><h3>
+        3.0 Meta Build Guide</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+<span class="redbg">The following sets are ordered from strongest to weakest.</span>
+            </p>
+            <p>
+They do NOT assume Might Seed, Demon Powder, Mega/Demon Drug or specific food skills due to how annoying they are to farm. They DO however assume the Power Charm, obtained by doing the Double Ajarakan Arena quest (“As Gatekeeper”) from Rex’s Questline in Suja.
+            </p>
+
+                <section>
+        <input id="3.1" class="toggle" type="checkbox">
+        <label for="3.1" class="CollHeading"><h3>
+        3.1 Weapons</h3></label>
+        
+        <div class="CollParagraph">
+
+    <section>
+        <input id="3.1.1" class="toggle" type="checkbox">
+        <label for="3.1.1" class="CollHeading"><h3>
+        3.1.1 Artian Weapons</h3></label>
+        
+        <div class="CollParagraph">
+            <p>
+The current meta revolves around Artian Weapons for almost all cases (Raw/Status and Element).<br>
+You should make an Artian weapon for each element.<br>
+For the Artian raw weapons, even though they have less status than the craftable weapons, they still outperform the craftables overall. All the statuses are fine to use. Blast and Poison are very similar in output.<br>
+            </p>
+            <p>
+                The current recommendation for crafting is:
+<ul><li>Blade/Tube/Disc of the same element/status and all three with Attack Infusion</li>
+<li><b>Reinforce with <u>3 Raw/ 2 Sharp</u>.</b> 4 Raw/1 Sharp will be slightly stronger (&#60;1%) but will be slightly less comfy to use now due to inflated monster HP that is significantly higher.</li></ul>
+<img src="sets/sword_and_shield3.1.1A.webp" class="GuideCard" alt="Wilds Switch Axe Meta Set">
+<a href="sets/sword_and_shield3.1.1A.webp" target="_blank" class="ImgButton">Open image in new Tab</a>
+<span class="center">Fig. 3.1.1A - This is 3atk 2sharp roll for 1% less damage than the 4atk 1 sharp version.</span>
+            </p>
+            <p>
+                Something to take note of is that Artian element weapons outperform all craftables even before reinforcement. Of course, you still want minimally 1 sharpness augment to boost the white sharpness from 20 to 50, because 20 sharpness is almost unusable, but don’t worry too much that your weapon is 3 Ele/1Affinity/1Sharpness or some other result, because they’ll still be stronger than the craftables:
+<ul><li>At max roll (4 Raw/ 1 Sharp), they outperform by 5-10% depending on element.</li>
+<li>At minimum roll, they may be equivalent or outperform by 3 - 5% depending on element.</li></ul>
+            </p>
+            <p>You only really need to chase the max roll if you’re a speedrunner aiming for a record, and even then, you will probably want to perform the calculations yourself on which roll is most suitable for your script.
+            </p>
+            </p>
+            <img src="sets/sword_and_shield3.1.1B.webp" class="GuideCard" alt="Wilds Switch Axe Meta Set">
+            <a href="sets/sword_and_shield3.1.1B.webp" target="_blank" class="ImgButton">Open image in new Tab</a>
+            <span class="center">Fig. 3.1.1B - This isn’t the best roll Artian weapon can offer but it’s already solid.</span>
+            </p>
+            <p>
+                The current recommendation for weapon decorations is:
+            <ul><li>Critical Boost 3</li>
+            <li>Offensive Guard 3 / Ele Attack 1 (for element) OR Handicraft 1 (for raw/status)</li>
+            <li>Master’s Touch </li></ul>
+            </p>
+            <p>
+                Right now, Artian element weapons with the below sets basically outperform the Artian raw weapons on everything except for the most raw-skewed matchups (e.g. Arkveld’s 0EHZV chainblades). Even then, element weapons lose less than 1% compared to raw weapons. We would recommend element weapons in basically all cases. 
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <input id="3.1.2" class="toggle" type="checkbox">
+        <label for="3.1.2" class="CollHeading"><h3>
+        3.1.2 Non-Artian Craftable Weapons</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+I would highly encourage you to just craft an Artian weapon and reinforce it, because an almost no-reinforcement Artian weapon (with 1 sharpness reinforcement) will still beat out all the options listed here.<br>
+The purpose of this section is to provide recommendations in case you’re still grinding out the Artian parts and you want to know what’s the next best alternative.
+            </p>
+            <p>
+They do NOT assume Might Seed, Demon Powder, Mega/Demon Drug or specific food skills due to how annoying they are to farm. They DO however assume the Power Charm, obtained by doing the Double Ajarakan Arena quest (“As Gatekeeper”) from Rex’s Questline in Suja.
+            </p>
+            <p>
+                The current recommendation for weapon decorations is:
+            <ul><li>Critical Boost 3</li>
+            <li>Offensive Guard 3 / Ele Attack 1 (for element) OR Handicraft 1 (for raw/status)</li>
+            <li>Master’s Touch</li></ul>
+            </p>
+            <p>
+                The current recommendation for each element is:
+                <ul class="gray"><li>
+                    <li class="fire">Fire: Melting Point (Guardian Rathalos)</li>
+                    <li class="water">Water: Sandsea Katduva (Balahara)</li>
+                    <li class="indent water">Kurenawi Ougi (Mizutsune) if you don’t guard often enough to use OFG3 well</li>
+                    <li class="thunder">Thunder: High Lagia Sword (Lagicrus)</li>
+                    <li class="ice">Ice: Precipice Mateptro (Jin Dahaad)</li>
+                    <li class="dragon">Dragon: Blazing Mikal (Zoh Shia)</li></ul>
+            </p>
+            <p>
+                <b>Zoh Shia</b>’s weapon performs very similarly to the Artian Dragon weapon with god rolls (4 Attack/1 Sharpness). The Verdoloto will edge out Blazing Mikal slightly for speedrunners, while for casual players (e.g. 8min+ for Tempered Arkveld 3*), the Blazing Mikal will start to perform better.<br>
+For <b>combos to use to proc Whiteflame</b>, as long as you’re not spamming Perfect Rush on repeat, you’ll be fine. Because of how Whiteflame works, it only checks every 3s for a valid attack. Most of our normal attacks proc Whiteflame, so there’s basically no issue with triggering Whiteflame. You should still use Spinning Reaper and Charged Chop as per usual. 
+            </p>
+            <p>
+                For Zoh Shia, the two decorations recommended are:
+                <ul><li>Master’s Touch</li>
+                <li>Critical Boost 3 (you get slightly more damage with Critical Boost 3 than Offensive Guard 3/Dragon Attack 1)</li></ul>
+            </p>
+            <p>
+                <b>Lagiacrus</b>’s weapon performs very similarly to the Artian Thunder weapon with god rolls (4 Attack/1 Sharpness). It is slightly weaker (3-4%) compared to the Artian Thunder weapon, and will come very close (1% weaker) on very elemental-skewed matchups (e.g. 40:20 raw:ele ratios). These numbers are calculated using a Thunder element resistance of 23 (from 3pc AT Rey Dau + Zoh Shia Chest + Lagiacrus Boots), for the Convert Thunder Resistance skill of the Lagiacrus weapon.
+            </p>
+            <p>
+                For Lagiacrus, the two decorations recommended are:
+<ul><li>Master’s Touch</li>
+<li>Critical Boost 3 (you get slightly more damage with Critical Boost 3 than Offensive Guard 3/Thunder Attack 1)</li></ul>
+            </p>
+            <p>
+            The current raw recommendations are:
+            <ul><li>Blast: Ajara-Subinda</li>
+            <li>Poison: Queen Rapier</li>
+            <li>Paralysis: Lala Acanthopelm</li></ul>
+            Between the two, Ajara-Subinda slightly edges out Queen Rapier on Tempered Arkveld. You should consider if the monster is poison-weak or blast-weak if you’re bringing it to other matchups.
+            </p>
+
+        </div>
+    </section>
+
+
+        </div>
+    </section>
+
+  <section>
+        <input id="3.2" class="toggle" type="checkbox">
+        <label for="3.2" class="CollHeading"><h3>
+        3.2 Armor Sets</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+The main set ideas + Conclusion
+<ul><li>Element focused without crit</li>
+<li class="indent">WEX 0 Burst Boost 2 Burst 5</li>
+<li class="indent">WEX 1 Burst 5 Gore 4pc</li>
+<li>Crit focused</li>
+<li class="indent">WEX 5 Gore 4pc Burst 1 Agitator 2</li>
+<li class="indent">WEX 5 Gore 4pc Burst 2</li>
+<li class="indent">WEX 5 Gore 2pc Zoh Shia 2pc</li>
+<li class="indent">WEX 5  Convert element 1/3</li>
+<li class="indent">WEX 5 G. Rathalos 2pc Gore 2pc (For Whiteflame build)</li>
+<li class="indent">WEX 5 AT Rey 3pc with Zoh chest and Mizu Boots</li>
+<li class="indent">WEX 5 AT Rey 3pc with Zoh chest and Lagiacrus Boots</li>
+<li class="indent">WEX 5 AT Rey 3pc with 2pc Lagi</li>
+<li class="indent">WEX 5 2pc Gore and 2pc Lagi</li>
+<li class="indent">WEX 5 4pc Lagi</li>
+<li class="indent">WEX 5 AT Monster 3pc with and without Zoh shia 2pc (head+chest)</li>
+<li class="indent">WEX 5 3pc Rey 2pc Odo (Burst Boost 1)</li>
+<li class="indent">WEX 4 4pc Odo (Burst Boost 2)</li>
+<li class="indent">LP5/Agi5</li></ul>
+<p>
+The overall conclusion was that crit builds outperformed non-crit builds, and that giving up WEX to slot in more Burst was also not optimal for damage. This was because of Crit Boost still being a very strong overall option in the weapon deco slot.
+</p>
+<p>
+All sets use Maximum Might, Wilds changed how the skill works granting a small grace period where the skill won’t be deactivated even after performing a roll or consuming a small amount of stamina, on top of that most sets have open Lv2 Slots and there isn’t a lot of competition for those slots, all of this results in Maximum Might being a strong choice for all sets, see the related gameplay guide for more information on how to use Maximum 
+Might effectively.
+</p>
+<p>
+We took a look at Burst Boost as of the Aug 13 update, but it was still not worth it over the typical best set.
+</p>
+<p>
+<h2>ANNOUNCEMENT: Errata hells</h2>
+(TU 3.5 Update) AT Nu Udra forces its way into the meta by providing us an easy way to fit Counterstrike 3. Counterstrike 3 grants a massive +25 raw for 45s when you get hit by an attack that knocks you back (not counting when you block). Since SnS doesn’t have an offset attack, you will take some damage when proccing Counterstrike. The new meta sets mainly trade the inconsistent points of Latent Power (1-3) for Counterstrike 3. The potential damage gained is 1-8% depending on Counterstrike uptime. - HungryDave
+</p>
+<p>
+so uh turns out now theres this damn 2P lagi build now which solve all the aforementioned fringe case of LP affinity issues. so uh lmao enjoy
+</p>
+<p>
+and yes i have to Errata so many damn things. you better enjoy seeing me suffer from errataing so much for this 
+also thanks to all of you who submitted me the resentment build it was a bait anyways to see what you guys are coming up with the meme/Anti AT Nu builds (Dont get that much hope up on the latter though). -PokerDew
+</p>
+
+<span class="center">explanation can be found in like somewhere in the tables of content highlighted in cyan</span>
+
+
+<span class="fire">The following sets are ordered from strongest to weakest or conditional.</span>
+            </p>
+
+        <section>
+        <input id="3.2.1" class="toggle" type="checkbox">
+        <label for="3.2.1" class="CollHeading"><h3>
+        3.2.1 General 3 AT 2Lagi 2Rey Armor Set (Feat. we run CS now) [God Charm]</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+<img src="sets/sword_and_shield3.2.1A.webp" class="BuildCard" alt="Sword and shield godcharm set">
+<a href="sets/sword_and_shield3.2.1A.webp" target="_blank" class="ImgButton">Open image in new Tab</a>
+            </p>
+            <p>
+<ul><li>Armor: AT Rey Dau / AT Nu Udra  / AT Rey Dau  / Lagiacrus B / Lagiacrus B</li>
+<li>Charm: Get whatever with at least Agi1/WEX1/Burst 1 and some decent slots or use 2agi charm</li>
+<li>Decos: Burst x1, Maximum Might x1, Agitator x3, WEX x1, Counterstrike x1</li>
+<li>Weapons: Any Artian Meta Raw & element or craftables.</li></ul>
+            <p>
+<span class="fire">(BLOCKING DOES NOT PROC CS) the dps is better by 3~8% (as in 1-100% uptime though idk if it's linear or expo). Depending on how much CS uptime you had.</span>
+Do you love Errataing? I am. So anyways this build is the better improved version of the main DPS build with minimal losses (That being some LP Thanks burst for taking the LP slot) You lose like no dps by playing well and get more dps simply for being “bad”<br>
+Also erm yeah I rewrote this whole thing thanks to me forgetting burst 1, Enjoy.
+            </p>
+
+            </p>
+        </div>
+    </section>
+
+        <section>
+        <input id="3.2.2" class="toggle" type="checkbox">
+        <label for="3.2.2" class="CollHeading"><h3>
+        3.2.2 General 3 AT Armor 2Lagi More Slots Set (Feat. yes, we run CS now) [God Charm]</h3></label>
+        
+        <div class="CollParagraph">
+            <p>
+<img src="sets/sword_and_shield3.2.2A.webp" class="BuildCard" alt="Sword and shield godcharm set">
+<a href="sets/sword_and_shield3.2.2A.webp" target="_blank" class="ImgButton">Open image in new Tab</a>
+            </p>
+            <p>
+<ul><li>Armor: AT Rey Dau / AT Nu Udra  / Lagiacrus B / Lagiacrus B / AT Uth Duna</li>
+<li>Charm: Get whatever with at least Agi1/WEX1/Burst 1 and some decent slots or use 2agi charm</li>
+<li>Decos: Burst x1, Maximum Might x1, Agitator x2,  WEX x2, Counterstrike x1</li>
+<li>Weapons: Any Artian Meta Raw & Element or Craftables.</li></ul>
+            </p>
+            <p>
+<span class="fire">(BLOCKING DOES NOT PROC CS) the dps is better by 3~8% (as in 1-100% uptime though idk if it's linear or expo). Depending on how much CS uptime you had.</span>
+Do you love Errataing? I am. So anyways this build is the better improved version of the main DPS build with minimal losses (That being some LP Thanks burst for taking the LP slot) You lose like no dps by playing well and get more dps simply for being “bad”<br>
+Also erm yeah I rewrote this whole thing thanks to me forgetting burst 1, Enjoy.
+            </p>
+            <p>
+                This thing basically ruined all the whole point of the 2lagi set and the generic 3AT mons set in one fell swoop if for whatever reason. GG capcom you make me agitated even more so somehow 
+Hey so uh another more errata a bit, You drop 1 2 flex slots for like more average crits all around, this build is only worse than the main one by the no latent power.<br>
+MT charm is technically the best for us im just lazy to include because OFG3 charms are much much more common than MT 
+            </p>
+        </div>
+    </section>
+
+        <section>
+        <input id="3.2.3" class="toggle" type="checkbox">
+        <label for="3.2.3" class="CollHeading"><h3>
+        3.2.3. General Zoh 2 AT Monsters 3 Set </h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+<img src="sets/sword_and_shield3.2.3A.webp" class="BuildCard" alt="Sword and shield godcharm set">
+<a href="sets/sword_and_shield3.2.3A.webp" target="_blank" class="ImgButton">Open image in new Tab</a>
+            </p>
+            <p>
+<ul><li>Armor: Zoh Shia (Numinous) B / Zoh Shia (Numinous) B  / AT Rey  / AT Rey / AT Uth Duna</li>
+<li>Charm: WEX 2</li>
+<li>Decos: Burst x1, Maximum Might x1, Agitator x1, WEX x3</li>
+<li>Weapons: Any Artian Meta Raw & Element or Craftables.</li></ul>
+            </p>
+            <p>
+                This set is worse than the main meta set by <~8%.
+This set gains the Zoh Shia’s set bonus Super Recovery, which provides passive health recovery (1hp/2s). Super Recovery along with Guts from Lord’s Soul provide additional survivability for more comfy hunts. 
+
+            </p>
+        </div>
+    </section>
+
+        <section>
+        <input id="3.2.4" class="toggle" type="checkbox">
+        <label for="3.2.4" class="CollHeading"><h3>
+        3.2.4 General Mind’s Eye 3P AT Armor Set [God Charm]</h3></label>
+        
+        <div class="CollParagraph">
+            <p> 
+<img src="sets/sword_and_shield3.2.4A.webp" class="BuildCard" alt="Sword and shield godcharm set">
+<a href="sets/sword_and_shield3.2.4A.webp" target="_blank" class="ImgButton">Open image in new Tab</a>
+<ul><li>Armor: AT Rey / Gore Magala B / AT Rey / AT Rey / Gore Magala B</li>
+<li>Charm: Critical Eye 3, Agi/Burst 1 OR Agitator 2 </li>
+<li>Decos: Agitator x3-4, Burst x1, Antivirus x2, Shockproof x1</li>
+<li>Weapons: Any Artian Meta Raw & Element or Craftables.</li></ul>
+            </p>
+            <p>
+This build is for monsters with relevant Mind’s Eye hitzones (≤44 hzv), namely Gore Magala and Lagiacrus. The breakpoint for this build to beat the standard builds happens when about 10-20% of your hits land on Mind’s Eye hitzones. This means that if you hit Wex hitzones (≥45hzv) less than 80% of the time, then this build can beat other meta builds. Gore Magala and Lagiacrus especially have many hitzones where you will end up hitting due to how they behave during the fight. 
+            </p>
+            <p>
+            Alternative <a href="https://www.mhwildshub.com/builder?data=eyJ3IjpbMSw3N10sIndkIjpbIkFDQ19JRF8wMDEyIiwiQUNDX0lEXzAwMDgiLCJBQ0NfSURfMDAwNSJdLCJ3YSI6eyJQQVJUUyI6WyJCT05VU18wMDIiLCJCT05VU18wMDAiLCJCT05VU18wMDAiLCJCT05VU18wMDAiXSwiR1JJTkRJTkciOltudWxsLCJCT05VU18wMDUiLCJCT05VU18wMDUiLCJCT05VU18wMDMiLCJCT05VU18wMDMiLCJCT05VU18wMDMiXX0sIndpIjoiRklSRSIsImFtIjp7ImlkIjoiX2N1cyIsInNrIjpbWyJIdW50ZXJTa2lsbF8wMTgiLDNdLFsiSHVudGVyU2tpbGxfMTE0IiwxXV0sInNsIjpbMSwxLDFdfSwiYW1kIjpbIkFDQ19JRF8wMDA2IiwiQUNDX0lEXzAxOTAiLCJBQ0NfSURfMDExMyJdLCJhIjpbNTk1LDYwNiw0NTEsNDUyLDYwNF0sImFkIjpbWyJBQ0NfSURfMDEyMyJdLFsiQUNDX0lEXzAxMjMiLCJBQ0NfSURfMDEyMyJdLFsiQUNDX0lEXzAxMjgiLCJBQ0NfSURfMDEyOCJdLFsiQUNDX0lEXzAxMjMiLCJBQ0NfSURfMDE2NyJdLFsiQUNDX0lEXzAxMjYiLCJBQ0NfSURfMDE5MCIsIkFDQ19JRF8wMTkwIl1dfQ%3D%3D" target="_blank">build</a> (mhwildshub, opens in new tab) that adds Counterstrike 3 but loses 1-2 Latent Power, Evade Extender 2, and Evade Window 1. Requires a good charm (Mastery/Mind’s Eye 3/Crit Eye 3) with armor slots to fit the 3rd Sane jewel.
+            </p>
+        </div>
+    </section>
+
+        </div>
+    </section>
+
+
+
+        </div>
+    </section>
+
+    <section>
         <input id="4.0" class="toggle" type="checkbox">
         <label for="4.0" class="CollHeading"><h3>
-            4. Notable Foodskills, Pets, Followers</h3></label>
+            4. Meta Matchup Chart</h3></label>
             
             <div class="CollParagraph">
                 <p> 
-                Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-                halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon.
-                Booty run a shot across the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six
-                pounders swing the lead killick rigging bowsprit swab.
-                Topgallant Barbary Coast gally grog belay jib ye Admiral of the Black. Chandler ho Plate Fleet
-                nipper long clothes rutters Jolly Roger haul wind. Topsail rutters shrouds port jolly boat
-                boatswain squiffy dead men tell no tales.
-                Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain
-                Shot aft.
-                Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the
-                plank topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me
-                swab gally.
-                Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go on
-                account capstan. Swab rigging jury mast port line nipper scallywag pirate.
+Simply match the element of your weapon with the monster, all Artian weapons have the same stats so there are no weird situations to take into account.
+
+<img src="sets/sword_and_shield_matchup.webp" class="GuideCard" alt="Sword and shield matchup sheet">
+<a href="sets/sword_and_shield_matchup.webp" target="_blank" class="ImgButton">Open image in new Tab</a><br>
+<span class="center">Fig 4.0a - They actually made the Elemental Hitzones good!</span>
+                </p>
+                <p>
+                    For Arkveld you might feel inclined to use Raw over Dragon (Arkveld chains when charged up are weak to Dragon), in case you use Raw you can opt for Poison/Blast or Paralysis.<br>
+                    Our damage is still mostly on the raw part, Artian stats are basically the same and adding extra dmg from ele is nice, especially in some matchups where it's extra weak. 
                 </p>
             </div>
     </section>
@@ -192,361 +1041,313 @@
     <section>
         <input id="5.0" class="toggle" type="checkbox">
         <label for="5.0" class="CollHeading"><h3>
-            5. Meta</h3></label>
+            5. Alternative Builds</h3></label>
             
             <div class="CollParagraph">
-                <p> 
-                Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-                halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon.
-                Booty run a shot across the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six
-                pounders swing the lead killick rigging bowsprit swab.
-                Topgallant Barbary Coast gally grog belay jib ye Admiral of the Black. Chandler ho Plate Fleet
-                nipper long clothes rutters Jolly Roger haul wind. Topsail rutters shrouds port jolly boat boatswain
-                squiffy dead men tell no tales.
-                Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-                aft.
-                Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the plank
-                topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab gally.
-                Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go on
-                account capstan. Swab rigging jury mast port line nipper scallywag pirate.
-
-            <h2>Element</h2>   
 
     <section>
         <input id="5.1" class="toggle" type="checkbox">
         <label for="5.1" class="CollHeading"><h3>
-            5.1 Low Budget Set 1</h3></label>
+            5.1 Wide Range does damage Counter Strike: Capcom offensive edition [God Charm]</h3></label>
             
             <div class="CollParagraph">
-                <p> 
-        <img src="sets/sword_and_shield1.webp" class="BuildCard" alt="Describe Your Set Here">
-        <a href="sets/sword_and_shield1.webp" target="_blank" class="ImgButton">Open image in new tab</a>
-        <p>
-            <b>Requirements:</b>
-        <ul><li>
-            Requirements go here
-        </li></ul>
-        </p>
-        <b>Baseline:</b><br>
-        This is where the baseline goes<br>
-        <p>
-        <b>Gameplan:</b><br>
-        This is where the Gameplan goes
-        </p>
-        <b>Recommended Comfort Skills:</b> 
-        Recommended comfort goes here<br>
-        <b>Improvements:</b> 
-        Extras to add go here</p> <br>
-        
-    <section>
 
-        <input id="5.1Links" class="toggle" type="checkbox">
-        <label for="5.1Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-        <div class="SetLinksContainer">
-        <table class="eletable">
-        <caption>
-        <h4>Low Budget Sets 1:</h4>
-        </caption>
-        <thead>
-        <tr>
-        <th scope="col">Ele</th>
-        <th scope="col">Weapon</th>
-        <th scope="col">Augs</th>
-        <th scope="col">Rampage Deco</th>
-        <th scope="col">comment</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-        <th scope="row"><img src="../../images/fire.webp" class="EleStatusImg"></th>
-        <td><a href="https://www.google.com" target="_blank" alt="link to the armor set search">Weap Name / Monster</a></td>
-        <td>Augments</td>
-        <td>Rampage Deco</td>
-        <td>Additional Comment filled with words</td>
-        </tr>
-        <tr>
-        <th scope="row"><img src="../../images/water.webp" class="EleStatusImg"></th>
-        <td><a href="https://www.google.com" target="_blank" alt="link to the armor set search">Weap Name / Monster</a></td>
-        <td>Augments</td>
-        <td>Rampage Deco</td>
-        <td>Additional Comment filled with words</td>
-        </tr>
-        <tr>
-        <th scope="row"><img src="../../images/thunder.webp" class="EleStatusImg"></th>
-        <td><a href="https://www.google.com" target="_blank" alt="link to the armor set search">Weap Name / Monster</a></td>
-        <td>Augments</td>
-        <td>Rampage Deco</td>
-        <td>Additional Comment filled with words</td>
-        </tr>
-        <tr>
-        <th scope="row"><img src="../../images/ice.webp" class="EleStatusImg"></th>
-        <td><a href="https://www.google.com" target="_blank" alt="link to the armor set search">Weap Name / Monster</a></td>
-        <td>Augments</td>
-        <td>Rampage Deco</td>
-        <td>Additional Comment filled with words</td>
-        </tr>
-        <tr>
-        <th scope="row"><img src="../../images/dragon.webp" class="EleStatusImg"></th>
-        <td><a href="https://www.google.com" target="_blank" alt="link to the armor set search">Weap Name / Monster</a></td>
-        <td>Augments</td>
-        <td>Rampage Deco</td>
-        <td>Additional Comment filled with words</td>
-        </tr>
-        </tbody>
-        <tfoot>
-        <th scope="row" colspan="4">
-        <h6>5.1A - Budget Set 1</h6>
-        </td>
-        </tr>
-        </tfoot>
-        </table>
-        <a href="sets/sword_and_shield_table1.webp" target="_blank" class="ImgButton">Click to open in new tab</a>
-        </div>
-        </p>
+        <img src="sets/sword_and_shield5.1A.webp" class="BuildCard" alt="Alternative Sword and Shield Set">
+        <a href="sets/sword_and_shield5.1A.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+        <p>
+        <ul><li>Armor: AT Rey / AT Nu Udra  / G. Arkveld B  / Lagiacrus B  / AT Uth Duna B</li>
+<li>Charm: Get at least Wide Range 4 on the charms or use Wide Range 5 charm</li>
+<li>Decos: Burst x1, WEX x1, Agitator x2, Counterstrike x1, Max might x1, Add as much comfort to the build as you want</li>
+<li>Weapons: Any Artian Meta Raw & Element or Craftables.</li></ul>
+</p>
+<p>
+    The Wide-Range build has improved yet again! This time adding Counterstrike 3 without losing damage skills. With Counterstrike 3, you gain +25 raw for 45s when you get knocked back by an attack. With speed eating you can heal quickly and get right back into action with a significant raw buff.
+</p>
+<p>
+Alternative <a href="https://www.mhwildshub.com/builder?data=eyJ3IjpbMSw3N10sIndkIjpbIkFDQ19JRF8wMDEyIiwiQUNDX0lEXzAwMDgiLCJBQ0NfSURfMDAwNyJdLCJ3YSI6eyJQQVJUUyI6WyJCT05VU18wMDIiLCJCT05VU18wMDAiLCJCT05VU18wMDAiLCJCT05VU18wMDAiXSwiR1JJTkRJTkciOltudWxsLCJCT05VU18wMDUiLCJCT05VU18wMDUiLCJCT05VU18wMDMiLCJCT05VU18wMDMiLCJCT05VU18wMDMiXX0sIndpIjoiUEFSQUxZU0UiLCJhbSI6eyJpZCI6Il9jdXMiLCJzayI6W1siSHVudGVyU2tpbGxfMDI4IiwzXSxbIkh1bnRlclNraWxsXzA5OCIsNF1dLCJzbCI6WzEsMSwxXX0sImFtZCI6WyJBQ0NfSURfMDAwMCIsIkFDQ19JRF8wMTM1IiwiQUNDX0lEXzAxNTkiXSwiYSI6WzU3MCw2MDYsNTk3LDU2OCw2MDRdLCJhZCI6W1siQUNDX0lEXzAxNzAiLCJBQ0NfSURfMDE2NyIsIkFDQ19JRF8wMTEzIl0sWyJBQ0NfSURfMDEyNiIsIkFDQ19JRF8wMTI2Il0sWyJBQ0NfSURfMDEyNiIsIkFDQ19JRF8wMTI2Il0sWyJBQ0NfSURfMDE2MCIsIkFDQ19JRF8wMTYwIiwiQUNDX0lEXzAxNjAiXSxbIkFDQ19JRF8wMTIzIiwiQUNDX0lEXzAxMzUiLCJBQ0NfSURfMDEzNSJdXX0%3D" target="_blank">build</a> (mhwildshub, opens in new tab) using Lagi 2P to trade 1 Agitator for Evade Extender 2, Mirewalker 1 and Leviathan’s Fury set bonus. Evade Extender can be good or bad depending on the matchup.
+</p>
         </div>
     </section>
-        </p>
-        </div>
+
         
-        Low budget 2 description can go here, or not, up to you
+        
         
     <section>
         <input id="5.2" class="toggle" type="checkbox">
         <label for="5.2" class="CollHeading"><h3>
-        5.2 Low Budget 2</h3></label>
+        5.2 Wide Range Does Damage Build <i>Omega</i> Edition. [God Charm] </h3></label>
         
         <div class="CollParagraph">
-        <p> 
-        
-        text here
 
-    <section>
-        
-        <div class="SetLinksContainer">
-        <input id="5.2Links" class="toggle" type="checkbox">
-        <label for="5.2Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph">
-        <p>
+            <p>        
+I did say there is nothing changing with the meta, not alternative (also yes wide range somehow moved up to alt now not meme) lol. Anyways, Omega requires a new way of making wide range sets and people seemingly can’t read and find the not godcharm edition so I decided to just compromise for this instead. Omega forelegs are Mind eye’s able and backlegs+Head are WEX, Flayer 1 is there to make wounds faster for the Pantokrator phase. 
+            </p>
+<p class="fire">Do Not Stand and Heal, only do so when they are in threat. This build actually dish out REALLY good damage.</p>
+        <img src="sets/sword_and_shield5.2A.webp" class="BuildCard" alt="Alternative Sword and Shield Set">
+        <a href="sets/sword_and_shield5.2A.webp" target="_blank" class="ImgButton">Open image in new tab</a>
 
-        table here
+<p>
+<ul><li>Armor: AT Rey Dau / Lagiacrus B / AT Rey Dau / Lagiacrus B / AT Uth Duna</li>
+<li>Charm: Critical Eye 3, Wide range 4, W1-A1-A1 OR Wide-Range 5</li>
+<li>Decos: Burst x1, Weakness Exploit x2, Flayer x1, Recovery up x1, Speed eating x2, Free meal x3, Shockproof x1</li>
+<li>Weapons: Artian Element (preferably thunder for Omega) you don’t need fire for Nerscylla in Phase 3</li>
+<li>Build is made specifically for Omega If you wanted the old one for general use its here</li></ul>
+</p>
+<p>
+BUT The survivability and the support you can do is quite there, although i do have to say whenever it does the Mustard Bomb, PLEASE move away so it doesn’t corner or block people.
+Pick up the shield gen whenever the partbreaks (cant slinger grab it btw have to unsheathe pick up by hand) 
+OR when it does the laser on its face, Focus strike it.  Lastly, whenever the face has wounds.
+When it slams repeatedly in Pantokrator phase after the 3 slams the legs are focus strikeable for a free topple.
+Larboard is on the left side of Omega face, vice versa. In Savage after Phase 2 Jin zone it’ll be 360deg now.
+</p>
 
-        </div></div>
+        <img src="sets/sword_and_shield5.2B.webp" class="GuideCard" alt="Starboard Larboard illustration sketch">
+        <a href="sets/sword_and_shield5.2B.webp" target="_blank" class="ImgButton">Open image in new tab</a>
 
-    </section>
-        </p>
-        </div>
-        
-    <section>
+        <img src="sets/sword_and_shield5.2C.webp" class="GuideCard" alt="Omega Aggro Generation Rate">
+        <a href="sets/sword_and_shield5.2C.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+<p>THIS IS TOP VIEW BTW LARBOARD IS ALWAYS ON OMEGA’S LEFT SIDE VICE VERSA</p>
 
+        <img src="sets/sword_and_shield5.2D.webp" class="GuideCard" alt="Omega Aggro Generation Rate">
+        <a href="sets/sword_and_shield5.2D.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+
+        <p>Also, here is a bonus. HP value for each phase + enmity modifiers.<br>
+MRV Missile if you don’t have shield just sheathe and run there's no point in guarding unless you are lance.<br>
+Damage isn’t really the concern on winning against Omega, its survivability.<br>
+<span class="fire">Also the blue laser needs guard up, still advised to just dodge because guarding it still chips you a ton.</span>
+</p>
+
+</div>
+        </section>
+
+<!--            <section>
         <input id="5.3" class="toggle" type="checkbox">
         <label for="5.3" class="CollHeading"><h3>
-        5.3 Medium Budget 1</h3></label>
+        5.3 Wide Range Does Damage Build <i>Omega</i> Edition. [God Charm] </h3></label>
         
         <div class="CollParagraph">
-        <p> 
-        YourTextHere
+
+        <img src="sets/sword_and_shield5.3A.webp" class="BuildCard" alt="Alternative Sword and Shield Set">
+        <a href="sets/sword_and_shield5.3A.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+        <p>
         
-    <section>
-        <div class="SetLinksContainer">
-        <input id="5.3Links" class="toggle" type="checkbox">
-        <label for="5.3Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-        
-        table here
-        
-        </div></div>
-    </section>
+        text here
         </p>
         </div>
-        
-    <section>
+        </section>-->
+
+        <!--<section>
         <input id="5.4" class="toggle" type="checkbox">
-        <label for="5.4" class="CollHeading"><h3>5.4 Medium Budget 2</h3></label><div class="CollParagraph"><p> 
+        <label for="5.4" class="CollHeading"><h3>
+        5.2 Wide Range Does Damage Build <i>Omega</i> Edition. [God Charm] </h3></label>
         
-        YourTextHere
-        <section><div class="SetLinksContainer">
-        <input id="5.4Links" class="toggle" type="checkbox">
-        <label for="5.4Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p>
+        <div class="CollParagraph">
 
-        table here
-
-        </div></div>
-    </section>
+        <img src="sets/sword_and_shield5.4A.webp" class="BuildCard" alt="Alternative Sword and Shield Set">
+        <a href="sets/sword_and_shield5.4A.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+        <p>
+        
+        text here
         </p>
         </div>
-        
-        
-        For a Second Archetype, copy the codeblock into here
-        
-    <section>
+        </section>-->
+
+        <section>
         <input id="5.5" class="toggle" type="checkbox">
         <label for="5.5" class="CollHeading"><h3>
-        5.5 High End</h3></label>
+        5.3 Anti AT Uth Duna Build + Quick rundown help on fights</h3></label>
         
-        <div class="CollParagraph"><p> 
-        YourTextHere
-        
-    <section>
-        <div class="SetLinksContainer">
-        <input id="5.5Links" class="toggle" type="checkbox">
-        <label for="5.5Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p>
-
-        table here
-
-        </div></div>
-    </section>
-        </p></div>
-
-    <section>
-        <input id="5.6" class="toggle" type="checkbox">
-        <label for="5.6" class="CollHeading"><h3>
-        5.6 High End 2</h3></label>
-        
-        <div class="CollParagraph"><p>
-
-        text here
-
-    <section>
-        <div class="SetLinksContainer">
-        <input id="5.6Links" class="toggle" type="checkbox">
-        <label for="5.6Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p>
-
-        table here
-
-        </div></div>
-    </section>
-        </p></div>
-        
-        <h2>Raw</h2>
-        For a Second Archetype, copy the codeblock into here
-        <section>
-            <input id="5.0Raw" class="toggle" type="checkbox">
-            <label for="5.0Raw" class="CollHeading"><h3>
-            Raw Sets</h3></label><div class="CollParagraph">
-            <p> 
+        <div class="CollParagraph">
             
-            Your Text Here
-            
-        <section>
-            <div class="SetLinksContainer">
-            <input id="5.0RawLinks" class="toggle" type="checkbox">
-            <label for="5.0RawLinks" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p> 
-            
-            table here
+            <p>
+            <span class="fire">This set is meant to be very optimized for killing AT Uth Duna only. So don’t use this as a general set!<br>
+(maybe you can use it on other thunder weak matchups that isn't Mizu)</span>
+            </p>
+        <img src="sets/sword_and_shield5.5A.webp" class="BuildCard" alt="Alternative Sword and Shield Set">
+        <a href="sets/sword_and_shield5.5A.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+        <p>
+<ul><li>Armor: Lagiacrus B / Numinous (Zoh Shia) B / Lagiacrus B / Lagiacrus B / Lagiacrus B</li>
+<li>Charm: Weakness Exploit 2</li>
+<li>Decos: Burst x1, Weakness Exploit x1, Agitator x1, Earplugs x2, Thunder Res x3</li>
+<li>Weapons: High Lagia Sword (Lagiacrus)</li></ul>
+        </p>
+        <p>
+            See Chapter 2.3.9 for more details on Convert Thunder Resistance.<br>
+<p class="fire">This set is meant to be very optimized for killing AT Uth Duna only so don’t use this as a general set!
+(maybe you can use it on other thunder weak matchups that isn't Mizu)</p>
+<p>Anyways, The set made to maximize the amount of thunder ele you can squeeze from Convert thunder res.
+and ignore any comfort options that aren't deemed optimal for AT Uth duna. Don't forget to eat village food for maximum thunder res! Earplugs 2 is enough for AT Uth Duna roars so the empty 2 slot can be CS or EW.
+Azure Bolt damage is still negligible, but contributes more to the hunts due to thunder weak matchups now.</p>
 
-            </div></div>
+<p><b>Now for a quick FAQ and rundown on the fight itself.</b>
+The gameplan will mostly be Chop combos -> Spinning Reaper -> Charge chop on forearms, PR finisher is plunging thrust as Uth head hitboxes are small and the body hitboxes are very big. Lateral combos are still used when it doesn’t move around. Expect to do a shorter burst of combos because she will keep moving alright.
+<ul><li>Q1: What about the water waves?  A: Go diagonal, Ride the waves towards Uth duna. and always prepare for a followup.</li>
+<li>Q2: Where to hit AT Uth duna? A: Try to hit all limbs from the sides. They are good hitzones and have guaranteed tempered wounds too.</li>
+<li>Q3: What to do with the long aerial jumping slam? A: <a href="https://streamable.com/d5qrso" target="_blank">Here</a> are the hurtboxes of the moves (streamable, opens in new tab). It's uh pretty big you just try to dodge the 1st and backhop or sliding swipe the 2nd slam as the AoE is only 8 frames (@60fps).
+flashing works but for 3 times before she is just completely immune to it.</li>
+<li>Q4: Are there any good run examples to use of? A: <a href="https://youtu.be/tgxcAh4eqSw" target="_blank">Here</a> are my very casual hunts on it (youtube, opens in new tab), and <a href="https://youtu.be/EuqO-wNU3OM" target="_blank">here</a> is BotanAnne speedrun (youtube, opens in new tab). Try watching both and don’t trash my gameplay that much. I never advertise myself as a very good hunter to begin with! -PokerDew</li></ul>
+</p>
+        </p>
+        </div>
         </section>
-            </p></div>
-        
-            For a Second Archetype, copy the codeblock into here
-        
+
+    <section>
+
+       
         </section></p></div>
-                                    
+
         <section>
 
             <input id="6.0" class="toggle" type="checkbox">
-            <label for="6.0" class="CollHeading"><h3>6.0 Matchup Chart</h3></label><div class="CollParagraph"><p>
+            <label for="6.0" class="CollHeading"><h3>6.0 Meme Builds</h3></label>
+            <div class="CollParagraph">
+                <p>
 
-                Words here (optional) <br>
+                <b>This section is mainly written by PokerDew. Please address any feedback or suggestions to PokerDew.</b><br>
 
-                    <img src="sets/sword_and_shield_matchup.webp" class="GuideCard" alt="Wilds Sword and Shield Matchups">
-                    <a href="sets/sword_and_shield_matchup.webp" target="_blank" class="ImgButton">Open image in new tab</a><br>
-                    <span class="center">6.0A - Matchup Sheet</span>
+
+        <section>
+
+            <input id="6.1" class="toggle" type="checkbox">
+            <label for="6.1" class="CollHeading"><h3>6.1 Steve Sharpness Evasion Build</h3></label><div class="CollParagraph"><p>
+
+                Do you want to actually use Seregios (will now be called as steve) builds?<br>
+                Have you ever wanted to become the evasion evading man?<br>
+                Do you really love the Evasion mantle and want a playstyle around it?<br>
+                Well we got it here fellas enjoy your evading mantling.</p>
+                <img src="sets/sword_and_shield6.1A.webp" class="BuildCard" alt="Alternative Sword and Shield Set">
+                <a href="sets/sword_and_shield6.1A.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+        <p>
+<ul><li>Armor: Regios A / Arkveld  B  / Regios  B / Gore B / Gore B</li>
+<li>Charm: Max Might 3</li>
+<li>Decos: Burst x1, Counterstrike x3,  Antivirus x2, Weakness Exploit x4</li>
+<li>Weapons: Seregios (Feral Fangs)</li>
+<li><a href="https://gamecat.fun/ew/#GJF4RJDcGiXHtiIOhgebxB8eXxw8boSZ2hTesxUQb2uwpx" target="_blank">Build Link</a> (gamecat, opens in new tab)</li></ul>
+        </p>
+        <p>
+    Ok so gameplan wise, You  Ę̸̊v̶̡̅a̷̦̽d̶͓͐e̴̞͂ ̴̬̄ẇ̴̗h̴̢͆ǐ̷͉l̸̞̑e̷͔̕ ̸̻̕a̶̼͝ļ̵̈́s̵̝̍o̵̺͆ ̴̺͌g̵̗̀ḛ̵͊t̷͚̚t̷̰͐i̶͕͆n̸̤̓g̸̬̔ ̸̡̊h̴̤͋i̷̩̓t̴̳͐ ̵̜̇a̷̮͋š̸͇ ̶̭̿ẃ̶͈ę̴͆l̴̨̾l̶̡͊ ̷̩͋t̴̮͐o̴̧͆ ̷̜̐b̶͍͝ò̵̫t̴̖̐h̵̹͐ ̷͇̐ṕ̷͇r̴͕̃ö̵͖́c̶̜̎ ̴͔̈́Ç̶̉o̶̦͐ű̵̘n̴̘̓t̶̗̾e̵̡̕r̶̀͜s̷̬̊t̶̡̒ṙ̶ͅi̵̡͛k̴̺̊e̴͇͆ ̶͒͜ȃ̸̡n̴͉̎ḏ̸̆ ̶̖̈́A̵͓̔d̴̪̿r̵͈͘ĕ̵̱ṋ̵̀r̸̜͠u̴̦̽s̶͍̓ȟ̷̢  and uh yeah btw theres also the ⬧︎♒︎♓︎♏︎●︎♎︎ ♌︎♋︎⬧︎♒︎ ⬧︎♒︎♋︎❒︎◻︎■︎♏︎⬧︎⬧︎ ♌︎♋︎■︎🙵♓︎■︎♑︎ because it works with steve sharpness too. I dont know how well the DPS is as this is basically a shitass idea I made with visby at midnight.
+You can also just remove Counterstrike for evade window too if you want it to be more serious.<br>
+For more details, see section 2.3.8 Bladescale Honing.</p>
+
+                <img src="sets/sword_and_shield6.1B.webp" class="BuildCard" alt="Conversation Screenshot">
+                <a href="sets/sword_and_shield6.1B.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+
+
+        </p>
+            </div>
+
+        </section>
+        <section>
+
+            <input id="6.2" class="toggle" type="checkbox">
+            <label for="6.2" class="CollHeading"><h3>
+                6.2 Uh Guys How do I stack again? (Omega Set bonus) [God charm]</h3></label><div class="CollParagraph">
+                    
+                <p>
+                    Thank you to Pilgrim from the Team leviathan who graciously gave us this builder again to actually display these builds in its full glory as both gamecat and wilds builder hub don’t have a way to display these new armor yet 
+and if you don’t have godcharm just use normal Wide Range 5. For His project Math hunter isn’t done yet but it’s getting there, eventually the website will be open for public use soon.
+                </p>
+                <img src="sets/sword_and_shield6.2A.webp" class="BuildCard" alt="Alternative Sword and Shield Set">
+                <a href="sets/sword_and_shield6.2A.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+                <p>
+<ul><li>Armor: AT Rey / AT Rey / Omega A / Omega A / AT Uth Duna</li>
+<li>Charm: Offensive Guard 3, Wide Range 4 OR Wide Range 5</li>
+<li>Decos: Basically it needs to be like whatever the buildcard says. Just make sure it’s Crit Boost 3, Offensive Guard 3, Master’s Touch first and then add crit boost 5 later. Also there's like 3 free 1 slots.</li>
+<li>Weapons: Did you know, In terms of weapon variety we do not have weapon variety (its artian)</li></ul>
+                </p>
+                <p>
+                    Ok funny shit I wasn’t going to make this but lmao I had to do it to em anyways so uh the skill itself is explained in section 2.3.10. But It could be good uh ish? The reason why Wide range is here is simply due to Idk what else to put on and you have 3(4) Free lvl 1 slots to do whatever you want, have fun!<br>
+<s>I will eventually return mizu set later im lazy to make the docs longer as is</s><br>
+(The real reason Wide range is here is simply due to usually the skill cycle every 90 sec quest timer based and losing +10 Raw would be kinda bad and you can’t Unstack yourself anyways might as well just take wide range and eat might seed to get it fixed)
                 </p>
             </div>
 
         </section>
+
+        <section>
+
+            <input id="6.3" class="toggle" type="checkbox">
+            <label for="6.3" class="CollHeading"><h3>
+                6.3 The unexpected return of Blagonga</h3></label><div class="CollParagraph">
+                    
+                    <p>
+                What the fuck???? Capcom actually fixes their shit for once???? Now I have to remake blango again???<br>
+                They make it so that it stands as a unique dmg buff now which is nice albeit the stats they give is pitifully low.
+                    </p>
+                <img src="sets/sword_and_shield6.3A.webp" class="BuildCard" alt="Alternative Sword and Shield Set">
+                <a href="sets/sword_and_shield6.3A.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+                    <p>
+                        <ul><li>Armor: AT Rey / Blagonga B / AT Rey / Blagonga B / AT Uth Duna</li>
+                        <li>Charm: WEX 2</li>
+                        <li>Decos: Burst x1,  Max Might x2, WEX x2</li>
+                        <li>Weapons: Whatever you’ll still need to sheathe to use the War cry anyways.</li></ul>
+                    </p>
+                    <p>
+                        But then again they still didn’t buff the dmg number of it at all lmao it's still +3/6 but the duration is around 2min ish methinks.
+                    </p>
+            </div>
+
+        </section>
+
+        <section>
+
+            <input id="6.4" class="toggle" type="checkbox">
+            <label for="6.4" class="CollHeading"><h3>6.4 Pickaxe Minecraft SnS Build
+
+            </h3></label><div class="CollParagraph">
+                <p>
+Do you want to Mine and craft while having some benefits of actually gathering up ore for uh reasons?<br>
+Do you wanted to like well idk, unironically use the weapon swap mechanics for once (not you LBG)<br>
+WELL Here is the build for you
+                </p>
+                <img src="sets/sword_and_shield6.4A.webp" class="BuildCard" alt="Alternative Sword and Shield Set">
+                <a href="sets/sword_and_shield6.4A.webp" target="_blank" class="ImgButton">Open image in new tab</a>
+                <p>
+                    <ul><li>Armor: AT Rey / Zoh Shia (Numinous) B / G.Arkveld B / AT Rey / AT Uth Duna</li>
+                    <li>Charm: WEX 2, or alternatively get the godcharm with AB3 + Burst/Wex/Agi 1 charm with W1 at least</li>
+                    <li>Decos: Burst x1,  Agitator x2, Geologist x3</li>
+                    <li>Weapons: Isn’t the whole point of using this build is the pickaxe?</li></ul>
+                </p>
+                <p>
+                    For every ore you mined depends on rarity you’ll get 10/20/30 raw for 1min 30 sec after you picked up the ore.<br>
+                    It is refreshable by very ore you picked up maximum up to 180 -> 270 raw (Will reset when swap weapon or duration ran out)<br>
+                    the gameplan now have two plans the Regional one and the moving around region one (Maps)
+                </p>
+                <p>
+                    [Non Region one] just speedrun mine and get as much raw as possible and rush to the monster and do as much dmg as possible in the window,  THEN ACTUALLY USE WEAPON SWAP to your normal raw SnS lmao.assuming you moved between regions. 
+                </p>
+                <p>
+                    [Region one] If not there is a funny strat where you pre mine for the +90 Raw right away and do the quest in the same region and try to upkeep the uptime as warping camp dont reset it, it just works.
+                </p>
+                
+
+
+
+
+                </p>
+            </div>
+
+        </section>
+                </p>
+            </div>
+
+        </section>
+
+
 
         <section>
 
             <input id="7.0" class="toggle" type="checkbox">
-            <label for="7.0" class="CollHeading"><h3>7. Alternative Builds</h3></label><div class="CollParagraph"><p>
-
-                    YourTextHere
-                
-        <section>
-
-            <input id="7.1" class="toggle" type="checkbox">
-            <label for="7.1" class="CollHeading"><h3>7.1 Alternative 1</h3></label><div class="CollParagraph"><p>
-
-                    YourTextHere
-
-                              <div class="SetLinksContainer">
-
-        <section>
-            <input id="7.1Links" class="toggle" type="checkbox">
-            <label for="7.1Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph"><p>
-
-                    YourTableHere
-
-                        </p> 
-                        </div>
-            </div>
-        </section>
-            </p></div>
-        
-        </section>
-
-        <section>
-
-            <input id="8.0" class="toggle" type="checkbox">
-            <label for="8.0" class="CollHeading"><h3>8. Meme Builds</h3></label><div class="CollParagraph"><p>
-
-                    YourTextHere
-
-        <section>
-
-            <input id="8.1" class="toggle" type="checkbox">
-            <label for="8.1" class="CollHeading"><h3>
-            8.1 Meme 1</h3></label>
-            
-            <div class="CollParagraph">
+            <label for="7.0" class="CollHeading"><h3>
+                7. Changes throughout the Title Updates</h3></label>
+                <div class="CollParagraph">
                 <p> 
 
-            YourTextHere
-
-                </p>
-            <div class="SetLinksContainer">
-        <section>
-                    <input id="8.1Links" class="toggle" type="checkbox">
-                    <label for="8.1Links" class="CollHeading"><span class="center">Links</span></label><div class="CollParagraph">
-                <p>
-
-        YourTableHere
-
-                </p> 
-    
-                </div>
-                </div>
-                </p>
-                </div>
-
-        </section>
-        </section>
-
-        <section>
-
-            <input id="9.0" class="toggle" type="checkbox">
-            <label for="9.0" class="CollHeading"><h3>9. Changes throughout the Title Updates</h3></label><div class="CollParagraph">
-                <p> 
-                Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen
-                halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot
-                across the bow aye hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the
-                lead killick rigging bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of
-                the Black. Chandler ho Plate Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail
-                rutters shrouds port jolly boat boatswain squiffy dead men tell no tales.
-
-                Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain
-                Shot aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch
-                walk the plank topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck
-                Sink me swab gally. Bring a spring upon her cable Letter of Marque Barbary Coast black spot
-                sutler marooned to go on account capstan. Swab rigging jury mast port line nipper scallywag
-                pirate.
                 
-        <section>
+<!--        <section>
         
-            <input id="9.6" class="toggle" type="checkbox">
-            <label for="9.6" class="CollHeading"><h4>Title Update 6/Bonus Update</h4></label><div class="CollParagraph">
+            <input id="7.6" class="toggle" type="checkbox">
+            <label for="7.6" class="CollHeading"><h4>Title Update 6/Bonus Update</h4></label><div class="CollParagraph">
                 <p>
                 Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad
                 hempen halter. Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run
@@ -558,36 +1359,49 @@
                 </p>
                 </div>
         
-        </section>
+        </section>-->
         
-        <section>
+<!--        <section>
 
-            <input id="9.5" class="toggle" type="checkbox">
-            <label for="9.5" class="CollHeading"><h4>Title Update 5</h4></label><div class="CollParagraph">
+            <input id="7.5" class="toggle" type="checkbox">
+            <label for="7.5" class="CollHeading"><h4>Title Update 5</h4></label><div class="CollParagraph">
                 <p>
                 YourTextHere
                 </p>
                 </div>
             
-        </section>
+        </section>-->
 
-        <section>
+<!--        <section>
         
-            <input id="9.4" class="toggle" type="checkbox">
-            <label for="9.4" class="CollHeading"><h4>Title Update 4</h4></label><div class="CollParagraph">
+            <input id="7.4" class="toggle" type="checkbox">
+            <label for="7.4" class="CollHeading"><h4>Title Update 4</h4></label><div class="CollParagraph">
                 <p>
                 YourTextHere
                 </p>
                 </div>
         
-        </section>
+        </section>-->
 
         <section>
 
-            <input id="9.3" class="toggle" type="checkbox">
-            <label for="9.3" class="CollHeading"><h4>Title Update 3</h4></label><div class="CollParagraph">
+            <input id="7.3" class="toggle" type="checkbox">
+            <label for="7.3" class="CollHeading"><h4>7.3  TU3 - Omega Planetes Update</h4></label><div class="CollParagraph">
                 <p>
-                YourTextHere
+<ul><li>Unfortunately all of the gear/armor are suboptimal compared to the normal AT armor set but we’ll still give a rundown. (When layered you do look really nice though)
+True Omega sword have a gimmick where if you perfect guard, you get +30 defense for 30 seconds
+This is truly one of the skills of all time (Just layer it for invis weapon the stats are kinda bad)
+<li class="indent">If you wanna know how awful this is it's like:<br>
+On average you’ll sit at around  400 defense. Your dmg reduction is 83.3% with the +30 will be 430 defense or 84.3% its 1% improvement to the dmg reduction%. 1-(80/80+def) is the formula.  ITS BASICALLY DEFENSE BOOST 3 BUT CONDITIONAL.</li>
+<li class="indent">By the way, the enhanced one (With Omega 4P) is +45 Def and lasts for 45 seconds instead now wow!!!</li>
+<li>Bale armorset is designed for Dark Knight Greatsword It isn't meant for SnS to be used at all as its skills are uh not what we wanted in the slightest. (Again, just layer lmao)</li>
+<li>Omega armor is a bit weird, it's like an alternative AT armor efficiency wise, <s>but no guts bonus for seemingly no reason other than status quo in upgrades. capcom cooked this update for this fr fr. (LAYERRRRRS)</s> Erm Errata a bit. IT IS an upgrade if you consider future armors.</li></ul>
+                </p>
+                <p>
+<ul><li>AT Nu Udra has shaken up the meta a bit by somehow manage to make us fit in Counterstrike now</li>
+<li>This really set us in a bit of a pickle right now due to us lacking any sort of better offensive skills to go by.</li>
+<li>Omega armorset is now useful Hurray! Errata it quick!</li></ul>
+
                 </p>
                 </div>
         
@@ -595,10 +1409,31 @@
 
         <section>
     
-            <input id="9.2" class="toggle" type="checkbox">
-            <label for="9.2" class="CollHeading"><h4>Title Update 2</h4></label><div class="CollParagraph">
-                <p> 
-                YourTextHere
+            <input id="7.2" class="toggle" type="checkbox">
+            <label for="7.2" class="CollHeading"><h4>7.2  TU2 - Lagiacrus and Seregios Update</h4></label><div class="CollParagraph">
+                <p>
+<ul><li>3pc AT Rey Dau is still the best framework. It gets a minor update from TU1.5, where we now swap out Mizutsune boots for Lagiacrus boots (so Rey/Zoh/Rey/Rey/Lagi)</li>
+<li>3pc AT Rey Dau can also be used with 2pc Lagicrus (Rey/Rey/Rey/Lagi/Lagi). This set is almost as good as the set above, but comes with an extra 2 slots. If you get hit a lot, you can slot in Counterstrike. You could also slot in Evade Window.</li>
+<li>4pc Lagi is no good. 2pc Lagi/2pc Gore is not as good for us as using AT Rey Dau stuff.</li>
+<li>Seregios and Adrenaline Rush are not the best way for us to play (we don’t really want to roll/backhop as much as in previous games), but there is an alternative set presented with Evade Mantle if you’re interested in that.</li>
+<li>The Lagiacrus SnS is almost as good as a god-rolled Artian SnS (Lagi is about 3-4% weaker).</li>
+<li>The Seregios SnS is not really that good. We burn too much sharpness for the mechanic to be very helpful for us, and the weapon stats aren’t good enough.</li>
+<li>In terms of moveset changes:</li>
+<li class="indent">Counter Slash nerf (60 -> 50MV) is a blow to Counter Slash, but it still remains a strong response.</li>
+<li class="indent">Chop (19 -> 18 MV) and Side Slash (18 -> 17 MV) nerfs are barely noticeable. In the first place, we do not recommend spamming Chop combo other than to reposition, because Lateral combo attacks are quite a bit stronger. These nerfs do not change much.</li>
+<li class="indent">Perfect Rush 2 (55 -> 60MV) and Perfect Rush-enhanced Scaling Slash follow-up hits (3 hits of 20 -> 34MV) buffs are huge and push PR into being our best combo. Before you doompost about how we’re going back to Iceborne PR spam, Iceborne’s PR damage is frontloaded, while Rise and Wilds’ PR damage is backloaded. This means that you should not spam PR and only use it when you can definitely hit the entire combo without being interrupted or without missing, because most of the damage is at the back of the PR now.</li>
+<li class="indent">Shield combo attacks have each been buffed by 3MV and the first and third attack’s stun value have been increased by 5. These are not big changes, and do not change the use of Shield combo attacks in practice (basically you almost never want to use them outside of scripting stuns or saving sharpness).</li>
+<li class="indent">Sliding Swipe’s iframes have been nerfed from 42 to 31 (this is at 60 FPS). For reference, a roll has 13 iframes and a backhop has 40 iframes. This is definitely not a negligible nerf, but Sliding Swipe still remains a useful defensive and positioning tool.</li></ul>
+                </p>
+                <p>
+<ul><li>AT Uth Duna armors are very good at helping alternative builds to have a better framework to work with and help us putting Lord’s Soul armor bonus into many more sets that needed some updates.</li>
+<li>Apart from that, unlike the last time in TU1.5 the event quests isn’t limited anymore but you should still grab the fullset of armors for any additional uses in the future as per usual.</li></ul>
+                </p>
+                <p>
+<ul><li>Burst Boost got a buff from +3/+10 to +8/+18 with the 2pc/4pc set bonus respectively. Unfortunately, after running calculations, it’s now competitive but isn’t the best set still for us (3pc Rey/2pc Odo or 4pc Odo).</li>
+<li>Counter Slash’s nerf was partially reverted. It was originally 60MV, was nerfed to 50MV, and now has been buffed to 55MV.</li>
+<li>New charms! What most of us theorycrafters have worked out is that they’re not worth it for the most part. You’ll need a literally perfect god charm to gain what’s basically a ~0.3% improvement over current sets using WEX2/Agi2 charms. It’s kind of weird how it turned out but turns out that weapon and armor skills are harder to interchange especially with HR armor where the slots are limited (meaning that the new charms end up taxing armor skills a bit too hard). Perhaps in future updates when skill budget gets better, the new charms will be more viable, but for now, there’s no need to feel FOMO over what other people are getting in the charm gacha.</li>
+<li>Fixed the Blagonga War Cry getting overridden now meme builder rejoice! <- the dmg is still bad</ul></li>
                 </p>
                 </div>
             
@@ -606,43 +1441,301 @@
 
         <section>
 
-            <input id="9.1" class="toggle" type="checkbox">
-            <label for="9.1" class="CollHeading"><h4>Title Update 1</h4></label><div class="CollParagraph">
-                <p> 
-                YourTextHere
+            <input id="7.1" class="toggle" type="checkbox">
+            <label for="7.1" class="CollHeading"><h4>7.1. TU1 - Mizutsune and Zoh Shia Update</h4></label><div class="CollParagraph">
+                <p>
+<ul><li>TU1 changed/added a couple of things:</li>
+<li>Whiteflame Torrent: see here.</li>
+<li>Maximum Might is now more lenient. Instead of losing it every 2nd roll, if you allow your stamina to reset back to full, then you can perform another roll without losing the Max Might bonus. As a result, Fulgur 2pc sets are worse off when compared to Gore 4pc sets.</li>
+<li>Corrupted Mantle nerfs. However, the optimal loops to use while wearing Corrupted Mantle do not change (Y>Y>B>B)</li>
+<li>Slicked Blade and Bubbly Dance: these two are dead in the water. They are not good.</li></ul>
+                </p>
+
+                <p>
+<u>Weapon and armor changes:</u>
+<ul><li>Zoh Shia SnS replaces G. Arkveld SnS due to Whiteflame torrent being a good damage boost.</li>
+<li>Zoh Shia chest piece replaces Arkveld’s chest in 4P Gore sets, adding extra damage.</li>
+<li>Zoh Shia chest piece replaces Arveld’s chest in FulGore sets, shifting it to be more Crit consistent.</li>
+<li>Mizu SnS is not good compared to Artian Water SnS.</li>
+<li>Added Convert element 1,3 sets, Whiteflame focused set.</li>
+<li>Removed Burst 5, Corrupted Mantle sets as It is largely redundant due to other options and nerfs.</li></ul>
+                </p>
+                <p>
+<u>TU1.5 - AT Rey Dau armor has been released</u>
+<ul><li>3pc AT Rey Dau is a very competitive armor and can beat out 4pc Gore in a lot of situations However 4pc Gore still remains strong regardless.</li>
+<li>AT Rey Helmet, arms, waist is a very competitive armor piece but due to the nature of limited events you should still grab all the armor and the charm upgrades regardless.</ul></li>
+                </p>
+                <p>
+<u>TU1.75 - (SF6 collab) Akuma has been released</u>
+<ul><li>Somehow Max Might changes is a bug so we are reverting our uptimes to 80%</li>
+<li>The writer is annoyed by having to change the wording for max might again.</li></ul>
+
                 </p>
                 </div>
         </section>
                 </p></div>
         </section>
 
+
+
         <section>
 
-            <input id="10.0" class="toggle" type="checkbox">
-            <label for="10.0" class="CollHeading"><h3>10. Frequently Asked Questions</h3></label><div class="CollParagraph">
+            <input id="8.0" class="toggle" type="checkbox">
+            <label for="8.0" class="CollHeading"><h3>8. Frequently Asked Questions</h3></label><div class="CollParagraph">
                 <p> 
-                YourTextHere
+<ul><li>Q: What about Flayer, why don't we have it?</li>
+    <li>A: Please see <a href="https://www.reddit.com/r/MonsterHunterMeta/comments/1jc0098/this_is_how_flayer_doesnt_work/" target="_blank">this reddit post</a> (opens in new tab) on how Flayer works (and doesn’t work). Because wounds have a wound lockout time of 20s on a BY PART basis, Flayer only has ⅓ chance to activate for wound damage, and Flayer has an internal cooldown (meaning it does not trigger on all hits of a fast attack string), Flayer does not actually help that much in making more wounds. We do suggest Flayer 1 for the flat damage proc as an alternative to Agitator or Burst 2-5. For Partbreaker, it also seems to be bugged and doesn’t work sometimes.</li></ul>
+
+<ul><li>Q: How about Scorcher by itself or Elemental Absorption?</li>
+    <li>A: Scorcher by itself (without Whiteflame Torrent) and Elemental Absorption are bad skills that don’t contribute much to damage. It’s a numbers issue.</li></ul>
+
+<ul><li>Q: How about Binding Counter?</li>
+    <li>A: Binding Counter is actually a decent skill but it’s more powerful when the hunt time is short, so that the uptime can be maximised. Because Power Clash works like a status, the first Clash is easy to get, the second one comes after some time, but the third Power Clash does not come in a reasonable amount of time. Speedrunners can get more value out of Jin Dahaad’s set skills which include Agitator and Resuscitate alongside Binding Counter (because of how short speedruns are, those skills have more value as they will have better uptime).</li></ul>
+
+<ul><li>Q: How about Resuscitate (from Lord’s Fury - equipping 3 or more pieces of Apex monster armour)?</li>
+    <li>A: As of 10/3/25, Resuscitate has been patched to no longer work post-Frenzy Cure. We’re hence not going to recommend any Resuscitate sets, and any such sets you see using this should be presumed to be outdated.</li></ul>
+
+<ul><li>Q: Akuma?</li>
+    <li>A: No I am not making akuma builds go make your own for it. - PokerDew</li></ul>
+
+<ul><li>Q: There was a glitch about SnS having infinite plunging thrusts. How did you do that? <b>[it has been fixed by capcom]</b> as of 16/04/2025</li>
+    <li>A: <a href="https://youtu.be/sXvbFOdvwiY" target="_blank">Here</a> is how you do it (youtube, opens in a new tab)(Also It’s super weird and janky with other weapon/terrain interactions 10/10 bug tho)
+and it might get patched maybe soon? But it was practical enough to do runs with it, go wild - PokerDew</li></ul>
+
                 </p>
-            </div>
+
+        <section>
+
+            <input id="8.1" class="toggle" type="checkbox">
+            <label for="8.1" class="CollHeading"><h3>8.1 How to Make Artian Weapons</h3></label>
+            <div class="CollParagraph">
+                <p>
+The Materials to craft Artian weapons are obtained from HR41+ Tempered Investigations. Good investigations look like this:
+                </p>
+                        <img src="sets/sword_and_shield8.1A.webp" class="BuildCard" alt="Sword and Shield Tempered Investigations">
+                        <a href="sets/sword_and_shield8.1A.webp" target="_blank" class="ImgButton">Open image in new tab</a><br>
+                        <span class="center">Fig. 8.1A - Investigation Examples</span>
+                <p>
+The three materials needed to craft a SnS are <b>1x Blade 1x Disc and 1x Tube</b>.<br>
+To craft an Artian SnS, talk to Gemma and select the Forge Artian Weapon option.<br>
+Next, select the parts:
+                </p>
+                        <img src="sets/sword_and_shield8.1B.webp" class="BuildCard" alt="Sword and Shield Artian Crafting Menu">
+                        <a href="sets/sword_and_shield8.1B.webp" target="_blank" class="ImgButton">Open image in new tab</a><br>
+                        <span class="center">Fig. 8.1B - Crafting Menu</span>
+                <p>
+                    Each part has an Element (or a Status), and either Attack or Affinity associated with it. Using two of the same Element/Status makes the resulting weapon have that Element/Status. For a pure raw weapon you want to be using 3 parts all of different status/element.<br>
+                    Using the same element/status three times boosts the value a bit and is always encouraged.
+                </p>
+
+                <p>
+                    Current Rarity 8 Artian Weapons have a base of 190 Raw and 5% Affinity, as well as 20 units of white sharpness.<br>
+                    They always have 3-3-3 slots.
+                </p>
+                <p>
+                    The above example uses 3 Attack Infusions which means the resulting weapon will have 190 + (3x5) Attack and 5% Affinity.
+                </p>
+                <p>
+                    The results thus work like this:
+                </p>
+                                                <table class="skillpriotable">
+                                    <caption>
+                                        <h5>Skill Priority</h5>
+                                    </caption>
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Part, Element, Infusion</th>
+                                        <th scope="col">Part 2, Element, Infusion</th>
+                                        <th scope="col">Part 3, Element, Infusion</th>
+                                        <th scope="col">Result</th>
+                                    </thead>
+                                    
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">Blade, Fire, Attack</th>
+                                        <td>Tube, Sleep, Attack</td>
+                                        <td>Disc, Water, Affinity</td>
+                                        <td>200 Attack, 10% Affinity</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Blade, Dragon, Attack</th>
+                                        <td>Tube, Ice, Attack</td>
+                                        <td>Disc, Dragon, Attack</td>
+                                        <td>205 Attack, 5% Affinity<br>
+                                            26 base dragon element</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Blade, Water, Affinity</th>
+                                        <td>Tube, Water, Affinity</td>
+                                        <td>Disc, Water, Affinity</td>
+                                        <td>190 Attack, 20% Affinity<br>
+                                            28 base  Water element</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Blade, Paralysis, Attack</th>
+                                        <td>Tube, Paralysis, Attack</td>
+                                        <td>Disc, Paralysis, Affinity</td>
+                                        <td>200 Attack, 10% Affinity<br>
+                                            8 base Paralysis</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Blade, Sleep, Attack</th>
+                                        <td>Tube, Sleep, Affinity</td>
+                                        <td>Disc, Poison, Attack</td>
+                                        <td>200 Attack, 10% Affinity<br>
+                                            6 base sleep</td>
+                                    </tr>
+                                </tbody>
+                                    
+                                    <tfoot>
+                                    <tr>
+                                    <th scope="row" colspan="3">
+                                    <h6>Fig. 8.1C - Artian Crafting Examples</h6>
+                                    </td>
+                                    </tr>
+                                    </tfoot>
+                                    </table>
+                            <p>
+                                Note that you cannot mix and match Parts of differing Rarity.<br>
+                                <b>Rarity 6 and 7 Artian weapons are strictly not worth it.</b><br>
+                                After crafting comes Reinforcing. This is done via the “Reinforce/Dismantle Artian Weapons” Menu option at Gemma.
+                            </p>
+                            <p>
+                                Pick the Reinforce option and the Weapon you want to reinforce:
+                            </p>
+                        <img src="sets/sword_and_shield8.1D.webp" class="GuideCard" alt="Sword and Shield Artian Crafting Menu">
+                        <a href="sets/sword_and_shield8.1D.webp" target="_blank" class="ImgButton">Open image in new tab</a><br>
+                        <span class="center">Fig. 8.1D - Upgrade Interface</span>
+                            <p>
+                                Reinforcement Materials can be obtained by trading with the secondary forge in Azuz. Trade your unneeded Monster Materials and Licenses for Oricalcite.<br>
+                                It takes 10 Oricalcite per roll, for a total of 5 rolls = 50 of those ores.
+                            </p>
+                            <p>
+                         <img src="sets/sword_and_shield8.1E.webp" class="GuideCard" alt="Sword and Shield Artian Crafting Menu">
+                        <a href="sets/sword_and_shield8.1E.webp" target="_blank" class="ImgButton">Open image in new tab</a><br>
+                        <span class="center">Fig. 8.1E - Reinforcement Bonus</span>
+                            </p>
+                            <p>
+                                Each “Reinforcement” adds 1 of 4 possible rolls on the weapon. These are:<br>
+                                +5% Affinity; +3 Element/Status (bloated to 20); +5 Raw; +30 Units of Sharpness.<br>
+                                Depending on what you are building for, you may want differing rolls.
+                            </p>
+                            <p>
+                                If you get a Bad roll, go to the Reinforce/Dismantle Menu and select Dismantle.
+                            </p>
+
+                         <img src="sets/sword_and_shield8.1F.webp" class="GuideCard" alt="Sword and Shield Artian Crafting Menu">
+                        <a href="sets/sword_and_shield8.1F.webp" target="_blank" class="ImgButton">Open image in new tab</a><br>
+                        <span class="center">Fig 8.1F - Dismantle Menu</span>
+                            <p>
+                             Dismantling an Artian weapon returns the ore used to Reinforce it back to you. You lose the parts used to craft it, but the ores are one less worry you need to have.   
+                            </p>
+
+
+
+
+                    </div>
+
+                            <section>
+
+            <input id="8.2" class="toggle" type="checkbox">
+            <label for="8.2" class="CollHeading"><h3>8.2. How to determine which sharpness skills to use and run</h3></label><div class="CollParagraph">
+                <p> 
+                    In this game, sharpening with a whetstone got buffed to occur stage-wise or in “cycles”.<br>
+Each sharpening cycle restores 20 sharpness (if you’re not missing a lot of sharpness).
+<ul><li>Time taken to:</li>
+<li>- Take out the whetstone/whetfin from guard, and sharpen 1 cycle: ~1.4s</li>
+<li>- Take out the whetstone/whetfin from guard, sharpen 1 cycle and then roll to cancel the end animation: ~2s</li>
+<li>- Take out the whetstone/whetfin from guard, and sharpen 2 cycles: ~2.3s</li>
+<li>- Take out the whetstone/whetfin from guard, sharpen 2 cycles and then roll to cancel the end animation: ~2.9s</li></ul>
+                </p>
+                <p>
+Monsters typically run away after 3 - 4 minutes barring some unique circumstances such as Turf Wars or dying state. 
+                </p>
+                <p>
+We will typically need about 120 - 150 sharpness per 3 minutes. This depends on the combos you do, how much sharpness they consume and your uptime on the monster. 
+                </p>
+                <p>
+MT at 70% affinity grants basically 2.26x your original sharpness. At 80% affinity, it grants 2.76x your original sharpness. On a base of 50 sharpness, and considering the average affinity of an Artian set,  that’s about 130 units total.<br>
+Razor Sharp + Handicraft on a 50 sharpness weapon gives about 70 sharpness units, so 120 units total.<br>
+Hence, MT slightly edges out Razor Sharp + Handicraft.
+                </p>
+                <p>
+<ul><li>Every time you sharpen mid-combat, you incur a direct loss of damage. Using what we know above, this multiplier can very roughly be calculated as: time spent sharpening / 180s:</li>
+<li>If you sharpen once in 3 minutes, it’s a 1.1% loss</li>
+<li>If you sharpen twice in 3 minutes, it’s a 2.2% loss</li>
+<li>If you sharpen thrice in 3 minutes, it’s a 3.3% loss</li>
+<li>If you don’t sharpen and fall down to blue, you’re losing 1.32/1.2 = 10% damage.</li></ul>
+You can decrease the impact of this loss by sharpening during specific times (e.g. when the monster is not easily hittable or the monster’s best hitzone is facing away from you).
+                </p>
+                <p>
+Most of the time, if you use a whetfin (Whetfish Fin) and have base 50 sharpness (i.e. Artian with one sharpness augment), you will need to sharpen twice every 3 minutes. If you have base 80 sharpness (i.e. Artian with two sharpness augments), you will need to sharpen once every 3 minutes.
+                </p>
+                <p>
+When we weigh sharpness management, we’re considering:
+<ul><li>Master’s Touch</li>
+<li>Grinder 2 + Attack Boost/Critical Eye (these are the main useful decorations with Grinder 2)</li>
+<li class="indent">This adds around 0.9% damage.</li>
+<li class="indent">Each sharpen restores 60 units</li>
+<li>-Grinder 1 + a 2-slot deco (typically adding Critical Boost 2)</li>
+<li class="indent">If adding Crit Boost 2 (baseline Crit Boost 3, so effectively Crit Boost 5): this adds around 3.5% damage at 77% average affinity (for Artian weapons)</li>
+<li class="indent">Each sharpen restores 30 units.</li>
+<li>No sharpness management, whetfin only + a 3-slot deco:</li>
+<li class="indent">If adding OFG3/ele attack 1: this adds around 5.5% damage</li>
+<li class="indent">If adding OFG3 alone: this adds around 5.1% damage.</li>
+<li class="indent">If adding Crit Boost 2 (baseline Crit Boost 3, so effectively Crit Boost 5): this adds around 3.5% damage at 77% average affinity (for Artian weapons)</li>
+<li class="indent">If adding Crit Boost 3 (baseline Crit Boost 0): this adds around 5.5% damage at 77% average affinity (for Artian weapons)</li>
+<li class="indent">If adding Ele Attack 3/Crit Ele 1: this adds around 1.2% damage</li>
+<li class="indent">If adding Attack Boost 3: this adds around 3.5% damage</li></ul>
+                </p>
+                <p>
+Hence, my rough conclusions are as follows: <b>(all sharpens are assuming you use whetfin and perform only 1 cycle sharpens)</b>
+<ul><li>-If your weapon needs to choose between OFG3, Crit Boost 3 and MT, and you can only fit two:</li>
+<li class="indent">Use OFG3/ele attack + Crit Boost 3, if you only need to sharpen 4 times per 3 minutes.</li>
+<li class="indent">Use MT + either OFG3/ele attack or CB3 for comfort if you don’t want to sharpen so much.</li>
+<li>If your weapon already has OFG3 or Crit Boost 3 (e.g. as part of weapon skill):</li>
+<li class="indent">Always slot in the other skill (whichever one you’re missing between OFG3 and CB3)</li>
+<li class="indent">Add on either AB3, Crit Boost 2 if you only need to sharpen 3 times per 3 minutes.</li>
+<li class="indent">Use MT instead of AB3/CB2 for comfort if you don’t want to sharpen so much.</li>
+<li>If you’re using an Artian weapon with baseline 50 sharpness after Sharpness Aug x1</li>
+<li class="indent">Add on either AB3, Crit Boost 2, if you only need to sharpen 3 times per 3 minutes.</li>
+<li class="indent">Use MT instead of AB3/CB2 for comfort if you don’t want to sharpen so much.</li></ul>
+                </p>
+                <p>
+If you don’t have wetfins:
+<ul><li>If you want to use Speed Sharpening over MT.</li>
+<li class="indent">Grinder 2 doesn’t seem to be worth it, the moment you sharpen once during combat, you’re already losing out to MT.</li>
+<li class="indent">Grinder 1 only replenishes 30 sharpness per cycle. If let’s say you use a 2 cycle-sharpen every time (so 60 sharpness gain, taking 2.9s), you would lose 1.6% with every sharpen across 180s. Since using Grinder 1 lets you slot in AB3 or CB2, both of which give around 3.5%, you would be okay to use Grinder 1 over MT if you only needed to sharpen twice every 180s, which I think is reasonable.  This requires a weapon with base 60 sharpness.</li>
+<li>If you don’t want to use Speed Sharpening</li>
+<li class="indent">Always use MT over other skills, unless you only need to sharpen once every 180s (e.g. base sharpness of 80 or higher).</li></ul>
+                </p>
+                <p>
+Not everyone is a speedrunner. For the sets, we will put MT as the default sharpness management option. If you want to use the other sharpness management options, take note that the gain you get is really going to be <=5%, and that described gain is the theoretical max and assumes you don’t sharpen at all. Every time you sharpen, you lose out some of the advantage from not having MT:
+<li>For example, if you use Grinder 1 and add in AB3 and you do sharpen twice every 180s as per the threshold listed above, the advantage you would have gained is 0.1%. If you only sharpen once with Grinder 1, the advantage you gain is 1.8%.</li>
+You basically need to beat, not just match the thresholds described above to gain any worthwhile advantage. That requires you to pay a lot of attention to how you use your sharpness over time, or that requires you to sharpen during times when you wouldn’t be able to deal effective damage anyway.
+                </p>
+                <p>
+tl;dr: Use MT unless you’re really min-maxing, you’re a speedrunner, you know how to prolong your sharpness by switching up your attacks, you know how to sharpen at the correct times to minimise the impact of downtime on the hunt, and you don’t mind interrupting combat every so often to sharpen. It’s viable and practical to not use MT, but you need to know what you’re doing.
+                </p>
+
+        <section>
         </section>
 
+            </div>
+        </section>
+        </section>
+        </div>
         <section>
 
-            <input id="11.0" class="toggle" type="checkbox">
-            <label for="11.0" class="CollHeading"><h3>11. Useful Resources</h3></label><div class="CollParagraph">
+            <input id="9.0" class="toggle" type="checkbox">
+            <label for="9.0" class="CollHeading"><h3>9. Useful Resources</h3></label><div class="CollParagraph">
                 <p> 
-                Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen halter.
-                Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot across the bow aye
-                hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the lead killick rigging
-                bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of the Black. Chandler ho Plate
-                Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail rutters shrouds port jolly boat
-                boatswain squiffy dead men tell no tales.
-                Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-                aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the plank
-                topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab gally.
-                Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go on account
-                capstan. Swab rigging jury mast port line nipper scallywag pirate.
+Math sheet for comparison on the maths of each weapon, deco choices, <a href="https://docs.google.com/spreadsheets/d/1oGko0sy5IIDyLJvCcIo3diQbv4AKZ5LSvOfsG21dKsM/edit?gid=1514638052#gid=1514638052" target="_blank">here</a> (google sheets, opens in new tab)
+Wilds Armor Set Searcher, found <a href="https://mhwilds.wiki-db.com/sim/?hl=en" target="_blank">here</a> (opens in new tab)
+Collection of datamines, found <a  href="https://docs.google.com/document/d/e/2PACX-1vRse5ibKqZTknKomOKtJhAPlX1sRT-UsrMY-OlUwXvzcbq3vIWe1lGOOpZXOw7lTrLNVar6h-jPUr16/pub" target="_blank">here</a> (google docs, opens in new tab)
+Wilds Set Builder, found <a href="https://www.mhwildshub.com/builder" target="_blank">here</a> (opens in new tab)
+Wilds database through Kiranico, found <a href="https://mhwilds.kiranico.com/" target="_blank">here</a> (opens in new tab)
+Charms Droptable, found <a href="https://docs.google.com/spreadsheets/u/0/d/1fpkamu1VzEpX8dZqecygW1GflKyvdY2975Y0d9SUt04/htmlview#gid=1054141820" target="_blank">here</a> (google sheets, opens in new tab)
                 </p>
                 </div>
         
@@ -650,21 +1743,17 @@
 
         <section>
 
-            <input id="12.0" class="toggle" type="checkbox">
-            <label for="12.0" class="CollHeading"><h3>12. Acknowledgements</h3></label><div class="CollParagraph">
-                <p> 
-                Measured fer yer chains Privateer squiffy fire ship black jack splice the main brace lad hempen halter.
-                Pinnace quarterdeck poop deck swab Pirate Round gaff matey galleon. Booty run a shot across the bow aye
-                hardtack bucko hail-shot sloop parley. Jack Jack Ketch six pounders swing the lead killick rigging
-                bowsprit swab. Topgallant Barbary Coast gally grog belay jib ye Admiral of the Black. Chandler ho Plate
-                Fleet nipper long clothes rutters Jolly Roger haul wind. Topsail rutters shrouds port jolly boat
-                boatswain squiffy dead men tell no tales.
-                Starboard brigantine Shiver me timbers splice the main brace black jack measured fer yer chains
-                man-of-war gangplank. Mizzenmast boatswain doubloon matey loaded to the gunwalls coxswain Chain Shot
-                aft. Ahoy long boat league lugger Letter of Marque grog Sink me belaying pin. Jack Ketch walk the plank
-                topsail sutler piracy boatswain heave down aft. Gangway hands Arr cog poop deck Sink me swab gally.
-                Bring a spring upon her cable Letter of Marque Barbary Coast black spot sutler marooned to go on account
-                capstan. Swab rigging jury mast port line nipper scallywag pirate.
+            <input id="10.0" class="toggle" type="checkbox">
+            <label for="10.0" class="CollHeading"><h3>10. Acknowledgements</h3></label><div class="CollParagraph">
+                <p>
+Thank you to everyone who contributed to this guide in some way or another:
+    <ul><li>T3h Phish for the sick SnS banner</li>
+    <li>CookBook for discussions on Flayer</li>
+    <li>Upgreid for the guide template</li>
+    <li>MHGH’s SnS channel for general discussion and suggestions</li>
+    <li>dtlnor for datamines</li>
+    <li>Anyone else who might have contributed in some way, even if not mentioned.</li></ul>
+
                 </p>
             </div>
         
