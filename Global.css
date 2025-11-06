@@ -56,6 +56,7 @@ input[type='checkbox'] {display: none;}
 label {cursor: pointer;}
 .CollHeading::before {content: "\261E"}
 .indent {margin-left: 8vw;}
+.headerindent {margin-left: 20px;}
 .toggle:checked ~ .CollHeading::before {content: "\261F"}
 .toggle:checked ~ .CollParagraph {max-height: 2000vh;}
 .IndexImg {width: 30vw; padding: 2vw; margin: 2vw; margin-left: auto; margin-right: auto; border: 4px solid #00000021; border-radius: 5%;}
@@ -631,3 +632,4 @@ input[id="playstyle2"]:checked ~ .radioplaystyle2 {
 .SharpnessTable tfoot {font-size: clamp(10px, 1rem, 15px);}
 
 .FuckAI {color: rgba(0,0,0,0);}
+
